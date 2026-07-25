@@ -6,25 +6,37 @@
 channels: []
 
 keywords:
-  - term: Minecraft
-    priority: 100
-  - term: プログラミング
-    priority: 110
-  - term: VTuber
-    priority: 120
   - term: ゲーム実況
-    priority: 130
+    priority: 100
+  - term: VTuber
+    priority: 110
+  - term: 歌ってみた
+    priority: 120
   - term: 作業用BGM
+    priority: 130
+  - term: ニュース 解説
+    priority: 140
+  - term: 料理
+    priority: 150
+  - term: ガジェット
+    priority: 160
+  - term: 旅行
+    priority: 170
+  - term: 美容
     priority: 180
-  - term: 生成AI
+  - term: スポーツ
     priority: 190
+  - term: アニメ
+    priority: 200
+  - term: 勉強
+    priority: 210
 
 # Add specific video IDs only when you want to force-track known candidates.
 videos: []
 
 collection:
   maxVideos: 500
-  maxSearchResultsPerKeyword: 12
+  maxSearchResultsPerKeyword: 10
   includePopularVideos: true
   maxPopularVideos: 50
   maxChannelVideos: 10
