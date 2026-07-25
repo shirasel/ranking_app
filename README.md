@@ -50,6 +50,8 @@ Install Java 25. The repository includes Gradle Wrapper, so a global Gradle inst
 
 Kotlin 2.1.21 does not emit JVM 25 bytecode yet, so the build runs on the Java 25 toolchain while targeting JVM 23 bytecode.
 
+Kotlin compilation runs in the Gradle process to avoid writing Kotlin daemon files outside the project-specific environment.
+
 Mock generation:
 
 ```bash
@@ -200,6 +202,7 @@ docs/data/latest/discovery.json
 docs/data/latest/genres/{genre}.json
 docs/data/videos/{videoId}.json
 docs/data/statistics/latest.json
+docs/data/history/YYYY/MM/DD.json
 ```
 
 JSON writes use temporary files and replace the final files only after serialization succeeds.

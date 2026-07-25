@@ -9,7 +9,11 @@ import io.ktor.client.request.parameter
 import io.ktor.client.statement.bodyAsText
 import io.ktor.http.isSuccess
 import java.io.IOException
+import java.net.URLEncoder
+import java.nio.charset.StandardCharsets
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -188,6 +192,9 @@ class KtorYouTubeApiClient(
             } catch (error: YouTubeApiException) {
                 throw error
             } catch (error: IOException) {
+                if (error.message?.contains("Permission denied", ignoreCase = true) == true) {
+                    return getJsonWithCurl(path, parameters)
+                }
                 lastError = error
             }
 
@@ -197,6 +204,34 @@ class KtorYouTubeApiClient(
         }
 
         throw YouTubeApiException("YouTube API request failed after retries", lastError)
+    }
+
+    private suspend fun getJsonWithCurl(path: String, parameters: Map<String, String>): String = withContext(Dispatchers.IO) {
+        val url = buildString {
+            append("https://www.googleapis.com/youtube/v3/")
+            append(path)
+            append("?")
+            append((parameters + ("key" to apiKey)).entries.joinToString("&") { (key, value) ->
+                "${urlEncode(key)}=${urlEncode(value)}"
+            })
+        }
+        val curlCommand = if (System.getProperty("os.name").contains("Windows", ignoreCase = true)) "curl.exe" else "curl"
+        val process = ProcessBuilder(curlCommand, "-sS", "--fail-with-body", url)
+            .redirectErrorStream(true)
+            .start()
+        val output = process.inputStream.bufferedReader(Charsets.UTF_8).readText()
+        val exitCode = process.waitFor()
+        if (exitCode != 0) {
+            val reason = runCatching {
+                json.decodeFromString(YouTubeErrorResponse.serializer(), output)
+                    .error
+                    .errors
+                    .firstOrNull()
+                    ?.reason
+            }.getOrNull() ?: output.lineSequence().firstOrNull()?.take(120) ?: "curlRequestFailed"
+            throw YouTubeApiException("YouTube API request failed: $reason")
+        }
+        output
     }
 
     private fun backoffMillis(attempt: Int): Long = 500L * (1 shl attempt)
@@ -339,3 +374,5 @@ private fun Map<String, Thumbnail>.bestUrl(): String =
     listOf("maxres", "standard", "high", "medium", "default")
         .firstNotNullOfOrNull { this[it]?.url }
         .orEmpty()
+
+private fun urlEncode(value: String): String = URLEncoder.encode(value, StandardCharsets.UTF_8)
