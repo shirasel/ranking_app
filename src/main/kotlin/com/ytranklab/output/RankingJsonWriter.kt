@@ -1,5 +1,6 @@
 package com.ytranklab.output
 
+import com.ytranklab.collection.CollectionReport
 import com.ytranklab.domain.GenreRankingDocument
 import com.ytranklab.domain.RankingDocument
 import com.ytranklab.domain.RankingEntry
@@ -12,6 +13,7 @@ import kotlin.io.path.createDirectories
 import kotlin.io.path.exists
 import kotlin.io.path.readText
 import kotlin.io.path.writeText
+import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
 class RankingJsonWriter(private val dataDirectory: Path) {
@@ -58,6 +60,32 @@ class RankingJsonWriter(private val dataDirectory: Path) {
         }
     }
 
+    fun writeGenerationSummary(
+        generatedAt: String,
+        inputVideos: Int,
+        rankingVideos: Int,
+        genreRankings: Int,
+        collectionReport: CollectionReport,
+        historyDeleted: Int,
+        videoDetailsDeleted: Int,
+    ) {
+        val document = GenerationSummaryDocument(
+            generatedAt = generatedAt,
+            inputVideos = inputVideos,
+            rankingVideos = rankingVideos,
+            genreRankings = genreRankings,
+            collection = collectionReport,
+            retention = RetentionSummary(
+                historyDeleted = historyDeleted,
+                videoDetailsDeleted = videoDetailsDeleted,
+            ),
+        )
+        writeJson(
+            latestDirectory.resolve("generation-summary.json"),
+            json.encodeToString(GenerationSummaryDocument.serializer(), document),
+        )
+    }
+
     private fun writeJson(path: Path, content: String) {
         path.parent?.createDirectories()
         val tmp = path.resolveSibling("${path.fileName}.tmp")
@@ -74,3 +102,19 @@ class RankingJsonWriter(private val dataDirectory: Path) {
         writeJson(historyFile, json.encodeToString(RankingDocument.serializer(), overall))
     }
 }
+
+@Serializable
+data class GenerationSummaryDocument(
+    val generatedAt: String,
+    val inputVideos: Int,
+    val rankingVideos: Int,
+    val genreRankings: Int,
+    val collection: CollectionReport,
+    val retention: RetentionSummary,
+)
+
+@Serializable
+data class RetentionSummary(
+    val historyDeleted: Int,
+    val videoDetailsDeleted: Int,
+)

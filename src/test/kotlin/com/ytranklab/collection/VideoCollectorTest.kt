@@ -32,6 +32,8 @@ class VideoCollectorTest {
 
         assertEquals(listOf("manualVideo01", "channelVideo01", "searchVideo01", "popularVideo01"), client.fetchedIds)
         assertEquals(4, result.videos.size)
+        assertEquals(105, result.report.estimatedQuotaUnits)
+        assertEquals(4, result.report.uniqueCandidateIds)
     }
 
     @Test
@@ -55,6 +57,8 @@ class VideoCollectorTest {
 
         assertEquals(listOf("manualVideo01", "popularVideo01"), client.fetchedIds)
         assertEquals(2, result.videos.size)
+        assertEquals("skipped", result.report.sourceResults.first { it.source == "keyword:broken" }.status)
+        assertEquals(3, result.report.estimatedQuotaUnits)
     }
 
     private class FakeYouTubeApiClient : YouTubeApiClient {

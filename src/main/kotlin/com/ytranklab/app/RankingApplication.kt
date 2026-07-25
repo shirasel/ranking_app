@@ -1,6 +1,7 @@
 package com.ytranklab.app
 
 import com.ytranklab.config.AppConfigLoader
+import com.ytranklab.collection.CollectionReport
 import com.ytranklab.collection.VideoCollector
 import com.ytranklab.genre.RuleBasedGenreClassifier
 import com.ytranklab.history.HistoryRetentionService
@@ -21,7 +22,18 @@ class RankingApplication(private val projectRoot: Path) {
         val rankingConfig = configLoader.loadRankingConfig()
         val genreRules = configLoader.loadGenreRules()
         val mockData = MockVideoDataSource(projectRoot.resolve("mock")).load()
-        return generateRankings(mockData.capturedAt, mockData.videos, useFallbackStatistics = true)
+        return generateRankings(
+            capturedAt = mockData.capturedAt,
+            videos = mockData.videos,
+            useFallbackStatistics = true,
+            collectionReport = CollectionReport(
+                sourceResults = emptyList(),
+                uniqueCandidateIds = mockData.videos.size,
+                fetchedVideoIds = mockData.videos.size,
+                publicVideos = mockData.videos.count { it.status == "public" },
+                estimatedQuotaUnits = 0,
+            ),
+        )
     }
 
     fun generateYouTubeRankings(apiKey: String): GenerateResult {
@@ -35,7 +47,12 @@ class RankingApplication(private val projectRoot: Path) {
             require(collected.videos.isNotEmpty()) {
                 "No public YouTube videos were collected. Existing ranking JSON was not overwritten."
             }
-            generateRankings(collected.capturedAt, collected.videos, useFallbackStatistics = false)
+            generateRankings(
+                capturedAt = collected.capturedAt,
+                videos = collected.videos,
+                useFallbackStatistics = false,
+                collectionReport = collected.report,
+            )
         }
     }
 
@@ -43,6 +60,7 @@ class RankingApplication(private val projectRoot: Path) {
         capturedAt: String,
         videos: List<com.ytranklab.domain.YouTubeVideo>,
         useFallbackStatistics: Boolean,
+        collectionReport: CollectionReport,
     ): GenerateResult {
         val configLoader = AppConfigLoader(projectRoot.resolve("config"))
         val rankingConfig = configLoader.loadRankingConfig()
@@ -78,8 +96,22 @@ class RankingApplication(private val projectRoot: Path) {
         writer.writeAll(overall, genres, trending, discovery)
         writer.writeVideoDetails(overall.ranking, capturedAt)
         statisticsRepository.saveLatest(capturedAt, videos)
-        HistoryRetentionService(projectRoot.resolve("docs/data"), rankingConfig.retention)
+        val retentionResult = HistoryRetentionService(projectRoot.resolve("docs/data"), rankingConfig.retention)
             .cleanup(capturedAt, overall.ranking.map { it.videoId }.toSet())
+        writer.writeGenerationSummary(
+            generatedAt = capturedAt,
+            inputVideos = videos.size,
+            rankingVideos = overall.ranking.size,
+            genreRankings = genres.size,
+            collectionReport = collectionReport,
+            historyDeleted = retentionResult.historyDeleted,
+            videoDetailsDeleted = retentionResult.videoDetailsDeleted,
+        )
+
+        println("Input videos: ${videos.size}")
+        println("Ranking videos: ${overall.ranking.size}")
+        println("Estimated YouTube quota units: ${collectionReport.estimatedQuotaUnits}")
+        println("Retention cleanup: history=${retentionResult.historyDeleted}, videoDetails=${retentionResult.videoDetailsDeleted}")
 
         return GenerateResult(
             overallCount = overall.ranking.size,
