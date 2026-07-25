@@ -1,0 +1,26 @@
+name: Failure notification smoke test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Intentionally fail
+        run: |
+          echo "This manual smoke test intentionally fails to verify issue notification."
+          exit 1
+
+      - name: Notify failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/notify-action-failure-issue.js
