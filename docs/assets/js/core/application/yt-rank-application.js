@@ -26,6 +26,13 @@
     dataUrl(path) { return this.urlService.dataUrl(path); }
     pageUrl(path) { return this.urlService.pageUrl(path); }
     loadJson(path) { return this.repository.load(path); }
+    loadGenreCatalog() {
+      var catalog = this.genreCatalog;
+      return this.repository.load("latest/genre-catalog.json").then(function (document) {
+        catalog.replace(document.genres || []);
+        return catalog.items;
+      });
+    }
     formatDateTime(value) { return this.formatter.formatDateTime(value); }
     formatNumber(value) { return this.formatter.formatNumber(value); }
     formatScore(value) { return this.formatter.formatScore(value); }

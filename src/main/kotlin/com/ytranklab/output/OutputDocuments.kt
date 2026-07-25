@@ -20,6 +20,18 @@ data class RetentionSummary(
 )
 
 @Serializable
+data class GenreCatalogDocument(
+    val genres: List<GenreCatalogItem>,
+)
+
+@Serializable
+data class GenreCatalogItem(
+    val slug: String,
+    val name: String,
+    val parent: String? = null,
+)
+
+@Serializable
 data class VideoRankingHistoryDocument(
     val videoId: String,
     val rankings: List<VideoRankingHistoryItem>,

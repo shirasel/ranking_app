@@ -60,6 +60,6 @@ class RankingApplication(private val dependencies: RankingApplicationDependencie
 
         return dependencies.persistenceFactory
             .create(statisticsRepository)
-            .persist(capturedAt, videos, documents, collectionReport)
+            .persist(capturedAt, videos, documents, genreRules, collectionReport)
     }
 }

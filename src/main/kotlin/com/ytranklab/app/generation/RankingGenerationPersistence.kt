@@ -3,6 +3,7 @@ package com.ytranklab.app.generation
 import com.ytranklab.app.reporting.GenerationReporter
 import com.ytranklab.app.reporting.RetentionResultSummary
 import com.ytranklab.collection.CollectionReport
+import com.ytranklab.config.GenreRule
 import com.ytranklab.domain.YouTubeVideo
 import com.ytranklab.history.HistoryRetentionService
 import com.ytranklab.output.RankingJsonWriter
@@ -18,10 +19,12 @@ class RankingGenerationPersistence(
         capturedAt: String,
         videos: List<YouTubeVideo>,
         documents: RankingDocumentSet,
+        genreRules: List<GenreRule>,
         collectionReport: CollectionReport,
     ): GenerateResult {
         statisticsRepository.saveLatest(capturedAt, videos)
         writer.writeAll(documents.overall, documents.genres, documents.trending, documents.discovery)
+        writer.writeGenreCatalog(genreRules)
         writer.writeVideoDetails(documents.overall.ranking, capturedAt)
 
         val retentionResult = retentionService.cleanup(

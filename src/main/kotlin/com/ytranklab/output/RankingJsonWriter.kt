@@ -1,6 +1,7 @@
 package com.ytranklab.output
 
 import com.ytranklab.collection.CollectionReport
+import com.ytranklab.config.GenreRule
 import com.ytranklab.domain.GenreRankingDocument
 import com.ytranklab.domain.RankingDocument
 import com.ytranklab.domain.RankingEntry
@@ -34,6 +35,10 @@ class RankingJsonWriter(
         latestDirectory = dataDirectory.resolve("latest"),
         fileWriter = JsonFileWriter(),
     ),
+    private val genreCatalogWriter: GenreCatalogWriter = GenreCatalogWriter(
+        latestDirectory = dataDirectory.resolve("latest"),
+        fileWriter = JsonFileWriter(),
+    ),
 ) {
     fun loadPreviousOverallRanks(): Map<String, Int> =
         previousRankingReader.loadPreviousOverallRanks()
@@ -53,6 +58,10 @@ class RankingJsonWriter(
 
     fun writeVideoDetails(entries: List<RankingEntry>, generatedAt: String) {
         videoDetailWriter.write(entries, generatedAt)
+    }
+
+    fun writeGenreCatalog(genreRules: List<GenreRule>) {
+        genreCatalogWriter.write(genreRules)
     }
 
     fun writeGenerationSummary(

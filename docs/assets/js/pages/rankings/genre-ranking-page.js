@@ -11,19 +11,26 @@
 
     init() {
       var self = this;
+      this.app.loadGenreCatalog()
+        .catch(function () { return self.app.GENRES; })
+        .then(function () {
+          self.populateGenres();
+          self.select.addEventListener("change", function () {
+            var url = new URL(self.window.location.href);
+            url.searchParams.set("genre", self.select.value);
+            self.window.location.href = url.toString();
+          });
+          self.loadGenre(self.selected);
+        });
+    }
+
+    populateGenres() {
+      var self = this;
       this.app.GENRES.forEach(function (genre) {
         var option = self.app.el("option", { text: genre.name, value: genre.slug });
         if (genre.slug === self.selected) option.selected = true;
         self.select.appendChild(option);
       });
-
-      this.select.addEventListener("change", function () {
-        var url = new URL(self.window.location.href);
-        url.searchParams.set("genre", self.select.value);
-        self.window.location.href = url.toString();
-      });
-
-      this.loadGenre(this.selected);
     }
 
     loadGenre(slug) {

@@ -12,13 +12,24 @@
     }
 
     init() {
-      var genreLinks = this.app.qs("[data-genre-links]");
-      if (genreLinks) this.app.renderGenreLinks(genreLinks);
-
+      this.loadGenreLinks();
       this.loadOverallPreview();
       this.loadPreview("latest/trending.json", "trending", "[data-home-trending]");
       this.loadPreview("latest/discovery.json", "discovery", "[data-home-discovery]");
       this.loadGenerationSummary();
+    }
+
+    loadGenreLinks() {
+      var app = this.app;
+      var genreLinks = app.qs("[data-genre-links]");
+      if (!genreLinks) return;
+      app.loadGenreCatalog()
+        .then(function () {
+          app.renderGenreLinks(genreLinks);
+        })
+        .catch(function () {
+          app.renderGenreLinks(genreLinks);
+        });
     }
 
     loadOverallPreview() {

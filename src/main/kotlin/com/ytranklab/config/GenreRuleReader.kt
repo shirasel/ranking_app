@@ -15,6 +15,7 @@ class GenreRuleReader(
                 slug = map.string("slug"),
                 name = map.string("name"),
                 parent = map.optionalString("parent"),
+                visible = map.boolean("visible", true),
                 titleKeywords = keywords.map("title").stringDoubleMap(),
                 descriptionKeywords = keywords.map("description").stringDoubleMap(),
                 youtubeCategoryIds = map.list("youtubeCategoryIds").map { it.toString() },

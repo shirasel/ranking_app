@@ -37,6 +37,7 @@ data class GenreRule(
     val slug: String,
     val name: String,
     val parent: String?,
+    val visible: Boolean = true,
     val titleKeywords: Map<String, Double>,
     val descriptionKeywords: Map<String, Double>,
     val youtubeCategoryIds: List<String>,
