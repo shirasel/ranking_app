@@ -1,19 +1,25 @@
-channels:
-  - id: UCxxxxxxxxxxxxxxxxxxxxxx
-    enabled: false
+# Production collection sources.
+# Keep API keys out of this file. Add only public YouTube IDs and search terms.
+#
+# Channel IDs must start with UC... and can be added when you want stable
+# coverage for specific official or creator channels.
+channels: []
 
 keywords:
   - Minecraft
   - プログラミング
   - VTuber
+  - ゲーム実況
+  - 作業用BGM
+  - 生成AI
 
-videos:
-  - dQw4w9WgXcQ
+# Add specific video IDs only when you want to force-track known candidates.
+videos: []
 
 collection:
   maxVideos: 500
-  maxSearchResultsPerKeyword: 10
+  maxSearchResultsPerKeyword: 12
   includePopularVideos: true
-  maxPopularVideos: 25
+  maxPopularVideos: 50
   maxChannelVideos: 10
   regionCode: JP

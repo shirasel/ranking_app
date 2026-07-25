@@ -104,6 +104,8 @@ The Kotlin CLI collects candidates from `config/sources.yml`:
 - configured search keywords
 - most popular videos for the configured region
 
+The production default keeps manual videos and channels empty, uses Japanese search keywords, and includes JP popular videos. This avoids committing sample video IDs while keeping the scheduled workflow useful from the first real API run.
+
 The API client batches `videos.list` and `channels.list` calls in groups of up to 50 IDs, retries transient network failures with exponential backoff, and stops before writing JSON when no public videos are collected.
 
 Do not commit actual API keys. `.env` and `.env.*` are ignored by Git, while `.env.example` contains only variable names.
