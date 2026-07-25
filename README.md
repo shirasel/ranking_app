@@ -2,7 +2,7 @@
 
 YT Rank Labは、YouTube動画を独自スコアで評価し、GitHub Pages上で表示する静的ランキングアプリです。フロントエンドはHTML、CSS、vanilla JavaScriptのみで動作し、ランキングデータはKotlin CLIが生成したJSONを読み込みます。
 
-公開サイト: https://shirasel.github.io/ranking_app/home.html
+公開サイト: https://shirasel.github.io/yt.jp-rank-lab/home.html
 
 ## 主な機能
 
