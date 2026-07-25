@@ -26,9 +26,11 @@ class RankingApplication(private val dependencies: RankingApplicationDependencie
 
     fun generateYouTubeRankings(apiKey: String): GenerateResult {
         val sourceConfig = dependencies.configLoader.loadSourceConfig()
+        val statisticsRepository = dependencies.statisticsRepositoryFactory.create(useFallbackStatistics = false)
+        val trackedVideoIds = statisticsRepository.loadLatest().keys.toList()
         val client = dependencies.youtubeApiClientFactory.create(apiKey)
         return client.use {
-            val collected = dependencies.videoCollectionService.collect(sourceConfig, client)
+            val collected = dependencies.videoCollectionService.collect(sourceConfig, client, trackedVideoIds)
             require(collected.videos.isNotEmpty()) {
                 "No public YouTube videos were collected. Existing ranking JSON was not overwritten."
             }
@@ -37,6 +39,7 @@ class RankingApplication(private val dependencies: RankingApplicationDependencie
                 videos = collected.videos,
                 useFallbackStatistics = false,
                 collectionReport = collected.report,
+                statisticsRepositoryOverride = statisticsRepository,
             )
         }
     }
@@ -46,15 +49,18 @@ class RankingApplication(private val dependencies: RankingApplicationDependencie
         videos: List<com.ytranklab.domain.YouTubeVideo>,
         useFallbackStatistics: Boolean,
         collectionReport: CollectionReport,
+        statisticsRepositoryOverride: com.ytranklab.statistics.StatisticsRepository? = null,
     ): GenerateResult {
         val rankingConfig = dependencies.configLoader.loadRankingConfig()
         val genreRules = dependencies.configLoader.loadGenreRules()
-        val statisticsRepository = dependencies.statisticsRepositoryFactory.create(useFallbackStatistics)
+        val statisticsRepository = statisticsRepositoryOverride
+            ?: dependencies.statisticsRepositoryFactory.create(useFallbackStatistics)
         val previousStatistics = statisticsRepository.loadLatest()
+        val sevenDayBaselines = statisticsRepository.loadSevenDayBaselines(capturedAt)
         val writer = dependencies.rankingJsonWriter
 
         val candidateFactory = dependencies.candidateFactoryFactory.create(rankingConfig, genreRules)
-        val candidates = candidateFactory.create(videos, previousStatistics, capturedAt)
+        val candidates = candidateFactory.create(videos, previousStatistics, capturedAt, sevenDayBaselines)
         val previousRanking = writer.loadPreviousOverallRanks()
         val documents = dependencies.documentGenerator.generate(capturedAt, candidates, previousRanking, rankingConfig)
 

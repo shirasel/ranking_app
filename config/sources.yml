@@ -7,29 +7,89 @@ channels: []
 
 keywords:
   - term: ゲーム実況
-    priority: 100
-  - term: VTuber
-    priority: 110
-  - term: 歌ってみた
-    priority: 120
-  - term: 作業用BGM
-    priority: 130
-  - term: ニュース 解説
-    priority: 140
-  - term: 料理
-    priority: 150
-  - term: ガジェット
-    priority: 160
-  - term: 旅行
-    priority: 170
-  - term: 美容
-    priority: 180
-  - term: スポーツ
-    priority: 190
-  - term: アニメ
     priority: 200
-  - term: 勉強
+  - term: VTuber
     priority: 210
+  - term: 歌ってみた
+    priority: 220
+  - term: 作業用BGM
+    priority: 230
+  - term: ニュース 解説
+    priority: 240
+  - term: 料理
+    priority: 250
+  - term: ガジェット
+    priority: 260
+  - term: 旅行
+    priority: 270
+  - term: 美容
+    priority: 280
+  - term: スポーツ
+    priority: 290
+  - term: アニメ
+    priority: 300
+  - term: 勉強
+    priority: 310
+
+categoryPopular:
+  - name: 音楽
+    youtubeCategoryId: "10"
+    maxResults: 25
+    priority: 100
+  - name: スポーツ
+    youtubeCategoryId: "17"
+    maxResults: 20
+    priority: 105
+  - name: ゲーム
+    youtubeCategoryId: "20"
+    maxResults: 25
+    priority: 110
+  - name: エンタメ
+    youtubeCategoryId: "24"
+    maxResults: 25
+    priority: 115
+  - name: ニュース
+    youtubeCategoryId: "25"
+    maxResults: 15
+    priority: 120
+  - name: ハウツー
+    youtubeCategoryId: "26"
+    maxResults: 20
+    priority: 125
+  - name: 教育
+    youtubeCategoryId: "27"
+    maxResults: 15
+    priority: 130
+  - name: 科学技術
+    youtubeCategoryId: "28"
+    maxResults: 15
+    priority: 135
+  - name: 旅行
+    youtubeCategoryId: "19"
+    maxResults: 10
+    priority: 140
+
+recentViewCountSearches:
+  - term: ゲーム実況
+    publishedAfterDays: 7
+    maxResults: 8
+    priority: 320
+  - term: 歌ってみた
+    publishedAfterDays: 7
+    maxResults: 8
+    priority: 330
+  - term: ニュース 解説
+    publishedAfterDays: 7
+    maxResults: 8
+    priority: 340
+  - term: 料理
+    publishedAfterDays: 14
+    maxResults: 6
+    priority: 350
+  - term: ガジェット
+    publishedAfterDays: 14
+    maxResults: 6
+    priority: 360
 
 # Add specific video IDs only when you want to force-track known candidates.
 videos: []
@@ -40,7 +100,8 @@ collection:
   includePopularVideos: true
   maxPopularVideos: 50
   maxChannelVideos: 10
-  maxEstimatedQuotaUnits: 800
+  maxEstimatedQuotaUnits: 1800
   reservedDetailQuotaUnits: 20
   popularPriority: 900
+  maxTrackedPreviousVideos: 75
   regionCode: JP

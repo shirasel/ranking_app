@@ -10,6 +10,7 @@ import java.time.ZoneOffset
 class VideoCollector(
     private val sourceConfig: SourceConfig,
     private val client: YouTubeApiClient,
+    private val trackedVideoIds: List<String> = emptyList(),
     private val reporter: CollectionReporter = SystemCollectionReporter(),
     private val idValidator: YouTubeVideoIdValidator = YouTubeVideoIdValidator(),
     private val sourceTaskFactory: SourceTaskFactory = SourceTaskFactory(),
@@ -30,7 +31,7 @@ class VideoCollector(
             status = "ok",
         )
 
-        sourceTaskFactory.create(sourceConfig, client).forEach { task ->
+        sourceTaskFactory.create(sourceConfig, client, trackedVideoIds).forEach { task ->
             if (!quotaBudget.trySpend(task.cost)) {
                 sourceResults += skippedByQuota(task.sourceName, task.requested)
                 return@forEach

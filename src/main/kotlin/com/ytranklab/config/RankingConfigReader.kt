@@ -11,6 +11,7 @@ class RankingConfigReader(
         val ranking = root.map("ranking")
         val weights = ranking.map("weights")
         val genreRanking = ranking.map("genreRanking")
+        val diversity = ranking.map("diversity")
         val retention = ranking.map("retention")
 
         return RankingConfig(
@@ -28,10 +29,14 @@ class RankingConfigReader(
                 subscriberRatio = weights.double("subscriberRatio", 25.0),
                 likeRate = weights.double("likeRate", 20.0),
                 commentRate = weights.double("commentRate", 10.0),
+                sevenDayVelocity = weights.double("sevenDayVelocity", 10.0),
             ),
             genreRanking = GenreRankingConfig(
                 minimumVideos = genreRanking.int("minimumVideos", 20),
                 minimumChannels = genreRanking.int("minimumChannels", 5),
+            ),
+            diversity = DiversityConfig(
+                maxPrimaryGenreShare = diversity.double("maxPrimaryGenreShare", 0.4),
             ),
             retention = RetentionConfig(
                 maxTrackedVideos = retention.int("maxTrackedVideos", 500),

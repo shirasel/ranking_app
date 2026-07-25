@@ -12,16 +12,35 @@ class KtorYouTubeApiClient(
 ) : YouTubeApiClient {
     override suspend fun searchVideoIds(keyword: String, maxResults: Int): List<String> {
         if (keyword.isBlank() || maxResults <= 0) return emptyList()
+        return searchVideoIds(keyword, maxResults, "date", null)
+    }
+
+    override suspend fun searchRecentPopularVideoIds(keyword: String, maxResults: Int, publishedAfter: String): List<String> {
+        if (keyword.isBlank() || maxResults <= 0 || publishedAfter.isBlank()) return emptyList()
+        return searchVideoIds(keyword, maxResults, "viewCount", publishedAfter)
+    }
+
+    private suspend fun searchVideoIds(
+        keyword: String,
+        maxResults: Int,
+        order: String,
+        publishedAfter: String?,
+    ): List<String> {
+        val parameters = mutableMapOf(
+            "part" to "snippet",
+            "type" to "video",
+            "q" to keyword,
+            "order" to order,
+            "maxResults" to maxResults.coerceIn(1, 50).toString(),
+            "safeSearch" to "none",
+            "regionCode" to "JP",
+            "relevanceLanguage" to "ja",
+        )
+        if (publishedAfter != null) parameters["publishedAfter"] = publishedAfter
+
         val response = transport.getJson(
             path = "search",
-            parameters = mapOf(
-                "part" to "snippet",
-                "type" to "video",
-                "q" to keyword,
-                "order" to "date",
-                "maxResults" to maxResults.coerceIn(1, 50).toString(),
-                "safeSearch" to "none",
-            ),
+            parameters = parameters,
         )
         return json.decodeFromString(SearchListResponse.serializer(), response)
             .items
@@ -29,15 +48,22 @@ class KtorYouTubeApiClient(
     }
 
     override suspend fun fetchPopularVideoIds(regionCode: String, maxResults: Int): List<String> {
+        return fetchPopularVideoIds(regionCode, maxResults, "")
+    }
+
+    override suspend fun fetchPopularVideoIds(regionCode: String, maxResults: Int, videoCategoryId: String): List<String> {
         if (maxResults <= 0) return emptyList()
+        val parameters = mutableMapOf(
+            "part" to "snippet",
+            "chart" to "mostPopular",
+            "regionCode" to regionCode.ifBlank { "JP" },
+            "maxResults" to maxResults.coerceIn(1, 50).toString(),
+        )
+        if (videoCategoryId.isNotBlank()) parameters["videoCategoryId"] = videoCategoryId
+
         val response = transport.getJson(
             path = "videos",
-            parameters = mapOf(
-                "part" to "snippet",
-                "chart" to "mostPopular",
-                "regionCode" to regionCode.ifBlank { "JP" },
-                "maxResults" to maxResults.coerceIn(1, 50).toString(),
-            ),
+            parameters = parameters,
         )
         return json.decodeFromString(VideoListResponse.serializer(), response)
             .items

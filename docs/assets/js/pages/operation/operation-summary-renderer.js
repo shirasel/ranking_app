@@ -34,6 +34,8 @@
       app.setText("[data-operation-details-deleted]", app.formatNumber(retention.videoDetailsDeleted || 0) + "件");
 
       this.sourceRenderer.render("[data-operation-sources]", sourceResults, {
+        summary: true,
+        grouped: true,
         detailed: true,
         rowClass: "operation-source-row",
         showMessage: true

@@ -32,6 +32,7 @@ data class ScoreBreakdown(
     val engagement: Double,
     val subscriberRatio: Double,
     val freshness: Double,
+    val sevenDayVelocity: Double = 0.0,
 )
 
 @Serializable
@@ -47,6 +48,7 @@ data class RankingEntry(
     val publishedAt: String,
     val viewCount: Long,
     val viewIncrease: Long,
+    val sevenDayViewIncrease: Long? = null,
     val likeCount: Long? = null,
     val likeIncrease: Long? = null,
     val commentCount: Long? = null,

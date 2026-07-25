@@ -20,6 +20,9 @@ class FileStatisticsRepository(
     override fun loadLatest(): Map<String, VideoStatistic> =
         latestStore.load()
 
+    override fun loadSevenDayBaselines(capturedAt: String): Map<String, VideoStatistic> =
+        historyStore.loadBaselines(capturedAt, days = 7)
+
     override fun saveLatest(capturedAt: String, videos: List<YouTubeVideo>) {
         val statistics = videos.map { video -> statisticFactory.create(capturedAt, video) }
         latestStore.save(capturedAt, statistics)

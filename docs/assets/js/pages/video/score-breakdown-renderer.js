@@ -11,6 +11,7 @@
       var list = app.el("div", { className: "bar-list" });
       [
         ["勢い", breakdown.velocity],
+        ["7日間", breakdown.sevenDayVelocity],
         ["反応率", breakdown.engagement],
         ["登録者比", breakdown.subscriberRatio],
         ["鮮度", breakdown.freshness]

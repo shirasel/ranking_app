@@ -8,6 +8,9 @@ import com.ytranklab.statistics.StatisticDelta
 class RankingCalculator(
     config: RankingConfig,
     private val velocityCalculator: VelocityScoreCalculator = VelocityScoreCalculator(config.weights.velocity),
+    private val sevenDayVelocityCalculator: SevenDayVelocityScoreCalculator = SevenDayVelocityScoreCalculator(
+        config.weights.sevenDayVelocity,
+    ),
     private val subscriberRatioCalculator: SubscriberRatioScoreCalculator = SubscriberRatioScoreCalculator(
         weight = config.weights.subscriberRatio,
         minimumSubscriberCount = config.minimumSubscriberCount,
@@ -24,6 +27,7 @@ class RankingCalculator(
 ) {
     fun calculate(video: YouTubeVideo, delta: StatisticDelta, capturedAt: String): ScoreResult {
         val velocityComponent = velocityCalculator.calculate(delta.viewVelocity)
+        val sevenDayVelocityComponent = sevenDayVelocityCalculator.calculate(delta.sevenDayViewVelocity)
         val subscriberComponent = subscriberRatioCalculator.calculate(delta.viewIncrease, video.subscriberCount)
         val engagementScore = engagementCalculator.calculate(
             EngagementDelta(
@@ -35,15 +39,19 @@ class RankingCalculator(
         val ageDecay = freshnessCalculator.calculate(video.publishedAt, capturedAt)
         val rawScore = sanitizer.safeScore(
             (velocityComponent + subscriberComponent + engagementScore.total) * ageDecay,
+        ) + sevenDayVelocityComponent
+        val safeRawScore = sanitizer.safeScore(
+            rawScore,
         )
 
         return ScoreResult(
-            rawScore = round1(rawScore),
+            rawScore = round1(safeRawScore),
             breakdown = ScoreBreakdown(
                 velocity = round1(velocityComponent),
                 engagement = round1(engagementScore.total),
                 subscriberRatio = round1(subscriberComponent),
                 freshness = round1(ageDecay * 100.0),
+                sevenDayVelocity = round1(sevenDayVelocityComponent),
             ),
         )
     }

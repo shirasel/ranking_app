@@ -25,6 +25,7 @@ class RankingEntryFactory(private val normalizer: RankingNormalizer) {
                 publishedAt = candidate.video.publishedAt,
                 viewCount = candidate.video.viewCount,
                 viewIncrease = candidate.delta.viewIncrease,
+                sevenDayViewIncrease = candidate.delta.sevenDayViewIncrease,
                 likeCount = candidate.video.likeCount,
                 likeIncrease = candidate.delta.likeIncrease,
                 commentCount = candidate.video.commentCount,

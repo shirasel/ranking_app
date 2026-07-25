@@ -13,6 +13,7 @@ class RankingGenerator(
         periodHours = config.periodHours,
         maxItems = config.maxOverallItems,
         entryFactory = entryFactory,
+        diversityBalancer = GenreDiversityBalancer(config.maxOverallItems, config.diversity.maxPrimaryGenreShare),
     ),
     private val genreGenerator: GenreRankingGenerator = GenreRankingGenerator(
         periodHours = config.periodHours,

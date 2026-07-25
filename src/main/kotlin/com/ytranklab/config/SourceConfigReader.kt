@@ -12,6 +12,8 @@ class SourceConfigReader(
         return SourceConfig(
             channels = readChannels(root),
             keywords = readKeywords(root),
+            categoryPopular = readCategoryPopular(root),
+            recentViewCountSearches = readRecentViewCountSearches(root),
             videos = root.list("videos").map { it.toString() }.filter { it.isNotBlank() },
             collection = CollectionConfig(
                 maxVideos = collection.int("maxVideos", 500),
@@ -23,6 +25,7 @@ class SourceConfigReader(
                 maxEstimatedQuotaUnits = collection.int("maxEstimatedQuotaUnits", 9000),
                 reservedDetailQuotaUnits = collection.int("reservedDetailQuotaUnits", 20),
                 popularPriority = collection.int("popularPriority", 300),
+                maxTrackedPreviousVideos = collection.int("maxTrackedPreviousVideos", 75),
             ),
         )
     }
@@ -50,5 +53,40 @@ class SourceConfigReader(
                 item.toString()
             }
             if (term.isBlank()) null else SourceKeyword(term = term, priority = map.int("priority", 200))
+        }
+
+    private fun readCategoryPopular(root: ConfigMap): List<SourceCategoryPopular> =
+        root.list("categoryPopular").mapNotNull { item ->
+            val map = item.asConfigMap()
+            val categoryId = map.string("youtubeCategoryId")
+            if (categoryId.isBlank()) {
+                null
+            } else {
+                SourceCategoryPopular(
+                    name = map.optionalString("name") ?: categoryId,
+                    youtubeCategoryId = categoryId,
+                    maxResults = map.int("maxResults", 20),
+                    priority = map.int("priority", 100),
+                )
+            }
+        }
+
+    private fun readRecentViewCountSearches(root: ConfigMap): List<SourceRecentSearch> =
+        root.list("recentViewCountSearches").mapNotNull { item ->
+            val map = item.asConfigMap()
+            val term = map.optionalString("term")
+                ?: map.optionalString("keyword")
+                ?: map.optionalString("query")
+                ?: ""
+            if (term.isBlank()) {
+                null
+            } else {
+                SourceRecentSearch(
+                    term = term,
+                    publishedAfterDays = map.int("publishedAfterDays", 7),
+                    maxResults = map.int("maxResults", 8),
+                    priority = map.int("priority", 300),
+                )
+            }
         }
 }

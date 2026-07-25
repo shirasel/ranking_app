@@ -16,6 +16,7 @@
       this.add(dl, "Raw score", app.formatScore(entry.rawScore));
       this.add(dl, "再生回数", app.formatNumber(entry.viewCount));
       this.add(dl, "再生増加", app.formatNumber(entry.viewIncrease));
+      this.add(dl, "7日間再生増加", entry.sevenDayViewIncrease === null || entry.sevenDayViewIncrease === undefined ? "-" : app.formatNumber(entry.sevenDayViewIncrease));
       this.add(dl, "高評価", app.formatNumber(entry.likeCount));
       this.add(dl, "コメント", app.formatNumber(entry.commentCount));
       this.add(dl, "登録者", app.formatNumber(entry.subscriberCount));

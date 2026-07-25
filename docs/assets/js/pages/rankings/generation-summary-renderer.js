@@ -34,7 +34,7 @@
       app.setText("[data-summary-freshness]", freshness.detail);
 
       this.healthRenderer.render("[data-summary-health]", app.generationHealth(summary), 3);
-      this.sourceRenderer.render("[data-summary-sources]", sourceResults, { limit: 8 });
+      this.sourceRenderer.render("[data-summary-sources]", sourceResults, { summary: true, limit: 8 });
     }
   }
 

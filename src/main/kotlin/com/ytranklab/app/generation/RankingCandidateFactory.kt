@@ -19,13 +19,19 @@ class RankingCandidateFactory(
         videos: List<YouTubeVideo>,
         previousStatistics: Map<String, VideoStatistic>,
         capturedAt: String,
+        sevenDayBaselines: Map<String, VideoStatistic> = emptyMap(),
     ): List<RankingCandidate> =
         videos
             .filter { it.status == "public" }
             .map { video ->
                 createCandidate(
                     video = video,
-                    delta = differ.calculate(video, previousStatistics[video.videoId], capturedAt),
+                    delta = differ.calculate(
+                        video = video,
+                        previous = previousStatistics[video.videoId],
+                        capturedAt = capturedAt,
+                        sevenDayBaseline = sevenDayBaselines[video.videoId],
+                    ),
                     capturedAt = capturedAt,
                 )
             }

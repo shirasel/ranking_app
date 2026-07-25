@@ -8,8 +8,12 @@ import com.ytranklab.youtube.YouTubeApiClient
 import kotlinx.coroutines.runBlocking
 
 class YouTubeVideoCollectionService(private val reporter: CollectionReporter) {
-    fun collect(sourceConfig: SourceConfig, client: YouTubeApiClient): CollectedVideos =
+    fun collect(
+        sourceConfig: SourceConfig,
+        client: YouTubeApiClient,
+        trackedVideoIds: List<String> = emptyList(),
+    ): CollectedVideos =
         runBlocking {
-            VideoCollector(sourceConfig, client, reporter).collect()
+            VideoCollector(sourceConfig, client, trackedVideoIds, reporter).collect()
         }
 }

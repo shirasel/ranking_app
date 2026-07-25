@@ -9,13 +9,16 @@ ranking:
   maxLikeRate: 0.12
   maxCommentRate: 0.03
   weights:
-    velocity: 45
+    velocity: 35
+    sevenDayVelocity: 10
     subscriberRatio: 25
     likeRate: 18
     commentRate: 12
   genreRanking:
     minimumVideos: 20
     minimumChannels: 5
+  diversity:
+    maxPrimaryGenreShare: 0.4
   retention:
     maxTrackedVideos: 500
     detailedStatisticsDays: 90

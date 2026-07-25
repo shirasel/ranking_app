@@ -3,15 +3,24 @@ package com.ytranklab.statistics
 import com.ytranklab.domain.YouTubeVideo
 
 class StatisticsDiffer(private val defaultPeriodHours: Int) {
-    fun calculate(video: YouTubeVideo, previous: VideoStatistic?, capturedAt: String): StatisticDelta {
+    fun calculate(
+        video: YouTubeVideo,
+        previous: VideoStatistic?,
+        capturedAt: String,
+        sevenDayBaseline: VideoStatistic? = null,
+    ): StatisticDelta {
         val elapsedHours = previous?.capturedAt
             ?.let { hoursBetween(it, capturedAt) }
             ?.takeIf { it > 0.0 }
             ?: defaultPeriodHours.toDouble()
+        val sevenDayElapsedHours = sevenDayBaseline?.capturedAt
+            ?.let { hoursBetween(it, capturedAt) }
+            ?.takeIf { it > 0.0 }
 
         val viewIncrease = nonNegativeDifference(video.viewCount, previous?.viewCount)
         val likeIncrease = nullableNonNegativeDifference(video.likeCount, previous?.likeCount)
         val commentIncrease = nullableNonNegativeDifference(video.commentCount, previous?.commentCount)
+        val sevenDayViewIncrease = sevenDayBaseline?.let { nonNegativeDifference(video.viewCount, it.viewCount) }
 
         return StatisticDelta(
             viewIncrease = viewIncrease,
@@ -19,6 +28,12 @@ class StatisticsDiffer(private val defaultPeriodHours: Int) {
             commentIncrease = commentIncrease,
             elapsedHours = elapsedHours,
             viewVelocity = viewIncrease / elapsedHours,
+            sevenDayViewIncrease = sevenDayViewIncrease,
+            sevenDayViewVelocity = if (sevenDayViewIncrease != null && sevenDayElapsedHours != null) {
+                sevenDayViewIncrease / sevenDayElapsedHours
+            } else {
+                null
+            },
         )
     }
 
@@ -35,6 +50,8 @@ data class StatisticDelta(
     val commentIncrease: Long?,
     val elapsedHours: Double,
     val viewVelocity: Double,
+    val sevenDayViewIncrease: Long? = null,
+    val sevenDayViewVelocity: Double? = null,
 )
 
 fun hoursBetween(from: String, to: String): Double {

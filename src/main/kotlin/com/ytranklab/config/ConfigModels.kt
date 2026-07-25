@@ -12,6 +12,7 @@ data class RankingConfig(
     val maxCommentRate: Double,
     val weights: RankingWeights,
     val genreRanking: GenreRankingConfig,
+    val diversity: DiversityConfig = DiversityConfig(maxPrimaryGenreShare = 0.4),
     val retention: RetentionConfig,
 )
 
@@ -20,11 +21,16 @@ data class RankingWeights(
     val subscriberRatio: Double,
     val likeRate: Double,
     val commentRate: Double,
+    val sevenDayVelocity: Double = 10.0,
 )
 
 data class GenreRankingConfig(
     val minimumVideos: Int,
     val minimumChannels: Int,
+)
+
+data class DiversityConfig(
+    val maxPrimaryGenreShare: Double,
 )
 
 data class RetentionConfig(
@@ -46,6 +52,8 @@ data class GenreRule(
 data class SourceConfig(
     val channels: List<SourceChannel>,
     val keywords: List<SourceKeyword>,
+    val categoryPopular: List<SourceCategoryPopular> = emptyList(),
+    val recentViewCountSearches: List<SourceRecentSearch> = emptyList(),
     val videos: List<String>,
     val collection: CollectionConfig,
 )
@@ -61,6 +69,20 @@ data class SourceKeyword(
     val priority: Int = 200,
 )
 
+data class SourceCategoryPopular(
+    val name: String,
+    val youtubeCategoryId: String,
+    val maxResults: Int,
+    val priority: Int = 100,
+)
+
+data class SourceRecentSearch(
+    val term: String,
+    val publishedAfterDays: Int,
+    val maxResults: Int,
+    val priority: Int = 300,
+)
+
 data class CollectionConfig(
     val maxVideos: Int,
     val maxSearchResultsPerKeyword: Int,
@@ -71,4 +93,5 @@ data class CollectionConfig(
     val maxEstimatedQuotaUnits: Int,
     val reservedDetailQuotaUnits: Int,
     val popularPriority: Int,
+    val maxTrackedPreviousVideos: Int = 75,
 )

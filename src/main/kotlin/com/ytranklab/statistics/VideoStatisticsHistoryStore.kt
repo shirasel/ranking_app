@@ -1,7 +1,10 @@
 package com.ytranklab.statistics
 
 import java.nio.file.Path
+import java.time.OffsetDateTime
 import kotlin.io.path.exists
+import kotlin.io.path.isRegularFile
+import kotlin.io.path.listDirectoryEntries
 import kotlin.io.path.readText
 import kotlinx.serialization.json.Json
 
@@ -29,5 +32,23 @@ class VideoStatisticsHistoryStore(
             statistics = nextStatistics,
         )
         fileWriter.write(historyFile, json.encodeToString(VideoStatisticsHistoryDocument.serializer(), nextDocument))
+    }
+
+    fun loadBaselines(capturedAt: String, days: Long): Map<String, VideoStatistic> {
+        if (!videoStatisticsDirectory.exists()) return emptyMap()
+        val threshold = OffsetDateTime.parse(capturedAt).minusDays(days)
+        return videoStatisticsDirectory
+            .listDirectoryEntries("*.json")
+            .filter { it.isRegularFile() }
+            .mapNotNull { file ->
+                runCatching {
+                    val document = json.decodeFromString(VideoStatisticsHistoryDocument.serializer(), file.readText())
+                    val baseline = document.statistics
+                        .filter { OffsetDateTime.parse(it.capturedAt) <= threshold }
+                        .maxByOrNull { OffsetDateTime.parse(it.capturedAt) }
+                    baseline?.let { document.videoId to it }
+                }.getOrNull()
+            }
+            .toMap()
     }
 }
