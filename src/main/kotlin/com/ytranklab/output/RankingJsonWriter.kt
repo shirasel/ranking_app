@@ -9,6 +9,7 @@ import com.ytranklab.statistics.VideoStatisticsHistoryDocument
 import java.nio.file.Path
 import java.nio.file.StandardCopyOption
 import java.time.OffsetDateTime
+import java.time.Duration
 import java.time.format.DateTimeFormatter
 import kotlin.io.path.createDirectories
 import kotlin.io.path.exists
@@ -50,7 +51,7 @@ class RankingJsonWriter(private val dataDirectory: Path) {
         writeJson(latestDirectory.resolve("trending.json"), json.encodeToString(RankingDocument.serializer(), trending))
         writeJson(latestDirectory.resolve("discovery.json"), json.encodeToString(RankingDocument.serializer(), discovery))
         writeHistory(overall)
-        writeSevenDays()
+        writeSevenDays(overall)
         writeHistoryIndex()
         genres.forEach { (slug, document) ->
             writeJson(genreDirectory.resolve("$slug.json"), json.encodeToString(GenreRankingDocument.serializer(), document))
@@ -137,29 +138,7 @@ class RankingJsonWriter(private val dataDirectory: Path) {
         val statistics = loadVideoStatistics(videoId)
             .filter { OffsetDateTime.parse(it.capturedAt).toLocalDate() == targetDate }
             .sortedBy { it.capturedAt }
-        val first = statistics.firstOrNull()
-        val last = statistics.lastOrNull()
-        val todayViewIncrease = if (first != null && last != null) {
-            (last.viewCount - first.viewCount).coerceAtLeast(0)
-        } else {
-            0
-        }
-        val todayLikeIncrease = if (first?.likeCount != null && last?.likeCount != null) {
-            (last.likeCount - first.likeCount).coerceAtLeast(0)
-        } else {
-            null
-        }
-        val todayCommentIncrease = if (first?.commentCount != null && last?.commentCount != null) {
-            (last.commentCount - first.commentCount).coerceAtLeast(0)
-        } else {
-            null
-        }
-        return copy(
-            viewIncrease = todayViewIncrease,
-            likeIncrease = todayLikeIncrease,
-            commentIncrease = todayCommentIncrease,
-            rawScore = todayViewIncrease.toDouble(),
-        )
+        return withStatisticDelta(statistics)
     }
 
     private fun loadVideoStatistics(videoId: String): List<com.ytranklab.statistics.VideoStatistic> {
@@ -170,32 +149,67 @@ class RankingJsonWriter(private val dataDirectory: Path) {
         }.getOrDefault(emptyList())
     }
 
-    private fun writeSevenDays() {
-        val documents = loadHistoryDocuments().takeLast(7)
-        val generatedAt = documents.lastOrNull()?.generatedAt ?: return
-        val aggregated = documents
-            .flatMap { document -> document.ranking }
-            .groupBy { entry -> entry.videoId }
-            .map { (_, entries) ->
-                val latest = entries.maxBy { it.publishedAt }
-                val rawScore = entries.sumOf { it.rawScore }
-                val viewIncrease = entries.sumOf { it.viewIncrease }
-                latest.copy(
+    private fun writeSevenDays(overall: RankingDocument) {
+        val generatedAt = OffsetDateTime.parse(overall.generatedAt)
+        val startAt = generatedAt.minusDays(7)
+        val entries = overall.ranking
+            .map { entry ->
+                val statistics = loadVideoStatistics(entry.videoId)
+                    .filter {
+                        val capturedAt = OffsetDateTime.parse(it.capturedAt)
+                        !capturedAt.isBefore(startAt) && !capturedAt.isAfter(generatedAt)
+                    }
+                    .sortedBy { it.capturedAt }
+                entry.withStatisticDelta(statistics)
+            }
+            .sortedWith(compareByDescending<RankingEntry> { it.viewIncrease }.thenByDescending { it.rawScore })
+            .mapIndexed { index, entry ->
+                entry.copy(
+                    rank = index + 1,
                     previousRank = null,
                     rankChange = null,
-                    viewIncrease = viewIncrease,
-                    rawScore = rawScore,
+                    normalizedScore = normalize(index, overall.ranking.size),
                 )
-            }
-            .sortedByDescending { it.rawScore }
-            .mapIndexed { index, entry ->
-                entry.copy(rank = index + 1, normalizedScore = normalize(index, documents.flatMap { it.ranking }.distinctBy { item -> item.videoId }.size))
             }
             .take(100)
 
         writeJson(
             latestDirectory.resolve("seven-days.json"),
-            json.encodeToString(RankingDocument.serializer(), RankingDocument(generatedAt = generatedAt, period = "7d", ranking = aggregated)),
+            json.encodeToString(RankingDocument.serializer(), RankingDocument(generatedAt = overall.generatedAt, period = "7d", ranking = entries)),
+        )
+    }
+
+    private fun RankingEntry.withStatisticDelta(statistics: List<com.ytranklab.statistics.VideoStatistic>): RankingEntry {
+        val first = statistics.firstOrNull()
+        val last = statistics.lastOrNull()
+        val viewDelta = if (first != null && last != null) {
+            (last.viewCount - first.viewCount).coerceAtLeast(0)
+        } else {
+            0
+        }
+        val likeDelta = if (first?.likeCount != null && last?.likeCount != null) {
+            (last.likeCount - first.likeCount).coerceAtLeast(0)
+        } else {
+            null
+        }
+        val commentDelta = if (first?.commentCount != null && last?.commentCount != null) {
+            (last.commentCount - first.commentCount).coerceAtLeast(0)
+        } else {
+            null
+        }
+        val elapsedHours = if (first != null && last != null) {
+            Duration.between(OffsetDateTime.parse(first.capturedAt), OffsetDateTime.parse(last.capturedAt)).toMinutes().toDouble() / 60.0
+        } else {
+            0.0
+        }
+        val velocity = if (elapsedHours > 0.0) viewDelta.toDouble() / elapsedHours else 0.0
+
+        return copy(
+            viewIncrease = viewDelta,
+            likeIncrease = likeDelta,
+            commentIncrease = commentDelta,
+            rawScore = viewDelta.toDouble(),
+            scoreBreakdown = scoreBreakdown.copy(velocity = velocity),
         )
     }
 
