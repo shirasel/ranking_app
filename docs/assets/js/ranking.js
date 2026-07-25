@@ -136,17 +136,24 @@
     var container = app.qs("[data-overall-ranking]");
     var input = app.qs("[data-ranking-search]");
     var periodButtons = app.qsa("[data-period-button]");
+    var viewButtons = app.qsa("[data-ranking-view]");
+    var historyButton = app.qs("[data-history-button]");
+    var historyPicker = app.qs("[data-history-picker]");
+    var historySelect = app.qs("[data-overall-history-select]");
     var searchParams = new URLSearchParams(window.location.search);
     var initialView = searchParams.get("view") || "overall";
     var initialQuery = searchParams.get("q") || "";
+    var initialDate = searchParams.get("date") || "";
     var currentPath = "latest/overall.json";
     var currentView = "overall";
+    var historyItems = [];
 
     function periodLabel(path) {
       if (path.indexOf("today.json") >= 0) return "本日";
       if (path.indexOf("seven-days.json") >= 0) return "7日間";
       if (path.indexOf("trending.json") >= 0) return "急上昇";
       if (path.indexOf("discovery.json") >= 0) return "発掘";
+      if (currentView === "history") return "過去日";
       return "24時間";
     }
 
@@ -155,6 +162,7 @@
       if (view === "seven-days") return "7日間ランキング";
       if (view === "trending") return "急上昇ランキング";
       if (view === "discovery") return "発掘ランキング";
+      if (view === "history") return "過去日ランキング";
       return "総合ランキング";
     }
 
@@ -163,6 +171,7 @@
       if (view === "seven-days") return "Seven day ranking";
       if (view === "trending") return "Trending ranking";
       if (view === "discovery") return "Discovery ranking";
+      if (view === "history") return "History ranking";
       return "Overall ranking";
     }
 
@@ -198,9 +207,16 @@
     }
 
     function setActiveButton(view) {
-      periodButtons.forEach(function (item) {
+      viewButtons.forEach(function (item) {
         item.classList.toggle("active", item.getAttribute("data-ranking-view") === view);
       });
+    }
+
+    function selectedHistoryItem() {
+      if (!historySelect) return null;
+      return historyItems.find(function (item) {
+        return item.path === historySelect.value;
+      }) || null;
     }
 
     function updateViewUrl(view, query) {
@@ -215,13 +231,27 @@
       } else {
         url.searchParams.delete("q");
       }
+      if (view === "history") {
+        var item = selectedHistoryItem();
+        if (item && item.date) {
+          url.searchParams.set("date", item.date);
+        }
+      } else {
+        url.searchParams.delete("date");
+      }
       window.history.replaceState(null, "", url.toString());
+    }
+
+    function toggleHistoryPicker(view) {
+      if (!historyPicker) return;
+      historyPicker.hidden = view !== "history";
     }
 
     function loadOverall(path, view, shouldUpdateUrl) {
       currentPath = path;
       currentView = view || "overall";
       setActiveButton(currentView);
+      toggleHistoryPicker(currentView);
       app.setText("[data-ranking-eyebrow]", eyebrowForView(currentView));
       app.setText("[data-ranking-title]", titleForView(currentView));
       if (shouldUpdateUrl) updateViewUrl(currentView, input ? input.value.trim() : "");
@@ -236,6 +266,63 @@
         app.showState("overall", "ランキングデータを読み込めませんでした。");
         app.clear(container);
       });
+    }
+
+    function loadOverallHistory(path, shouldUpdateUrl) {
+      currentPath = path;
+      currentView = "history";
+      setActiveButton(currentView);
+      toggleHistoryPicker(currentView);
+      app.setText("[data-ranking-eyebrow]", eyebrowForView(currentView));
+      app.setText("[data-ranking-title]", titleForView(currentView));
+      if (shouldUpdateUrl) updateViewUrl(currentView, input ? input.value.trim() : "");
+      app.showState("overall", "過去日ランキングJSONを読み込んでいます。");
+      app.loadJson(path)
+        .then(function (document) {
+          app.setText("[data-updated-at]", "生成 " + app.formatDateTime(document.generatedAt));
+          allEntries = document.ranking || [];
+          renderFilteredEntries();
+        })
+        .catch(function () {
+          app.showState("overall", "過去日ランキングを読み込めませんでした。");
+          app.clear(container);
+        });
+    }
+
+    function loadOverallHistoryIndex(shouldUpdateUrl) {
+      setActiveButton("history");
+      toggleHistoryPicker("history");
+      app.setText("[data-ranking-eyebrow]", eyebrowForView("history"));
+      app.setText("[data-ranking-title]", titleForView("history"));
+      app.showState("overall", "履歴インデックスを読み込んでいます。");
+      app.loadJson("latest/history-index.json")
+        .then(function (index) {
+          historyItems = (index.items || []).slice().reverse();
+          if (!historyItems.length) {
+            app.showState("overall", "過去日ランキングはまだありません。");
+            app.clear(container);
+            return;
+          }
+
+          if (historySelect && !historySelect.children.length) {
+            historyItems.forEach(function (item) {
+              historySelect.appendChild(app.el("option", {
+                text: item.date + " / " + app.formatNumber(item.totalVideos) + "本",
+                value: item.path
+              }));
+            });
+          }
+
+          var selectedItem = historyItems.find(function (item) {
+            return item.date === initialDate;
+          }) || historyItems[0];
+          if (historySelect) historySelect.value = selectedItem.path;
+          loadOverallHistory(selectedItem.path, shouldUpdateUrl);
+        })
+        .catch(function () {
+          app.showState("overall", "履歴インデックスを読み込めませんでした。");
+          app.clear(container);
+        });
     }
 
     function renderFilteredEntries() {
@@ -259,16 +346,36 @@
       });
     });
 
+    if (historyButton) {
+      historyButton.addEventListener("click", function () {
+        if (historyItems.length && historySelect && historySelect.value) {
+          loadOverallHistory(historySelect.value, true);
+          return;
+        }
+        loadOverallHistoryIndex(true);
+      });
+    }
+
+    if (historySelect) {
+      historySelect.addEventListener("change", function () {
+        loadOverallHistory(historySelect.value, true);
+      });
+    }
+
     if (input) input.value = initialQuery;
 
-    var initialButton = periodButtons.find(function (button) {
-      return button.getAttribute("data-ranking-view") === initialView;
-    }) || periodButtons[0];
-    loadOverall(
-      initialButton.getAttribute("data-period-button"),
-      initialButton.getAttribute("data-ranking-view") || "overall",
-      false
-    );
+    if (initialView === "history") {
+      loadOverallHistoryIndex(false);
+    } else {
+      var initialButton = periodButtons.find(function (button) {
+        return button.getAttribute("data-ranking-view") === initialView;
+      }) || periodButtons[0];
+      loadOverall(
+        initialButton.getAttribute("data-period-button"),
+        initialButton.getAttribute("data-ranking-view") || "overall",
+        false
+      );
+    }
 
     if (input) {
       input.addEventListener("input", function () {
