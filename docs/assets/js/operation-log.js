@@ -13,6 +13,7 @@
       app.showState("operation", "生成サマリーを読み込めませんでした。");
       app.setText("[data-operation-updated-at]", "未生成");
     });
+  loadValidationReport();
 
   function renderOperationSummary(summary) {
     var collection = summary.collection || {};
@@ -82,6 +83,45 @@
         text: source.status === "skipped" ? "Skipped" : "OK"
       }));
       container.appendChild(row);
+    });
+  }
+
+  function loadValidationReport() {
+    app.loadJson("latest/validation-report.json")
+      .then(function (report) {
+        renderValidationReport(report);
+      })
+      .catch(function () {
+        app.setText("[data-validation-status]", "未生成");
+        app.setText("[data-validation-updated-at]", "検証レポートはまだありません。");
+      });
+  }
+
+  function renderValidationReport(report) {
+    var statusNode = app.qs("[data-validation-status]");
+    var messages = []
+      .concat(report.errors || [])
+      .concat(report.warnings || []);
+    var level = report.status === "passed" ? "ok" : "stale";
+
+    app.setText("[data-validation-status]", report.status === "passed" ? "Passed" : "Failed");
+    if (statusNode) statusNode.className = "status-pill " + level;
+    app.setText("[data-validation-updated-at]", "最終検証 " + app.formatDateTime(report.generatedAt));
+    renderValidationMessages(messages);
+  }
+
+  function renderValidationMessages(messages) {
+    var container = app.qs("[data-validation-messages]");
+    if (!container) return;
+    app.clear(container);
+
+    if (!messages.length) {
+      container.appendChild(app.el("p", { className: "muted-text", text: "検証エラーと警告はありません。" }));
+      return;
+    }
+
+    messages.slice(0, 10).forEach(function (message) {
+      container.appendChild(app.el("article", { className: "validation-message", text: message }));
     });
   }
 })();

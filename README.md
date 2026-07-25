@@ -76,6 +76,8 @@ Generated JSON validation:
 tools/validate-generated-data.cmd
 ```
 
+Validation writes `docs/data/latest/validation-report.json`, which is displayed on the operation log page.
+
 Static preview:
 
 ```bash
@@ -166,7 +168,7 @@ The frontend uses `textContent` and DOM APIs for generated content. It does not 
 
 `docs/index.html` is kept only as the required GitHub Pages entry point and redirects to `docs/home.html`.
 
-The home page and operation log display `docs/data/latest/generation-summary.json` so update freshness, health checks, source counts, estimated quota units, and retention cleanup counts can be checked from GitHub Pages.
+The home page and operation log display `docs/data/latest/generation-summary.json` and `docs/data/latest/validation-report.json` so update freshness, validation status, health checks, source counts, estimated quota units, and retention cleanup counts can be checked from GitHub Pages.
 
 For a public repository, set Pages to publish from the `docs` directory on the default branch.
 
@@ -215,6 +217,7 @@ docs/data/latest/overall.json
 docs/data/latest/trending.json
 docs/data/latest/discovery.json
 docs/data/latest/generation-summary.json
+docs/data/latest/validation-report.json
 docs/data/latest/genres/{genre}.json
 docs/data/videos/{videoId}.json
 docs/data/statistics/latest.json

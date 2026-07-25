@@ -23,7 +23,9 @@ fun main(args: Array<String>) {
 }
 
 private fun runValidate() {
-    val report = GeneratedDataValidator(Path("docs", "data")).validate()
+    val validator = GeneratedDataValidator(Path("docs", "data"))
+    val report = validator.validate()
+    validator.writeReport(report)
 
     report.warnings.forEach { warning ->
         println("Warning: $warning")
@@ -37,6 +39,7 @@ private fun runValidate() {
     }
 
     println("Generated ranking JSON validation passed.")
+    println("Validation report: ${Path("docs", "data", "latest", "validation-report.json").toAbsolutePath().normalize()}")
 }
 
 private fun runGenerate(useMock: Boolean) {

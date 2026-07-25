@@ -671,6 +671,22 @@ main {
   text-align: right;
 }
 
+.operation-validation {
+  margin-top: 18px;
+}
+
+.validation-list {
+  display: grid;
+  gap: 8px;
+}
+
+.validation-message {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+}
+
 .genre-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

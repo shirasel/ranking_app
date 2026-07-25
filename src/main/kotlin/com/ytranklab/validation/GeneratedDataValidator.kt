@@ -6,6 +6,7 @@ import com.ytranklab.domain.VideoDetailDocument
 import com.ytranklab.output.GenerationSummaryDocument
 import java.nio.file.Path
 import java.time.OffsetDateTime
+import kotlin.io.path.createDirectories
 import kotlin.io.path.exists
 import kotlin.io.path.isRegularFile
 import kotlin.io.path.listDirectoryEntries
@@ -13,7 +14,10 @@ import kotlin.io.path.name
 import kotlin.io.path.readText
 import kotlin.io.path.relativeTo
 import kotlin.io.path.walk
+import kotlin.io.path.writeText
+import kotlinx.serialization.Serializable
 import kotlinx.serialization.SerializationException
+import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 
 class GeneratedDataValidator(private val dataDirectory: Path) {
@@ -21,6 +25,9 @@ class GeneratedDataValidator(private val dataDirectory: Path) {
     private val videoDirectory = dataDirectory.resolve("videos")
     private val json = Json {
         ignoreUnknownKeys = true
+    }
+    private val reportJson = Json {
+        prettyPrint = true
     }
 
     fun validate(): ValidationReport {
@@ -45,6 +52,20 @@ class GeneratedDataValidator(private val dataDirectory: Path) {
         scanPublicJsonForSecretLikeText(errors)
 
         return ValidationReport(errors = errors, warnings = warnings)
+    }
+
+    fun writeReport(report: ValidationReport) {
+        val reportFile = latestDirectory.resolve("validation-report.json")
+        val document = ValidationReportDocument(
+            generatedAt = OffsetDateTime.now().toString(),
+            status = if (report.isSuccess) "passed" else "failed",
+            errorCount = report.errors.size,
+            warningCount = report.warnings.size,
+            errors = report.errors,
+            warnings = report.warnings,
+        )
+        reportFile.parent.createDirectories()
+        reportFile.writeText(reportJson.encodeToString(document))
     }
 
     private fun <T> readJson(
@@ -176,3 +197,13 @@ data class ValidationReport(
 ) {
     val isSuccess: Boolean = errors.isEmpty()
 }
+
+@Serializable
+data class ValidationReportDocument(
+    val generatedAt: String,
+    val status: String,
+    val errorCount: Int,
+    val warningCount: Int,
+    val errors: List<String>,
+    val warnings: List<String>,
+)
