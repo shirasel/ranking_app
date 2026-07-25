@@ -129,7 +129,7 @@
       var tag = el("a", {
         className: "tag",
         text: genre.name || genre.slug,
-        href: pageUrl("rankings/genre.html?genre=" + encodeURIComponent(genre.slug))
+        href: pageUrl("rankings/genre-ranking.html?genre=" + encodeURIComponent(genre.slug))
       });
       container.appendChild(tag);
     });
@@ -143,7 +143,7 @@
 
     var thumb = el("a", {
       className: "thumbnail",
-      href: pageUrl("videos/index.html?id=" + encodeURIComponent(entry.videoId))
+      href: pageUrl("videos/video-detail.html?id=" + encodeURIComponent(entry.videoId))
     });
     if (entry.thumbnailUrl) {
       thumb.appendChild(el("img", { src: entry.thumbnailUrl, alt: entry.title + " のサムネイル" }));
@@ -154,7 +154,7 @@
     var title = el("h3", { className: "video-title" });
     title.appendChild(el("a", {
       text: entry.title,
-      href: pageUrl("videos/index.html?id=" + encodeURIComponent(entry.videoId))
+        href: pageUrl("videos/video-detail.html?id=" + encodeURIComponent(entry.videoId))
     }));
     main.appendChild(title);
 
@@ -206,7 +206,7 @@
     }).forEach(function (genre) {
       var link = el("a", {
         className: "genre-link",
-        href: pageUrl("rankings/genre.html?genre=" + encodeURIComponent(genre.slug))
+        href: pageUrl("rankings/genre-ranking.html?genre=" + encodeURIComponent(genre.slug))
       });
       link.appendChild(el("strong", { text: genre.name }));
       link.appendChild(el("span", { text: genre.slug }));

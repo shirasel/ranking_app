@@ -46,32 +46,32 @@ The application is designed for GitHub Pages. The public site only needs to read
 
 ## Local Setup
 
-Install Java 25. The repository includes Gradle Wrapper, so a global Gradle installation is not required. Local helper scripts keep Gradle caches under this project in `.gradle-home`.
+Install Java 25. The repository includes Gradle Wrapper, so a global Gradle installation is not required. Local helper tools keep Gradle caches under this project in `.gradle-home`.
 
 Kotlin 2.1.21 does not emit JVM 25 bytecode yet, so the build runs on the Java 25 toolchain while targeting JVM 23 bytecode.
 
 Mock generation:
 
 ```bash
-scripts/generate-mock.cmd
+tools/generate-mock-rankings.cmd
 ```
 
 Real generation:
 
 ```bash
-scripts/generate-real.cmd
+tools/generate-youtube-rankings.cmd
 ```
 
 Tests:
 
 ```bash
-scripts/gradle-local.cmd test build
+tools/run-gradle-local.cmd test build
 ```
 
 Static preview:
 
 ```bash
-scripts/preview-docs.cmd
+tools/preview-github-pages.cmd
 ```
 
 ## YouTube Data API
@@ -128,12 +128,15 @@ Static pages:
 
 ```text
 docs/index.html
-docs/rankings/index.html
-docs/rankings/genre.html
-docs/videos/index.html?id=VIDEO_ID
+docs/home.html
+docs/rankings/overall-ranking.html
+docs/rankings/genre-ranking.html
+docs/videos/video-detail.html?id=VIDEO_ID
 ```
 
 The frontend uses `textContent` and DOM APIs for generated content. It does not embed secrets and does not call the YouTube Data API.
+
+`docs/index.html` is kept only as the required GitHub Pages entry point and redirects to `docs/home.html`.
 
 ## Ranking Algorithm
 
