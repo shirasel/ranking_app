@@ -11,7 +11,10 @@ import java.time.OffsetDateTime
 import java.time.format.DateTimeFormatter
 import kotlin.io.path.createDirectories
 import kotlin.io.path.exists
+import kotlin.io.path.isRegularFile
 import kotlin.io.path.readText
+import kotlin.io.path.relativeTo
+import kotlin.io.path.walk
 import kotlin.io.path.writeText
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -41,9 +44,12 @@ class RankingJsonWriter(private val dataDirectory: Path) {
         discovery: RankingDocument,
     ) {
         writeJson(latestDirectory.resolve("overall.json"), json.encodeToString(RankingDocument.serializer(), overall))
+        writeJson(latestDirectory.resolve("today.json"), json.encodeToString(RankingDocument.serializer(), overall.copy(period = "today")))
         writeJson(latestDirectory.resolve("trending.json"), json.encodeToString(RankingDocument.serializer(), trending))
         writeJson(latestDirectory.resolve("discovery.json"), json.encodeToString(RankingDocument.serializer(), discovery))
         writeHistory(overall)
+        writeSevenDays()
+        writeHistoryIndex()
         genres.forEach { (slug, document) ->
             writeJson(genreDirectory.resolve("$slug.json"), json.encodeToString(GenreRankingDocument.serializer(), document))
         }
@@ -104,6 +110,69 @@ class RankingJsonWriter(private val dataDirectory: Path) {
         writeJson(historyFile, json.encodeToString(RankingDocument.serializer(), overall))
     }
 
+    private fun writeSevenDays() {
+        val documents = loadHistoryDocuments().takeLast(7)
+        val generatedAt = documents.lastOrNull()?.generatedAt ?: return
+        val aggregated = documents
+            .flatMap { document -> document.ranking }
+            .groupBy { entry -> entry.videoId }
+            .map { (_, entries) ->
+                val latest = entries.maxBy { it.publishedAt }
+                val rawScore = entries.sumOf { it.rawScore }
+                val viewIncrease = entries.sumOf { it.viewIncrease }
+                latest.copy(
+                    previousRank = null,
+                    rankChange = null,
+                    viewIncrease = viewIncrease,
+                    rawScore = rawScore,
+                )
+            }
+            .sortedByDescending { it.rawScore }
+            .mapIndexed { index, entry ->
+                entry.copy(rank = index + 1, normalizedScore = normalize(index, documents.flatMap { it.ranking }.distinctBy { item -> item.videoId }.size))
+            }
+            .take(100)
+
+        writeJson(
+            latestDirectory.resolve("seven-days.json"),
+            json.encodeToString(RankingDocument.serializer(), RankingDocument(generatedAt = generatedAt, period = "7d", ranking = aggregated)),
+        )
+    }
+
+    private fun writeHistoryIndex() {
+        val items = loadHistoryDocuments().map { document ->
+            val generatedAt = OffsetDateTime.parse(document.generatedAt)
+            HistoryIndexItem(
+                date = generatedAt.format(DateTimeFormatter.ISO_LOCAL_DATE),
+                generatedAt = document.generatedAt,
+                path = "history/${generatedAt.format(DateTimeFormatter.ofPattern("yyyy"))}/${generatedAt.format(DateTimeFormatter.ofPattern("MM"))}/${generatedAt.format(DateTimeFormatter.ofPattern("dd"))}.json",
+                totalVideos = document.ranking.size,
+            )
+        }
+        writeJson(
+            latestDirectory.resolve("history-index.json"),
+            json.encodeToString(HistoryIndexDocument.serializer(), HistoryIndexDocument(items = items)),
+        )
+    }
+
+    private fun loadHistoryDocuments(): List<RankingDocument> {
+        if (!historyDirectory.exists()) return emptyList()
+        return historyDirectory.walk()
+            .filter { it.isRegularFile() && it.toString().endsWith(".json") }
+            .sortedBy { it.relativeTo(historyDirectory).toString() }
+            .mapNotNull { file ->
+                runCatching {
+                    json.decodeFromString(RankingDocument.serializer(), file.readText())
+                }.getOrNull()
+            }
+            .toList()
+    }
+
+    private fun normalize(index: Int, total: Int): Double {
+        if (total <= 1) return 100.0
+        return ((total - index).toDouble() / total.toDouble()) * 100.0
+    }
+
     private fun appendVideoRankingHistory(generatedAt: String, entry: RankingEntry) {
         val historyFile = videoRankingHistoryDirectory.resolve("${entry.videoId}.json")
         val existing = if (historyFile.exists()) {
@@ -157,4 +226,17 @@ data class VideoRankingHistoryItem(
     val rankChange: Int? = null,
     val rawScore: Double,
     val normalizedScore: Double,
+)
+
+@Serializable
+data class HistoryIndexDocument(
+    val items: List<HistoryIndexItem>,
+)
+
+@Serializable
+data class HistoryIndexItem(
+    val date: String,
+    val generatedAt: String,
+    val path: String,
+    val totalVideos: Int,
 )

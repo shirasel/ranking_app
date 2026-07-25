@@ -18,6 +18,7 @@
         <div class="nav-links">
           <a aria-current="page" href="overall-ranking.html">総合</a>
           <a href="genre-ranking.html">ジャンル</a>
+          <a href="history-ranking.html">過去日</a>
           <a href="../operations/generation-log.html">運用</a>
         </div>
         <button class="icon-button" type="button" data-theme-toggle aria-label="テーマを切り替え" title="テーマ">
@@ -35,9 +36,10 @@
 
       <section class="toolbar" aria-label="ランキング操作">
         <div class="segmented" aria-label="期間">
-          <button type="button" class="active">24時間</button>
-          <button type="button" disabled>本日</button>
-          <button type="button" disabled>7日間</button>
+          <button type="button" class="active" data-period-button="latest/overall.json">24時間</button>
+          <button type="button" data-period-button="latest/today.json">本日</button>
+          <button type="button" data-period-button="latest/seven-days.json">7日間</button>
+          <a href="history-ranking.html">過去日</a>
         </div>
         <label class="search-box">
           <span>検索</span>

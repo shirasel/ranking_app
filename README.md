@@ -169,6 +169,7 @@ docs/index.html
 docs/home.html
 docs/rankings/overall-ranking.html
 docs/rankings/genre-ranking.html
+docs/rankings/history-ranking.html
 docs/operations/generation-log.html
 docs/videos/video-detail.html?id=VIDEO_ID
 ```
@@ -223,10 +224,13 @@ Mock generation writes:
 
 ```text
 docs/data/latest/overall.json
+docs/data/latest/today.json
+docs/data/latest/seven-days.json
 docs/data/latest/trending.json
 docs/data/latest/discovery.json
 docs/data/latest/generation-summary.json
 docs/data/latest/validation-report.json
+docs/data/latest/history-index.json
 docs/data/latest/genres/{genre}.json
 docs/data/videos/{videoId}.json
 docs/data/statistics/latest.json

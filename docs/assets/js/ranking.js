@@ -10,6 +10,8 @@
     initOverall();
   } else if (page === "genre") {
     initGenre();
+  } else if (page === "history") {
+    initHistory();
   }
 
   function initHome() {
@@ -135,9 +137,11 @@
     var allEntries = [];
     var container = app.qs("[data-overall-ranking]");
     var input = app.qs("[data-ranking-search]");
+    var periodButtons = app.qsa("[data-period-button]");
 
-    app.showState("overall", "ランキングJSONを読み込んでいます。");
-    app.loadJson("latest/overall.json")
+    function loadOverall(path) {
+      app.showState("overall", "ランキングJSONを読み込んでいます。");
+      app.loadJson(path)
       .then(function (document) {
         app.showState("overall", "");
         app.setText("[data-updated-at]", "最終更新 " + app.formatDateTime(document.generatedAt));
@@ -147,6 +151,19 @@
       .catch(function () {
         app.showState("overall", "ランキングデータを読み込めませんでした。");
       });
+    }
+
+    periodButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        periodButtons.forEach(function (item) {
+          item.classList.remove("active");
+        });
+        button.classList.add("active");
+        loadOverall(button.getAttribute("data-period-button"));
+      });
+    });
+
+    loadOverall("latest/overall.json");
 
     if (input) {
       input.addEventListener("input", function () {
@@ -179,6 +196,53 @@
     });
 
     loadGenre(selected);
+  }
+
+  function initHistory() {
+    var select = app.qs("[data-history-select]");
+    app.showState("history", "履歴インデックスを読み込んでいます。");
+    app.loadJson("latest/history-index.json")
+      .then(function (index) {
+        var items = (index.items || []).slice().reverse();
+        app.showState("history", "");
+        if (!items.length) {
+          app.showState("history", "過去日ランキングはまだありません。");
+          return;
+        }
+
+        items.forEach(function (item) {
+          select.appendChild(app.el("option", { text: item.date + " / " + app.formatNumber(item.totalVideos) + "本", value: item.path }));
+        });
+
+        var selectedDate = new URLSearchParams(window.location.search).get("date");
+        var selectedItem = items.find(function (item) {
+          return item.date === selectedDate;
+        }) || items[0];
+        select.value = selectedItem.path;
+        select.addEventListener("change", function () {
+          loadHistory(select.value);
+        });
+        loadHistory(selectedItem.path);
+      })
+      .catch(function () {
+        app.showState("history", "履歴インデックスを読み込めませんでした。");
+      });
+  }
+
+  function loadHistory(path) {
+    var container = app.qs("[data-history-ranking]");
+    app.showState("history", "過去日ランキングJSONを読み込んでいます。");
+    app.loadJson(path)
+      .then(function (document) {
+        app.showState("history", "");
+        app.setText("[data-history-title]", "過去日ランキング");
+        app.setText("[data-updated-at]", "生成 " + app.formatDateTime(document.generatedAt));
+        app.renderRankingList(container, document.ranking || []);
+      })
+      .catch(function () {
+        app.showState("history", "過去日ランキングを読み込めませんでした。");
+        app.clear(container);
+      });
   }
 
   function loadGenre(slug) {

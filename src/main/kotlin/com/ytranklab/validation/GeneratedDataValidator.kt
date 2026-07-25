@@ -35,11 +35,13 @@ class GeneratedDataValidator(private val dataDirectory: Path) {
         val warnings = mutableListOf<String>()
 
         val overall = readJson("latest/overall.json", RankingDocument.serializer(), errors)
+        val today = readJson("latest/today.json", RankingDocument.serializer(), errors)
+        val sevenDays = readJson("latest/seven-days.json", RankingDocument.serializer(), errors)
         val trending = readJson("latest/trending.json", RankingDocument.serializer(), errors)
         val discovery = readJson("latest/discovery.json", RankingDocument.serializer(), errors)
         val summary = readJson("latest/generation-summary.json", GenerationSummaryDocument.serializer(), errors)
 
-        listOfNotNull(overall, trending, discovery).forEach { document ->
+        listOfNotNull(overall, today, sevenDays, trending, discovery).forEach { document ->
             validateRankingDocument(document, errors)
         }
 

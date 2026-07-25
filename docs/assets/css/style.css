@@ -334,7 +334,11 @@ main {
   border-radius: 8px;
 }
 
-.segmented button {
+.segmented button,
+.segmented a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 0;
   padding: 6px 12px;
   background: transparent;

@@ -53,6 +53,8 @@ class GeneratedDataValidatorTest {
         videoDirectory.createDirectories()
 
         latestDirectory.resolve("overall.json").writeText(rankingDocument())
+        latestDirectory.resolve("today.json").writeText(rankingDocument())
+        latestDirectory.resolve("seven-days.json").writeText(rankingDocument())
         latestDirectory.resolve("trending.json").writeText(rankingDocument())
         latestDirectory.resolve("discovery.json").writeText(rankingDocument())
         latestDirectory.resolve("generation-summary.json").writeText(generationSummary())

@@ -1,0 +1,137 @@
+{
+    "generatedAt": "2026-07-25T06:00:00+09:00",
+    "period": "7d",
+    "ranking": [
+        {
+            "rank": 1,
+            "videoId": "mockMusicHighLike01",
+            "title": "夏の夜に聴きたいJ-POPカバー 歌ってみた",
+            "channelId": "channelMusicLarge",
+            "channelName": "Blue Note Room",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mockMusicHighLike01/hqdefault.jpg",
+            "publishedAt": "2026-07-24T12:00:00+09:00",
+            "viewCount": 620000,
+            "viewIncrease": 0,
+            "likeCount": 54000,
+            "likeIncrease": 0,
+            "commentCount": 4200,
+            "commentIncrease": 0,
+            "subscriberCount": 1400000,
+            "rawScore": 344.8,
+            "normalizedScore": 100.0,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.9
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 0.0,
+                "engagement": 2080.6,
+                "subscriberRatio": 0.0,
+                "freshness": 16.6
+            }
+        },
+        {
+            "rank": 2,
+            "videoId": "mockMinecraftVelocity01",
+            "title": "マイクラ最新アップデートを最速で攻略してみた",
+            "channelId": "channelSmallGaming",
+            "channelName": "Small Craft Lab",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mockMinecraftVelocity01/hqdefault.jpg",
+            "publishedAt": "2026-07-24T21:00:00+09:00",
+            "viewCount": 185000,
+            "viewIncrease": 0,
+            "likeCount": 9800,
+            "likeIncrease": 0,
+            "commentCount": 1450,
+            "commentIncrease": 0,
+            "subscriberCount": 12000,
+            "rawScore": 344.3,
+            "normalizedScore": 75.0,
+            "genres": [
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.99
+                },
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 0.0,
+                "engagement": 1451.4,
+                "subscriberRatio": 0.0,
+                "freshness": 23.7
+            }
+        },
+        {
+            "rank": 3,
+            "videoId": "mockProgramming01",
+            "title": "Kotlin CLIでJSONランキングを作る実践講座",
+            "channelId": "channelLearning",
+            "channelName": "Code Study JP",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mockProgramming01/hqdefault.jpg",
+            "publishedAt": "2026-07-23T18:30:00+09:00",
+            "viewCount": 42000,
+            "viewIncrease": 0,
+            "likeCount": 3100,
+            "likeIncrease": 0,
+            "commentCount": 260,
+            "commentIncrease": 0,
+            "subscriberCount": 85000,
+            "rawScore": 203.0,
+            "normalizedScore": 50.0,
+            "genres": [
+                {
+                    "slug": "programming",
+                    "name": "IT・プログラミング",
+                    "confidence": 0.99
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.8
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 0.0,
+                "engagement": 1785.7,
+                "subscriberRatio": 0.0,
+                "freshness": 11.4
+            }
+        },
+        {
+            "rank": 4,
+            "videoId": "mockHiddenSubscribers01",
+            "title": "小規模チャンネルが伸びたニュース解説",
+            "channelId": "channelHiddenSubs",
+            "channelName": "Morning Brief",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mockHiddenSubscribers01/hqdefault.jpg",
+            "publishedAt": "2026-07-25T02:15:00+09:00",
+            "viewCount": 21000,
+            "viewIncrease": 0,
+            "commentCount": 180,
+            "commentIncrease": 0,
+            "rawScore": 150.0,
+            "normalizedScore": 25.0,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.99
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 0.0,
+                "engagement": 428.6,
+                "subscriberRatio": 0.0,
+                "freshness": 35.0
+            }
+        }
+    ]
+}
