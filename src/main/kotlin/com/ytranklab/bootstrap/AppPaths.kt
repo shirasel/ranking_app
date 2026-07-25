@@ -1,4 +1,4 @@
-package com.ytranklab.app
+package com.ytranklab.bootstrap
 
 import java.nio.file.Path
 

@@ -1,6 +1,6 @@
 package com.ytranklab.cli
 
-import com.ytranklab.app.AppPaths
+import com.ytranklab.bootstrap.AppPaths
 import com.ytranklab.app.RankingApplication
 import com.ytranklab.security.SecretLoader
 import com.ytranklab.validation.GeneratedDataValidator

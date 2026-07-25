@@ -1,0 +1,39 @@
+@media (min-width: 1500px) {
+  body[data-page="overall"] .ranking-list:not(.compact) .ranking-card,
+  body[data-page="genre"] .ranking-list:not(.compact) .ranking-card,
+  body[data-page="history"] .ranking-list:not(.compact) .ranking-card {
+    grid-template-columns: 64px minmax(260px, 320px) minmax(0, 1fr) minmax(300px, 360px);
+    align-items: center;
+    min-height: 196px;
+    padding: 18px 20px;
+  }
+
+  body[data-page="overall"] .ranking-list:not(.compact) .ranking-extra,
+  body[data-page="genre"] .ranking-list:not(.compact) .ranking-extra,
+  body[data-page="history"] .ranking-list:not(.compact) .ranking-extra {
+    grid-column: auto;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: end;
+    width: 100%;
+    gap: 10px 14px;
+  }
+
+  body[data-page="overall"] .ranking-list:not(.compact) .score-grid,
+  body[data-page="genre"] .ranking-list:not(.compact) .score-grid,
+  body[data-page="history"] .ranking-list:not(.compact) .score-grid {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: stretch;
+    justify-items: end;
+    gap: 6px 10px;
+    width: 100%;
+  }
+
+  body[data-page="overall"] .ranking-list:not(.compact) .text-link,
+  body[data-page="genre"] .ranking-list:not(.compact) .text-link,
+  body[data-page="history"] .ranking-list:not(.compact) .text-link {
+    grid-column: 1 / -1;
+  }
+}

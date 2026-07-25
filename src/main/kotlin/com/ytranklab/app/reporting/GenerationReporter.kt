@@ -1,4 +1,4 @@
-package com.ytranklab.app
+package com.ytranklab.app.reporting
 
 import com.ytranklab.collection.CollectionReport
 

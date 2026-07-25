@@ -1,4 +1,4 @@
-package com.ytranklab.collection
+package com.ytranklab.collection.reporting
 
 interface CollectionReporter {
     fun skippedSource(sourceName: String, message: String)

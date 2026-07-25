@@ -1,4 +1,4 @@
 @echo off
 setlocal
-node "%~dp0serve-github-pages-preview.js"
+node "%~dp0preview\serve-github-pages-preview.js"
 exit /b %ERRORLEVEL%

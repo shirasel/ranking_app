@@ -1,0 +1,44 @@
+.operation-metrics {
+  margin-top: 0;
+}
+
+.operation-grid {
+  grid-template-columns: minmax(0, 1fr) 420px;
+}
+
+.operation-source-row {
+  align-items: start;
+}
+
+.operation-definition {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px 16px;
+  margin: 0;
+}
+
+.operation-definition dt {
+  color: var(--muted);
+}
+
+.operation-definition dd {
+  margin: 0;
+  font-weight: 800;
+  text-align: right;
+}
+
+.operation-validation {
+  margin-top: 18px;
+}
+
+.validation-list {
+  display: grid;
+  gap: 8px;
+}
+
+.validation-message {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+}

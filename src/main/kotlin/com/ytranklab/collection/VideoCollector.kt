@@ -1,6 +1,8 @@
 package com.ytranklab.collection
 
 import com.ytranklab.config.SourceConfig
+import com.ytranklab.collection.reporting.CollectionReporter
+import com.ytranklab.collection.reporting.SystemCollectionReporter
 import com.ytranklab.domain.YouTubeVideo
 import com.ytranklab.youtube.YouTubeApiClient
 import com.ytranklab.youtube.YouTubeApiException

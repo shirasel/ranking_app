@@ -1,8 +1,10 @@
-package com.ytranklab.app
+package com.ytranklab.bootstrap
 
+import com.ytranklab.app.reporting.GenerationReporter
+import com.ytranklab.app.reporting.SystemGenerationReporter
 import com.ytranklab.config.AppConfigLoader
-import com.ytranklab.collection.CollectionReporter
-import com.ytranklab.collection.SystemCollectionReporter
+import com.ytranklab.collection.reporting.CollectionReporter
+import com.ytranklab.collection.reporting.SystemCollectionReporter
 import com.ytranklab.history.HistoryRetentionService
 import com.ytranklab.mock.MockVideoDataSource
 import com.ytranklab.output.RankingJsonWriter

@@ -72,7 +72,7 @@ class StaticFileServer {
   }
 }
 
-const root = path.resolve(__dirname, "..", "docs");
+const root = path.resolve(__dirname, "..", "..", "docs");
 new StaticFileServer({
   http,
   fs,

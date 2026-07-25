@@ -1,8 +1,8 @@
-package com.ytranklab.cli
+package com.ytranklab.bootstrap
 
-import com.ytranklab.app.AppPaths
 import com.ytranklab.app.RankingApplication
-import com.ytranklab.app.RankingApplicationDependencies
+import com.ytranklab.cli.CommandLineRankingApp
+import com.ytranklab.cli.SystemConsole
 import com.ytranklab.security.SecretLoader
 import com.ytranklab.validation.GeneratedDataValidator
 import java.nio.file.Path

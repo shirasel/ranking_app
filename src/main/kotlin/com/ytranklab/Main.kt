@@ -1,6 +1,6 @@
 package com.ytranklab
 
-import com.ytranklab.cli.CliApplicationFactory
+import com.ytranklab.bootstrap.CliApplicationFactory
 import kotlin.io.path.Path
 import kotlin.system.exitProcess
 

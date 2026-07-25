@@ -2,6 +2,8 @@ package com.ytranklab.app
 
 import com.ytranklab.collection.CollectionReport
 import com.ytranklab.collection.VideoCollector
+import com.ytranklab.app.reporting.RetentionResultSummary
+import com.ytranklab.bootstrap.RankingApplicationDependencies
 import com.ytranklab.genre.RuleBasedGenreClassifier
 import com.ytranklab.ranking.RankingCalculator
 import com.ytranklab.ranking.RankingGenerator
