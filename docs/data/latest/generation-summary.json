@@ -1,0 +1,66 @@
+{
+    "generatedAt": "2026-07-25T11:53:52.717500422Z",
+    "inputVideos": 121,
+    "rankingVideos": 100,
+    "genreRankings": 6,
+    "collection": {
+        "sourceResults": [
+            {
+                "source": "manual-videos",
+                "requested": 0,
+                "collected": 0,
+                "status": "ok"
+            },
+            {
+                "source": "keyword:Minecraft",
+                "requested": 12,
+                "collected": 12,
+                "status": "ok"
+            },
+            {
+                "source": "keyword:プログラミング",
+                "requested": 12,
+                "collected": 12,
+                "status": "ok"
+            },
+            {
+                "source": "keyword:VTuber",
+                "requested": 12,
+                "collected": 12,
+                "status": "ok"
+            },
+            {
+                "source": "keyword:ゲーム実況",
+                "requested": 12,
+                "collected": 12,
+                "status": "ok"
+            },
+            {
+                "source": "keyword:作業用BGM",
+                "requested": 12,
+                "collected": 12,
+                "status": "ok"
+            },
+            {
+                "source": "keyword:生成AI",
+                "requested": 12,
+                "collected": 12,
+                "status": "ok"
+            },
+            {
+                "source": "popular:JP",
+                "requested": 50,
+                "collected": 50,
+                "status": "ok"
+            }
+        ],
+        "uniqueCandidateIds": 122,
+        "fetchedVideoIds": 122,
+        "publicVideos": 121,
+        "estimatedQuotaUnits": 607
+    },
+    "retention": {
+        "historyDeleted": 0,
+        "videoDetailsDeleted": 0
+    }
+}
