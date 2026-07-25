@@ -1,0 +1,69 @@
+genres:
+  - slug: gaming
+    name: ゲーム
+    parent:
+    keywords:
+      title:
+        ゲーム: 3
+        実況: 2
+      description:
+        ゲーム: 2
+    youtubeCategoryIds:
+      - "20"
+
+  - slug: minecraft
+    name: Minecraft
+    parent: gaming
+    keywords:
+      title:
+        minecraft: 5
+        マイクラ: 5
+      description:
+        minecraft: 2
+        マイクラ: 2
+    youtubeCategoryIds:
+      - "20"
+
+  - slug: music
+    name: 音楽
+    parent:
+    keywords:
+      title:
+        music: 3
+        音楽: 3
+        歌ってみた: 4
+      description:
+        music: 2
+        音楽: 2
+    youtubeCategoryIds:
+      - "10"
+
+  - slug: programming
+    name: IT・プログラミング
+    parent: learning
+    keywords:
+      title:
+        kotlin: 5
+        java: 4
+        プログラミング: 5
+      description:
+        kotlin: 3
+        java: 2
+        プログラミング: 3
+    youtubeCategoryIds:
+      - "27"
+
+  - slug: learning
+    name: 学習・情報
+    parent:
+    keywords:
+      title:
+        解説: 3
+        講座: 3
+        ニュース: 3
+      description:
+        解説: 2
+        講座: 2
+    youtubeCategoryIds:
+      - "27"
+      - "25"
