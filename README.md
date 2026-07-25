@@ -103,6 +103,19 @@ Secrets must not be written to:
 
 ## GitHub Actions Schedule
 
+Two workflows are included:
+
+- `.github/workflows/test.yml`
+  - runs on push and pull request
+  - builds and tests with mock data only
+  - does not require `YOUTUBE_API_KEY`
+  - does not commit generated changes
+- `.github/workflows/update-rankings.yml`
+  - runs on schedule and manual dispatch
+  - uses `YOUTUBE_API_KEY` from repository secrets for real updates
+  - commits only when `docs/data` changes
+  - prevents overlapping update runs with workflow concurrency
+
 The ranking update workflow uses this UTC cron:
 
 ```text
@@ -115,6 +128,8 @@ In Japan Standard Time, this runs at:
 - 15:17
 - 21:17
 - 03:17 on the next calendar day
+
+Manual dispatch can also run with mock data by setting `use_mock` to `true`.
 
 ## GitHub Pages
 
@@ -137,6 +152,8 @@ docs/videos/video-detail.html?id=VIDEO_ID
 The frontend uses `textContent` and DOM APIs for generated content. It does not embed secrets and does not call the YouTube Data API.
 
 `docs/index.html` is kept only as the required GitHub Pages entry point and redirects to `docs/home.html`.
+
+For a public repository, set Pages to publish from the `docs` directory on the default branch.
 
 ## Ranking Algorithm
 
@@ -170,9 +187,7 @@ Initial policy:
 
 ## Current Phase
 
-Phase 5 implements YouTube Data API integration. The Kotlin CLI can collect configured video candidates, retrieve video and channel statistics, and reuse the same ranking pipeline as mock generation.
-
-Scheduled GitHub Actions hardening is implemented in a later phase.
+Phase 6 implements scheduled GitHub Actions updates. The repository can build, test, generate mock rankings, and update real ranking JSON from the YouTube Data API through GitHub Actions.
 
 ## Generated JSON
 
