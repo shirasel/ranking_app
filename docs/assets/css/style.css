@@ -89,7 +89,7 @@ img {
 .nav,
 main,
 .site-footer {
-  width: min(1440px, calc(100% - 48px));
+  width: min(1680px, calc(100% - 64px));
   margin: 0 auto;
 }
 
@@ -908,14 +908,14 @@ main {
   font-size: 0.9rem;
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1500px) {
   body[data-page="overall"] .ranking-list:not(.compact) .ranking-card,
   body[data-page="genre"] .ranking-list:not(.compact) .ranking-card,
   body[data-page="history"] .ranking-list:not(.compact) .ranking-card {
-    grid-template-columns: 60px minmax(220px, 260px) minmax(0, 1fr) minmax(260px, 320px);
+    grid-template-columns: 64px minmax(260px, 320px) minmax(0, 1fr) minmax(300px, 360px);
     align-items: center;
-    min-height: 172px;
-    padding: 16px 18px;
+    min-height: 196px;
+    padding: 18px 20px;
   }
 
   body[data-page="overall"] .ranking-list:not(.compact) .ranking-extra,
@@ -986,7 +986,7 @@ main {
   .nav,
   main,
   .site-footer {
-    width: min(100% - 32px, 1440px);
+    width: min(100% - 32px, 1680px);
   }
 
   .nav {
