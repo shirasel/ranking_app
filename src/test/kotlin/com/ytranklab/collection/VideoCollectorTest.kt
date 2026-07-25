@@ -25,6 +25,8 @@ class VideoCollectorTest {
                 regionCode = "JP",
                 maxPopularVideos = 5,
                 maxChannelVideos = 5,
+                maxEstimatedQuotaUnits = 9000,
+                reservedDetailQuotaUnits = 20,
             ),
         )
 
@@ -50,6 +52,8 @@ class VideoCollectorTest {
                 regionCode = "JP",
                 maxPopularVideos = 5,
                 maxChannelVideos = 5,
+                maxEstimatedQuotaUnits = 9000,
+                reservedDetailQuotaUnits = 20,
             ),
         )
 
@@ -59,6 +63,34 @@ class VideoCollectorTest {
         assertEquals(2, result.videos.size)
         assertEquals("skipped", result.report.sourceResults.first { it.source == "keyword:broken" }.status)
         assertEquals(3, result.report.estimatedQuotaUnits)
+    }
+
+    @Test
+    fun skipsSourcesThatWouldExceedQuotaBudget() = runBlocking {
+        val client = FakeYouTubeApiClient()
+        val config = SourceConfig(
+            channels = emptyList(),
+            keywords = listOf("Kotlin", "Minecraft"),
+            videos = listOf("manualVideo01"),
+            collection = CollectionConfig(
+                maxVideos = 10,
+                maxSearchResultsPerKeyword = 5,
+                includePopularVideos = true,
+                regionCode = "JP",
+                maxPopularVideos = 5,
+                maxChannelVideos = 5,
+                maxEstimatedQuotaUnits = 150,
+                reservedDetailQuotaUnits = 20,
+            ),
+        )
+
+        val result = VideoCollector(config, client).collect()
+
+        assertEquals(listOf("manualVideo01", "searchVideo01", "popularVideo01"), client.fetchedIds)
+        assertEquals("ok", result.report.sourceResults.first { it.source == "keyword:Kotlin" }.status)
+        assertEquals("skipped", result.report.sourceResults.first { it.source == "keyword:Minecraft" }.status)
+        assertEquals("quota budget limit", result.report.sourceResults.first { it.source == "keyword:Minecraft" }.message)
+        assertEquals(103, result.report.estimatedQuotaUnits)
     }
 
     private class FakeYouTubeApiClient : YouTubeApiClient {

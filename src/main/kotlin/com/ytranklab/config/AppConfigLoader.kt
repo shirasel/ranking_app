@@ -78,6 +78,8 @@ class AppConfigLoader(private val configDirectory: Path) {
                 regionCode = collection.optionalString("regionCode") ?: "JP",
                 maxPopularVideos = collection.int("maxPopularVideos", 25),
                 maxChannelVideos = collection.int("maxChannelVideos", 10),
+                maxEstimatedQuotaUnits = collection.int("maxEstimatedQuotaUnits", 9000),
+                reservedDetailQuotaUnits = collection.int("reservedDetailQuotaUnits", 20),
             ),
         )
     }
@@ -143,6 +145,8 @@ data class CollectionConfig(
     val regionCode: String,
     val maxPopularVideos: Int,
     val maxChannelVideos: Int,
+    val maxEstimatedQuotaUnits: Int,
+    val reservedDetailQuotaUnits: Int,
 )
 
 private fun Any?.asMap(): Map<String, Any?> {

@@ -106,6 +106,8 @@ The Kotlin CLI collects candidates from `config/sources.yml`:
 
 The production default keeps manual videos and channels empty, uses Japanese search keywords, and includes JP popular videos. This avoids committing sample video IDs while keeping the scheduled workflow useful from the first real API run.
 
+`collection.maxEstimatedQuotaUnits` caps source collection before expensive API calls run. When the estimated budget would be exceeded, the collector skips the source, records `quota budget limit` in `generation-summary.json`, and continues with lower-cost sources and already collected video IDs.
+
 The API client batches `videos.list` and `channels.list` calls in groups of up to 50 IDs, retries transient network failures with exponential backoff, and stops before writing JSON when no public videos are collected.
 
 Do not commit actual API keys. `.env` and `.env.*` are ignored by Git, while `.env.example` contains only variable names.

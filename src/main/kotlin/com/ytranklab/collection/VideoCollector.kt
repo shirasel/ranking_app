@@ -14,6 +14,7 @@ class VideoCollector(
     suspend fun collect(): CollectedVideos {
         val videoIds = linkedSetOf<String>()
         val sourceResults = mutableListOf<SourceCollectionResult>()
+        val quotaBudget = QuotaBudget(sourceConfig.collection.maxEstimatedQuotaUnits, sourceConfig.collection.reservedDetailQuotaUnits)
 
         val manualVideoIds = sourceConfig.videos.filter { it.isValidYouTubeId() }
         videoIds.addAll(manualVideoIds)
@@ -27,6 +28,10 @@ class VideoCollector(
         sourceConfig.channels
             .filter { it.enabled }
             .forEach { channel ->
+                if (!quotaBudget.trySpend(CHANNEL_UPLOAD_COST)) {
+                    sourceResults += skippedByQuota("channel:${channel.id}", sourceConfig.collection.maxChannelVideos)
+                    return@forEach
+                }
                 val result = collectSafely("channel:${channel.id}") {
                     client.fetchLatestVideoIdsForChannel(channel.id, sourceConfig.collection.maxChannelVideos)
                 }
@@ -35,6 +40,10 @@ class VideoCollector(
             }
 
         sourceConfig.keywords.forEach { keyword ->
+            if (!quotaBudget.trySpend(SEARCH_COST)) {
+                sourceResults += skippedByQuota("keyword:$keyword", sourceConfig.collection.maxSearchResultsPerKeyword)
+                return@forEach
+            }
             val result = collectSafely("keyword:$keyword") {
                 client.searchVideoIds(keyword, sourceConfig.collection.maxSearchResultsPerKeyword)
             }
@@ -43,14 +52,18 @@ class VideoCollector(
         }
 
         if (sourceConfig.collection.includePopularVideos) {
-            val result = collectSafely("popular:${sourceConfig.collection.regionCode}") {
-                client.fetchPopularVideoIds(
-                    regionCode = sourceConfig.collection.regionCode,
-                    maxResults = sourceConfig.collection.maxPopularVideos,
-                )
+            if (!quotaBudget.trySpend(POPULAR_COST)) {
+                sourceResults += skippedByQuota("popular:${sourceConfig.collection.regionCode}", sourceConfig.collection.maxPopularVideos)
+            } else {
+                val result = collectSafely("popular:${sourceConfig.collection.regionCode}") {
+                    client.fetchPopularVideoIds(
+                        regionCode = sourceConfig.collection.regionCode,
+                        maxResults = sourceConfig.collection.maxPopularVideos,
+                    )
+                }
+                videoIds.addAll(result.videoIds)
+                sourceResults += result.toSourceCollectionResult(requested = sourceConfig.collection.maxPopularVideos)
             }
-            videoIds.addAll(result.videoIds)
-            sourceResults += result.toSourceCollectionResult(requested = sourceConfig.collection.maxPopularVideos)
         }
 
         val limitedIds = videoIds.take(sourceConfig.collection.maxVideos)
@@ -71,6 +84,15 @@ class VideoCollector(
         )
     }
 
+    private fun skippedByQuota(source: String, requested: Int): SourceCollectionResult =
+        SourceCollectionResult(
+            source = source,
+            requested = requested,
+            collected = 0,
+            status = "skipped",
+            message = "quota budget limit",
+        )
+
     private fun estimateQuotaUnits(
         sourceResults: List<SourceCollectionResult>,
         fetchedVideoIds: Int,
@@ -83,6 +105,27 @@ class VideoCollector(
         val videoUnits = if (fetchedVideoIds > 0) ((fetchedVideoIds - 1) / 50) + 1 else 0
         val subscriberChannelUnits = if (uniqueChannels > 0) ((uniqueChannels - 1) / 50) + 1 else 0
         return searchUnits + popularUnits + channelUnits + playlistUnits + videoUnits + subscriberChannelUnits
+    }
+}
+
+private const val SEARCH_COST = 100
+private const val POPULAR_COST = 1
+private const val CHANNEL_UPLOAD_COST = 2
+
+private class QuotaBudget(
+    private val maxEstimatedQuotaUnits: Int,
+    private val reservedDetailQuotaUnits: Int,
+) {
+    private var spent = 0
+
+    fun trySpend(cost: Int): Boolean {
+        if (maxEstimatedQuotaUnits <= 0) {
+            spent += cost
+            return true
+        }
+        if (spent + cost + reservedDetailQuotaUnits > maxEstimatedQuotaUnits) return false
+        spent += cost
+        return true
     }
 }
 

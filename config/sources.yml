@@ -22,4 +22,6 @@ collection:
   includePopularVideos: true
   maxPopularVideos: 50
   maxChannelVideos: 10
+  maxEstimatedQuotaUnits: 800
+  reservedDetailQuotaUnits: 20
   regionCode: JP
