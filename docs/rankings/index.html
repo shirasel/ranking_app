@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>総合ランキング - YT Rank Lab</title>
+    <meta name="description" content="独自スコアによるYouTube総合ランキング">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body data-page="overall">
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">Y</span>
+          <span>YT Rank Lab</span>
+        </a>
+        <div class="nav-links">
+          <a aria-current="page" href="index.html">総合</a>
+          <a href="genre.html">ジャンル</a>
+        </div>
+        <button class="icon-button" type="button" data-theme-toggle aria-label="テーマを切り替え" title="テーマ">
+          <span aria-hidden="true">◐</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-title">
+        <p class="eyebrow">Overall ranking</p>
+        <h1>総合ランキング</h1>
+        <p data-updated-at>読み込み中</p>
+      </section>
+
+      <section class="toolbar" aria-label="ランキング操作">
+        <div class="segmented" aria-label="期間">
+          <button type="button" class="active">24時間</button>
+          <button type="button" disabled>本日</button>
+          <button type="button" disabled>7日間</button>
+        </div>
+        <label class="search-box">
+          <span>検索</span>
+          <input type="search" data-ranking-search placeholder="タイトル・チャンネル・ジャンル">
+        </label>
+      </section>
+
+      <section class="section-block">
+        <div data-state="overall"></div>
+        <div class="ranking-list" data-overall-ranking></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>YT Rank Lab</span>
+      <span>Generated JSON only</span>
+    </footer>
+
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/ranking.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YT Rank Lab</title>
+    <meta name="description" content="YouTube動画を独自スコアで評価する静的ランキングサイト">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a class="brand" href="index.html" aria-label="YT Rank Lab ホーム">
+          <span class="brand-mark">Y</span>
+          <span>YT Rank Lab</span>
+        </a>
+        <div class="nav-links">
+          <a href="rankings/index.html">総合</a>
+          <a href="rankings/genre.html">ジャンル</a>
+        </div>
+        <button class="icon-button" type="button" data-theme-toggle aria-label="テーマを切り替え" title="テーマ">
+          <span aria-hidden="true">◐</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">24時間ランキング</p>
+          <h1>再生数だけでは見えない、今日伸びているYouTube動画。</h1>
+          <p class="lead">視聴速度、反応率、登録者規模、鮮度を組み合わせた独自スコアで、総合ランキングとジャンル別ランキングを表示します。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="rankings/index.html">総合ランキング</a>
+            <a class="button secondary" href="rankings/genre.html">ジャンル別</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="更新情報">
+          <span class="panel-label">最終更新</span>
+          <strong data-updated-at>読み込み中</strong>
+          <span class="panel-note">生成済みJSONを表示</span>
+        </aside>
+      </section>
+
+      <section class="metric-strip" aria-label="ランキング概要">
+        <article>
+          <span>総合対象</span>
+          <strong data-total-count>-</strong>
+        </article>
+        <article>
+          <span>急上昇</span>
+          <strong data-trending-title>-</strong>
+        </article>
+        <article>
+          <span>発掘候補</span>
+          <strong data-discovery-title>-</strong>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <div class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Overall</p>
+              <h2>本日の総合ランキング</h2>
+            </div>
+            <a class="text-link" href="rankings/index.html">すべて見る</a>
+          </div>
+          <div data-state="overall"></div>
+          <div class="ranking-list compact" data-home-overall></div>
+        </div>
+
+        <div class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Genres</p>
+              <h2>注目ジャンル</h2>
+            </div>
+            <a class="text-link" href="rankings/genre.html">切り替える</a>
+          </div>
+          <div class="genre-grid" data-genre-links></div>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <div class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Trending</p>
+              <h2>急上昇動画</h2>
+            </div>
+          </div>
+          <div data-state="trending"></div>
+          <div class="ranking-list compact" data-home-trending></div>
+        </div>
+
+        <div class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Discovery</p>
+              <h2>発掘動画</h2>
+            </div>
+          </div>
+          <div data-state="discovery"></div>
+          <div class="ranking-list compact" data-home-discovery></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>YT Rank Lab</span>
+      <span>GitHub Pages static ranking viewer</span>
+    </footer>
+
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/ranking.js"></script>
+  </body>
+</html>

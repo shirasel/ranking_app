@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>動画詳細 - YT Rank Lab</title>
+    <meta name="description" content="YouTubeランキング動画の詳細スコア">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body data-page="video">
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">Y</span>
+          <span>YT Rank Lab</span>
+        </a>
+        <div class="nav-links">
+          <a href="../rankings/index.html">総合</a>
+          <a href="../rankings/genre.html">ジャンル</a>
+        </div>
+        <button class="icon-button" type="button" data-theme-toggle aria-label="テーマを切り替え" title="テーマ">
+          <span aria-hidden="true">◐</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-title">
+        <p class="eyebrow">Video detail</p>
+        <h1 data-video-title>動画詳細</h1>
+        <p data-updated-at>読み込み中</p>
+      </section>
+
+      <div data-state="video"></div>
+      <section class="video-detail" data-video-detail></section>
+    </main>
+
+    <footer class="site-footer">
+      <span>YT Rank Lab</span>
+      <span>Generated JSON only</span>
+    </footer>
+
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/video.js"></script>
+  </body>
+</html>

@@ -107,6 +107,17 @@ Enable GitHub Pages from the `docs` directory. Use relative paths in frontend co
 https://USERNAME.github.io/REPOSITORY_NAME/
 ```
 
+Static pages:
+
+```text
+docs/index.html
+docs/rankings/index.html
+docs/rankings/genre.html
+docs/videos/index.html?id=VIDEO_ID
+```
+
+The frontend uses `textContent` and DOM APIs for generated content. It does not embed secrets and does not call the YouTube Data API.
+
 ## Ranking Algorithm
 
 The initial raw score is:
@@ -139,9 +150,9 @@ Initial policy:
 
 ## Current Phase
 
-Phase 3 implements mock ranking generation. The CLI can read mock video data, compare it with previous statistics, calculate scores, classify genres, and write ranking JSON files under `docs/data`.
+Phase 4 implements the static GitHub Pages frontend. The site can load generated JSON, display home highlights, overall rankings, genre rankings, and video details.
 
-Static pages and YouTube API integration are implemented in later phases.
+YouTube API integration is implemented in a later phase.
 
 ## Generated JSON
 
