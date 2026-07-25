@@ -74,7 +74,6 @@ class KtorYouTubeApiClient(
             parameters = mapOf(
                 "part" to "contentDetails",
                 "id" to channelId,
-                "maxResults" to "1",
             ),
         )
         val uploadsPlaylistId = json.decodeFromString(ChannelListResponse.serializer(), channelResponse)
@@ -110,7 +109,6 @@ class KtorYouTubeApiClient(
                 parameters = mapOf(
                     "part" to "snippet,statistics,status",
                     "id" to chunk.joinToString(","),
-                    "maxResults" to "50",
                 ),
             )
             videos.addAll(json.decodeFromString(VideoListResponse.serializer(), response).items)
@@ -154,7 +152,6 @@ class KtorYouTubeApiClient(
                 parameters = mapOf(
                     "part" to "statistics",
                     "id" to chunk.joinToString(","),
-                    "maxResults" to "50",
                 ),
             )
             json.decodeFromString(ChannelListResponse.serializer(), response)
@@ -184,14 +181,11 @@ class KtorYouTubeApiClient(
                 }
 
                 val error = json.decodeFromString(YouTubeErrorResponse.serializer(), body)
-                val reason = error.error.errors.firstOrNull()?.reason
-                    ?: error.error.message?.take(120)
-                    ?: error.error.status
-                    ?: "unknown"
+                val reason = error.error.safeReason()
                 if (reason in nonRetryableReasons) {
-                    throw YouTubeApiException("YouTube API request failed: $reason")
+                    throw YouTubeApiException("YouTube API request failed: ${error.error.safeMessage()}")
                 }
-                lastError = YouTubeApiException("YouTube API request failed: $reason")
+                lastError = YouTubeApiException("YouTube API request failed: ${error.error.safeMessage()}")
             } catch (error: YouTubeApiException) {
                 throw error
             } catch (error: IOException) {
@@ -228,9 +222,7 @@ class KtorYouTubeApiClient(
             val reason = runCatching {
                 json.decodeFromString(YouTubeErrorResponse.serializer(), output)
                     .error
-                    .errors
-                    .firstOrNull()
-                    ?.reason
+                    .safeMessage()
             }.getOrNull() ?: output.lineSequence().firstOrNull()?.take(120) ?: "curlRequestFailed"
             throw YouTubeApiException("YouTube API request failed: $reason")
         }
@@ -367,6 +359,15 @@ private data class YouTubeError(
     val errors: List<YouTubeErrorDetail> = emptyList(),
     val status: String? = null,
 )
+
+private fun YouTubeError.safeReason(): String =
+    errors.firstOrNull()?.reason ?: status ?: "unknown"
+
+private fun YouTubeError.safeMessage(): String {
+    val reason = safeReason()
+    val detail = message?.take(120)
+    return if (detail.isNullOrBlank() || detail == reason) reason else "$reason: $detail"
+}
 
 @Serializable
 private data class YouTubeErrorDetail(
