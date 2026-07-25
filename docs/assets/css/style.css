@@ -643,6 +643,30 @@ main {
   border-radius: 5px 5px 0 0;
 }
 
+.rank-timeline {
+  min-height: 126px;
+  display: flex;
+  align-items: end;
+  gap: 8px;
+  padding: 12px;
+  background: var(--surface-strong);
+  border-radius: 8px;
+}
+
+.rank-point {
+  flex: 1;
+  min-width: 22px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: var(--accent);
+  border-radius: 6px 6px 0 0;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding-top: 3px;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;

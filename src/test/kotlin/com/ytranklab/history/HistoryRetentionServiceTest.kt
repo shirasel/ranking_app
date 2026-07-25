@@ -26,6 +26,11 @@ class HistoryRetentionServiceTest {
         activeVideo.parent.createDirectories()
         activeVideo.writeText("{}")
         inactiveVideo.writeText("{}")
+        val activeRankHistory = dataDirectory.resolve("rankings/videos/activeVideo.json")
+        val inactiveRankHistory = dataDirectory.resolve("rankings/videos/inactiveVideo.json")
+        activeRankHistory.parent.createDirectories()
+        activeRankHistory.writeText("{}")
+        inactiveRankHistory.writeText("{}")
 
         val result = HistoryRetentionService(
             dataDirectory = dataDirectory,
@@ -42,5 +47,7 @@ class HistoryRetentionServiceTest {
         assertTrue(currentHistory.exists())
         assertTrue(activeVideo.exists())
         assertFalse(inactiveVideo.exists())
+        assertTrue(activeRankHistory.exists())
+        assertFalse(inactiveRankHistory.exists())
     }
 }

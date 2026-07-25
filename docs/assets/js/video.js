@@ -19,20 +19,24 @@
       app.loadJson("videos/" + encodeURIComponent(videoId) + ".json"),
       app.loadJson("statistics/videos/" + encodeURIComponent(videoId) + ".json").catch(function () {
         return null;
+      }),
+      app.loadJson("rankings/videos/" + encodeURIComponent(videoId) + ".json").catch(function () {
+        return null;
       })
     ])
       .then(function (results) {
         var document = results[0];
         var history = results[1];
+        var rankHistory = results[2];
         app.showState("video", "");
-        render(document, history);
+        render(document, history, rankHistory);
       })
       .catch(function () {
         app.showState("video", "動画詳細データを読み込めませんでした。");
       });
   }
 
-  function render(document, history) {
+  function render(document, history, rankHistory) {
     var entry = document.video;
     app.clear(container);
     app.setText("[data-video-title]", entry.title);
@@ -83,9 +87,14 @@
     trends.appendChild(app.el("h2", { text: "統計推移" }));
     trends.appendChild(createStatisticsHistory(history));
 
+    var ranks = app.el("section", { className: "history-panel" });
+    ranks.appendChild(app.el("h2", { text: "順位推移" }));
+    ranks.appendChild(createRankingHistory(rankHistory));
+
     var left = app.el("div");
     left.appendChild(media);
     left.appendChild(bars);
+    left.appendChild(ranks);
     left.appendChild(trends);
     container.appendChild(left);
     container.appendChild(side);
@@ -168,5 +177,46 @@
       chart.appendChild(bar);
     });
     return chart;
+  }
+
+  function createRankingHistory(history) {
+    var rankings = history && Array.isArray(history.rankings) ? history.rankings : [];
+    if (!rankings.length) {
+      return app.el("p", { className: "muted-text", text: "順位履歴は次回以降の生成で蓄積されます。" });
+    }
+
+    var wrapper = app.el("div", { className: "trend-table-wrap" });
+    var chart = app.el("div", { className: "rank-timeline", title: "総合順位推移" });
+    rankings.slice(-14).forEach(function (row) {
+      var point = app.el("div", { className: "rank-point" });
+      point.style.height = Math.max(10, 96 - Math.min(90, Number(row.rank || 100))) + "px";
+      point.setAttribute("aria-label", app.formatDateTime(row.capturedAt) + " " + row.rank + "位");
+      point.appendChild(app.el("span", { text: row.rank }));
+      chart.appendChild(point);
+    });
+    wrapper.appendChild(chart);
+
+    var table = app.el("table", { className: "trend-table" });
+    var thead = app.el("thead");
+    var headerRow = app.el("tr");
+    ["取得日時", "順位", "前回順位", "変動", "スコア"].forEach(function (label) {
+      headerRow.appendChild(app.el("th", { text: label }));
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    var tbody = app.el("tbody");
+    rankings.slice(-10).reverse().forEach(function (row) {
+      var tr = app.el("tr");
+      tr.appendChild(app.el("td", { text: app.formatDateTime(row.capturedAt) }));
+      tr.appendChild(app.el("td", { text: row.rank + "位" }));
+      tr.appendChild(app.el("td", { text: row.previousRank ? row.previousRank + "位" : "NEW" }));
+      tr.appendChild(app.el("td", { text: row.rankChange === null || row.rankChange === undefined ? "-" : String(row.rankChange) }));
+      tr.appendChild(app.el("td", { text: app.formatScore(row.normalizedScore) }));
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    wrapper.appendChild(table);
+    return wrapper;
   }
 })();

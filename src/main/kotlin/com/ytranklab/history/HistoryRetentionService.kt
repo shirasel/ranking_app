@@ -17,7 +17,8 @@ class HistoryRetentionService(
     fun cleanup(generatedAt: String, activeVideoIds: Set<String>): RetentionResult {
         val currentDate = OffsetDateTime.parse(generatedAt).toLocalDate()
         val historyDeleted = cleanupRankingHistory(currentDate)
-        val videoDetailsDeleted = cleanupVideoDetails(activeVideoIds)
+        val videoDetailsDeleted = cleanupVideoScopedJson(dataDirectory.resolve("videos"), activeVideoIds)
+        cleanupVideoScopedJson(dataDirectory.resolve("rankings").resolve("videos"), activeVideoIds)
         return RetentionResult(
             historyDeleted = historyDeleted,
             videoDetailsDeleted = videoDetailsDeleted,
@@ -41,8 +42,7 @@ class HistoryRetentionService(
         return deleted
     }
 
-    private fun cleanupVideoDetails(activeVideoIds: Set<String>): Int {
-        val videoDirectory = dataDirectory.resolve("videos")
+    private fun cleanupVideoScopedJson(videoDirectory: Path, activeVideoIds: Set<String>): Int {
         if (!videoDirectory.exists()) return 0
 
         var deleted = 0

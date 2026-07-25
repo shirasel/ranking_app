@@ -20,6 +20,7 @@ class RankingJsonWriter(private val dataDirectory: Path) {
     private val latestDirectory = dataDirectory.resolve("latest")
     private val genreDirectory = latestDirectory.resolve("genres")
     private val videoDirectory = dataDirectory.resolve("videos")
+    private val videoRankingHistoryDirectory = dataDirectory.resolve("rankings").resolve("videos")
     private val historyDirectory = dataDirectory.resolve("history")
     private val json = Json {
         prettyPrint = true
@@ -57,6 +58,7 @@ class RankingJsonWriter(private val dataDirectory: Path) {
                 genres = entry.genres,
             )
             writeJson(videoDirectory.resolve("${entry.videoId}.json"), json.encodeToString(VideoDetailDocument.serializer(), document))
+            appendVideoRankingHistory(generatedAt, entry)
         }
     }
 
@@ -101,6 +103,28 @@ class RankingJsonWriter(private val dataDirectory: Path) {
             .resolve("${generatedAt.format(DateTimeFormatter.ofPattern("dd"))}.json")
         writeJson(historyFile, json.encodeToString(RankingDocument.serializer(), overall))
     }
+
+    private fun appendVideoRankingHistory(generatedAt: String, entry: RankingEntry) {
+        val historyFile = videoRankingHistoryDirectory.resolve("${entry.videoId}.json")
+        val existing = if (historyFile.exists()) {
+            json.decodeFromString(VideoRankingHistoryDocument.serializer(), historyFile.readText())
+        } else {
+            VideoRankingHistoryDocument(videoId = entry.videoId, rankings = emptyList())
+        }
+        val next = VideoRankingHistoryItem(
+            capturedAt = generatedAt,
+            rank = entry.rank,
+            previousRank = entry.previousRank,
+            rankChange = entry.rankChange,
+            rawScore = entry.rawScore,
+            normalizedScore = entry.normalizedScore,
+        )
+        val rankings = (existing.rankings.filterNot { it.capturedAt == generatedAt } + next)
+            .sortedBy { it.capturedAt }
+            .takeLast(365)
+        val document = VideoRankingHistoryDocument(videoId = entry.videoId, rankings = rankings)
+        writeJson(historyFile, json.encodeToString(VideoRankingHistoryDocument.serializer(), document))
+    }
 }
 
 @Serializable
@@ -117,4 +141,20 @@ data class GenerationSummaryDocument(
 data class RetentionSummary(
     val historyDeleted: Int,
     val videoDetailsDeleted: Int,
+)
+
+@Serializable
+data class VideoRankingHistoryDocument(
+    val videoId: String,
+    val rankings: List<VideoRankingHistoryItem>,
+)
+
+@Serializable
+data class VideoRankingHistoryItem(
+    val capturedAt: String,
+    val rank: Int,
+    val previousRank: Int? = null,
+    val rankChange: Int? = null,
+    val rawScore: Double,
+    val normalizedScore: Double,
 )
