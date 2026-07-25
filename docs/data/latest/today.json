@@ -4,8 +4,6 @@
     "ranking": [
         {
             "rank": 1,
-            "previousRank": 1,
-            "rankChange": 0,
             "videoId": "mockMusicHighLike01",
             "title": "夏の夜に聴きたいJ-POPカバー 歌ってみた",
             "channelId": "channelMusicLarge",
@@ -19,7 +17,7 @@
             "commentCount": 4200,
             "commentIncrease": 0,
             "subscriberCount": 1400000,
-            "rawScore": 344.8,
+            "rawScore": 0.0,
             "normalizedScore": 100.0,
             "genres": [
                 {
@@ -37,8 +35,6 @@
         },
         {
             "rank": 2,
-            "previousRank": 2,
-            "rankChange": 0,
             "videoId": "mockMinecraftVelocity01",
             "title": "マイクラ最新アップデートを最速で攻略してみた",
             "channelId": "channelSmallGaming",
@@ -52,8 +48,8 @@
             "commentCount": 1450,
             "commentIncrease": 0,
             "subscriberCount": 12000,
-            "rawScore": 344.3,
-            "normalizedScore": 66.7,
+            "rawScore": 0.0,
+            "normalizedScore": 75.0,
             "genres": [
                 {
                     "slug": "minecraft",
@@ -75,8 +71,6 @@
         },
         {
             "rank": 3,
-            "previousRank": 3,
-            "rankChange": 0,
             "videoId": "mockProgramming01",
             "title": "Kotlin CLIでJSONランキングを作る実践講座",
             "channelId": "channelLearning",
@@ -90,8 +84,8 @@
             "commentCount": 260,
             "commentIncrease": 0,
             "subscriberCount": 85000,
-            "rawScore": 203.0,
-            "normalizedScore": 33.3,
+            "rawScore": 0.0,
+            "normalizedScore": 50.0,
             "genres": [
                 {
                     "slug": "programming",
@@ -113,8 +107,6 @@
         },
         {
             "rank": 4,
-            "previousRank": 4,
-            "rankChange": 0,
             "videoId": "mockHiddenSubscribers01",
             "title": "小規模チャンネルが伸びたニュース解説",
             "channelId": "channelHiddenSubs",
@@ -125,8 +117,8 @@
             "viewIncrease": 0,
             "commentCount": 180,
             "commentIncrease": 0,
-            "rawScore": 150.0,
-            "normalizedScore": 0.0,
+            "rawScore": 0.0,
+            "normalizedScore": 25.0,
             "genres": [
                 {
                     "slug": "learning",

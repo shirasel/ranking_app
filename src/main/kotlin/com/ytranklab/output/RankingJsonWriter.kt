@@ -5,6 +5,7 @@ import com.ytranklab.domain.GenreRankingDocument
 import com.ytranklab.domain.RankingDocument
 import com.ytranklab.domain.RankingEntry
 import com.ytranklab.domain.VideoDetailDocument
+import com.ytranklab.statistics.VideoStatisticsHistoryDocument
 import java.nio.file.Path
 import java.nio.file.StandardCopyOption
 import java.time.OffsetDateTime
@@ -24,6 +25,7 @@ class RankingJsonWriter(private val dataDirectory: Path) {
     private val genreDirectory = latestDirectory.resolve("genres")
     private val videoDirectory = dataDirectory.resolve("videos")
     private val videoRankingHistoryDirectory = dataDirectory.resolve("rankings").resolve("videos")
+    private val videoStatisticsHistoryDirectory = dataDirectory.resolve("statistics").resolve("videos")
     private val historyDirectory = dataDirectory.resolve("history")
     private val json = Json {
         prettyPrint = true
@@ -44,7 +46,7 @@ class RankingJsonWriter(private val dataDirectory: Path) {
         discovery: RankingDocument,
     ) {
         writeJson(latestDirectory.resolve("overall.json"), json.encodeToString(RankingDocument.serializer(), overall))
-        writeJson(latestDirectory.resolve("today.json"), json.encodeToString(RankingDocument.serializer(), overall.copy(period = "today")))
+        writeToday(overall)
         writeJson(latestDirectory.resolve("trending.json"), json.encodeToString(RankingDocument.serializer(), trending))
         writeJson(latestDirectory.resolve("discovery.json"), json.encodeToString(RankingDocument.serializer(), discovery))
         writeHistory(overall)
@@ -108,6 +110,64 @@ class RankingJsonWriter(private val dataDirectory: Path) {
             .resolve(generatedAt.format(DateTimeFormatter.ofPattern("MM")))
             .resolve("${generatedAt.format(DateTimeFormatter.ofPattern("dd"))}.json")
         writeJson(historyFile, json.encodeToString(RankingDocument.serializer(), overall))
+    }
+
+    private fun writeToday(overall: RankingDocument) {
+        val generatedAt = OffsetDateTime.parse(overall.generatedAt)
+        val targetDate = generatedAt.toLocalDate()
+        val entries = overall.ranking
+            .map { entry -> entry.withTodayDelta(targetDate) }
+            .sortedWith(compareByDescending<RankingEntry> { it.viewIncrease }.thenByDescending { it.rawScore })
+            .mapIndexed { index, entry ->
+                entry.copy(
+                    rank = index + 1,
+                    previousRank = null,
+                    rankChange = null,
+                    normalizedScore = normalize(index, overall.ranking.size),
+                )
+            }
+            .take(100)
+        writeJson(
+            latestDirectory.resolve("today.json"),
+            json.encodeToString(RankingDocument.serializer(), RankingDocument(generatedAt = overall.generatedAt, period = "today", ranking = entries)),
+        )
+    }
+
+    private fun RankingEntry.withTodayDelta(targetDate: java.time.LocalDate): RankingEntry {
+        val statistics = loadVideoStatistics(videoId)
+            .filter { OffsetDateTime.parse(it.capturedAt).toLocalDate() == targetDate }
+            .sortedBy { it.capturedAt }
+        val first = statistics.firstOrNull()
+        val last = statistics.lastOrNull()
+        val todayViewIncrease = if (first != null && last != null) {
+            (last.viewCount - first.viewCount).coerceAtLeast(0)
+        } else {
+            0
+        }
+        val todayLikeIncrease = if (first?.likeCount != null && last?.likeCount != null) {
+            (last.likeCount - first.likeCount).coerceAtLeast(0)
+        } else {
+            null
+        }
+        val todayCommentIncrease = if (first?.commentCount != null && last?.commentCount != null) {
+            (last.commentCount - first.commentCount).coerceAtLeast(0)
+        } else {
+            null
+        }
+        return copy(
+            viewIncrease = todayViewIncrease,
+            likeIncrease = todayLikeIncrease,
+            commentIncrease = todayCommentIncrease,
+            rawScore = todayViewIncrease.toDouble(),
+        )
+    }
+
+    private fun loadVideoStatistics(videoId: String): List<com.ytranklab.statistics.VideoStatistic> {
+        val file = videoStatisticsHistoryDirectory.resolve("$videoId.json")
+        if (!file.exists()) return emptyList()
+        return runCatching {
+            json.decodeFromString(VideoStatisticsHistoryDocument.serializer(), file.readText()).statistics
+        }.getOrDefault(emptyList())
     }
 
     private fun writeSevenDays() {

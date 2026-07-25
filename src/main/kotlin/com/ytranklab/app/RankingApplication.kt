@@ -93,9 +93,9 @@ class RankingApplication(private val projectRoot: Path) {
         val discovery = generator.generateDiscovery(capturedAt, candidates, previousRanking)
         val trending = generator.generateTrending(capturedAt, candidates, previousRanking)
 
+        statisticsRepository.saveLatest(capturedAt, videos)
         writer.writeAll(overall, genres, trending, discovery)
         writer.writeVideoDetails(overall.ranking, capturedAt)
-        statisticsRepository.saveLatest(capturedAt, videos)
         val retentionResult = HistoryRetentionService(projectRoot.resolve("docs/data"), rankingConfig.retention)
             .cleanup(capturedAt, overall.ranking.map { it.videoId }.toSet())
         writer.writeGenerationSummary(
