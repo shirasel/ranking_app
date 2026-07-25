@@ -19,6 +19,7 @@ The application is designed for GitHub Pages. The public site only needs to read
 
 - Kotlin CLI
 - Java 25
+- Kotlin Gradle Plugin 2.4.10
 - Gradle Kotlin DSL
 - kotlinx.serialization
 - Ktor Client
@@ -126,4 +127,21 @@ Initial policy:
 
 ## Current Phase
 
-Phase 2 initializes the project. Ranking generation, static pages, YouTube API integration, and full tests are implemented in later phases.
+Phase 3 implements mock ranking generation. The CLI can read mock video data, compare it with previous statistics, calculate scores, classify genres, and write ranking JSON files under `docs/data`.
+
+Static pages and YouTube API integration are implemented in later phases.
+
+## Generated JSON
+
+Mock generation writes:
+
+```text
+docs/data/latest/overall.json
+docs/data/latest/trending.json
+docs/data/latest/discovery.json
+docs/data/latest/genres/{genre}.json
+docs/data/videos/{videoId}.json
+docs/data/statistics/latest.json
+```
+
+JSON writes use temporary files and replace the final files only after serialization succeeds.
