@@ -15,6 +15,7 @@ if (!ownerRepo || !token) {
 const [owner, repo] = ownerRepo.split("/");
 const apiBase = "https://api.github.com";
 const title = `[Actions failure] ${workflow}`;
+const failureLabel = "actions-failure";
 const runUrl = `${serverUrl}/${ownerRepo}/actions/runs/${runId}`;
 const body = [
   `Workflow failed: ${workflow}`,
@@ -48,6 +49,33 @@ async function request(path, options = {}) {
   return response.json();
 }
 
+async function ensureFailureLabel() {
+  try {
+    await request(`/repos/${owner}/${repo}/labels/${encodeURIComponent(failureLabel)}`);
+    return [failureLabel];
+  } catch (error) {
+    if (!error.message.startsWith("GitHub API 404:")) {
+      console.log("Failure label lookup failed. Creating issue without labels.");
+      return [];
+    }
+  }
+
+  try {
+    await request(`/repos/${owner}/${repo}/labels`, {
+      method: "POST",
+      body: JSON.stringify({
+        name: failureLabel,
+        color: "d73a4a",
+        description: "Created automatically when a GitHub Actions workflow fails.",
+      }),
+    });
+    return [failureLabel];
+  } catch (error) {
+    console.log("Failure label creation failed. Creating issue without labels.");
+    return [];
+  }
+}
+
 async function main() {
   const query = encodeURIComponent(`repo:${ownerRepo} is:issue is:open in:title "${title}"`);
   const search = await request(`/search/issues?q=${query}`);
@@ -62,12 +90,13 @@ async function main() {
     return;
   }
 
+  const labels = await ensureFailureLabel();
   const issue = await request(`/repos/${owner}/${repo}/issues`, {
     method: "POST",
     body: JSON.stringify({
       title,
       body,
-      labels: ["actions-failure"],
+      labels,
     }),
   });
   console.log(`Created failure notification issue #${issue.number}.`);
