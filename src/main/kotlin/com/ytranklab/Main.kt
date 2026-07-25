@@ -22,18 +22,19 @@ fun main(args: Array<String>) {
 
 private fun runGenerate(useMock: Boolean) {
     val secrets = SecretLoader(Path(".")).load()
+    val youtubeApiKey = secrets.youtubeApiKey
 
-    if (!useMock && secrets.youtubeApiKey.isNullOrBlank()) {
+    if (!useMock && youtubeApiKey.isNullOrBlank()) {
         System.err.println("YOUTUBE_API_KEY is not set. Use --mock for local mock generation.")
         exitProcess(1)
     }
 
-    if (!useMock) {
-        System.err.println("YouTube API generation will be implemented in phase 5. Use --mock for now.")
-        exitProcess(1)
+    val application = RankingApplication(Path("."))
+    val result = if (useMock) {
+        application.generateMockRankings()
+    } else {
+        application.generateYouTubeRankings(requireNotNull(youtubeApiKey))
     }
-
-    val result = RankingApplication(Path(".")).generateMockRankings()
     println("Generated overall ranking: ${result.overallCount} videos")
     println("Generated genre rankings: ${result.genreCount} genres")
     println("Output directory: ${Path("docs", "data", "latest").toAbsolutePath().normalize()}")

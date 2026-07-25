@@ -59,7 +59,7 @@ scripts/generate-mock.cmd
 Real generation:
 
 ```bash
-scripts/gradle-local.cmd run --args="generate"
+scripts/generate-real.cmd
 ```
 
 Tests:
@@ -79,6 +79,15 @@ scripts/preview-docs.cmd
 Set `YOUTUBE_API_KEY` in your local `.env` file or environment variables. For GitHub Actions, add the same name to repository secrets.
 
 The frontend must never call the YouTube Data API directly. It reads generated JSON only.
+
+The Kotlin CLI collects candidates from `config/sources.yml`:
+
+- manually configured video IDs
+- latest uploads from enabled channel IDs
+- configured search keywords
+- most popular videos for the configured region
+
+The API client batches `videos.list` and `channels.list` calls in groups of up to 50 IDs, retries transient network failures with exponential backoff, and stops before writing JSON when no public videos are collected.
 
 Do not commit actual API keys. `.env` and `.env.*` are ignored by Git, while `.env.example` contains only variable names.
 
@@ -158,9 +167,9 @@ Initial policy:
 
 ## Current Phase
 
-Phase 4 implements the static GitHub Pages frontend. The site can load generated JSON, display home highlights, overall rankings, genre rankings, and video details.
+Phase 5 implements YouTube Data API integration. The Kotlin CLI can collect configured video candidates, retrieve video and channel statistics, and reuse the same ranking pipeline as mock generation.
 
-YouTube API integration is implemented in a later phase.
+Scheduled GitHub Actions hardening is implemented in a later phase.
 
 ## Generated JSON
 

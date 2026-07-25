@@ -14,3 +14,6 @@ collection:
   maxVideos: 500
   maxSearchResultsPerKeyword: 10
   includePopularVideos: true
+  maxPopularVideos: 25
+  maxChannelVideos: 10
+  regionCode: JP

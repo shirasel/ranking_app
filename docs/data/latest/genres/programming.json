@@ -12,6 +12,8 @@
     "ranking": [
         {
             "rank": 1,
+            "previousRank": 4,
+            "rankChange": 3,
             "videoId": "mockProgramming01",
             "title": "Kotlin CLIでJSONランキングを作る実践講座",
             "channelId": "channelLearning",
@@ -19,13 +21,13 @@
             "thumbnailUrl": "https://i.ytimg.com/vi/mockProgramming01/hqdefault.jpg",
             "publishedAt": "2026-07-23T18:30:00+09:00",
             "viewCount": 42000,
-            "viewIncrease": 20000,
+            "viewIncrease": 0,
             "likeCount": 3100,
-            "likeIncrease": 1500,
+            "likeIncrease": 0,
             "commentCount": 260,
-            "commentIncrease": 140,
+            "commentIncrease": 0,
             "subscriberCount": 85000,
-            "rawScore": 224.2,
+            "rawScore": 203.0,
             "normalizedScore": 100.0,
             "genres": [
                 {
@@ -40,9 +42,9 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 102.2,
+                "velocity": 0.0,
                 "engagement": 1785.7,
-                "subscriberRatio": 84.3,
+                "subscriberRatio": 0.0,
                 "freshness": 11.4
             }
         }

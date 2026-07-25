@@ -1,7 +1,9 @@
 {
     "generatedAt": "2026-07-25T06:00:00+09:00",
     "video": {
-        "rank": 1,
+        "rank": 2,
+        "previousRank": 1,
+        "rankChange": -1,
         "videoId": "mockMinecraftVelocity01",
         "title": "マイクラ最新アップデートを最速で攻略してみた",
         "channelId": "channelSmallGaming",
@@ -9,14 +11,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/mockMinecraftVelocity01/hqdefault.jpg",
         "publishedAt": "2026-07-24T21:00:00+09:00",
         "viewCount": 185000,
-        "viewIncrease": 160000,
+        "viewIncrease": 0,
         "likeCount": 9800,
-        "likeIncrease": 8400,
+        "likeIncrease": 0,
         "commentCount": 1450,
-        "commentIncrease": 1290,
+        "commentIncrease": 0,
         "subscriberCount": 12000,
-        "rawScore": 406.4,
-        "normalizedScore": 100.0,
+        "rawScore": 344.3,
+        "normalizedScore": 66.7,
         "genres": [
             {
                 "slug": "minecraft",
@@ -30,16 +32,16 @@
             }
         ],
         "scoreBreakdown": {
-            "velocity": 133.8,
+            "velocity": 0.0,
             "engagement": 1451.4,
-            "subscriberRatio": 128.1,
+            "subscriberRatio": 0.0,
             "freshness": 23.7
         }
     },
     "scoreBreakdown": {
-        "velocity": 133.8,
+        "velocity": 0.0,
         "engagement": 1451.4,
-        "subscriberRatio": 128.1,
+        "subscriberRatio": 0.0,
         "freshness": 23.7
     },
     "genres": [

@@ -55,6 +55,33 @@ class AppConfigLoader(private val configDirectory: Path) {
         }
     }
 
+    fun loadSourceConfig(): SourceConfig {
+        val root = readMap(configDirectory.resolve("sources.yml"))
+        val channels = root.list("channels").mapNotNull { item ->
+            val map = item.asMap()
+            val id = map.string("id")
+            if (id.isBlank()) {
+                null
+            } else {
+                SourceChannel(id = id, enabled = map.boolean("enabled", true))
+            }
+        }
+        val collection = root.map("collection")
+        return SourceConfig(
+            channels = channels,
+            keywords = root.list("keywords").map { it.toString() }.filter { it.isNotBlank() },
+            videos = root.list("videos").map { it.toString() }.filter { it.isNotBlank() },
+            collection = CollectionConfig(
+                maxVideos = collection.int("maxVideos", 500),
+                maxSearchResultsPerKeyword = collection.int("maxSearchResultsPerKeyword", 10),
+                includePopularVideos = collection.boolean("includePopularVideos", true),
+                regionCode = collection.optionalString("regionCode") ?: "JP",
+                maxPopularVideos = collection.int("maxPopularVideos", 25),
+                maxChannelVideos = collection.int("maxChannelVideos", 10),
+            ),
+        )
+    }
+
     private fun readMap(path: Path): Map<String, Any?> =
         path.inputStream().use { yaml.load<Map<String, Any?>>(it) ?: emptyMap() }
 }
@@ -97,6 +124,27 @@ data class GenreRule(
     val youtubeCategoryIds: List<String>,
 )
 
+data class SourceConfig(
+    val channels: List<SourceChannel>,
+    val keywords: List<String>,
+    val videos: List<String>,
+    val collection: CollectionConfig,
+)
+
+data class SourceChannel(
+    val id: String,
+    val enabled: Boolean,
+)
+
+data class CollectionConfig(
+    val maxVideos: Int,
+    val maxSearchResultsPerKeyword: Int,
+    val includePopularVideos: Boolean,
+    val regionCode: String,
+    val maxPopularVideos: Int,
+    val maxChannelVideos: Int,
+)
+
 private fun Any?.asMap(): Map<String, Any?> = this as? Map<String, Any?> ?: emptyMap()
 
 private fun Map<String, Any?>.map(key: String): Map<String, Any?> = this[key].asMap()
@@ -112,6 +160,8 @@ private fun Map<String, Any?>.int(key: String, default: Int): Int = (this[key] a
 private fun Map<String, Any?>.long(key: String, default: Long): Long = (this[key] as? Number)?.toLong() ?: default
 
 private fun Map<String, Any?>.double(key: String, default: Double): Double = (this[key] as? Number)?.toDouble() ?: default
+
+private fun Map<String, Any?>.boolean(key: String, default: Boolean): Boolean = this[key] as? Boolean ?: default
 
 private fun Map<String, Any?>.stringDoubleMap(): Map<String, Double> =
     entries.associate { it.key to ((it.value as? Number)?.toDouble() ?: 0.0) }
