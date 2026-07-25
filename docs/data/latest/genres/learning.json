@@ -1,34 +1,68 @@
 {
-    "generatedAt": "2026-07-25T06:00:00+09:00",
+    "generatedAt": "2026-07-25T05:50:43.175561213Z",
     "period": "24h",
     "genre": {
         "slug": "learning",
         "name": "学習・情報",
-        "confidence": 0.8
+        "confidence": 0.3
     },
     "status": "reference",
-    "totalVideos": 2,
+    "totalVideos": 3,
     "totalChannels": 2,
     "ranking": [
         {
             "rank": 1,
-            "previousRank": 3,
-            "rankChange": 2,
-            "videoId": "mockProgramming01",
-            "title": "Kotlin CLIでJSONランキングを作る実践講座",
-            "channelId": "channelLearning",
-            "channelName": "Code Study JP",
-            "thumbnailUrl": "https://i.ytimg.com/vi/mockProgramming01/hqdefault.jpg",
-            "publishedAt": "2026-07-23T18:30:00+09:00",
-            "viewCount": 42000,
-            "viewIncrease": 0,
-            "likeCount": 3100,
-            "likeIncrease": 0,
-            "commentCount": 260,
-            "commentIncrease": 0,
-            "subscriberCount": 85000,
-            "rawScore": 203.0,
+            "videoId": "81CpK8nCvFw",
+            "title": "M!LK - You!Joy!Parade!（Dance Practice Movie）",
+            "channelId": "UCFvSFbT8okMrpuFxBEIB2lg",
+            "channelName": "M!LK",
+            "thumbnailUrl": "https://i.ytimg.com/vi/81CpK8nCvFw/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T12:00:25Z",
+            "viewCount": 514833,
+            "viewIncrease": 514833,
+            "likeCount": 47922,
+            "likeIncrease": 47922,
+            "commentCount": 5540,
+            "commentIncrease": 5540,
+            "subscriberCount": 35500,
+            "rawScore": 446.4,
             "normalizedScore": 100.0,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.5
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 151.6,
+                "engagement": 2399.7,
+                "subscriberRatio": 129.0,
+                "freshness": 16.7
+            }
+        },
+        {
+            "rank": 2,
+            "videoId": "QGjm7mLL1eY",
+            "title": "PythonプログラミングノックDay480 初心者向け2026 #プログラミング #python #初心者",
+            "channelId": "UCWvW7rFMzctKZJ8b-qadsXA",
+            "channelName": "できる!プログラミング",
+            "thumbnailUrl": "https://i.ytimg.com/vi/QGjm7mLL1eY/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T03:00:06Z",
+            "viewCount": 141,
+            "viewIncrease": 141,
+            "likeCount": 1,
+            "likeIncrease": 1,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 353,
+            "rawScore": 97.1,
+            "normalizedScore": 50.0,
             "genres": [
                 {
                     "slug": "programming",
@@ -38,44 +72,50 @@
                 {
                     "slug": "learning",
                     "name": "学習・情報",
-                    "confidence": 0.8
+                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 0.0,
-                "engagement": 1785.7,
-                "subscriberRatio": 0.0,
-                "freshness": 11.4
+                "velocity": 29.3,
+                "engagement": 141.8,
+                "subscriberRatio": 78.7,
+                "freshness": 38.9
             }
         },
         {
-            "rank": 2,
-            "previousRank": 4,
-            "rankChange": 2,
-            "videoId": "mockHiddenSubscribers01",
-            "title": "小規模チャンネルが伸びたニュース解説",
-            "channelId": "channelHiddenSubs",
-            "channelName": "Morning Brief",
-            "thumbnailUrl": "https://i.ytimg.com/vi/mockHiddenSubscribers01/hqdefault.jpg",
-            "publishedAt": "2026-07-25T02:15:00+09:00",
-            "viewCount": 21000,
-            "viewIncrease": 0,
-            "commentCount": 180,
+            "rank": 3,
+            "videoId": "BqUnIEZ-I6g",
+            "title": "PythonメソッドノックDay320 タプル構造メソッド問題 #プログラミング #python #method",
+            "channelId": "UCWvW7rFMzctKZJ8b-qadsXA",
+            "channelName": "できる!プログラミング",
+            "thumbnailUrl": "https://i.ytimg.com/vi/BqUnIEZ-I6g/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T22:00:23Z",
+            "viewCount": 187,
+            "viewIncrease": 187,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
             "commentIncrease": 0,
-            "rawScore": 150.0,
+            "subscriberCount": 353,
+            "rawScore": 29.1,
             "normalizedScore": 0.0,
             "genres": [
                 {
+                    "slug": "programming",
+                    "name": "IT・プログラミング",
+                    "confidence": 0.99
+                },
+                {
                     "slug": "learning",
                     "name": "学習・情報",
-                    "confidence": 0.99
+                    "confidence": 0.5
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 0.0,
-                "engagement": 428.6,
-                "subscriberRatio": 0.0,
-                "freshness": 35.0
+                "velocity": 33.0,
+                "engagement": 0.0,
+                "subscriberRatio": 81.8,
+                "freshness": 25.4
             }
         }
     ]
