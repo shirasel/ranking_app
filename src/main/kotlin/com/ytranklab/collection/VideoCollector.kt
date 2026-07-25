@@ -3,6 +3,7 @@ package com.ytranklab.collection
 import com.ytranklab.config.SourceConfig
 import com.ytranklab.domain.YouTubeVideo
 import com.ytranklab.youtube.YouTubeApiClient
+import com.ytranklab.youtube.YouTubeApiException
 import java.time.OffsetDateTime
 import java.time.ZoneOffset
 
@@ -18,20 +19,24 @@ class VideoCollector(
         sourceConfig.channels
             .filter { it.enabled }
             .forEach { channel ->
-                videoIds.addAll(client.fetchLatestVideoIdsForChannel(channel.id, sourceConfig.collection.maxChannelVideos))
+                videoIds.addAllSafely("channel:${channel.id}") {
+                    client.fetchLatestVideoIdsForChannel(channel.id, sourceConfig.collection.maxChannelVideos)
+                }
             }
 
         sourceConfig.keywords.forEach { keyword ->
-            videoIds.addAll(client.searchVideoIds(keyword, sourceConfig.collection.maxSearchResultsPerKeyword))
+            videoIds.addAllSafely("keyword:$keyword") {
+                client.searchVideoIds(keyword, sourceConfig.collection.maxSearchResultsPerKeyword)
+            }
         }
 
         if (sourceConfig.collection.includePopularVideos) {
-            videoIds.addAll(
+            videoIds.addAllSafely("popular:${sourceConfig.collection.regionCode}") {
                 client.fetchPopularVideoIds(
                     regionCode = sourceConfig.collection.regionCode,
                     maxResults = sourceConfig.collection.maxPopularVideos,
-                ),
-            )
+                )
+            }
         }
 
         val limitedIds = videoIds.take(sourceConfig.collection.maxVideos)
@@ -52,3 +57,17 @@ data class CollectedVideos(
 )
 
 private fun String.isValidYouTubeId(): Boolean = matches(Regex("^[A-Za-z0-9_-]{6,64}$"))
+
+private suspend fun MutableSet<String>.addAllSafely(sourceName: String, fetch: suspend () -> List<String>) {
+    try {
+        addAll(fetch())
+    } catch (error: YouTubeApiException) {
+        System.err.println("Skipped YouTube source '$sourceName': ${error.safeMessage()}")
+    }
+}
+
+private fun YouTubeApiException.safeMessage(): String =
+    message
+        ?.replace(Regex("key=[^&\\s]+"), "key=***")
+        ?.take(180)
+        ?: "request failed"

@@ -56,7 +56,7 @@ class KtorYouTubeApiClient(
         val response = getJson(
             path = "videos",
             parameters = mapOf(
-                "part" to "id",
+                "part" to "snippet",
                 "chart" to "mostPopular",
                 "regionCode" to regionCode.ifBlank { "JP" },
                 "maxResults" to maxResults.coerceIn(1, 50).toString(),
@@ -184,7 +184,10 @@ class KtorYouTubeApiClient(
                 }
 
                 val error = json.decodeFromString(YouTubeErrorResponse.serializer(), body)
-                val reason = error.error.errors.firstOrNull()?.reason ?: error.error.status ?: "unknown"
+                val reason = error.error.errors.firstOrNull()?.reason
+                    ?: error.error.message?.take(120)
+                    ?: error.error.status
+                    ?: "unknown"
                 if (reason in nonRetryableReasons) {
                     throw YouTubeApiException("YouTube API request failed: $reason")
                 }
