@@ -109,11 +109,13 @@ Two workflows are included:
 
 - `.github/workflows/test.yml`
   - runs on push and pull request
+  - uses Node 24-compatible GitHub Actions
   - builds and tests with mock data only
   - does not require `YOUTUBE_API_KEY`
   - does not commit generated changes
 - `.github/workflows/update-rankings.yml`
   - runs on schedule and manual dispatch
+  - uses Node 24-compatible GitHub Actions
   - uses `YOUTUBE_API_KEY` from repository secrets for real updates
   - commits only when `docs/data` changes
   - prevents overlapping update runs with workflow concurrency
