@@ -44,7 +44,16 @@ class GeneratedDataValidatorTest {
         assertTrue(report.errors.any { it.contains("Secret") })
     }
 
-    private fun createFixture(): java.nio.file.Path {
+    @Test
+    fun `accepts sequential ranks even when scores are tied`() {
+        val dataDirectory = createFixture(rankingDocument = sequentialTieRankingDocument())
+
+        val report = GeneratedDataValidator(dataDirectory).validate()
+
+        assertTrue(report.isSuccess)
+    }
+
+    private fun createFixture(rankingDocument: String = rankingDocument()): java.nio.file.Path {
         val dataDirectory = createTempDirectory("generated-data-validator-test")
         val latestDirectory = dataDirectory.resolve("latest")
         val genreDirectory = latestDirectory.resolve("genres")
@@ -52,11 +61,11 @@ class GeneratedDataValidatorTest {
         genreDirectory.createDirectories()
         videoDirectory.createDirectories()
 
-        latestDirectory.resolve("overall.json").writeText(rankingDocument())
-        latestDirectory.resolve("today.json").writeText(rankingDocument())
-        latestDirectory.resolve("seven-days.json").writeText(rankingDocument())
-        latestDirectory.resolve("trending.json").writeText(rankingDocument())
-        latestDirectory.resolve("discovery.json").writeText(rankingDocument())
+        latestDirectory.resolve("overall.json").writeText(rankingDocument)
+        latestDirectory.resolve("today.json").writeText(rankingDocument)
+        latestDirectory.resolve("seven-days.json").writeText(rankingDocument)
+        latestDirectory.resolve("trending.json").writeText(rankingDocument)
+        latestDirectory.resolve("discovery.json").writeText(rankingDocument)
         latestDirectory.resolve("generation-summary.json").writeText(generationSummary())
         genreDirectory.resolve("gaming.json").writeText(genreDocument())
         listOf("video123", "video456", "video789").forEach { videoId ->
@@ -72,6 +81,18 @@ class GeneratedDataValidatorTest {
           "ranking": [
             ${rankingEntry("video123", 1, 10.0)},
             ${rankingEntry("video456", 1, 10.0)},
+            ${rankingEntry("video789", 3, 8.0)}
+          ]
+        }
+    """.trimIndent()
+
+    private fun sequentialTieRankingDocument(): String = """
+        {
+          "generatedAt": "2026-07-25T06:00:00+09:00",
+          "period": "daily",
+          "ranking": [
+            ${rankingEntry("video123", 1, 10.0)},
+            ${rankingEntry("video456", 2, 10.0)},
             ${rankingEntry("video789", 3, 8.0)}
           ]
         }

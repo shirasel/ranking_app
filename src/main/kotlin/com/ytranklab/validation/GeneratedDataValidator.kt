@@ -99,19 +99,13 @@ class GeneratedDataValidator(private val dataDirectory: Path) {
     private fun validateRankingDocument(document: RankingDocument, errors: MutableList<String>) {
         validateGeneratedAt(document.generatedAt, "ranking:${document.period}", errors)
         val seenIds = mutableSetOf<String>()
-        var previousScore: Double? = null
-        var previousRank: Int? = null
+        var previousRank = 0
         document.ranking.forEachIndexed { index, entry ->
-            val expectedRank = if (previousScore == entry.rawScore) {
-                previousRank ?: index + 1
-            } else {
-                index + 1
-            }
-            if (entry.rank != expectedRank) {
-                errors += "${document.period} の順位がスコア順と一致しません。"
+            val maxExpectedRank = index + 1
+            if (entry.rank < previousRank || entry.rank !in 1..maxExpectedRank) {
+                errors += "${document.period} の順位が表示順と一致しません。"
                 return@forEachIndexed
             }
-            previousScore = entry.rawScore
             previousRank = entry.rank
             if (!seenIds.add(entry.videoId)) {
                 errors += "${document.period} に重複した動画IDがあります。"
