@@ -67,6 +67,10 @@ jobs:
       - name: Validate generated JSON
         run: ./gradlew run --args="validate"
 
+      - name: Write validation summary
+        if: always()
+        run: node tools/write-validation-action-summary.js
+
       - name: Detect changes
         id: diff
         shell: bash
