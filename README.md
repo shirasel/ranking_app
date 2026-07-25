@@ -207,9 +207,12 @@ docs/data/latest/generation-summary.json
 docs/data/latest/genres/{genre}.json
 docs/data/videos/{videoId}.json
 docs/data/statistics/latest.json
+docs/data/statistics/videos/{videoId}.json
 docs/data/history/YYYY/MM/DD.json
 ```
 
 JSON writes use temporary files and replace the final files only after serialization succeeds.
 
 `generation-summary.json` records collection counts, skipped sources, estimated YouTube quota units, and retention cleanup counts. It never stores API keys.
+
+Per-video statistics history is written to `docs/data/statistics/videos/{videoId}.json`. The video detail page loads this file and displays recent view, like, comment, and subscriber-count history.

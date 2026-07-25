@@ -15,17 +15,24 @@
 
   function loadVideo(videoId) {
     app.showState("video", "動画詳細JSONを読み込んでいます。");
-    app.loadJson("videos/" + encodeURIComponent(videoId) + ".json")
-      .then(function (document) {
+    Promise.all([
+      app.loadJson("videos/" + encodeURIComponent(videoId) + ".json"),
+      app.loadJson("statistics/videos/" + encodeURIComponent(videoId) + ".json").catch(function () {
+        return null;
+      })
+    ])
+      .then(function (results) {
+        var document = results[0];
+        var history = results[1];
         app.showState("video", "");
-        render(document);
+        render(document, history);
       })
       .catch(function () {
         app.showState("video", "動画詳細データを読み込めませんでした。");
       });
   }
 
-  function render(document) {
+  function render(document, history) {
     var entry = document.video;
     app.clear(container);
     app.setText("[data-video-title]", entry.title);
@@ -72,9 +79,14 @@
     bars.appendChild(app.el("h2", { text: "スコア内訳" }));
     bars.appendChild(createBars(entry.scoreBreakdown || {}));
 
+    var trends = app.el("section", { className: "history-panel" });
+    trends.appendChild(app.el("h2", { text: "統計推移" }));
+    trends.appendChild(createStatisticsHistory(history));
+
     var left = app.el("div");
     left.appendChild(media);
     left.appendChild(bars);
+    left.appendChild(trends);
     container.appendChild(left);
     container.appendChild(side);
   }
@@ -106,5 +118,55 @@
       list.appendChild(row);
     });
     return list;
+  }
+
+  function createStatisticsHistory(history) {
+    var statistics = history && Array.isArray(history.statistics) ? history.statistics : [];
+    if (!statistics.length) {
+      return app.el("p", { className: "muted-text", text: "統計履歴は次回以降の生成で蓄積されます。" });
+    }
+
+    var wrapper = app.el("div", { className: "trend-table-wrap" });
+    var table = app.el("table", { className: "trend-table" });
+    var thead = app.el("thead");
+    var headerRow = app.el("tr");
+    ["取得日時", "再生回数", "高評価", "コメント", "登録者"].forEach(function (label) {
+      headerRow.appendChild(app.el("th", { text: label }));
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    var tbody = app.el("tbody");
+    statistics.slice(-10).reverse().forEach(function (row) {
+      var tr = app.el("tr");
+      tr.appendChild(app.el("td", { text: app.formatDateTime(row.capturedAt) }));
+      tr.appendChild(app.el("td", { text: app.formatNumber(row.viewCount) }));
+      tr.appendChild(app.el("td", { text: app.formatNumber(row.likeCount) }));
+      tr.appendChild(app.el("td", { text: app.formatNumber(row.commentCount) }));
+      tr.appendChild(app.el("td", { text: app.formatNumber(row.subscriberCount) }));
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    wrapper.appendChild(table);
+
+    var chart = createViewTrend(statistics);
+    wrapper.appendChild(chart);
+    return wrapper;
+  }
+
+  function createViewTrend(statistics) {
+    var values = statistics.map(function (row) {
+      return Number(row.viewCount || 0);
+    });
+    var max = Math.max.apply(null, values.concat([1]));
+    var chart = app.el("div", { className: "trend-bars", title: "再生回数推移" });
+    statistics.slice(-14).forEach(function (row) {
+      var value = Number(row.viewCount || 0);
+      var bar = app.el("div", { className: "trend-bar" });
+      bar.style.height = Math.max(8, Math.round((value / max) * 88)) + "px";
+      bar.setAttribute("aria-label", app.formatDateTime(row.capturedAt) + " 再生 " + app.formatNumber(value));
+      chart.appendChild(bar);
+    });
+    return chart;
   }
 })();
