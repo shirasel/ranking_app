@@ -70,6 +70,12 @@ Tests:
 tools/run-gradle-local.cmd test build
 ```
 
+Full local verification:
+
+```bash
+tools/verify-ranking-app.cmd
+```
+
 Generated JSON validation:
 
 ```bash
