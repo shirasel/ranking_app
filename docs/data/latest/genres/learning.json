@@ -1,5 +1,5 @@
 {
-    "generatedAt": "2026-07-25T16:11:19.759968557Z",
+    "generatedAt": "2026-07-25T16:52:32.948873553Z",
     "period": "24h",
     "genre": {
         "slug": "learning",
@@ -7,25 +7,27 @@
         "confidence": 0.2
     },
     "status": "reference",
-    "totalVideos": 6,
-    "totalChannels": 6,
+    "totalVideos": 12,
+    "totalChannels": 12,
     "ranking": [
         {
             "rank": 1,
+            "previousRank": 21,
+            "rankChange": 20,
             "videoId": "zneG0w7Zt9E",
             "title": "新しいメンバーが加わることになりました",
             "channelId": "UCZLeZXjm_opUQFhLa4I_VFg",
             "channelName": "リオラch-スプラ解説-",
             "thumbnailUrl": "https://i.ytimg.com/vi/zneG0w7Zt9E/maxresdefault.jpg",
             "publishedAt": "2026-07-25T10:00:06Z",
-            "viewCount": 81259,
-            "viewIncrease": 81259,
-            "likeCount": 4205,
-            "likeIncrease": 4205,
-            "commentCount": 401,
-            "commentIncrease": 401,
+            "viewCount": 89181,
+            "viewIncrease": 7922,
+            "likeCount": 4277,
+            "likeIncrease": 72,
+            "commentCount": 405,
+            "commentIncrease": 4,
             "subscriberCount": 358000,
-            "rawScore": 101.6,
+            "rawScore": 89.4,
             "normalizedScore": 100.0,
             "genres": [
                 {
@@ -50,29 +52,93 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 158.8,
-                "engagement": 47.9,
-                "subscriberRatio": 83.9,
-                "freshness": 35.0
+                "velocity": 182.9,
+                "engagement": 24.6,
+                "subscriberRatio": 58.7,
+                "freshness": 33.6
             }
         },
         {
             "rank": 2,
+            "videoId": "mx3u2jZhrBg",
+            "title": "【福岡県議会問題】言い訳の達人ですね #報道番組 # #ニュース #政治ニュース #報道 #news #ニュース解説 #ショートニュース #https",
+            "channelId": "UCInFqvseqWQ07dAvJwHHGpw",
+            "channelName": "せいじじょし",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mx3u2jZhrBg/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:20:04Z",
+            "viewCount": 2115,
+            "viewIncrease": 2115,
+            "likeCount": 76,
+            "likeIncrease": 76,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 225,
+            "rawScore": 87.7,
+            "normalizedScore": 90.9,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.6
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 87.7,
+                "engagement": 28.2,
+                "subscriberRatio": 108.1,
+                "freshness": 39.1
+            }
+        },
+        {
+            "rank": 3,
+            "videoId": "1umMc-ngLig",
+            "title": "【やさしいニュース解説】特別国会終了！／ロシア経済に異変！財政赤字と燃料不足…一体何が起きている？／高市政権のロシア接近？英国の研究所が分析／など今後の展開を詳しく解説",
+            "channelId": "UCwfdFBh8tD6xi4kMdZeFQvA",
+            "channelName": "いつかやる社長歴史総合",
+            "thumbnailUrl": "https://i.ytimg.com/vi/1umMc-ngLig/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T16:35:54Z",
+            "viewCount": 51,
+            "viewIncrease": 51,
+            "likeCount": 3,
+            "likeIncrease": 3,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 2450,
+            "rawScore": 74.6,
+            "normalizedScore": 81.8,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.9
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 22.3,
+                "engagement": 32.0,
+                "subscriberRatio": 58.0,
+                "freshness": 66.4
+            }
+        },
+        {
+            "rank": 4,
+            "previousRank": 43,
+            "rankChange": 39,
             "videoId": "uqxdJDbWZzk",
             "title": "ロブロックスの都市伝説に迫る #ゲーム実況 #ロブロックス",
             "channelId": "UC2gMPijT5-nmYvtjZ5VTm-w",
             "channelName": "天災シレア!!  ",
             "thumbnailUrl": "https://i.ytimg.com/vi/uqxdJDbWZzk/maxresdefault.jpg",
             "publishedAt": "2026-07-25T12:06:01Z",
-            "viewCount": 1250,
-            "viewIncrease": 1250,
-            "likeCount": 8,
-            "likeIncrease": 8,
+            "viewCount": 1342,
+            "viewIncrease": 92,
+            "likeCount": 6,
+            "likeIncrease": 0,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 416,
-            "rawScore": 79.3,
-            "normalizedScore": 80.0,
+            "subscriberCount": 417,
+            "rawScore": 65.4,
+            "normalizedScore": 72.7,
             "genres": [
                 {
                     "slug": "gaming",
@@ -91,31 +157,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 77.6,
-                "engagement": 15.6,
-                "subscriberRatio": 102.4,
-                "freshness": 40.5
+                "velocity": 96.0,
+                "engagement": 0.0,
+                "subscriberRatio": 74.1,
+                "freshness": 38.4
             }
         },
         {
-            "rank": 3,
-            "previousRank": 36,
-            "rankChange": 33,
+            "rank": 5,
+            "previousRank": 54,
+            "rankChange": 49,
             "videoId": "J0AvGs24bjE",
             "title": "【検証】初心者が新作『スプラレイダース』を1日で完全クリアを目指した結果・・・",
             "channelId": "UCEeEFug3M-aQ62H8LOQt-YQ",
             "channelName": "GON",
             "thumbnailUrl": "https://i.ytimg.com/vi/J0AvGs24bjE/maxresdefault.jpg",
             "publishedAt": "2026-07-25T03:09:56Z",
-            "viewCount": 156900,
-            "viewIncrease": 41484,
-            "likeCount": 4219,
-            "likeIncrease": 618,
-            "commentCount": 335,
-            "commentIncrease": 50,
+            "viewCount": 163403,
+            "viewIncrease": 6503,
+            "likeCount": 4282,
+            "likeIncrease": 63,
+            "commentCount": 337,
+            "commentIncrease": 2,
             "subscriberCount": 521000,
-            "rawScore": 73.2,
-            "normalizedScore": 60.0,
+            "rawScore": 64.3,
+            "normalizedScore": 63.6,
             "genres": [
                 {
                     "slug": "gaming",
@@ -134,100 +200,96 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 179.4,
-                "engagement": 31.8,
-                "subscriberRatio": 72.5,
-                "freshness": 25.8
-            }
-        },
-        {
-            "rank": 4,
-            "previousRank": 67,
-            "rankChange": 63,
-            "videoId": "Wwk1HrTgpRc",
-            "title": "AI向けプログラミング言語！？「Jacquard」",
-            "channelId": "UClRQ_q3uE62Ixlx-8gYCsAw",
-            "channelName": "クロノITチャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Wwk1HrTgpRc/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:03:07Z",
-            "viewCount": 570,
-            "viewIncrease": 463,
-            "likeCount": 21,
-            "likeIncrease": 18,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 7060,
-            "rawScore": 71.5,
-            "normalizedScore": 40.0,
-            "genres": [
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 91.7,
-                "engagement": 28.8,
-                "subscriberRatio": 70.4,
-                "freshness": 37.4
-            }
-        },
-        {
-            "rank": 5,
-            "videoId": "-38vPxI0zJ0",
-            "title": "AIに教える正体：3つの届き先 #chatgpt #生成ai #仕事効率化",
-            "channelId": "UCRCLlRv5eRcRi-dVNGZ1wyw",
-            "channelName": "AIだけチャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/-38vPxI0zJ0/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:30:22Z",
-            "viewCount": 296,
-            "viewIncrease": 296,
-            "likeCount": 1,
-            "likeIncrease": 1,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 902,
-            "rawScore": 62.6,
-            "normalizedScore": 20.0,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 50.6,
-                "engagement": 11.5,
-                "subscriberRatio": 86.8,
-                "freshness": 42.0
+                "velocity": 179.0,
+                "engagement": 23.4,
+                "subscriberRatio": 52.5,
+                "freshness": 25.2
             }
         },
         {
             "rank": 6,
-            "previousRank": 57,
-            "rankChange": 51,
+            "videoId": "ZJ5F4vHXRmc",
+            "title": "Introducing the \"VitaWear SmartBand,\" 6 next-generation wearable gadget 🎉",
+            "channelId": "UCK85EMTOSXeS9Lkh4XtpFgw",
+            "channelName": "alsoccog",
+            "thumbnailUrl": "https://i.ytimg.com/vi/ZJ5F4vHXRmc/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:51:19Z",
+            "viewCount": 6634,
+            "viewIncrease": 6634,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 5430000,
+            "rawScore": 62.9,
+            "normalizedScore": 54.5,
+            "genres": [
+                {
+                    "slug": "programming",
+                    "name": "IT・プログラミング",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 109.9,
+                "engagement": 2.9,
+                "subscriberRatio": 28.0,
+                "freshness": 44.6
+            }
+        },
+        {
+            "rank": 7,
+            "videoId": "OoSbuO0EGIQ",
+            "title": "【7/25】沖縄の注目ニュースTOP3｜尚巴志が解説【沖縄】",
+            "channelId": "UCDRm0YJD9Ctrjl9OCYCpI6Q",
+            "channelName": "先人の声",
+            "thumbnailUrl": "https://i.ytimg.com/vi/OoSbuO0EGIQ/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T11:30:12Z",
+            "viewCount": 371,
+            "viewIncrease": 371,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 24,
+            "rawScore": 58.2,
+            "normalizedScore": 45.5,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.99
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 54.7,
+                "engagement": 13.9,
+                "subscriberRatio": 89.2,
+                "freshness": 36.8
+            }
+        },
+        {
+            "rank": 8,
+            "previousRank": 74,
+            "rankChange": 66,
             "videoId": "81CpK8nCvFw",
             "title": "M!LK - You!Joy!Parade!（Dance Practice Movie）",
             "channelId": "UCFvSFbT8okMrpuFxBEIB2lg",
             "channelName": "M!LK",
             "thumbnailUrl": "https://i.ytimg.com/vi/81CpK8nCvFw/maxresdefault.jpg",
             "publishedAt": "2026-07-24T12:00:25Z",
-            "viewCount": 692180,
-            "viewIncrease": 76706,
-            "likeCount": 53096,
-            "likeIncrease": 1994,
-            "commentCount": 5811,
-            "commentIncrease": 109,
+            "viewCount": 704211,
+            "viewIncrease": 12031,
+            "likeCount": 53252,
+            "likeIncrease": 156,
+            "commentCount": 5815,
+            "commentIncrease": 4,
             "subscriberCount": 35600,
-            "rawScore": 61.2,
-            "normalizedScore": 0.0,
+            "rawScore": 54.9,
+            "normalizedScore": 36.4,
             "genres": [
                 {
                     "slug": "music",
@@ -241,10 +303,144 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 191.4,
-                "engagement": 36.7,
-                "subscriberRatio": 108.3,
-                "freshness": 18.2
+                "velocity": 191.1,
+                "engagement": 25.7,
+                "subscriberRatio": 88.2,
+                "freshness": 18.0
+            }
+        },
+        {
+            "rank": 9,
+            "videoId": "6ClLiIi99Xo",
+            "title": "【ニュース解説】支持率20％のAfDを行政が検閲し排除する現代ドイツの思想選別！情報機関の資料で決まる歪んだ立候補資格審査とは？",
+            "channelId": "UC08dW_aEYrJqgRj5n_-Ec9A",
+            "channelName": "ドイツニュースインサイト",
+            "thumbnailUrl": "https://i.ytimg.com/vi/6ClLiIi99Xo/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:45:37Z",
+            "viewCount": 7,
+            "viewIncrease": 7,
+            "likeCount": 1,
+            "likeIncrease": 1,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 123,
+            "rawScore": 50.9,
+            "normalizedScore": 27.3,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.99
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 5.0,
+                "engagement": 63.6,
+                "subscriberRatio": 46.3,
+                "freshness": 44.3
+            }
+        },
+        {
+            "rank": 10,
+            "videoId": "8qBGu4yYGC0",
+            "title": "ちるるのAI β | AIニュース解説 | 2026.07.25",
+            "channelId": "UCCrIRPEPbTti4qe2OsGg07g",
+            "channelName": "chiruruAI",
+            "thumbnailUrl": "https://i.ytimg.com/vi/8qBGu4yYGC0/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:41:53Z",
+            "viewCount": 35,
+            "viewIncrease": 35,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 88,
+            "rawScore": 35.7,
+            "normalizedScore": 18.2,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.6
+                },
+                {
+                    "slug": "programming",
+                    "name": "IT・プログラミング",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 17.6,
+                "engagement": 0.0,
+                "subscriberRatio": 63.6,
+                "freshness": 44.0
+            }
+        },
+        {
+            "rank": 11,
+            "videoId": "z2pTZ4XrBb4",
+            "title": "【最新ニュース解説】高市首相とトランプ大統領の日米首脳会談、狙いと成果は？イランのホルムズ海峡で情勢緊迫化【記者VTuber朝活3/23】",
+            "channelId": "UCAm8WoRtKbaJ-dPkPbPpEkA",
+            "channelName": "Rina Ogawa",
+            "thumbnailUrl": "https://i.ytimg.com/vi/z2pTZ4XrBb4/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T11:44:21Z",
+            "viewCount": 4,
+            "viewIncrease": 4,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 91,
+            "rawScore": 16.2,
+            "normalizedScore": 9.1,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.8
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 3.0,
+                "engagement": 0.0,
+                "subscriberRatio": 40.3,
+                "freshness": 37.4
+            }
+        },
+        {
+            "rank": 12,
+            "videoId": "qb7mCScOYG0",
+            "title": "梨5000個盗難…ベトナム人の反抗？…😨【ニュース 解説 雑学 勉強 炎上 未解決事件 政治",
+            "channelId": "UCIZWweswqIgG7BkG6oi7GxQ",
+            "channelName": "さの",
+            "thumbnailUrl": "https://i.ytimg.com/vi/qb7mCScOYG0/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:00:33Z",
+            "viewCount": 1,
+            "viewIncrease": 1,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 1810,
+            "rawScore": 8.7,
+            "normalizedScore": 0.0,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.8
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 0.8,
+                "engagement": 0.0,
+                "subscriberRatio": 20.4,
+                "freshness": 41.3
             }
         }
     ]
