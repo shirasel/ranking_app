@@ -1,38 +1,83 @@
 const fs = require("fs");
 const path = require("path");
 
-const reportPath = path.join(process.cwd(), "docs", "data", "latest", "validation-report.json");
-const summaryPath = process.env.GITHUB_STEP_SUMMARY;
+class ValidationReportReader {
+  constructor(fileSystem, reportPath) {
+    this.fs = fileSystem;
+    this.reportPath = reportPath;
+  }
 
-function safeLine(value) {
-  return String(value || "-").replace(/[\r\n|]/g, " ");
-}
+  exists() {
+    return this.fs.existsSync(this.reportPath);
+  }
 
-function writeSummary(markdown) {
-  if (summaryPath) {
-    fs.appendFileSync(summaryPath, markdown, "utf8");
-  } else {
-    process.stdout.write(markdown);
+  read() {
+    return JSON.parse(this.fs.readFileSync(this.reportPath, "utf8"));
   }
 }
 
-if (!fs.existsSync(reportPath)) {
-  writeSummary("## Generated JSON Validation\n\nValidation report was not generated.\n");
-  process.exit(0);
+class ActionSummaryWriter {
+  constructor(fileSystem, output, summaryPath) {
+    this.fs = fileSystem;
+    this.output = output;
+    this.summaryPath = summaryPath;
+  }
+
+  write(markdown) {
+    if (this.summaryPath) {
+      this.fs.appendFileSync(this.summaryPath, markdown, "utf8");
+      return;
+    }
+    this.output.write(markdown);
+  }
 }
 
-const report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
-const status = report.status === "passed" ? "Passed" : "Failed";
-const markdown = [
-  "## Generated JSON Validation",
-  "",
-  "| Field | Value |",
-  "| --- | --- |",
-  `| Status | ${safeLine(status)} |`,
-  `| Data generated at | ${safeLine(report.generatedAt)} |`,
-  `| Errors | ${Number(report.errorCount || 0)} |`,
-  `| Warnings | ${Number(report.warningCount || 0)} |`,
-  "",
-].join("\n");
+class ValidationSummaryMarkdown {
+  safeLine(value) {
+    return String(value || "-").replace(/[\r\n|]/g, " ");
+  }
 
-writeSummary(markdown);
+  create(report) {
+    const status = report.status === "passed" ? "Passed" : "Failed";
+    return [
+      "## Generated JSON Validation",
+      "",
+      "| Field | Value |",
+      "| --- | --- |",
+      `| Status | ${this.safeLine(status)} |`,
+      `| Data generated at | ${this.safeLine(report.generatedAt)} |`,
+      `| Errors | ${Number(report.errorCount || 0)} |`,
+      `| Warnings | ${Number(report.warningCount || 0)} |`,
+      "",
+    ].join("\n");
+  }
+
+  missingReport() {
+    return "## Generated JSON Validation\n\nValidation report was not generated.\n";
+  }
+}
+
+class ValidationSummaryCommand {
+  constructor(dependencies) {
+    this.reader = dependencies.reader;
+    this.writer = dependencies.writer;
+    this.markdown = dependencies.markdown;
+  }
+
+  run() {
+    if (!this.reader.exists()) {
+      this.writer.write(this.markdown.missingReport());
+      return;
+    }
+    this.writer.write(this.markdown.create(this.reader.read()));
+  }
+}
+
+new ValidationSummaryCommand({
+  reader: new ValidationReportReader(
+    fs,
+    path.join(process.cwd(), "docs", "data", "latest", "validation-report.json")
+  ),
+  writer: new ActionSummaryWriter(fs, process.stdout, process.env.GITHUB_STEP_SUMMARY),
+  markdown: new ValidationSummaryMarkdown(),
+}).run();

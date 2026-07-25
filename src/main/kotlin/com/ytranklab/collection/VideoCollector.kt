@@ -10,6 +10,7 @@ import java.time.ZoneOffset
 class VideoCollector(
     private val sourceConfig: SourceConfig,
     private val client: YouTubeApiClient,
+    private val reporter: CollectionReporter = SystemCollectionReporter(),
 ) {
     suspend fun collect(): CollectedVideos {
         val videoIds = linkedSetOf<String>()
@@ -125,6 +126,15 @@ class VideoCollector(
         val subscriberChannelUnits = if (uniqueChannels > 0) ((uniqueChannels - 1) / 50) + 1 else 0
         return searchUnits + popularUnits + channelUnits + playlistUnits + videoUnits + subscriberChannelUnits
     }
+
+    private suspend fun collectSafely(sourceName: String, fetch: suspend () -> List<String>): SourceFetchResult =
+        try {
+            SourceFetchResult(source = sourceName, videoIds = fetch(), status = "ok")
+        } catch (error: YouTubeApiException) {
+            val message = error.safeMessage()
+            reporter.skippedSource(sourceName, message)
+            SourceFetchResult(source = sourceName, videoIds = emptyList(), status = "skipped", message = message)
+        }
 }
 
 private const val SEARCH_COST = 100
@@ -198,15 +208,6 @@ private data class SourceFetchResult(
 }
 
 private fun String.isValidYouTubeId(): Boolean = matches(Regex("^[A-Za-z0-9_-]{6,64}$"))
-
-private suspend fun collectSafely(sourceName: String, fetch: suspend () -> List<String>): SourceFetchResult =
-    try {
-        SourceFetchResult(source = sourceName, videoIds = fetch(), status = "ok")
-    } catch (error: YouTubeApiException) {
-        val message = error.safeMessage()
-        System.err.println("Skipped YouTube source '$sourceName': $message")
-        SourceFetchResult(source = sourceName, videoIds = emptyList(), status = "skipped", message = message)
-    }
 
 private fun YouTubeApiException.safeMessage(): String =
     message
