@@ -2,8 +2,10 @@ package com.ytranklab.validation
 
 import kotlin.io.path.createDirectories
 import kotlin.io.path.createTempDirectory
+import kotlin.io.path.readText
 import kotlin.io.path.writeText
 import kotlin.test.Test
+import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
@@ -15,6 +17,19 @@ class GeneratedDataValidatorTest {
         val report = GeneratedDataValidator(dataDirectory).validate()
 
         assertTrue(report.isSuccess)
+        assertEquals("2026-07-25T06:00:00+09:00", report.dataGeneratedAt)
+    }
+
+    @Test
+    fun `writes validation report with data generated timestamp`() {
+        val dataDirectory = createFixture()
+        val validator = GeneratedDataValidator(dataDirectory)
+        val report = validator.validate()
+
+        validator.writeReport(report)
+
+        val reportJson = dataDirectory.resolve("latest").resolve("validation-report.json").readText()
+        assertTrue(reportJson.contains("2026-07-25T06:00:00+09:00"))
     }
 
     @Test

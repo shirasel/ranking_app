@@ -51,13 +51,17 @@ class GeneratedDataValidator(private val dataDirectory: Path) {
         validateGenreFiles(errors, warnings)
         scanPublicJsonForSecretLikeText(errors)
 
-        return ValidationReport(errors = errors, warnings = warnings)
+        return ValidationReport(
+            dataGeneratedAt = summary?.generatedAt ?: overall?.generatedAt,
+            errors = errors,
+            warnings = warnings,
+        )
     }
 
     fun writeReport(report: ValidationReport) {
         val reportFile = latestDirectory.resolve("validation-report.json")
         val document = ValidationReportDocument(
-            generatedAt = OffsetDateTime.now().toString(),
+            generatedAt = report.dataGeneratedAt ?: OffsetDateTime.now().toString(),
             status = if (report.isSuccess) "passed" else "failed",
             errorCount = report.errors.size,
             warningCount = report.warnings.size,
@@ -192,6 +196,7 @@ class GeneratedDataValidator(private val dataDirectory: Path) {
 }
 
 data class ValidationReport(
+    val dataGeneratedAt: String? = null,
     val errors: List<String>,
     val warnings: List<String>,
 ) {

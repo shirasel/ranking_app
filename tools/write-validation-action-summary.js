@@ -29,7 +29,7 @@ const markdown = [
   "| Field | Value |",
   "| --- | --- |",
   `| Status | ${safeLine(status)} |`,
-  `| Generated at | ${safeLine(report.generatedAt)} |`,
+  `| Data generated at | ${safeLine(report.generatedAt)} |`,
   `| Errors | ${Number(report.errorCount || 0)} |`,
   `| Warnings | ${Number(report.warningCount || 0)} |`,
   "",

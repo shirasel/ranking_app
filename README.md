@@ -76,7 +76,7 @@ Generated JSON validation:
 tools/validate-generated-data.cmd
 ```
 
-Validation writes `docs/data/latest/validation-report.json`, which is displayed on the operation log page.
+Validation writes `docs/data/latest/validation-report.json`, which is displayed on the operation log page. The report timestamp follows the validated ranking data timestamp to avoid update-only diffs from validation execution time.
 GitHub Actions also writes a safe validation summary with status and counts only.
 
 Static preview:

@@ -106,7 +106,7 @@
 
     app.setText("[data-validation-status]", report.status === "passed" ? "Passed" : "Failed");
     if (statusNode) statusNode.className = "status-pill " + level;
-    app.setText("[data-validation-updated-at]", "最終検証 " + app.formatDateTime(report.generatedAt));
+    app.setText("[data-validation-updated-at]", "検証対象 " + app.formatDateTime(report.generatedAt));
     renderValidationMessages(messages);
   }
 
