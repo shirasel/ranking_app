@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>生成ログ - YT Rank Lab</title>
+    <meta name="description" content="ランキングJSON生成結果の運用確認画面">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body data-page="operation">
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a class="brand" href="../home.html">
+          <span class="brand-mark">Y</span>
+          <span>YT Rank Lab</span>
+        </a>
+        <div class="nav-links">
+          <a href="../rankings/overall-ranking.html">総合</a>
+          <a href="../rankings/genre-ranking.html">ジャンル</a>
+          <a aria-current="page" href="generation-log.html">運用</a>
+        </div>
+        <button class="icon-button" type="button" data-theme-toggle aria-label="テーマを切り替え" title="テーマ">
+          <span aria-hidden="true">◐</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-title">
+        <p class="eyebrow">Generation log</p>
+        <h1>生成ログ</h1>
+        <p data-operation-updated-at>読み込み中</p>
+      </section>
+
+      <section class="section-block">
+        <div data-state="operation"></div>
+        <div class="summary-grid operation-metrics">
+          <article>
+            <span>入力動画</span>
+            <strong data-operation-input>-</strong>
+          </article>
+          <article>
+            <span>候補ID</span>
+            <strong data-operation-candidates>-</strong>
+          </article>
+          <article>
+            <span>取得動画</span>
+            <strong data-operation-fetched>-</strong>
+          </article>
+          <article>
+            <span>推定API使用量</span>
+            <strong data-operation-quota>-</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-grid operation-grid">
+        <div class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Sources</p>
+              <h2>収集元</h2>
+            </div>
+            <span class="status-pill" data-operation-status>集計中</span>
+          </div>
+          <div class="source-list detailed" data-operation-sources></div>
+        </div>
+
+        <div class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Retention</p>
+              <h2>保持期間</h2>
+            </div>
+          </div>
+          <dl class="operation-definition">
+            <dt>ランキング反映</dt>
+            <dd data-operation-ranking>-</dd>
+            <dt>公開動画</dt>
+            <dd data-operation-public>-</dd>
+            <dt>ジャンル数</dt>
+            <dd data-operation-genres>-</dd>
+            <dt>履歴削除</dt>
+            <dd data-operation-history-deleted>-</dd>
+            <dt>詳細削除</dt>
+            <dd data-operation-details-deleted>-</dd>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>YT Rank Lab</span>
+      <span>Generated JSON only</span>
+    </footer>
+
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/operation-log.js"></script>
+  </body>
+</html>

@@ -277,6 +277,14 @@ main {
   padding: 20px;
 }
 
+.operation-summary {
+  margin-bottom: 18px;
+}
+
+.summary-status {
+  margin-bottom: 12px;
+}
+
 .section-heading,
 .toolbar {
   display: flex;
@@ -485,6 +493,123 @@ main {
   font-size: 0.78rem;
 }
 
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.summary-grid article {
+  min-height: 86px;
+  display: grid;
+  align-content: center;
+  gap: 6px;
+  padding: 14px;
+  background: var(--surface-strong);
+  border-radius: 8px;
+}
+
+.summary-grid span,
+.source-main span {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.summary-grid strong {
+  font-size: 1.1rem;
+}
+
+.summary-foot {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.summary-foot p {
+  margin: 0;
+}
+
+.source-list {
+  display: grid;
+  gap: 8px;
+}
+
+.source-list.detailed {
+  gap: 10px;
+}
+
+.source-row {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.source-main {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.source-main strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.source-status {
+  flex: 0 0 auto;
+  min-width: 76px;
+  text-align: center;
+  border-radius: 999px;
+  padding: 5px 9px;
+  background: var(--surface-strong);
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.source-status.ok {
+  color: var(--good);
+}
+
+.source-status.skipped {
+  color: var(--bad);
+}
+
+.operation-metrics {
+  margin-top: 0;
+}
+
+.operation-grid {
+  grid-template-columns: minmax(0, 1fr) 340px;
+}
+
+.operation-source-row {
+  align-items: start;
+}
+
+.operation-definition {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px 16px;
+  margin: 0;
+}
+
+.operation-definition dt {
+  color: var(--muted);
+}
+
+.operation-definition dd {
+  margin: 0;
+  font-weight: 800;
+  text-align: right;
+}
+
 .genre-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -688,6 +813,10 @@ main {
     grid-template-columns: 1fr;
   }
 
+  .summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .ranking-card,
   .compact .ranking-card {
     grid-template-columns: 44px 112px minmax(0, 1fr);
@@ -724,6 +853,10 @@ main {
   .ranking-card,
   .compact .ranking-card {
     grid-template-columns: 42px minmax(0, 1fr);
+  }
+
+  .summary-grid {
+    grid-template-columns: 1fr;
   }
 
   .thumbnail {

@@ -150,12 +150,15 @@ docs/index.html
 docs/home.html
 docs/rankings/overall-ranking.html
 docs/rankings/genre-ranking.html
+docs/operations/generation-log.html
 docs/videos/video-detail.html?id=VIDEO_ID
 ```
 
 The frontend uses `textContent` and DOM APIs for generated content. It does not embed secrets and does not call the YouTube Data API.
 
 `docs/index.html` is kept only as the required GitHub Pages entry point and redirects to `docs/home.html`.
+
+The home page displays `docs/data/latest/generation-summary.json` so update status, source counts, estimated quota units, and retention cleanup counts can be checked from GitHub Pages.
 
 For a public repository, set Pages to publish from the `docs` directory on the default branch.
 
