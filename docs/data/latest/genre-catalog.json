@@ -1,0 +1,59 @@
+{
+    "genres": [
+        {
+            "slug": "gaming",
+            "name": "ゲーム",
+            "parent": null
+        },
+        {
+            "slug": "music",
+            "name": "音楽",
+            "parent": null
+        },
+        {
+            "slug": "vtuber",
+            "name": "VTuber",
+            "parent": "entertainment"
+        },
+        {
+            "slug": "entertainment",
+            "name": "エンタメ",
+            "parent": null
+        },
+        {
+            "slug": "learning",
+            "name": "学習・情報",
+            "parent": null
+        },
+        {
+            "slug": "cooking",
+            "name": "料理",
+            "parent": null
+        },
+        {
+            "slug": "gadgets",
+            "name": "ガジェット",
+            "parent": null
+        },
+        {
+            "slug": "travel",
+            "name": "旅行",
+            "parent": null
+        },
+        {
+            "slug": "beauty",
+            "name": "美容",
+            "parent": null
+        },
+        {
+            "slug": "sports",
+            "name": "スポーツ",
+            "parent": null
+        },
+        {
+            "slug": "anime",
+            "name": "アニメ",
+            "parent": "entertainment"
+        }
+    ]
+}

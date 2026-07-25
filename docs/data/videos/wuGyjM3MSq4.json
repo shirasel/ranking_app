@@ -21,11 +21,6 @@
         "normalizedScore": 50.5,
         "genres": [
             {
-                "slug": "minecraft",
-                "name": "Minecraft",
-                "confidence": 0.7
-            },
-            {
                 "slug": "gaming",
                 "name": "ゲーム",
                 "confidence": 0.5
@@ -40,21 +35,16 @@
             "velocity": 175.9,
             "engagement": 21.7,
             "subscriberRatio": 49.6,
-            "freshness": 29.0
+            "freshness": 29
         }
     },
     "scoreBreakdown": {
         "velocity": 175.9,
         "engagement": 21.7,
         "subscriberRatio": 49.6,
-        "freshness": 29.0
+        "freshness": 29
     },
     "genres": [
-        {
-            "slug": "minecraft",
-            "name": "Minecraft",
-            "confidence": 0.7
-        },
         {
             "slug": "gaming",
             "name": "ゲーム",

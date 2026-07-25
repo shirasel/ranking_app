@@ -17,7 +17,7 @@
         "commentCount": 229,
         "commentIncrease": 3,
         "subscriberCount": 367000,
-        "rawScore": 75.0,
+        "rawScore": 75,
         "normalizedScore": 57.9,
         "genres": [
             {
@@ -29,11 +29,6 @@
                 "slug": "music",
                 "name": "音楽",
                 "confidence": 0.4
-            },
-            {
-                "slug": "minecraft",
-                "name": "Minecraft",
-                "confidence": 0.3
             }
         ],
         "scoreBreakdown": {
@@ -59,11 +54,6 @@
             "slug": "music",
             "name": "音楽",
             "confidence": 0.4
-        },
-        {
-            "slug": "minecraft",
-            "name": "Minecraft",
-            "confidence": 0.3
         }
     ]
 }

@@ -26,26 +26,21 @@
                 "confidence": 0.99
             },
             {
-                "slug": "minecraft",
-                "name": "Minecraft",
-                "confidence": 0.7
-            },
-            {
                 "slug": "learning",
                 "name": "学習・情報",
                 "confidence": 0.2
             }
         ],
         "scoreBreakdown": {
-            "velocity": 96.0,
-            "engagement": 0.0,
+            "velocity": 96,
+            "engagement": 0,
             "subscriberRatio": 74.1,
             "freshness": 38.4
         }
     },
     "scoreBreakdown": {
-        "velocity": 96.0,
-        "engagement": 0.0,
+        "velocity": 96,
+        "engagement": 0,
         "subscriberRatio": 74.1,
         "freshness": 38.4
     },
@@ -54,11 +49,6 @@
             "slug": "gaming",
             "name": "ゲーム",
             "confidence": 0.99
-        },
-        {
-            "slug": "minecraft",
-            "name": "Minecraft",
-            "confidence": 0.7
         },
         {
             "slug": "learning",

@@ -16,30 +16,25 @@
         "commentIncrease": 1,
         "subscriberCount": 3220,
         "rawScore": 96.6,
-        "normalizedScore": 86.0,
+        "normalizedScore": 86,
         "genres": [
             {
                 "slug": "gaming",
                 "name": "ゲーム",
                 "confidence": 0.5
-            },
-            {
-                "slug": "minecraft",
-                "name": "Minecraft",
-                "confidence": 0.3
             }
         ],
         "scoreBreakdown": {
             "velocity": 47.1,
             "engagement": 52.9,
-            "subscriberRatio": 72.0,
+            "subscriberRatio": 72,
             "freshness": 56.2
         }
     },
     "scoreBreakdown": {
         "velocity": 47.1,
         "engagement": 52.9,
-        "subscriberRatio": 72.0,
+        "subscriberRatio": 72,
         "freshness": 56.2
     },
     "genres": [
@@ -47,11 +42,6 @@
             "slug": "gaming",
             "name": "ゲーム",
             "confidence": 0.5
-        },
-        {
-            "slug": "minecraft",
-            "name": "Minecraft",
-            "confidence": 0.3
         }
     ]
 }

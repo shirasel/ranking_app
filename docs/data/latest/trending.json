@@ -20,7 +20,7 @@
             "commentIncrease": 169,
             "subscriberCount": 18500,
             "rawScore": 62.4,
-            "normalizedScore": 100.0,
+            "normalizedScore": 100,
             "genres": [
                 {
                     "slug": "music",
@@ -32,7 +32,7 @@
                 "velocity": 230.2,
                 "engagement": 41.8,
                 "subscriberRatio": 117.1,
-                "freshness": 16.0
+                "freshness": 16
             }
         },
         {
@@ -131,7 +131,7 @@
                 "velocity": 221.9,
                 "engagement": 36.7,
                 "subscriberRatio": 124.3,
-                "freshness": 16.0
+                "freshness": 16
             }
         },
         {
@@ -157,11 +157,6 @@
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 },
                 {
@@ -267,18 +262,13 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 201.7,
                 "engagement": 25.4,
                 "subscriberRatio": 56.1,
-                "freshness": 36.0
+                "freshness": 36
             }
         },
         {
@@ -305,16 +295,11 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 199.6,
-                "engagement": 26.0,
+                "engagement": 26,
                 "subscriberRatio": 55.9,
                 "freshness": 31.8
             }
@@ -343,17 +328,12 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 193.0,
+                "velocity": 193,
                 "engagement": 16.1,
-                "subscriberRatio": 59.0,
+                "subscriberRatio": 59,
                 "freshness": 37.2
             }
         },
@@ -392,7 +372,7 @@
                 "velocity": 191.1,
                 "engagement": 25.7,
                 "subscriberRatio": 88.2,
-                "freshness": 18.0
+                "freshness": 18
             }
         },
         {
@@ -419,16 +399,11 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 189.1,
-                "engagement": 21.0,
+                "engagement": 21,
                 "subscriberRatio": 55.3,
                 "freshness": 35.6
             }
@@ -461,7 +436,7 @@
             ],
             "scoreBreakdown": {
                 "velocity": 187.4,
-                "engagement": 18.0,
+                "engagement": 18,
                 "subscriberRatio": 40.1,
                 "freshness": 17.7
             }
@@ -489,11 +464,6 @@
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
@@ -535,11 +505,6 @@
                     "confidence": 0.3
                 },
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                },
-                {
                     "slug": "music",
                     "name": "音楽",
                     "confidence": 0.2
@@ -570,7 +535,7 @@
             "commentIncrease": 0,
             "subscriberCount": 491,
             "rawScore": 61.7,
-            "normalizedScore": 86.0,
+            "normalizedScore": 86,
             "genres": [
                 {
                     "slug": "music",
@@ -582,7 +547,7 @@
                 "velocity": 182.3,
                 "engagement": 21.1,
                 "subscriberRatio": 122.2,
-                "freshness": 19.0
+                "freshness": 19
             }
         },
         {
@@ -603,13 +568,8 @@
             "commentIncrease": 4,
             "subscriberCount": 1350000,
             "rawScore": 77.9,
-            "normalizedScore": 85.0,
+            "normalizedScore": 85,
             "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.7
-                },
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
@@ -649,18 +609,13 @@
                     "confidence": 0.5
                 },
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                },
-                {
                     "slug": "learning",
                     "name": "学習・情報",
                     "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 179.0,
+                "velocity": 179,
                 "engagement": 23.4,
                 "subscriberRatio": 52.5,
                 "freshness": 25.2
@@ -716,7 +671,7 @@
             "commentCount": 0,
             "commentIncrease": 0,
             "subscriberCount": 254,
-            "rawScore": 60.0,
+            "rawScore": 60,
             "normalizedScore": 82.2,
             "genres": [
                 {
@@ -729,7 +684,7 @@
                 "velocity": 176.8,
                 "engagement": 20.8,
                 "subscriberRatio": 119.1,
-                "freshness": 19.0
+                "freshness": 19
             }
         },
         {
@@ -755,11 +710,6 @@
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
@@ -791,11 +741,6 @@
             "normalizedScore": 80.4,
             "genres": [
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.7
-                },
-                {
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.5
@@ -810,7 +755,7 @@
                 "velocity": 175.9,
                 "engagement": 21.7,
                 "subscriberRatio": 49.6,
-                "freshness": 29.0
+                "freshness": 29
             }
         },
         {
@@ -834,11 +779,6 @@
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
@@ -869,11 +809,6 @@
             "rawScore": 38.3,
             "normalizedScore": 78.5,
             "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.99
-                },
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
@@ -944,17 +879,12 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 173.3,
                 "engagement": 25.7,
-                "subscriberRatio": 35.0,
+                "subscriberRatio": 35,
                 "freshness": 31.8
             }
         },
@@ -982,11 +912,6 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.8
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
@@ -1013,7 +938,7 @@
             "commentCount": 229,
             "commentIncrease": 3,
             "subscriberCount": 367000,
-            "rawScore": 75.0,
+            "rawScore": 75,
             "normalizedScore": 74.8,
             "genres": [
                 {
@@ -1025,11 +950,6 @@
                     "slug": "music",
                     "name": "音楽",
                     "confidence": 0.4
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
@@ -1063,18 +983,13 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 171.3,
                 "engagement": 20.5,
                 "subscriberRatio": 39.2,
-                "freshness": 29.0
+                "freshness": 29
             }
         },
         {
@@ -1104,7 +1019,7 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 171.0,
+                "velocity": 171,
                 "engagement": 55.3,
                 "subscriberRatio": 4.4,
                 "freshness": 18.9
@@ -1128,7 +1043,7 @@
             "commentIncrease": 0,
             "subscriberCount": 131,
             "rawScore": 58.6,
-            "normalizedScore": 72.0,
+            "normalizedScore": 72,
             "genres": [
                 {
                     "slug": "music",
@@ -1140,7 +1055,7 @@
                 "velocity": 170.9,
                 "engagement": 22.3,
                 "subscriberRatio": 115.8,
-                "freshness": 19.0
+                "freshness": 19
             }
         },
         {
@@ -1159,7 +1074,7 @@
             "commentIncrease": 5,
             "subscriberCount": 138000,
             "rawScore": 34.1,
-            "normalizedScore": 71.0,
+            "normalizedScore": 71,
             "genres": [
                 {
                     "slug": "uncategorized",
@@ -1198,11 +1113,6 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
@@ -1229,17 +1139,12 @@
             "commentCount": 13,
             "commentIncrease": 0,
             "subscriberCount": 481000,
-            "rawScore": 75.0,
+            "rawScore": 75,
             "normalizedScore": 69.2,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
@@ -1267,7 +1172,7 @@
             "commentCount": 654,
             "commentIncrease": 1,
             "subscriberCount": 1070000,
-            "rawScore": 42.0,
+            "rawScore": 42,
             "normalizedScore": 68.2,
             "genres": [
                 {
@@ -1277,10 +1182,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 165.0,
+                "velocity": 165,
                 "engagement": 30.9,
                 "subscriberRatio": 37.2,
-                "freshness": 18.0
+                "freshness": 18
             }
         },
         {
@@ -1298,17 +1203,12 @@
             "commentCount": 109,
             "commentIncrease": 0,
             "subscriberCount": 366000,
-            "rawScore": 42.0,
+            "rawScore": 42,
             "normalizedScore": 68.2,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 },
                 {
@@ -1414,11 +1314,6 @@
                     "confidence": 0.5
                 },
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                },
-                {
                     "slug": "music",
                     "name": "音楽",
                     "confidence": 0.2
@@ -1454,11 +1349,6 @@
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
@@ -1497,9 +1387,9 @@
             ],
             "scoreBreakdown": {
                 "velocity": 153.3,
-                "engagement": 36.0,
+                "engagement": 36,
                 "subscriberRatio": 36.7,
-                "freshness": 18.0
+                "freshness": 18
             }
         },
         {
@@ -1631,7 +1521,7 @@
                 "velocity": 152.4,
                 "engagement": 23.3,
                 "subscriberRatio": 82.4,
-                "freshness": 18.0
+                "freshness": 18
             }
         },
         {
@@ -1661,7 +1551,7 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 149.0,
+                "velocity": 149,
                 "engagement": 4.2,
                 "subscriberRatio": 42.4,
                 "freshness": 42.3
@@ -1685,16 +1575,11 @@
             "commentIncrease": 5,
             "subscriberCount": 1210000,
             "rawScore": 76.5,
-            "normalizedScore": 57.0,
+            "normalizedScore": 57,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
@@ -1702,7 +1587,7 @@
                 "velocity": 148.4,
                 "engagement": 31.3,
                 "subscriberRatio": 27.2,
-                "freshness": 37.0
+                "freshness": 37
             }
         },
         {
@@ -1755,17 +1640,12 @@
             "commentCount": 22,
             "commentIncrease": 0,
             "subscriberCount": 200000,
-            "rawScore": 50.0,
+            "rawScore": 50,
             "normalizedScore": 55.1,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 },
                 {
@@ -1829,7 +1709,7 @@
             "commentCount": 93,
             "commentIncrease": 0,
             "subscriberCount": 292000,
-            "rawScore": 59.0,
+            "rawScore": 59,
             "normalizedScore": 53.3,
             "genres": [
                 {
@@ -1874,7 +1754,7 @@
             "scoreBreakdown": {
                 "velocity": 137.6,
                 "engagement": 31.7,
-                "subscriberRatio": 28.0,
+                "subscriberRatio": 28,
                 "freshness": 17.7
             }
         },
@@ -1895,17 +1775,12 @@
             "commentCount": 1,
             "commentIncrease": 0,
             "subscriberCount": 43600,
-            "rawScore": 68.0,
+            "rawScore": 68,
             "normalizedScore": 51.4,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.99
                 }
             ],
@@ -1940,16 +1815,11 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.8
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 116.8,
-                "engagement": 44.0,
+                "engagement": 44,
                 "subscriberRatio": 51.5,
                 "freshness": 41.3
             }
@@ -1978,11 +1848,6 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.8
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
@@ -2020,7 +1885,7 @@
             ],
             "scoreBreakdown": {
                 "velocity": 111.9,
-                "engagement": 56.0,
+                "engagement": 56,
                 "subscriberRatio": 79.7,
                 "freshness": 50.9
             }
@@ -2073,11 +1938,6 @@
             "normalizedScore": 46.7,
             "genres": [
                 {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.3
-                },
-                {
                     "slug": "learning",
                     "name": "学習・情報",
                     "confidence": 0.3
@@ -2086,7 +1946,7 @@
             "scoreBreakdown": {
                 "velocity": 109.9,
                 "engagement": 2.9,
-                "subscriberRatio": 28.0,
+                "subscriberRatio": 28,
                 "freshness": 44.6
             }
         },
@@ -2114,11 +1974,6 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.8
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
@@ -2145,23 +2000,18 @@
             "commentCount": 0,
             "commentIncrease": 0,
             "subscriberCount": 183,
-            "rawScore": 68.0,
+            "rawScore": 68,
             "normalizedScore": 44.9,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.95
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 109.1,
-                "engagement": 0.0,
+                "engagement": 0,
                 "subscriberRatio": 81.4,
                 "freshness": 35.7
             }
@@ -2192,7 +2042,7 @@
             ],
             "scoreBreakdown": {
                 "velocity": 109.1,
-                "engagement": 38.0,
+                "engagement": 38,
                 "subscriberRatio": 52.5,
                 "freshness": 36.3
             }
@@ -2215,17 +2065,12 @@
             "commentIncrease": 0,
             "subscriberCount": 417,
             "rawScore": 65.4,
-            "normalizedScore": 43.0,
+            "normalizedScore": 43,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.99
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.7
                 },
                 {
                     "slug": "learning",
@@ -2234,8 +2079,8 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 96.0,
-                "engagement": 0.0,
+                "velocity": 96,
+                "engagement": 0,
                 "subscriberRatio": 74.1,
                 "freshness": 38.4
             }
@@ -2299,7 +2144,7 @@
                 "velocity": 94.3,
                 "engagement": 51.5,
                 "subscriberRatio": 68.9,
-                "freshness": 53.0
+                "freshness": 53
             }
         },
         {
@@ -2317,7 +2162,7 @@
             "commentCount": 10,
             "commentIncrease": 10,
             "subscriberCount": 6090,
-            "rawScore": 119.0,
+            "rawScore": 119,
             "normalizedScore": 40.2,
             "genres": [
                 {
@@ -2328,9 +2173,9 @@
             ],
             "scoreBreakdown": {
                 "velocity": 91.8,
-                "engagement": 51.0,
+                "engagement": 51,
                 "subscriberRatio": 90.8,
-                "freshness": 51.0
+                "freshness": 51
             }
         },
         {
@@ -2357,16 +2202,11 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.8
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 89.5,
-                "engagement": 0.0,
+                "engagement": 0,
                 "subscriberRatio": 70.5,
                 "freshness": 35.7
             }
@@ -2427,7 +2267,7 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 87.0,
+                "velocity": 87,
                 "engagement": 63.6,
                 "subscriberRatio": 48.3,
                 "freshness": 43.2
@@ -2603,7 +2443,7 @@
             "commentCount": 2,
             "commentIncrease": 2,
             "subscriberCount": 1520,
-            "rawScore": 86.0,
+            "rawScore": 86,
             "normalizedScore": 31.8,
             "genres": [
                 {
@@ -2614,11 +2454,6 @@
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
@@ -2656,7 +2491,7 @@
             "scoreBreakdown": {
                 "velocity": 78.7,
                 "engagement": 4.4,
-                "subscriberRatio": 103.0,
+                "subscriberRatio": 103,
                 "freshness": 35.7
             }
         },
@@ -2688,7 +2523,7 @@
                 "velocity": 76.3,
                 "engagement": 15.2,
                 "subscriberRatio": 101.7,
-                "freshness": 41.0
+                "freshness": 41
             }
         },
         {
@@ -2707,7 +2542,7 @@
             "commentIncrease": 0,
             "subscriberCount": 142,
             "rawScore": 63.4,
-            "normalizedScore": 29.0,
+            "normalizedScore": 29,
             "genres": [
                 {
                     "slug": "uncategorized",
@@ -2738,7 +2573,7 @@
             "commentIncrease": 0,
             "subscriberCount": 4520,
             "rawScore": 75.4,
-            "normalizedScore": 28.0,
+            "normalizedScore": 28,
             "genres": [
                 {
                     "slug": "music",
@@ -2799,7 +2634,7 @@
             "commentCount": 3,
             "commentIncrease": 3,
             "subscriberCount": 70600,
-            "rawScore": 87.0,
+            "rawScore": 87,
             "normalizedScore": 26.2,
             "genres": [
                 {
@@ -2861,7 +2696,7 @@
             "commentCount": 0,
             "commentIncrease": 0,
             "subscriberCount": 100,
-            "rawScore": 71.0,
+            "rawScore": 71,
             "normalizedScore": 24.3,
             "genres": [
                 {
@@ -2892,7 +2727,7 @@
             "commentCount": 0,
             "commentIncrease": 0,
             "subscriberCount": 1200,
-            "rawScore": 81.0,
+            "rawScore": 81,
             "normalizedScore": 23.4,
             "genres": [
                 {
@@ -2930,11 +2765,6 @@
                     "slug": "music",
                     "name": "音楽",
                     "confidence": 0.7
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.5
                 }
             ],
             "scoreBreakdown": {
@@ -2968,16 +2798,11 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.99
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 61.2,
-                "engagement": 0.0,
+                "engagement": 0,
                 "subscriberRatio": 54.5,
                 "freshness": 35.7
             }
@@ -3010,7 +2835,7 @@
             ],
             "scoreBreakdown": {
                 "velocity": 59.9,
-                "engagement": 0.0,
+                "engagement": 0,
                 "subscriberRatio": 45.3,
                 "freshness": 50.9
             }
@@ -3132,9 +2957,9 @@
             ],
             "scoreBreakdown": {
                 "velocity": 56.3,
-                "engagement": 0.0,
+                "engagement": 0,
                 "subscriberRatio": 90.2,
-                "freshness": 44.0
+                "freshness": 44
             }
         },
         {
@@ -3159,16 +2984,11 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 56.2,
-                "engagement": 42.0,
+                "engagement": 42,
                 "subscriberRatio": 90.1,
                 "freshness": 59.2
             }
@@ -3189,7 +3009,7 @@
             "commentIncrease": 0,
             "subscriberCount": 311,
             "rawScore": 102.7,
-            "normalizedScore": 15.0,
+            "normalizedScore": 15,
             "genres": [
                 {
                     "slug": "uncategorized",
@@ -3220,7 +3040,7 @@
             "commentIncrease": 1,
             "subscriberCount": 24,
             "rawScore": 58.2,
-            "normalizedScore": 14.0,
+            "normalizedScore": 14,
             "genres": [
                 {
                     "slug": "learning",
@@ -3292,7 +3112,7 @@
             ],
             "scoreBreakdown": {
                 "velocity": 53.7,
-                "engagement": 0.0,
+                "engagement": 0,
                 "subscriberRatio": 45.5,
                 "freshness": 48.7
             }
@@ -3312,7 +3132,7 @@
             "commentCount": 11,
             "commentIncrease": 11,
             "subscriberCount": 125000,
-            "rawScore": 79.0,
+            "rawScore": 79,
             "normalizedScore": 11.2,
             "genres": [
                 {
@@ -3343,17 +3163,12 @@
             "commentCount": 1,
             "commentIncrease": 1,
             "subscriberCount": 6230,
-            "rawScore": 101.0,
+            "rawScore": 101,
             "normalizedScore": 10.3,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
@@ -3386,17 +3201,12 @@
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.5
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
                 "velocity": 47.1,
                 "engagement": 52.9,
-                "subscriberRatio": 72.0,
+                "subscriberRatio": 72,
                 "freshness": 56.2
             }
         },
@@ -3425,7 +3235,7 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 45.0,
+                "velocity": 45,
                 "engagement": 39.8,
                 "subscriberRatio": 37.5,
                 "freshness": 57.4
@@ -3457,7 +3267,7 @@
             ],
             "scoreBreakdown": {
                 "velocity": 41.4,
-                "engagement": 0.0,
+                "engagement": 0,
                 "subscriberRatio": 42.7,
                 "freshness": 47.9
             }

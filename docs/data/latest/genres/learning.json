@@ -28,7 +28,7 @@
             "commentIncrease": 4,
             "subscriberCount": 358000,
             "rawScore": 89.4,
-            "normalizedScore": 100.0,
+            "normalizedScore": 100,
             "genres": [
                 {
                     "slug": "learning",
@@ -38,11 +38,6 @@
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
                     "confidence": 0.3
                 },
                 {
@@ -115,8 +110,8 @@
             ],
             "scoreBreakdown": {
                 "velocity": 22.3,
-                "engagement": 32.0,
-                "subscriberRatio": 58.0,
+                "engagement": 32,
+                "subscriberRatio": 58,
                 "freshness": 66.4
             }
         },
@@ -146,19 +141,14 @@
                     "confidence": 0.99
                 },
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.7
-                },
-                {
                     "slug": "learning",
                     "name": "学習・情報",
                     "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 96.0,
-                "engagement": 0.0,
+                "velocity": 96,
+                "engagement": 0,
                 "subscriberRatio": 74.1,
                 "freshness": 38.4
             }
@@ -189,18 +179,13 @@
                     "confidence": 0.5
                 },
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                },
-                {
                     "slug": "learning",
                     "name": "学習・情報",
                     "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 179.0,
+                "velocity": 179,
                 "engagement": 23.4,
                 "subscriberRatio": 52.5,
                 "freshness": 25.2
@@ -223,11 +208,6 @@
             "normalizedScore": 54.5,
             "genres": [
                 {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.3
-                },
-                {
                     "slug": "learning",
                     "name": "学習・情報",
                     "confidence": 0.3
@@ -236,7 +216,7 @@
             "scoreBreakdown": {
                 "velocity": 109.9,
                 "engagement": 2.9,
-                "subscriberRatio": 28.0,
+                "subscriberRatio": 28,
                 "freshness": 44.6
             }
         },
@@ -306,7 +286,7 @@
                 "velocity": 191.1,
                 "engagement": 25.7,
                 "subscriberRatio": 88.2,
-                "freshness": 18.0
+                "freshness": 18
             }
         },
         {
@@ -334,7 +314,7 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 5.0,
+                "velocity": 5,
                 "engagement": 63.6,
                 "subscriberRatio": 46.3,
                 "freshness": 44.3
@@ -364,11 +344,6 @@
                     "confidence": 0.6
                 },
                 {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.3
-                },
-                {
                     "slug": "music",
                     "name": "音楽",
                     "confidence": 0.2
@@ -376,9 +351,9 @@
             ],
             "scoreBreakdown": {
                 "velocity": 17.6,
-                "engagement": 0.0,
+                "engagement": 0,
                 "subscriberRatio": 63.6,
-                "freshness": 44.0
+                "freshness": 44
             }
         },
         {
@@ -406,8 +381,8 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 3.0,
-                "engagement": 0.0,
+                "velocity": 3,
+                "engagement": 0,
                 "subscriberRatio": 40.3,
                 "freshness": 37.4
             }
@@ -428,7 +403,7 @@
             "commentIncrease": 0,
             "subscriberCount": 1810,
             "rawScore": 8.7,
-            "normalizedScore": 0.0,
+            "normalizedScore": 0,
             "genres": [
                 {
                     "slug": "learning",
@@ -438,7 +413,7 @@
             ],
             "scoreBreakdown": {
                 "velocity": 0.8,
-                "engagement": 0.0,
+                "engagement": 0,
                 "subscriberRatio": 20.4,
                 "freshness": 41.3
             }

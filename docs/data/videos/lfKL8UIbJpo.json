@@ -15,7 +15,7 @@
         "commentCount": 2,
         "commentIncrease": 2,
         "subscriberCount": 1520,
-        "rawScore": 86.0,
+        "rawScore": 86,
         "normalizedScore": 77.6,
         "genres": [
             {
@@ -26,11 +26,6 @@
             {
                 "slug": "gaming",
                 "name": "ゲーム",
-                "confidence": 0.3
-            },
-            {
-                "slug": "minecraft",
-                "name": "Minecraft",
                 "confidence": 0.3
             }
         ],
@@ -56,11 +51,6 @@
         {
             "slug": "gaming",
             "name": "ゲーム",
-            "confidence": 0.3
-        },
-        {
-            "slug": "minecraft",
-            "name": "Minecraft",
             "confidence": 0.3
         }
     ]

@@ -24,23 +24,18 @@
                 "slug": "gaming",
                 "name": "ゲーム",
                 "confidence": 0.3
-            },
-            {
-                "slug": "minecraft",
-                "name": "Minecraft",
-                "confidence": 0.3
             }
         ],
         "scoreBreakdown": {
             "velocity": 199.6,
-            "engagement": 26.0,
+            "engagement": 26,
             "subscriberRatio": 55.9,
             "freshness": 31.8
         }
     },
     "scoreBreakdown": {
         "velocity": 199.6,
-        "engagement": 26.0,
+        "engagement": 26,
         "subscriberRatio": 55.9,
         "freshness": 31.8
     },
@@ -48,11 +43,6 @@
         {
             "slug": "gaming",
             "name": "ゲーム",
-            "confidence": 0.3
-        },
-        {
-            "slug": "minecraft",
-            "name": "Minecraft",
             "confidence": 0.3
         }
     ]

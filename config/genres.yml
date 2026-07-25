@@ -11,20 +11,6 @@ genres:
     youtubeCategoryIds:
       - "20"
 
-  - slug: minecraft
-    name: Minecraft
-    parent: gaming
-    visible: false
-    keywords:
-      title:
-        minecraft: 5
-        マイクラ: 5
-      description:
-        minecraft: 2
-        マイクラ: 2
-    youtubeCategoryIds:
-      - "20"
-
   - slug: music
     name: 音楽
     parent:
@@ -69,22 +55,6 @@ genres:
         バラエティ: 2
     youtubeCategoryIds:
       - "24"
-
-  - slug: programming
-    name: IT・プログラミング
-    parent: learning
-    visible: false
-    keywords:
-      title:
-        kotlin: 5
-        java: 4
-        プログラミング: 5
-      description:
-        kotlin: 3
-        java: 2
-        プログラミング: 3
-    youtubeCategoryIds:
-      - "27"
 
   - slug: learning
     name: 学習・情報
