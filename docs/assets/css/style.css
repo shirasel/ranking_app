@@ -89,7 +89,7 @@ img {
 .nav,
 main,
 .site-footer {
-  width: min(1180px, calc(100% - 32px));
+  width: min(1440px, calc(100% - 48px));
   margin: 0 auto;
 }
 
@@ -156,16 +156,16 @@ main,
 }
 
 main {
-  padding: 32px 0 48px;
+  padding: 36px 0 56px;
 }
 
 .hero {
-  min-height: 430px;
+  min-height: 380px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  gap: 24px;
-  align-items: end;
-  padding: 56px 0 28px;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 400px);
+  gap: 48px;
+  align-items: center;
+  padding: 48px 0 34px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -178,7 +178,7 @@ main {
 }
 
 .lead {
-  max-width: 760px;
+  max-width: 860px;
   color: var(--muted);
   font-size: 1.1rem;
 }
@@ -230,7 +230,10 @@ main {
 }
 
 .hero-panel {
-  padding: 22px;
+  min-height: 148px;
+  display: grid;
+  align-content: center;
+  padding: 26px;
 }
 
 .hero-panel strong {
@@ -245,8 +248,8 @@ main {
 .metric-strip {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-  margin: 24px 0;
+  gap: 16px;
+  margin: 28px 0;
 }
 
 .metric-strip article {
@@ -268,13 +271,13 @@ main {
 
 .content-grid {
   display: grid;
-  grid-template-columns: 1.25fr 0.75fr;
-  gap: 18px;
-  margin-top: 18px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr);
+  gap: 24px;
+  margin-top: 24px;
 }
 
 .section-block {
-  padding: 20px;
+  padding: 22px;
 }
 
 .operation-summary {
@@ -323,7 +326,7 @@ main {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 12px;
+  padding: 14px;
 }
 
 .segmented {
@@ -363,7 +366,7 @@ main {
 .search-box input,
 .select-box select {
   min-height: 40px;
-  width: min(320px, 70vw);
+  width: min(420px, 70vw);
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--bg);
@@ -373,7 +376,7 @@ main {
 
 .ranking-list {
   display: grid;
-  gap: 14px;
+  gap: 16px;
 }
 
 .ranking-list.compact {
@@ -402,10 +405,10 @@ main {
 
 .ranking-card {
   display: grid;
-  grid-template-columns: 54px 168px minmax(0, 1fr) auto;
-  gap: 14px;
+  grid-template-columns: 54px 184px minmax(0, 1fr) minmax(156px, auto);
+  gap: 16px;
   align-items: center;
-  padding: 12px;
+  padding: 14px;
 }
 
 .compact .ranking-card {
@@ -504,7 +507,7 @@ main {
 
 .ranking-extra {
   display: grid;
-  min-width: 140px;
+  min-width: 156px;
   gap: 6px;
   justify-items: end;
 }
@@ -524,7 +527,7 @@ main {
 .summary-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 12px;
 }
 
 .summary-grid article {
@@ -549,22 +552,24 @@ main {
 
 .summary-foot {
   display: grid;
-  gap: 12px;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.7fr);
+  gap: 14px 18px;
   margin-top: 14px;
 }
 
 .summary-foot p {
+  grid-column: 1 / -1;
   margin: 0;
 }
 
 .source-list {
   display: grid;
-  gap: 8px;
+  gap: 10px;
 }
 
 .health-list {
   display: grid;
-  gap: 8px;
+  gap: 10px;
 }
 
 .compact-health {
@@ -671,7 +676,7 @@ main {
 }
 
 .operation-grid {
-  grid-template-columns: minmax(0, 1fr) 340px;
+  grid-template-columns: minmax(0, 1fr) 420px;
 }
 
 .operation-source-row {
@@ -752,8 +757,8 @@ main {
 
 .video-detail {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 24px;
 }
 
 .detail-media,
@@ -903,6 +908,46 @@ main {
   font-size: 0.9rem;
 }
 
+@media (min-width: 1180px) {
+  body[data-page="overall"] .ranking-list:not(.compact) .ranking-card,
+  body[data-page="genre"] .ranking-list:not(.compact) .ranking-card,
+  body[data-page="history"] .ranking-list:not(.compact) .ranking-card {
+    grid-template-columns: 60px minmax(220px, 260px) minmax(0, 1fr) minmax(260px, 320px);
+    align-items: center;
+    min-height: 172px;
+    padding: 16px 18px;
+  }
+
+  body[data-page="overall"] .ranking-list:not(.compact) .ranking-extra,
+  body[data-page="genre"] .ranking-list:not(.compact) .ranking-extra,
+  body[data-page="history"] .ranking-list:not(.compact) .ranking-extra {
+    grid-column: auto;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: end;
+    width: 100%;
+    gap: 10px 14px;
+  }
+
+  body[data-page="overall"] .ranking-list:not(.compact) .score-grid,
+  body[data-page="genre"] .ranking-list:not(.compact) .score-grid,
+  body[data-page="history"] .ranking-list:not(.compact) .score-grid {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: stretch;
+    justify-items: end;
+    gap: 6px 10px;
+    width: 100%;
+  }
+
+  body[data-page="overall"] .ranking-list:not(.compact) .text-link,
+  body[data-page="genre"] .ranking-list:not(.compact) .text-link,
+  body[data-page="history"] .ranking-list:not(.compact) .text-link {
+    grid-column: 1 / -1;
+  }
+}
+
 @media (max-width: 900px) {
   .hero,
   .content-grid,
@@ -916,6 +961,10 @@ main {
 
   .summary-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .summary-foot {
+    grid-template-columns: 1fr;
   }
 
   .compact-health {
@@ -934,6 +983,12 @@ main {
 }
 
 @media (max-width: 640px) {
+  .nav,
+  main,
+  .site-footer {
+    width: min(100% - 32px, 1440px);
+  }
+
   .nav {
     grid-template-columns: 1fr auto;
   }
