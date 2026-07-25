@@ -23,7 +23,6 @@
       .then(function (document) {
         app.showState("overall", "");
         app.setText("[data-updated-at]", app.formatDateTime(document.generatedAt));
-        app.setText("[data-total-count]", app.formatNumber((document.ranking || []).length) + "本");
         app.renderRankingList(app.qs("[data-home-overall]"), (document.ranking || []).slice(0, 5), { compact: true });
       })
       .catch(function () {
@@ -31,8 +30,8 @@
         app.setText("[data-updated-at]", "未生成");
       });
 
-    loadPreview("latest/trending.json", "trending", "[data-home-trending]", "[data-trending-title]");
-    loadPreview("latest/discovery.json", "discovery", "[data-home-discovery]", "[data-discovery-title]");
+    loadPreview("latest/trending.json", "trending", "[data-home-trending]");
+    loadPreview("latest/discovery.json", "discovery", "[data-home-discovery]");
     loadGenerationSummary();
   }
 
@@ -119,14 +118,13 @@
     });
   }
 
-  function loadPreview(path, stateName, listSelector, titleSelector) {
+  function loadPreview(path, stateName, listSelector) {
     app.showState(stateName, "読み込み中です。");
     app.loadJson(path)
       .then(function (document) {
         app.showState(stateName, "");
         var entries = (document.ranking || []).slice(0, 3);
         app.renderRankingList(app.qs(listSelector), entries, { compact: true });
-        app.setText(titleSelector, entries[0] ? entries[0].title : "-");
       })
       .catch(function () {
         app.showState(stateName, "データ生成後に表示されます。");
