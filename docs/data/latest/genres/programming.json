@@ -1,261 +1,88 @@
 {
-    "generatedAt": "2026-07-25T16:11:19.759968557Z",
+    "generatedAt": "2026-07-25T16:52:32.948873553Z",
     "period": "24h",
     "genre": {
         "slug": "programming",
         "name": "IT・プログラミング",
-        "confidence": 0.2
+        "confidence": 0.3
     },
     "status": "reference",
-    "totalVideos": 7,
-    "totalChannels": 6,
+    "totalVideos": 2,
+    "totalChannels": 2,
     "ranking": [
         {
             "rank": 1,
-            "videoId": "IZmWGR4WF8U",
-            "title": "Minecraft, But Every Choice Changes the World…",
-            "channelId": "UCharrcPjOA4XLCVcfkyepDg",
-            "channelName": "Firelight",
-            "thumbnailUrl": "https://i.ytimg.com/vi/IZmWGR4WF8U/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:15Z",
-            "viewCount": 56726,
-            "viewIncrease": 56726,
-            "likeCount": 3410,
-            "likeIncrease": 3410,
-            "commentCount": 32,
-            "commentIncrease": 32,
-            "subscriberCount": 4270000,
-            "rawScore": 98.2,
+            "videoId": "ZJ5F4vHXRmc",
+            "title": "Introducing the \"VitaWear SmartBand,\" 6 next-generation wearable gadget 🎉",
+            "channelId": "UCK85EMTOSXeS9Lkh4XtpFgw",
+            "channelName": "alsoccog",
+            "thumbnailUrl": "https://i.ytimg.com/vi/ZJ5F4vHXRmc/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:51:19Z",
+            "viewCount": 6634,
+            "viewIncrease": 6634,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 5430000,
+            "rawScore": 62.9,
             "normalizedScore": 100.0,
             "genres": [
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.99
+                    "slug": "programming",
+                    "name": "IT・プログラミング",
+                    "confidence": 0.3
                 },
                 {
-                    "slug": "gaming",
-                    "name": "ゲーム",
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 109.9,
+                "engagement": 2.9,
+                "subscriberRatio": 28.0,
+                "freshness": 44.6
+            }
+        },
+        {
+            "rank": 2,
+            "videoId": "8qBGu4yYGC0",
+            "title": "ちるるのAI β | AIニュース解説 | 2026.07.25",
+            "channelId": "UCCrIRPEPbTti4qe2OsGg07g",
+            "channelName": "chiruruAI",
+            "thumbnailUrl": "https://i.ytimg.com/vi/8qBGu4yYGC0/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:41:53Z",
+            "viewCount": 35,
+            "viewIncrease": 35,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 88,
+            "rawScore": 35.7,
+            "normalizedScore": 0.0,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.6
+                },
+                {
+                    "slug": "programming",
+                    "name": "IT・プログラミング",
                     "confidence": 0.3
                 },
                 {
                     "slug": "music",
                     "name": "音楽",
                     "confidence": 0.2
-                },
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 151.8,
-                "engagement": 39.1,
-                "subscriberRatio": 53.2,
-                "freshness": 40.2
-            }
-        },
-        {
-            "rank": 2,
-            "previousRank": 37,
-            "rankChange": 35,
-            "videoId": "YEn6lZPkDBw",
-            "title": "AI向けプログラミング言語！？「Jacquard」 #Shorts",
-            "channelId": "UClRQ_q3uE62Ixlx-8gYCsAw",
-            "channelName": "クロノITチャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/YEn6lZPkDBw/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:10:46Z",
-            "viewCount": 907,
-            "viewIncrease": 466,
-            "likeCount": 19,
-            "likeIncrease": 15,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 7060,
-            "rawScore": 71.7,
-            "normalizedScore": 83.3,
-            "genres": [
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.8
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 91.8,
-                "engagement": 27.4,
-                "subscriberRatio": 70.5,
-                "freshness": 37.8
-            }
-        },
-        {
-            "rank": 3,
-            "previousRank": 67,
-            "rankChange": 64,
-            "videoId": "Wwk1HrTgpRc",
-            "title": "AI向けプログラミング言語！？「Jacquard」",
-            "channelId": "UClRQ_q3uE62Ixlx-8gYCsAw",
-            "channelName": "クロノITチャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Wwk1HrTgpRc/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:03:07Z",
-            "viewCount": 570,
-            "viewIncrease": 463,
-            "likeCount": 21,
-            "likeIncrease": 18,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 7060,
-            "rawScore": 71.5,
-            "normalizedScore": 66.7,
-            "genres": [
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 91.7,
-                "engagement": 28.8,
-                "subscriberRatio": 70.4,
-                "freshness": 37.4
-            }
-        },
-        {
-            "rank": 4,
-            "previousRank": 75,
-            "rankChange": 71,
-            "videoId": "F45KG_9PAN0",
-            "title": "Claude Opus 5 ベンチマークより先に何を確認すべき?",
-            "channelId": "UC5AcEeC1LjJ7f5-o5jxfzqQ",
-            "channelName": "まさやん【AIギルドch】- AIでクリエイティブと開発を効率化・自動化する仲間が集う場所へようこそ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/F45KG_9PAN0/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:00:30Z",
-            "viewCount": 584,
-            "viewIncrease": 511,
-            "likeCount": 4,
-            "likeIncrease": 3,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 2900,
-            "rawScore": 70.9,
-            "normalizedScore": 50.0,
-            "genres": [
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 93.6,
-                "engagement": 15.1,
-                "subscriberRatio": 81.2,
-                "freshness": 37.4
-            }
-        },
-        {
-            "rank": 5,
-            "videoId": "zRx40fDE7_Q",
-            "title": "無料プログラミング学習サイトTOP3",
-            "channelId": "UCBEXvNSKrtPTUFuKQ8mTlSw",
-            "channelName": "スマート・ワーク・AI",
-            "thumbnailUrl": "https://i.ytimg.com/vi/zRx40fDE7_Q/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:40:04Z",
-            "viewCount": 180,
-            "viewIncrease": 180,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 6400,
-            "rawScore": 43.9,
-            "normalizedScore": 33.3,
-            "genres": [
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.8
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 41.8,
+                "velocity": 17.6,
                 "engagement": 0.0,
-                "subscriberRatio": 61.3,
-                "freshness": 42.6
-            }
-        },
-        {
-            "rank": 6,
-            "videoId": "HOA6BycTzTg",
-            "title": "ファンタジー料理 シミュレーター 料理紹介 光るキノコ編２#Python #Streamlit #プログラミング #個人開発 #ファンタジー料理",
-            "channelId": "UCeNPPHDJqJScMpe7DOwuxKw",
-            "channelName": "Geminiでアプリ開発チャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/HOA6BycTzTg/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T10:30:33Z",
-            "viewCount": 47,
-            "viewIncrease": 43,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 1,
-            "commentIncrease": 0,
-            "subscriberCount": 1,
-            "rawScore": 40.7,
-            "normalizedScore": 16.7,
-            "genres": [
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.5
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 46.9,
-                "engagement": 0.0,
-                "subscriberRatio": 65.9,
-                "freshness": 36.1
-            }
-        },
-        {
-            "rank": 7,
-            "videoId": "1OAQrQrdc-A",
-            "title": "プログラミング知識不要！Fusion搭載の”AI”で自動化アドイン作成 挑戦の記録｜Fusion Autodesk Assistant",
-            "channelId": "UCqmZCkX0ZYFywI5RxeQht6A",
-            "channelName": "Autodesk Fusion Japan",
-            "thumbnailUrl": "https://i.ytimg.com/vi/1OAQrQrdc-A/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T09:30:21Z",
-            "viewCount": 75,
-            "viewIncrease": 38,
-            "likeCount": 2,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 24000,
-            "rawScore": 25.6,
-            "normalizedScore": 0.0,
-            "genres": [
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.8
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 44.7,
-                "engagement": 0.0,
-                "subscriberRatio": 30.7,
-                "freshness": 34.0
+                "subscriberRatio": 63.6,
+                "freshness": 44.0
             }
         }
     ]

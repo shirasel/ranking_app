@@ -1,31 +1,33 @@
 {
-    "generatedAt": "2026-07-25T16:11:19.759968557Z",
+    "generatedAt": "2026-07-25T16:52:32.948873553Z",
     "period": "24h",
     "genre": {
         "slug": "music",
         "name": "音楽",
-        "confidence": 0.2
+        "confidence": 0.5
     },
     "status": "official",
-    "totalVideos": 42,
-    "totalChannels": 41,
+    "totalVideos": 45,
+    "totalChannels": 45,
     "ranking": [
         {
             "rank": 1,
+            "previousRank": 6,
+            "rankChange": 5,
             "videoId": "_cN9qw1Wgx0",
             "title": "🎧 The Random Play 2nd Anniversary — Fantasy Electronic Music Festival is now officially live!",
             "channelId": "UCb7ve-ncnLh41F4sYpFTcXA",
             "channelName": "HoYoFair",
             "thumbnailUrl": "https://i.ytimg.com/vi/_cN9qw1Wgx0/maxresdefault.jpg",
             "publishedAt": "2026-07-25T12:45:07Z",
-            "viewCount": 92320,
-            "viewIncrease": 92320,
-            "likeCount": 10591,
-            "likeIncrease": 10591,
-            "commentCount": 313,
-            "commentIncrease": 313,
+            "viewCount": 129659,
+            "viewIncrease": 37339,
+            "likeCount": 11065,
+            "likeIncrease": 474,
+            "commentCount": 324,
+            "commentIncrease": 11,
             "subscriberCount": 733000,
-            "rawScore": 124.9,
+            "rawScore": 123.8,
             "normalizedScore": 100.0,
             "genres": [
                 {
@@ -45,70 +47,98 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 161.3,
-                "engagement": 52.2,
-                "subscriberRatio": 77.5,
-                "freshness": 42.9
+                "velocity": 213.2,
+                "engagement": 25.2,
+                "subscriberRatio": 67.7,
+                "freshness": 40.4
             }
         },
         {
             "rank": 2,
-            "videoId": "LcxyEh4iUVE",
-            "title": "【ホロドリ】本編を遊ぶためまずは全員を引きます【獅白ぼたん/ホロライブ】",
-            "channelId": "UCUKD-uaobj9jiqB-VXt71mA",
-            "channelName": "Botan Ch.獅白ぼたん",
-            "thumbnailUrl": "https://i.ytimg.com/vi/LcxyEh4iUVE/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:07Z",
-            "viewCount": 258977,
-            "viewIncrease": 258977,
-            "likeCount": 10854,
-            "likeIncrease": 10854,
-            "commentCount": 25,
-            "commentIncrease": 25,
-            "subscriberCount": 1580000,
-            "rawScore": 118.0,
-            "normalizedScore": 97.6,
+            "videoId": "cbkBGnz-5dk",
+            "title": "How is This ALLOWED?! | VTuber Reacts to Chat Music!",
+            "channelId": "UCW1Ffbx9bkgjZpnZoANzAnw",
+            "channelName": "Xena Alexander",
+            "thumbnailUrl": "https://i.ytimg.com/vi/cbkBGnz-5dk/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T14:09:48Z",
+            "viewCount": 3180,
+            "viewIncrease": 3180,
+            "likeCount": 570,
+            "likeIncrease": 570,
+            "commentCount": 58,
+            "commentIncrease": 58,
+            "subscriberCount": 10600,
+            "rawScore": 112.4,
+            "normalizedScore": 97.7,
             "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.5
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                },
                 {
                     "slug": "music",
                     "name": "音楽",
-                    "confidence": 0.2
+                    "confidence": 0.5
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 181.5,
-                "engagement": 31.4,
-                "subscriberRatio": 80.4,
-                "freshness": 40.2
+                "velocity": 95.6,
+                "engagement": 61.1,
+                "subscriberRatio": 86.9,
+                "freshness": 46.1
             }
         },
         {
             "rank": 3,
+            "videoId": "BV5M6NZtAoY",
+            "title": "🎮散歩中に歌ってみた #クエスチョン #歌ってみた #アカペラ #マイクラ",
+            "channelId": "UC_ktrspxRNFeDkLAme-L4-w",
+            "channelName": "シロナオサム",
+            "thumbnailUrl": "https://i.ytimg.com/vi/BV5M6NZtAoY/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T15:00:31Z",
+            "viewCount": 691,
+            "viewIncrease": 691,
+            "likeCount": 5,
+            "likeIncrease": 5,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 1370,
+            "rawScore": 94.8,
+            "normalizedScore": 95.5,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.7
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.5
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 66.3,
+                "engagement": 27.5,
+                "subscriberRatio": 92.6,
+                "freshness": 50.9
+            }
+        },
+        {
+            "rank": 4,
+            "previousRank": 21,
+            "rankChange": 17,
             "videoId": "zneG0w7Zt9E",
             "title": "新しいメンバーが加わることになりました",
             "channelId": "UCZLeZXjm_opUQFhLa4I_VFg",
             "channelName": "リオラch-スプラ解説-",
             "thumbnailUrl": "https://i.ytimg.com/vi/zneG0w7Zt9E/maxresdefault.jpg",
             "publishedAt": "2026-07-25T10:00:06Z",
-            "viewCount": 81259,
-            "viewIncrease": 81259,
-            "likeCount": 4205,
-            "likeIncrease": 4205,
-            "commentCount": 401,
-            "commentIncrease": 401,
+            "viewCount": 89181,
+            "viewIncrease": 7922,
+            "likeCount": 4277,
+            "likeIncrease": 72,
+            "commentCount": 405,
+            "commentIncrease": 4,
             "subscriberCount": 358000,
-            "rawScore": 101.6,
-            "normalizedScore": 95.1,
+            "rawScore": 89.4,
+            "normalizedScore": 93.2,
             "genres": [
                 {
                     "slug": "learning",
@@ -132,34 +162,34 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 158.8,
-                "engagement": 47.9,
-                "subscriberRatio": 83.9,
-                "freshness": 35.0
+                "velocity": 182.9,
+                "engagement": 24.6,
+                "subscriberRatio": 58.7,
+                "freshness": 33.6
             }
         },
         {
-            "rank": 4,
-            "videoId": "IZmWGR4WF8U",
-            "title": "Minecraft, But Every Choice Changes the World…",
-            "channelId": "UCharrcPjOA4XLCVcfkyepDg",
-            "channelName": "Firelight",
-            "thumbnailUrl": "https://i.ytimg.com/vi/IZmWGR4WF8U/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:15Z",
-            "viewCount": 56726,
-            "viewIncrease": 56726,
-            "likeCount": 3410,
-            "likeIncrease": 3410,
-            "commentCount": 32,
-            "commentIncrease": 32,
-            "subscriberCount": 4270000,
-            "rawScore": 98.2,
-            "normalizedScore": 92.7,
+            "rank": 5,
+            "videoId": "lfKL8UIbJpo",
+            "title": "忘れじの言の葉　【歌ってみた】　#Cover　 #shorts",
+            "channelId": "UCUgWbRf-bPxSOSL-hO7En6w",
+            "channelName": "心宵-koyoi-",
+            "thumbnailUrl": "https://i.ytimg.com/vi/lfKL8UIbJpo/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:00:16Z",
+            "viewCount": 1337,
+            "viewIncrease": 1337,
+            "likeCount": 15,
+            "likeIncrease": 15,
+            "commentCount": 2,
+            "commentIncrease": 2,
+            "subscriberCount": 1520,
+            "rawScore": 86.0,
+            "normalizedScore": 90.9,
             "genres": [
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.99
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.4
                 },
                 {
                     "slug": "gaming",
@@ -167,71 +197,68 @@
                     "confidence": 0.3
                 },
                 {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 151.8,
-                "engagement": 39.1,
-                "subscriberRatio": 53.2,
-                "freshness": 40.2
-            }
-        },
-        {
-            "rank": 5,
-            "videoId": "wiao-EiB6QQ",
-            "title": "【Dance Practice】ハピハピ法被/MEGAFON【メガフォン】",
-            "channelId": "UCXfnkng4JhPXUeJIkoj8HjA",
-            "channelName": "MEGAFON【メガフォン】",
-            "thumbnailUrl": "https://i.ytimg.com/vi/wiao-EiB6QQ/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T10:00:06Z",
-            "viewCount": 11343,
-            "viewIncrease": 11343,
-            "likeCount": 1079,
-            "likeIncrease": 1079,
-            "commentCount": 90,
-            "commentIncrease": 90,
-            "subscriberCount": 23300,
-            "rawScore": 93.5,
-            "normalizedScore": 90.2,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
+                    "slug": "minecraft",
+                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 120.4,
-                "engagement": 55.0,
-                "subscriberRatio": 92.2,
-                "freshness": 35.0
+                "velocity": 78.9,
+                "engagement": 30.7,
+                "subscriberRatio": 98.6,
+                "freshness": 41.3
             }
         },
         {
             "rank": 6,
+            "videoId": "l6ncmYKFodU",
+            "title": "スパークル (Sparkle) / RADWIMPS 歌ってみた 【NIJISANJI EN ♦️ Ver Vermillion】",
+            "channelId": "UCO8WcDsF5znr-qsXlzZNpqg",
+            "channelName": "Ver Vermillion【NIJISANJI EN】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/l6ncmYKFodU/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:30:06Z",
+            "viewCount": 2038,
+            "viewIncrease": 2038,
+            "likeCount": 988,
+            "likeIncrease": 988,
+            "commentCount": 75,
+            "commentIncrease": 75,
+            "subscriberCount": 241000,
+            "rawScore": 85.9,
+            "normalizedScore": 88.6,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 87.0,
+                "engagement": 63.6,
+                "subscriberRatio": 48.3,
+                "freshness": 43.2
+            }
+        },
+        {
+            "rank": 7,
+            "previousRank": 29,
+            "rankChange": 22,
             "videoId": "dawIZHe92YA",
             "title": "【 踊る大捜査線 メドレー 】エレクトーン演奏",
             "channelId": "UCBvWfh5pkiCdApbtS0eaMIg",
             "channelName": "826aska",
             "thumbnailUrl": "https://i.ytimg.com/vi/dawIZHe92YA/maxresdefault.jpg",
             "publishedAt": "2026-07-25T11:26:02Z",
-            "viewCount": 10856,
-            "viewIncrease": 10856,
-            "likeCount": 1743,
-            "likeIncrease": 1743,
-            "commentCount": 129,
-            "commentIncrease": 129,
+            "viewCount": 12580,
+            "viewIncrease": 1724,
+            "likeCount": 1814,
+            "likeIncrease": 71,
+            "commentCount": 133,
+            "commentIncrease": 4,
             "subscriberCount": 900000,
-            "rawScore": 88.7,
-            "normalizedScore": 87.8,
+            "rawScore": 83.7,
+            "normalizedScore": 86.4,
             "genres": [
                 {
                     "slug": "music",
@@ -240,31 +267,231 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 119.5,
-                "engagement": 58.9,
-                "subscriberRatio": 52.1,
-                "freshness": 38.5
+                "velocity": 153.1,
+                "engagement": 42.5,
+                "subscriberRatio": 32.6,
+                "freshness": 36.7
             }
         },
         {
-            "rank": 7,
-            "previousRank": 20,
-            "rankChange": 13,
+            "rank": 8,
+            "previousRank": 27,
+            "rankChange": 19,
+            "videoId": "wiao-EiB6QQ",
+            "title": "【Dance Practice】ハピハピ法被/MEGAFON【メガフォン】",
+            "channelId": "UCXfnkng4JhPXUeJIkoj8HjA",
+            "channelName": "MEGAFON【メガフォン】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/wiao-EiB6QQ/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T10:00:06Z",
+            "viewCount": 12622,
+            "viewIncrease": 1279,
+            "likeCount": 1104,
+            "likeIncrease": 25,
+            "commentCount": 91,
+            "commentIncrease": 1,
+            "subscriberCount": 23300,
+            "rawScore": 83.2,
+            "normalizedScore": 84.1,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 147.3,
+                "engagement": 31.9,
+                "subscriberRatio": 68.5,
+                "freshness": 33.6
+            }
+        },
+        {
+            "rank": 9,
+            "videoId": "BMFR4BRE8l4",
+            "title": "JANE DOE  / 拾參×賽特珞 @Cetro.Timaeus 【歌ってみた】",
+            "channelId": "UCmKZED1y3oPf8sTaPu3XIQw",
+            "channelName": "拾參 Thirteen【調酒師 Vsinger】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/BMFR4BRE8l4/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:00:16Z",
+            "viewCount": 1451,
+            "viewIncrease": 1451,
+            "likeCount": 540,
+            "likeIncrease": 540,
+            "commentCount": 58,
+            "commentIncrease": 58,
+            "subscriberCount": 75900,
+            "rawScore": 83.1,
+            "normalizedScore": 81.8,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.6
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 80.5,
+                "engagement": 63.6,
+                "subscriberRatio": 57.1,
+                "freshness": 41.3
+            }
+        },
+        {
+            "rank": 10,
+            "previousRank": 9,
+            "rankChange": -1,
+            "videoId": "LcxyEh4iUVE",
+            "title": "【ホロドリ】本編を遊ぶためまずは全員を引きます【獅白ぼたん/ホロライブ】",
+            "channelId": "UCUKD-uaobj9jiqB-VXt71mA",
+            "channelName": "Botan Ch.獅白ぼたん",
+            "thumbnailUrl": "https://i.ytimg.com/vi/LcxyEh4iUVE/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:00:07Z",
+            "viewCount": 261044,
+            "viewIncrease": 2067,
+            "likeCount": 10876,
+            "likeIncrease": 22,
+            "commentCount": 27,
+            "commentIncrease": 2,
+            "subscriberCount": 1580000,
+            "rawScore": 81.6,
+            "normalizedScore": 79.5,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.5
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 156.6,
+                "engagement": 28.4,
+                "subscriberRatio": 28.7,
+                "freshness": 38.2
+            }
+        },
+        {
+            "rank": 11,
+            "videoId": "qG9ksjukRZw",
+            "title": "とくべチュ、して/歌ってみた【cover by ますかれーど】猫田ぺぺろ/相晴ひなた/穂香てまり/初恋サキ/夜魅月まよい",
+            "channelId": "UCWOKF8h6kFj2pRn3rCD6nyw",
+            "channelName": "Pepero ch. / 猫田ぺぺろ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/qG9ksjukRZw/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T15:05:06Z",
+            "viewCount": 347,
+            "viewIncrease": 347,
+            "likeCount": 169,
+            "likeIncrease": 169,
+            "commentCount": 11,
+            "commentIncrease": 11,
+            "subscriberCount": 125000,
+            "rawScore": 79.0,
+            "normalizedScore": 77.3,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 53.5,
+                "engagement": 63.6,
+                "subscriberRatio": 36.5,
+                "freshness": 51.4
+            }
+        },
+        {
+            "rank": 12,
+            "videoId": "1AsCpRWrKzs",
+            "title": "【歌ってみた】HOT LIMIT / T.M.Revolution 〜Covered by Hiroki〜 part④　#tmrevolution #tmr #西川貴教 #shorts",
+            "channelId": "UCvQiJmUCm6zln4QOv5PrOYw",
+            "channelName": "Hiroki Music",
+            "thumbnailUrl": "https://i.ytimg.com/vi/1AsCpRWrKzs/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:30:31Z",
+            "viewCount": 1114,
+            "viewIncrease": 1114,
+            "likeCount": 6,
+            "likeIncrease": 6,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 4520,
+            "rawScore": 75.4,
+            "normalizedScore": 75.0,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.85
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 75.4,
+                "engagement": 14.5,
+                "subscriberRatio": 84.8,
+                "freshness": 43.2
+            }
+        },
+        {
+            "rank": 13,
+            "videoId": "-BVwI02r7v0",
+            "title": "【声だけで】Dream Drive / SOUL'd OUT #souldout #歌ってみた #acappella",
+            "channelId": "UCMS-oGqkaPP7rLO1mxnT2QQ",
+            "channelName": "KireinaGianRecital",
+            "thumbnailUrl": "https://i.ytimg.com/vi/-BVwI02r7v0/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:00:16Z",
+            "viewCount": 972,
+            "viewIncrease": 972,
+            "likeCount": 22,
+            "likeIncrease": 22,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 388,
+            "rawScore": 75.3,
+            "normalizedScore": 72.7,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 72.8,
+                "engagement": 24.7,
+                "subscriberRatio": 99.7,
+                "freshness": 38.2
+            }
+        },
+        {
+            "rank": 14,
+            "previousRank": 33,
+            "rankChange": 19,
             "videoId": "qLMW0SWYYoA",
             "title": "【めめ村】巨人が荒らしまくる！ゴール前でハンバーガーを食べたものが勝利するゴルフ大乱闘⛳【SuperBattleGolf】【ゆっくり実況】",
             "channelId": "UCy0DH4rgPPjDWVZO7wibcSQ",
             "channelName": "めめんともり",
             "thumbnailUrl": "https://i.ytimg.com/vi/qLMW0SWYYoA/maxresdefault.jpg",
             "publishedAt": "2026-07-25T07:30:27Z",
-            "viewCount": 70564,
-            "viewIncrease": 30405,
-            "likeCount": 4360,
-            "likeIncrease": 1127,
-            "commentCount": 226,
-            "commentIncrease": 33,
+            "viewCount": 75028,
+            "viewIncrease": 4464,
+            "likeCount": 4423,
+            "likeIncrease": 63,
+            "commentCount": 229,
+            "commentIncrease": 3,
             "subscriberCount": 367000,
-            "rawScore": 87.1,
-            "normalizedScore": 85.4,
+            "rawScore": 75.0,
+            "normalizedScore": 70.5,
             "genres": [
                 {
                     "slug": "gaming",
@@ -283,29 +510,62 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 173.3,
-                "engagement": 38.1,
-                "subscriberRatio": 73.0,
-                "freshness": 30.6
+                "velocity": 171.7,
+                "engagement": 28.9,
+                "subscriberRatio": 52.2,
+                "freshness": 29.7
             }
         },
         {
-            "rank": 8,
+            "rank": 15,
+            "videoId": "fy8dxKFnh4U",
+            "title": "きみのためのうた null (cover) #shorts #歌ってみた",
+            "channelId": "UCcyJ7SRmr9oxqzSBkwwAcEQ",
+            "channelName": "null",
+            "thumbnailUrl": "https://i.ytimg.com/vi/fy8dxKFnh4U/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:00:32Z",
+            "viewCount": 1067,
+            "viewIncrease": 1067,
+            "likeCount": 14,
+            "likeIncrease": 14,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 383,
+            "rawScore": 74.8,
+            "normalizedScore": 68.2,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 74.6,
+                "engagement": 20.7,
+                "subscriberRatio": 100.7,
+                "freshness": 38.2
+            }
+        },
+        {
+            "rank": 16,
+            "previousRank": 38,
+            "rankChange": 22,
             "videoId": "MiNKMPMDQv0",
             "title": "Juice=Juice「OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-」setlist digest",
             "channelId": "UC6FadPgGviUcq6VQ0CEJqdQ",
             "channelName": "Juice=Juice",
             "thumbnailUrl": "https://i.ytimg.com/vi/MiNKMPMDQv0/maxresdefault.jpg",
             "publishedAt": "2026-07-25T09:30:01Z",
-            "viewCount": 19911,
-            "viewIncrease": 19911,
-            "likeCount": 1849,
-            "likeIncrease": 1849,
-            "commentCount": 66,
-            "commentIncrease": 66,
+            "viewCount": 21646,
+            "viewIncrease": 1735,
+            "likeCount": 1883,
+            "likeIncrease": 34,
+            "commentCount": 67,
+            "commentIncrease": 1,
             "subscriberCount": 329000,
-            "rawScore": 85.3,
-            "normalizedScore": 82.9,
+            "rawScore": 74.2,
+            "normalizedScore": 65.9,
             "genres": [
                 {
                     "slug": "music",
@@ -314,31 +574,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 131.4,
-                "engagement": 50.4,
-                "subscriberRatio": 69.6,
-                "freshness": 33.9
+                "velocity": 153.2,
+                "engagement": 30.7,
+                "subscriberRatio": 43.3,
+                "freshness": 32.7
             }
         },
         {
-            "rank": 9,
-            "previousRank": 25,
-            "rankChange": 16,
+            "rank": 17,
+            "previousRank": 40,
+            "rankChange": 23,
             "videoId": "wuGyjM3MSq4",
             "title": "50人が小人になってしまった世界で虫から逃げながら全員集合 - マインクラフト【KUN】",
             "channelId": "UCoQhX2O93MVTWfgIz-8wOmg",
             "channelName": "KUNの50人クラフト",
             "thumbnailUrl": "https://i.ytimg.com/vi/wuGyjM3MSq4/maxresdefault.jpg",
             "publishedAt": "2026-07-25T07:00:27Z",
-            "viewCount": 78042,
-            "viewIncrease": 32922,
-            "likeCount": 2089,
-            "likeIncrease": 506,
-            "commentCount": 216,
-            "commentIncrease": 53,
+            "viewCount": 83578,
+            "viewIncrease": 5536,
+            "likeCount": 2128,
+            "likeIncrease": 39,
+            "commentCount": 218,
+            "commentIncrease": 2,
             "subscriberCount": 580000,
-            "rawScore": 82.9,
-            "normalizedScore": 80.5,
+            "rawScore": 71.8,
+            "normalizedScore": 63.6,
             "genres": [
                 {
                     "slug": "minecraft",
@@ -357,134 +617,93 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 174.9,
-                "engagement": 33.3,
-                "subscriberRatio": 68.9,
-                "freshness": 29.9
+                "velocity": 175.9,
+                "engagement": 21.7,
+                "subscriberRatio": 49.6,
+                "freshness": 29.0
             }
         },
         {
-            "rank": 10,
-            "previousRank": 28,
-            "rankChange": 18,
-            "videoId": "2SX2z9w80rA",
-            "title": "※音量注意※絶叫集part124#shorts  #deadbydaylight #ゲーム実況 #dbdsurvivor #ゲーム実況 #デッドバイデイライト",
-            "channelId": "UCGXNq-IoXKBe_eV94OQozJA",
-            "channelName": "てぃーけぇー",
-            "thumbnailUrl": "https://i.ytimg.com/vi/2SX2z9w80rA/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:00:05Z",
-            "viewCount": 1015,
-            "viewIncrease": 648,
-            "likeCount": 8,
-            "likeIncrease": 6,
-            "commentCount": 2,
-            "commentIncrease": 1,
-            "subscriberCount": 1750,
-            "rawScore": 80.9,
-            "normalizedScore": 78.0,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 98.2,
-                "engagement": 29.5,
-                "subscriberRatio": 89.2,
-                "freshness": 37.3
-            }
-        },
-        {
-            "rank": 11,
-            "videoId": "6W-XwVg31tU",
-            "title": "JINA環島VLOG第二天 #ai生成 #ai歌手# #vlog",
-            "channelId": "UCMdsgcXZrPl5axnKrH1UsYQ",
-            "channelName": "修卡迪特AI_創作",
-            "thumbnailUrl": "https://i.ytimg.com/vi/6W-XwVg31tU/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:47:20Z",
-            "viewCount": 99,
-            "viewIncrease": 99,
-            "likeCount": 5,
-            "likeIncrease": 5,
+            "rank": 18,
+            "videoId": "N14dEkjSOSg",
+            "title": "【歌ってみた】ブルーバード／いきものがかり Covered by 大瑠璃冴【#新人vtuber 】",
+            "channelId": "UCSGNlfBAjchEQ9z_Z-ROCIw",
+            "channelName": "大瑠璃 冴 / Ooruri Sae",
+            "thumbnailUrl": "https://i.ytimg.com/vi/N14dEkjSOSg/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:00:06Z",
+            "viewCount": 361,
+            "viewIncrease": 361,
+            "likeCount": 10,
+            "likeIncrease": 10,
             "commentCount": 2,
             "commentIncrease": 2,
-            "subscriberCount": 78,
-            "rawScore": 76.0,
-            "normalizedScore": 75.6,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 62.2,
-                "engagement": 54.9,
-                "subscriberRatio": 74.9,
-                "freshness": 39.6
-            }
-        },
-        {
-            "rank": 12,
-            "videoId": "nRaHQ8Ro8QM",
-            "title": "Perfume~ステージの光輝き続けて~動画生成AI Pixverse AIを使ってPerfumeの動画を作ってみました",
-            "channelId": "UCEOGSTopuTz8C8X5K8dLLYA",
-            "channelName": "fan service sweet fan service bitter",
-            "thumbnailUrl": "https://i.ytimg.com/vi/nRaHQ8Ro8QM/sddefault.jpg",
-            "publishedAt": "2026-07-25T12:14:47Z",
-            "viewCount": 1009,
-            "viewIncrease": 1009,
-            "likeCount": 30,
-            "likeIncrease": 30,
-            "commentCount": 2,
-            "commentIncrease": 2,
-            "subscriberCount": 20300,
-            "rawScore": 74.0,
-            "normalizedScore": 73.2,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 73.5,
-                "engagement": 39.2,
-                "subscriberRatio": 67.4,
-                "freshness": 41.1
-            }
-        },
-        {
-            "rank": 13,
-            "videoId": "1LHWjcoXfJk",
-            "title": "【Lo-Fi jazz】【作業用BGM】静かな午後のコーヒー｜70年代ジャズ×レトロレコード音質｜美少女画像で癒しのカフェタイム #anime #カフェbgm #作業用bgm",
-            "channelId": "UC65xDK4DB4lnP3aOVoRzdJw",
-            "channelName": "LO-FI Relax Channel",
-            "thumbnailUrl": "https://i.ytimg.com/vi/1LHWjcoXfJk/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T15:15:00Z",
-            "viewCount": 173,
-            "viewIncrease": 173,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 121,
+            "subscriberCount": 615,
             "rawScore": 71.3,
-            "normalizedScore": 70.7,
+            "normalizedScore": 61.4,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 54.2,
+                "engagement": 43.7,
+                "subscriberRatio": 88.9,
+                "freshness": 38.2
+            }
+        },
+        {
+            "rank": 19,
+            "videoId": "RnTplQLowOQ",
+            "title": "jihad - KOTOKO cover【アカペラ】#歌ってみた #バルドスカイ #baldrskydive2",
+            "channelId": "UC6bgvg7TfGxryVoaXEj8t9w",
+            "channelName": "透華レミ / Remi Touka",
+            "thumbnailUrl": "https://i.ytimg.com/vi/RnTplQLowOQ/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:00:21Z",
+            "viewCount": 451,
+            "viewIncrease": 451,
+            "likeCount": 20,
+            "likeIncrease": 20,
+            "commentCount": 3,
+            "commentIncrease": 3,
+            "subscriberCount": 7290,
+            "rawScore": 67.3,
+            "normalizedScore": 59.1,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 58.3,
+                "engagement": 48.2,
+                "subscriberRatio": 69.8,
+                "freshness": 38.2
+            }
+        },
+        {
+            "rank": 20,
+            "previousRank": 67,
+            "rankChange": 47,
+            "videoId": "_IT83Y_HcAw",
+            "title": "JENNIE - Less than a Lover (Official Video)",
+            "channelId": "UCN9_L9lA9kqJbGANLRus_1A",
+            "channelName": "JennieRubyJaneVEVO",
+            "thumbnailUrl": "https://i.ytimg.com/vi/_IT83Y_HcAw/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T04:00:05Z",
+            "viewCount": 7353664,
+            "viewIncrease": 89290,
+            "likeCount": 898388,
+            "likeIncrease": 3814,
+            "commentCount": 60287,
+            "commentIncrease": 169,
+            "subscriberCount": 18500,
+            "rawScore": 62.4,
+            "normalizedScore": 56.8,
             "genres": [
                 {
                     "slug": "music",
@@ -493,31 +712,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 41.1,
-                "engagement": 0.0,
-                "subscriberRatio": 81.0,
-                "freshness": 58.4
+                "velocity": 230.2,
+                "engagement": 41.8,
+                "subscriberRatio": 117.1,
+                "freshness": 16.0
             }
         },
         {
-            "rank": 14,
-            "previousRank": 41,
-            "rankChange": 27,
+            "rank": 21,
+            "previousRank": 61,
+            "rankChange": 40,
             "videoId": "IBRcZWuB8-Q",
             "title": "STARGLOW / Drivin' My Life -Behind The Scenes- (Short Ver.)",
             "channelId": "UCKsVfYfguU3s5vMO5yhcWdw",
             "channelName": "STARGLOW Official",
             "thumbnailUrl": "https://i.ytimg.com/vi/IBRcZWuB8-Q/maxresdefault.jpg",
             "publishedAt": "2026-07-25T03:00:18Z",
-            "viewCount": 29676,
-            "viewIncrease": 7579,
-            "likeCount": 3337,
-            "likeIncrease": 496,
-            "commentCount": 151,
-            "commentIncrease": 8,
+            "viewCount": 30885,
+            "viewIncrease": 1209,
+            "likeCount": 3362,
+            "likeIncrease": 25,
+            "commentCount": 152,
+            "commentIncrease": 1,
             "subscriberCount": 23600,
-            "rawScore": 70.9,
-            "normalizedScore": 68.3,
+            "rawScore": 61.9,
+            "normalizedScore": 54.5,
             "genres": [
                 {
                     "slug": "music",
@@ -527,61 +746,30 @@
             ],
             "scoreBreakdown": {
                 "velocity": 146.2,
-                "engagement": 42.4,
-                "subscriberRatio": 87.7,
-                "freshness": 25.7
+                "engagement": 32.6,
+                "subscriberRatio": 67.8,
+                "freshness": 25.1
             }
         },
         {
-            "rank": 15,
-            "videoId": "sgweQnmkVQE",
-            "title": "【生成AI歌詞自作】5ToraWorks  197th SINGLE  茜色の空の下で  #トライアスロン  #バラモンキング #五島 #五島市 #夕やけマラソン #五島列島",
-            "channelId": "UCMd23zxuYQ-PzF7iOkFTfRw",
-            "channelName": "5Tora Works",
-            "thumbnailUrl": "https://i.ytimg.com/vi/sgweQnmkVQE/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:49:24Z",
-            "viewCount": 188,
-            "viewIncrease": 188,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 50,
-            "rawScore": 68.0,
-            "normalizedScore": 65.9,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.5
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 42.6,
-                "engagement": 0.0,
-                "subscriberRatio": 81.9,
-                "freshness": 54.6
-            }
-        },
-        {
-            "rank": 16,
-            "previousRank": 66,
-            "rankChange": 50,
+            "rank": 22,
+            "previousRank": 65,
+            "rankChange": 43,
             "videoId": "lI7efayDEeU",
             "title": "島のうた (セイレーンver.)",
             "channelId": "UCHIghtlfPyAn1pzvPTg2SYw",
             "channelName": "Release - Topic",
             "thumbnailUrl": "https://i.ytimg.com/vi/lI7efayDEeU/maxresdefault.jpg",
             "publishedAt": "2026-07-24T15:03:34Z",
-            "viewCount": 100044,
-            "viewIncrease": 39315,
-            "likeCount": 3505,
-            "likeIncrease": 1176,
+            "viewCount": 107739,
+            "viewIncrease": 7695,
+            "likeCount": 3611,
+            "likeIncrease": 106,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 484,
-            "rawScore": 66.3,
-            "normalizedScore": 63.4,
+            "subscriberCount": 491,
+            "rawScore": 61.7,
+            "normalizedScore": 52.3,
             "genres": [
                 {
                     "slug": "music",
@@ -590,97 +778,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 178.3,
-                "engagement": 26.8,
-                "subscriberRatio": 139.9,
-                "freshness": 19.2
+                "velocity": 182.3,
+                "engagement": 21.1,
+                "subscriberRatio": 122.2,
+                "freshness": 19.0
             }
         },
         {
-            "rank": 17,
-            "previousRank": 68,
-            "rankChange": 51,
-            "videoId": "HZcpB0PfG6g",
-            "title": "うさぎラップ (リズム感のある者たちver.)",
-            "channelId": "UCdtYA6DvP4gtzADn14-MVeQ",
-            "channelName": "Release - Topic",
-            "thumbnailUrl": "https://i.ytimg.com/vi/HZcpB0PfG6g/maxresdefault.jpg",
-            "publishedAt": "2026-07-24T15:03:27Z",
-            "viewCount": 89163,
-            "viewIncrease": 36024,
-            "likeCount": 3425,
-            "likeIncrease": 1097,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 250,
-            "rawScore": 65.8,
-            "normalizedScore": 61.0,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 176.6,
-                "engagement": 27.0,
-                "subscriberRatio": 138.9,
-                "freshness": 19.2
-            }
-        },
-        {
-            "rank": 18,
-            "previousRank": 53,
-            "rankChange": 35,
-            "videoId": "_IT83Y_HcAw",
-            "title": "JENNIE - Less than a Lover (Official Video)",
-            "channelId": "UCN9_L9lA9kqJbGANLRus_1A",
-            "channelName": "JennieRubyJaneVEVO",
-            "thumbnailUrl": "https://i.ytimg.com/vi/_IT83Y_HcAw/maxresdefault.jpg",
-            "publishedAt": "2026-07-24T04:00:05Z",
-            "viewCount": 7264374,
-            "viewIncrease": 441955,
-            "likeCount": 894574,
-            "likeIncrease": 27475,
-            "commentCount": 60118,
-            "commentIncrease": 1012,
-            "subscriberCount": 18500,
-            "rawScore": 65.6,
-            "normalizedScore": 58.5,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.5
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 225.6,
-                "engagement": 45.6,
-                "subscriberRatio": 134.5,
-                "freshness": 16.2
-            }
-        },
-        {
-            "rank": 19,
-            "previousRank": 56,
-            "rankChange": 37,
+            "rank": 23,
+            "previousRank": 70,
+            "rankChange": 47,
             "videoId": "vOfyxPRunFM",
             "title": "Animal",
             "channelId": "UCX9kfYB9t0tnd6DYUC2iuKg",
             "channelName": "KATSEYE - Topic",
             "thumbnailUrl": "https://i.ytimg.com/vi/vOfyxPRunFM/maxresdefault.jpg",
             "publishedAt": "2026-07-24T04:00:11Z",
-            "viewCount": 2675241,
-            "viewIncrease": 252556,
-            "likeCount": 156920,
-            "likeIncrease": 8932,
-            "commentCount": 17576,
-            "commentIncrease": 448,
+            "viewCount": 2733441,
+            "viewIncrease": 58200,
+            "likeCount": 158450,
+            "likeIncrease": 1530,
+            "commentCount": 17657,
+            "commentIncrease": 81,
             "subscriberCount": 6210,
-            "rawScore": 63.9,
-            "normalizedScore": 56.1,
+            "rawScore": 61.4,
+            "normalizedScore": 50.0,
             "genres": [
                 {
                     "slug": "music",
@@ -689,31 +811,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 214.7,
-                "engagement": 40.0,
-                "subscriberRatio": 140.2,
-                "freshness": 16.2
+                "velocity": 221.9,
+                "engagement": 36.7,
+                "subscriberRatio": 124.3,
+                "freshness": 16.0
             }
         },
         {
-            "rank": 20,
-            "previousRank": 72,
-            "rankChange": 52,
-            "videoId": "x3sOXlcrpLg",
-            "title": "机さする",
-            "channelId": "UC65ckz5a7C55_fxL0t6PJjg",
-            "channelName": "Haruka Aoki - Topic",
-            "thumbnailUrl": "https://i.ytimg.com/vi/x3sOXlcrpLg/maxresdefault.jpg",
-            "publishedAt": "2026-07-24T15:02:25Z",
-            "viewCount": 64712,
-            "viewIncrease": 22360,
-            "likeCount": 2928,
-            "likeIncrease": 788,
+            "rank": 24,
+            "previousRank": 66,
+            "rankChange": 42,
+            "videoId": "HZcpB0PfG6g",
+            "title": "うさぎラップ (リズム感のある者たちver.)",
+            "channelId": "UCdtYA6DvP4gtzADn14-MVeQ",
+            "channelName": "Release - Topic",
+            "thumbnailUrl": "https://i.ytimg.com/vi/HZcpB0PfG6g/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T15:03:27Z",
+            "viewCount": 94973,
+            "viewIncrease": 5810,
+            "likeCount": 3502,
+            "likeIncrease": 77,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 129,
-            "rawScore": 63.2,
-            "normalizedScore": 53.7,
+            "subscriberCount": 254,
+            "rawScore": 60.0,
+            "normalizedScore": 47.7,
             "genres": [
                 {
                     "slug": "music",
@@ -722,31 +844,64 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 167.3,
-                "engagement": 28.1,
-                "subscriberRatio": 133.7,
-                "freshness": 19.2
+                "velocity": 176.8,
+                "engagement": 20.8,
+                "subscriberRatio": 119.1,
+                "freshness": 19.0
             }
         },
         {
-            "rank": 21,
-            "previousRank": 57,
-            "rankChange": 36,
+            "rank": 25,
+            "previousRank": 72,
+            "rankChange": 47,
+            "videoId": "x3sOXlcrpLg",
+            "title": "机さする",
+            "channelId": "UC65ckz5a7C55_fxL0t6PJjg",
+            "channelName": "Haruka Aoki - Topic",
+            "thumbnailUrl": "https://i.ytimg.com/vi/x3sOXlcrpLg/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T15:02:25Z",
+            "viewCount": 69001,
+            "viewIncrease": 4289,
+            "likeCount": 2998,
+            "likeIncrease": 70,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 131,
+            "rawScore": 58.6,
+            "normalizedScore": 45.5,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 170.9,
+                "engagement": 22.3,
+                "subscriberRatio": 115.8,
+                "freshness": 19.0
+            }
+        },
+        {
+            "rank": 26,
+            "previousRank": 74,
+            "rankChange": 48,
             "videoId": "81CpK8nCvFw",
             "title": "M!LK - You!Joy!Parade!（Dance Practice Movie）",
             "channelId": "UCFvSFbT8okMrpuFxBEIB2lg",
             "channelName": "M!LK",
             "thumbnailUrl": "https://i.ytimg.com/vi/81CpK8nCvFw/maxresdefault.jpg",
             "publishedAt": "2026-07-24T12:00:25Z",
-            "viewCount": 692180,
-            "viewIncrease": 76706,
-            "likeCount": 53096,
-            "likeIncrease": 1994,
-            "commentCount": 5811,
-            "commentIncrease": 109,
+            "viewCount": 704211,
+            "viewIncrease": 12031,
+            "likeCount": 53252,
+            "likeIncrease": 156,
+            "commentCount": 5815,
+            "commentIncrease": 4,
             "subscriberCount": 35600,
-            "rawScore": 61.2,
-            "normalizedScore": 51.2,
+            "rawScore": 54.9,
+            "normalizedScore": 43.2,
             "genres": [
                 {
                     "slug": "music",
@@ -760,31 +915,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 191.4,
-                "engagement": 36.7,
-                "subscriberRatio": 108.3,
-                "freshness": 18.2
+                "velocity": 191.1,
+                "engagement": 25.7,
+                "subscriberRatio": 88.2,
+                "freshness": 18.0
             }
         },
         {
-            "rank": 22,
-            "previousRank": 69,
-            "rankChange": 47,
+            "rank": 27,
+            "previousRank": 76,
+            "rankChange": 49,
             "videoId": "47gVhtlQxeY",
             "title": "螺旋 - RASEN",
             "channelId": "UClZMIQn97IcvrdGviWz-qRw",
             "channelName": "9Lana - Topic",
             "thumbnailUrl": "https://i.ytimg.com/vi/47gVhtlQxeY/maxresdefault.jpg",
             "publishedAt": "2026-07-24T15:00:09Z",
-            "viewCount": 69765,
-            "viewIncrease": 14794,
-            "likeCount": 3230,
-            "likeIncrease": 431,
-            "commentCount": 168,
-            "commentIncrease": 7,
+            "viewCount": 72164,
+            "viewIncrease": 2399,
+            "likeCount": 3275,
+            "likeIncrease": 45,
+            "commentCount": 169,
+            "commentIncrease": 1,
             "subscriberCount": 4670,
-            "rawScore": 58.4,
-            "normalizedScore": 48.8,
+            "rawScore": 53.3,
+            "normalizedScore": 40.9,
             "genres": [
                 {
                     "slug": "music",
@@ -793,31 +948,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 159.2,
-                "engagement": 32.9,
-                "subscriberRatio": 112.5,
-                "freshness": 19.2
+                "velocity": 159.5,
+                "engagement": 29.2,
+                "subscriberRatio": 92.8,
+                "freshness": 18.9
             }
         },
         {
-            "rank": 23,
-            "previousRank": 60,
-            "rankChange": 37,
+            "rank": 28,
+            "previousRank": 77,
+            "rankChange": 49,
             "videoId": "JofSrfFV4Kw",
             "title": "Snow Man - グッタイム / THE FIRST TAKE",
             "channelId": "UC9zY_E8mcAo_Oq772LEZq8Q",
             "channelName": "THE FIRST TAKE",
             "thumbnailUrl": "https://i.ytimg.com/vi/JofSrfFV4Kw/maxresdefault.jpg",
             "publishedAt": "2026-07-24T13:00:06Z",
-            "viewCount": 2547138,
-            "viewIncrease": 243611,
-            "likeCount": 151644,
-            "likeIncrease": 4891,
-            "commentCount": 10509,
-            "commentIncrease": 467,
+            "viewCount": 2609307,
+            "viewIncrease": 62169,
+            "likeCount": 151954,
+            "likeIncrease": 310,
+            "commentCount": 10531,
+            "commentIncrease": 22,
             "subscriberCount": 12200000,
-            "rawScore": 57.0,
-            "normalizedScore": 46.3,
+            "rawScore": 52.2,
+            "normalizedScore": 38.6,
             "genres": [
                 {
                     "slug": "music",
@@ -826,91 +981,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 214.0,
-                "engagement": 36.1,
-                "subscriberRatio": 57.6,
-                "freshness": 18.5
+                "velocity": 223.2,
+                "engagement": 19.3,
+                "subscriberRatio": 42.9,
+                "freshness": 18.3
             }
         },
         {
-            "rank": 24,
-            "videoId": "8asTe1V4xtE",
-            "title": "【作業用BGM】 Kawaramachi Cafe Jazz | 京都・河原町のおしゃれなカフェで聴く、極上のスタイリッシュ・ジャズ ☕️🎷 - Relaxing Coffee Time",
-            "channelId": "UCc2fWJVyp8XivxAop5BkBTg",
-            "channelName": " Ice Queen Moon",
-            "thumbnailUrl": "https://i.ytimg.com/vi/8asTe1V4xtE/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T13:50:31Z",
-            "viewCount": 62,
-            "viewIncrease": 62,
-            "likeCount": 1,
-            "likeIncrease": 1,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 54,
-            "rawScore": 56.2,
-            "normalizedScore": 43.9,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.5
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 24.9,
-                "engagement": 22.2,
-                "subscriberRatio": 69.8,
-                "freshness": 48.0
-            }
-        },
-        {
-            "rank": 25,
-            "videoId": "hnqSrwTrnSE",
-            "title": "#ヨルシカ #yorushika #lofimusic #作業用bgm",
-            "channelId": "UCARrZRTITnBMz9CACdutZfA",
-            "channelName": "甘口プリン",
-            "thumbnailUrl": "https://i.ytimg.com/vi/hnqSrwTrnSE/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:00:32Z",
-            "viewCount": 131,
-            "viewIncrease": 131,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 4,
-            "rawScore": 56.0,
-            "normalizedScore": 41.5,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.6
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 36.5,
-                "engagement": 0.0,
-                "subscriberRatio": 77.9,
-                "freshness": 49.0
-            }
-        },
-        {
-            "rank": 26,
-            "previousRank": 55,
-            "rankChange": 29,
+            "rank": 29,
+            "previousRank": 80,
+            "rankChange": 51,
             "videoId": "_QP9YEtC4Qg",
             "title": "【まとめ】深夜になると会話がおかしくなるア家族ｗｗｗ（VCR RUST）【叶/椎名/にじさんじ切り抜き】",
             "channelId": "UCeuNlK0yX-6_4930q0JUGNw",
             "channelName": "白瀬",
             "thumbnailUrl": "https://i.ytimg.com/vi/_QP9YEtC4Qg/maxresdefault.jpg",
             "publishedAt": "2026-07-25T00:52:13Z",
-            "viewCount": 100004,
-            "viewIncrease": 6212,
-            "likeCount": 1224,
-            "likeIncrease": 73,
+            "viewCount": 101282,
+            "viewIncrease": 1278,
+            "likeCount": 1238,
+            "likeIncrease": 14,
             "commentCount": 22,
-            "commentIncrease": 2,
+            "commentIncrease": 0,
             "subscriberCount": 200000,
-            "rawScore": 55.2,
-            "normalizedScore": 39.0,
+            "rawScore": 50.0,
+            "normalizedScore": 36.4,
             "genres": [
                 {
                     "slug": "gaming",
@@ -929,31 +1024,93 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 142.3,
-                "engagement": 24.9,
-                "subscriberRatio": 62.3,
-                "freshness": 24.0
+                "velocity": 147.2,
+                "engagement": 19.4,
+                "subscriberRatio": 45.3,
+                "freshness": 23.6
             }
         },
         {
-            "rank": 27,
-            "previousRank": 75,
-            "rankChange": 48,
+            "rank": 30,
+            "videoId": "vfL3T-x8n6I",
+            "title": "【1分】テンション上昇 Synthwave ☕ #shorts #作業用BGM",
+            "channelId": "UC1I4FY0nrP3Mn7_bqM1uADQ",
+            "channelName": "ヨハクオト / Yohaku-Oto",
+            "thumbnailUrl": "https://i.ytimg.com/vi/vfL3T-x8n6I/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T14:38:54Z",
+            "viewCount": 10,
+            "viewIncrease": 10,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 1530,
+            "rawScore": 48.3,
+            "normalizedScore": 34.1,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 53.7,
+                "engagement": 0.0,
+                "subscriberRatio": 45.5,
+                "freshness": 48.7
+            }
+        },
+        {
+            "rank": 31,
+            "videoId": "-nymKDaihNI",
+            "title": "3分集中BGM #勉強 #勉強用bgm #music #作業用bgm",
+            "channelId": "UC0UgnoZMp244dvIo-ulcV2A",
+            "channelName": "15min勉強BGM",
+            "thumbnailUrl": "https://i.ytimg.com/vi/-nymKDaihNI/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T14:32:22Z",
+            "viewCount": 6,
+            "viewIncrease": 2,
+            "likeCount": 1,
+            "likeIncrease": 1,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 23,
+            "rawScore": 46.7,
+            "normalizedScore": 31.8,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 26.7,
+                "engagement": 37.5,
+                "subscriberRatio": 33.1,
+                "freshness": 48.0
+            }
+        },
+        {
+            "rank": 32,
+            "previousRank": 81,
+            "rankChange": 49,
             "videoId": "zlu_z100tgg",
             "title": "離婚伝説 - 大空港(Official Music Video)",
             "channelId": "UCG8t9EpPC99W4K6ObUuxG7A",
             "channelName": "離婚伝説",
             "thumbnailUrl": "https://i.ytimg.com/vi/zlu_z100tgg/maxresdefault.jpg",
             "publishedAt": "2026-07-24T12:00:06Z",
-            "viewCount": 109034,
-            "viewIncrease": 16639,
-            "likeCount": 2922,
-            "likeIncrease": 307,
+            "viewCount": 110697,
+            "viewIncrease": 1663,
+            "likeCount": 2953,
+            "likeIncrease": 31,
             "commentCount": 149,
-            "commentIncrease": 16,
+            "commentIncrease": 0,
             "subscriberCount": 8390,
-            "rawScore": 54.8,
-            "normalizedScore": 36.6,
+            "rawScore": 46.5,
+            "normalizedScore": 29.5,
             "genres": [
                 {
                     "slug": "music",
@@ -962,31 +1119,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 161.5,
-                "engagement": 32.4,
-                "subscriberRatio": 107.4,
-                "freshness": 18.2
+                "velocity": 152.4,
+                "engagement": 23.3,
+                "subscriberRatio": 82.4,
+                "freshness": 18.0
             }
         },
         {
-            "rank": 28,
-            "previousRank": 78,
-            "rankChange": 50,
+            "rank": 33,
+            "previousRank": 82,
+            "rankChange": 49,
             "videoId": "eAFzQwArpFM",
             "title": "【MV】CUTIE STREET「Error404♡」",
             "channelId": "UCW8Q9LBGGBgK6a-u0C0h95A",
             "channelName": "KAWAII LAB.",
             "thumbnailUrl": "https://i.ytimg.com/vi/eAFzQwArpFM/maxresdefault.jpg",
             "publishedAt": "2026-07-24T11:00:07Z",
-            "viewCount": 234200,
-            "viewIncrease": 27341,
-            "likeCount": 14859,
-            "likeIncrease": 784,
-            "commentCount": 1870,
-            "commentIncrease": 58,
+            "viewCount": 239113,
+            "viewIncrease": 4913,
+            "likeCount": 14941,
+            "likeIncrease": 82,
+            "commentCount": 1876,
+            "commentIncrease": 6,
             "subscriberCount": 576000,
-            "rawScore": 49.7,
-            "normalizedScore": 34.1,
+            "rawScore": 45.1,
+            "normalizedScore": 27.3,
             "genres": [
                 {
                     "slug": "music",
@@ -995,31 +1152,97 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 171.2,
-                "engagement": 39.3,
-                "subscriberRatio": 66.9,
-                "freshness": 17.9
+                "velocity": 173.6,
+                "engagement": 32.7,
+                "subscriberRatio": 48.4,
+                "freshness": 17.7
             }
         },
         {
-            "rank": 29,
-            "previousRank": 82,
-            "rankChange": 53,
+            "rank": 34,
+            "previousRank": 84,
+            "rankChange": 50,
+            "videoId": "wuGmYXkbASk",
+            "title": "Hey! Say! JUMP - DEAR MY LOVER [S say Official Live Video]",
+            "channelId": "UCFzXU6-djdXlDvXI3-2Appw",
+            "channelName": "Hey! Say! JUMP",
+            "thumbnailUrl": "https://i.ytimg.com/vi/wuGmYXkbASk/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T10:00:08Z",
+            "viewCount": 247238,
+            "viewIncrease": 6141,
+            "likeCount": 25307,
+            "likeIncrease": 118,
+            "commentCount": 1673,
+            "commentIncrease": 1,
+            "subscriberCount": 887000,
+            "rawScore": 43.7,
+            "normalizedScore": 25.0,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.5
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 177.9,
+                "engagement": 26.6,
+                "subscriberRatio": 46.2,
+                "freshness": 17.4
+            }
+        },
+        {
+            "rank": 34,
+            "previousRank": 91,
+            "rankChange": 57,
+            "videoId": "8jS_NPS4FhU",
+            "title": "'NORMAL (Korean Ver.)' Stage CAM (V focus) @ BTS WORLD TOUR 'ARIRANG' IN BUSAN",
+            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+            "channelName": "BANGTANTV",
+            "thumbnailUrl": "https://i.ytimg.com/vi/8jS_NPS4FhU/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T15:00:19Z",
+            "viewCount": 245108,
+            "viewIncrease": 4319,
+            "likeCount": 80224,
+            "likeIncrease": 501,
+            "commentCount": 6103,
+            "commentIncrease": 27,
+            "subscriberCount": 85300000,
+            "rawScore": 43.7,
+            "normalizedScore": 25.0,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 171.0,
+                "engagement": 55.3,
+                "subscriberRatio": 4.4,
+                "freshness": 18.9
+            }
+        },
+        {
+            "rank": 36,
+            "previousRank": 83,
+            "rankChange": 47,
             "videoId": "gY-7i-T76o0",
             "title": "かげろう / Vaundy：MUSIC VIDEO (夏の高校野球応援ソング/「熱闘甲子園」テーマソング)",
             "channelId": "UC1FQWQ3y3-e8l1pCtWhJt5A",
             "channelName": "Vaundy",
             "thumbnailUrl": "https://i.ytimg.com/vi/gY-7i-T76o0/maxresdefault.jpg",
             "publishedAt": "2026-07-24T11:00:06Z",
-            "viewCount": 626013,
-            "viewIncrease": 63274,
-            "likeCount": 10816,
-            "likeIncrease": 774,
-            "commentCount": 545,
-            "commentIncrease": 21,
+            "viewCount": 635984,
+            "viewIncrease": 9971,
+            "likeCount": 10869,
+            "likeIncrease": 53,
+            "commentCount": 547,
+            "commentIncrease": 2,
             "subscriberCount": 2540000,
-            "rawScore": 48.9,
-            "normalizedScore": 31.7,
+            "rawScore": 43.5,
+            "normalizedScore": 20.5,
             "genres": [
                 {
                     "slug": "music",
@@ -1028,35 +1251,63 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 187.6,
-                "engagement": 25.3,
-                "subscriberRatio": 60.0,
-                "freshness": 17.9
+                "velocity": 187.4,
+                "engagement": 18.0,
+                "subscriberRatio": 40.1,
+                "freshness": 17.7
             }
         },
         {
-            "rank": 30,
-            "videoId": "c5BBQ22Q0zM",
-            "title": "水族館/音楽生成AI",
-            "channelId": "UCXqFrA_3aD4YmxUf-WktE5A",
-            "channelName": "アンデスの歌うネズミ / AI Music",
-            "thumbnailUrl": "https://i.ytimg.com/vi/c5BBQ22Q0zM/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:44:42Z",
-            "viewCount": 1,
-            "viewIncrease": 1,
-            "likeCount": 1,
-            "likeIncrease": 1,
-            "commentCount": 1,
+            "rank": 37,
+            "previousRank": 87,
+            "rankChange": 50,
+            "videoId": "5zPX2q5nzBA",
+            "title": "Division All Stars「Both Sides」Music Video",
+            "channelId": "UCLQwZQHMTRqeeUSzZt5ii6g",
+            "channelName": "Channelヒプノシスマイク",
+            "thumbnailUrl": "https://i.ytimg.com/vi/5zPX2q5nzBA/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T12:00:28Z",
+            "viewCount": 131482,
+            "viewIncrease": 3172,
+            "likeCount": 12375,
+            "likeIncrease": 85,
+            "commentCount": 654,
             "commentIncrease": 1,
-            "subscriberCount": 21,
-            "rawScore": 48.8,
-            "normalizedScore": 29.3,
+            "subscriberCount": 1070000,
+            "rawScore": 42.0,
+            "normalizedScore": 18.2,
             "genres": [
                 {
                     "slug": "music",
                     "name": "音楽",
-                    "confidence": 0.45
-                },
+                    "confidence": 0.8
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 165.0,
+                "engagement": 30.9,
+                "subscriberRatio": 37.2,
+                "freshness": 18.0
+            }
+        },
+        {
+            "rank": 37,
+            "videoId": "5aDY0w8_PdU",
+            "title": "【#にじ甲2026】熱狂！にじさんじ甲子園2026#6【天開司/舞元啓介/Vtuber】",
+            "channelId": "UCZYyhgoV314CM14zBD6vd4A",
+            "channelName": "バーチャル債務者youtuber天開司",
+            "thumbnailUrl": "https://i.ytimg.com/vi/5aDY0w8_PdU/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T14:36:25Z",
+            "viewCount": 464043,
+            "viewIncrease": 2854,
+            "likeCount": 7091,
+            "likeIncrease": 12,
+            "commentCount": 109,
+            "commentIncrease": 0,
+            "subscriberCount": 366000,
+            "rawScore": 42.0,
+            "normalizedScore": 18.2,
+            "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
@@ -1066,210 +1317,23 @@
                     "slug": "minecraft",
                     "name": "Minecraft",
                     "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 0.8,
-                "engagement": 63.6,
-                "subscriberRatio": 26.0,
-                "freshness": 54.0
-            }
-        },
-        {
-            "rank": 30,
-            "previousRank": 81,
-            "rankChange": 51,
-            "videoId": "wuGmYXkbASk",
-            "title": "Hey! Say! JUMP - DEAR MY LOVER [S say Official Live Video]",
-            "channelId": "UCFzXU6-djdXlDvXI3-2Appw",
-            "channelName": "Hey! Say! JUMP",
-            "thumbnailUrl": "https://i.ytimg.com/vi/wuGmYXkbASk/maxresdefault.jpg",
-            "publishedAt": "2026-07-24T10:00:08Z",
-            "viewCount": 241097,
-            "viewIncrease": 29479,
-            "likeCount": 25189,
-            "likeIncrease": 1199,
-            "commentCount": 1672,
-            "commentIncrease": 51,
-            "subscriberCount": 887000,
-            "rawScore": 48.8,
-            "normalizedScore": 29.3,
-            "genres": [
+                },
                 {
                     "slug": "music",
                     "name": "音楽",
-                    "confidence": 0.5
+                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 172.7,
-                "engagement": 41.0,
-                "subscriberRatio": 63.1,
-                "freshness": 17.6
+                "velocity": 162.9,
+                "engagement": 12.9,
+                "subscriberRatio": 47.4,
+                "freshness": 18.8
             }
         },
         {
-            "rank": 32,
-            "videoId": "xqGu5aByF3Y",
-            "title": "【作業用BGM 】Rain on Glass",
-            "channelId": "UCDVcjoYVluodL9UZHsyt3OA",
-            "channelName": "【作業用BGM 】【chill】【Lo-fi】MingleAI",
-            "thumbnailUrl": "https://i.ytimg.com/vi/xqGu5aByF3Y/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:31:56Z",
-            "viewCount": 9,
-            "viewIncrease": 9,
-            "likeCount": 1,
-            "likeIncrease": 1,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 0,
-            "rawScore": 48.2,
-            "normalizedScore": 24.4,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 6.2,
-                "engagement": 36.9,
-                "subscriberRatio": 49.0,
-                "freshness": 52.3
-            }
-        },
-        {
-            "rank": 33,
-            "previousRank": 88,
-            "rankChange": 55,
-            "videoId": "5zPX2q5nzBA",
-            "title": "Division All Stars「Both Sides」Music Video",
-            "channelId": "UCLQwZQHMTRqeeUSzZt5ii6g",
-            "channelName": "Channelヒプノシスマイク",
-            "thumbnailUrl": "https://i.ytimg.com/vi/5zPX2q5nzBA/maxresdefault.jpg",
-            "publishedAt": "2026-07-24T12:00:28Z",
-            "viewCount": 128310,
-            "viewIncrease": 17342,
-            "likeCount": 12290,
-            "likeIncrease": 975,
-            "commentCount": 653,
-            "commentIncrease": 38,
-            "subscriberCount": 1070000,
-            "rawScore": 47.7,
-            "normalizedScore": 22.0,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.8
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 162.3,
-                "engagement": 44.6,
-                "subscriberRatio": 55.3,
-                "freshness": 18.2
-            }
-        },
-        {
-            "rank": 34,
-            "videoId": "qKvjFGUs9fk",
-            "title": "フルver「ザンギ伝説」 壮大すぎる北海道グルメロック - 音楽生成AI（Suno）",
-            "channelId": "UCtGQ9ASI3znjVnc6xf3HpEQ",
-            "channelName": "銀野舎【work】",
-            "thumbnailUrl": "https://i.ytimg.com/vi/qKvjFGUs9fk/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:26Z",
-            "viewCount": 8,
-            "viewIncrease": 8,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 2,
-            "commentIncrease": 2,
-            "subscriberCount": 98,
-            "rawScore": 47.1,
-            "normalizedScore": 19.5,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.8
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 5.6,
-                "engagement": 63.6,
-                "subscriberRatio": 47.7,
-                "freshness": 40.3
-            }
-        },
-        {
-            "rank": 35,
-            "videoId": "1M3g0sxE53s",
-            "title": "15分勉強BGM #勉強用bgm #勉強#作業用bgm #music ",
-            "channelId": "UC0UgnoZMp244dvIo-ulcV2A",
-            "channelName": "15min勉強BGM",
-            "thumbnailUrl": "https://i.ytimg.com/vi/1M3g0sxE53s/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:07:06Z",
-            "viewCount": 9,
-            "viewIncrease": 9,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 23,
-            "rawScore": 46.0,
-            "normalizedScore": 17.1,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 6.2,
-                "engagement": 37.5,
-                "subscriberRatio": 49.0,
-                "freshness": 49.6
-            }
-        },
-        {
-            "rank": 36,
-            "previousRank": 85,
-            "rankChange": 49,
-            "videoId": "8jS_NPS4FhU",
-            "title": "'NORMAL (Korean Ver.)' Stage CAM (V focus) @ BTS WORLD TOUR 'ARIRANG' IN BUSAN",
-            "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-            "channelName": "BANGTANTV",
-            "thumbnailUrl": "https://i.ytimg.com/vi/8jS_NPS4FhU/maxresdefault.jpg",
-            "publishedAt": "2026-07-24T15:00:19Z",
-            "viewCount": 240789,
-            "viewIncrease": 20648,
-            "likeCount": 79723,
-            "likeIncrease": 4403,
-            "commentCount": 6076,
-            "commentIncrease": 266,
-            "subscriberCount": 85300000,
-            "rawScore": 45.7,
-            "normalizedScore": 14.6,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 165.7,
-                "engagement": 59.3,
-                "subscriberRatio": 13.4,
-                "freshness": 19.2
-            }
-        },
-        {
-            "rank": 37,
-            "previousRank": 90,
+            "rank": 39,
+            "previousRank": 92,
             "rankChange": 53,
             "videoId": "y-FFkg4WfqI",
             "title": "『Fantasyが始まる』モーニング娘。'26 コンサートツアー春 - Rays Of Light - Final ～牧野真莉愛 卒業スペシャル～",
@@ -1277,15 +1341,15 @@
             "channelName": "モーニング娘。",
             "thumbnailUrl": "https://i.ytimg.com/vi/y-FFkg4WfqI/maxresdefault.jpg",
             "publishedAt": "2026-07-24T12:00:40Z",
-            "viewCount": 81278,
-            "viewIncrease": 10211,
-            "likeCount": 6126,
-            "likeIncrease": 419,
-            "commentCount": 487,
-            "commentIncrease": 26,
+            "viewCount": 83021,
+            "viewIncrease": 1743,
+            "likeCount": 6163,
+            "likeIncrease": 37,
+            "commentCount": 490,
+            "commentIncrease": 3,
             "subscriberCount": 615000,
-            "rawScore": 45.6,
-            "normalizedScore": 12.2,
+            "rawScore": 40.7,
+            "normalizedScore": 13.6,
             "genres": [
                 {
                     "slug": "music",
@@ -1294,31 +1358,62 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 152.0,
-                "engagement": 42.9,
-                "subscriberRatio": 55.6,
-                "freshness": 18.2
+                "velocity": 153.3,
+                "engagement": 36.0,
+                "subscriberRatio": 36.7,
+                "freshness": 18.0
             }
         },
         {
-            "rank": 38,
-            "previousRank": 98,
-            "rankChange": 60,
+            "rank": 40,
+            "videoId": "Z76j0nmpv5c",
+            "title": "夏花火のバルコニーBGM 🎆 かわいい作業用BGM #Shorts",
+            "channelId": "UCIgZXAp_JRDMfB7gvSUBbzg",
+            "channelName": "きらふわ癒しBGM",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Z76j0nmpv5c/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T14:30:23Z",
+            "viewCount": 5,
+            "viewIncrease": 5,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 13,
+            "rawScore": 40.2,
+            "normalizedScore": 11.4,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 41.4,
+                "engagement": 0.0,
+                "subscriberRatio": 42.7,
+                "freshness": 47.9
+            }
+        },
+        {
+            "rank": 41,
+            "previousRank": 97,
+            "rankChange": 56,
             "videoId": "GJgaBM4NvOw",
             "title": "WHATCHA DOIN",
             "channelId": "UCWyo-2Efw9aSmemM3LluERg",
             "channelName": "JO1 - Topic",
             "thumbnailUrl": "https://i.ytimg.com/vi/GJgaBM4NvOw/maxresdefault.jpg",
             "publishedAt": "2026-07-23T10:02:37Z",
-            "viewCount": 133821,
-            "viewIncrease": 8600,
-            "likeCount": 9016,
-            "likeIncrease": 321,
-            "commentCount": 1067,
-            "commentIncrease": 48,
+            "viewCount": 135556,
+            "viewIncrease": 1735,
+            "likeCount": 9047,
+            "likeIncrease": 31,
+            "commentCount": 1070,
+            "commentIncrease": 3,
             "subscriberCount": 1040,
-            "rawScore": 42.4,
-            "normalizedScore": 9.8,
+            "rawScore": 38.9,
+            "normalizedScore": 9.1,
             "genres": [
                 {
                     "slug": "music",
@@ -1327,64 +1422,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 148.6,
-                "engagement": 46.0,
-                "subscriberRatio": 122.9,
+                "velocity": 153.2,
+                "engagement": 34.8,
+                "subscriberRatio": 105.6,
                 "freshness": 13.3
             }
         },
         {
-            "rank": 39,
-            "previousRank": 95,
-            "rankChange": 56,
-            "videoId": "HkzhJiV7TSQ",
-            "title": "'Travis Japan Concert Tour 2026 ’s travelers' Bonus Disc Trailer（Standard Edition）",
-            "channelId": "UCoEIdZkDEZdrCDCJSqwifzw",
-            "channelName": "Travis Japan",
-            "thumbnailUrl": "https://i.ytimg.com/vi/HkzhJiV7TSQ/sddefault.jpg",
-            "publishedAt": "2026-07-24T11:00:30Z",
-            "viewCount": 50876,
-            "viewIncrease": 4810,
-            "likeCount": 6643,
-            "likeIncrease": 268,
-            "commentCount": 385,
-            "commentIncrease": 6,
-            "subscriberCount": 640000,
-            "rawScore": 40.5,
-            "normalizedScore": 7.3,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.5
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 137.3,
-                "engagement": 41.9,
-                "subscriberRatio": 47.0,
-                "freshness": 17.9
-            }
-        },
-        {
-            "rank": 40,
+            "rank": 42,
             "previousRank": 100,
-            "rankChange": 60,
+            "rankChange": 58,
             "videoId": "inxzQt78lOk",
             "title": "aespa エスパ 'KISS N TELL' MV",
             "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
             "channelName": "SMTOWN",
             "thumbnailUrl": "https://i.ytimg.com/vi/inxzQt78lOk/maxresdefault.jpg",
             "publishedAt": "2026-07-23T14:59:06Z",
-            "viewCount": 2532232,
-            "viewIncrease": 121553,
-            "likeCount": 287765,
-            "likeIncrease": 7104,
-            "commentCount": 13337,
-            "commentIncrease": 164,
+            "viewCount": 2557255,
+            "viewIncrease": 25023,
+            "likeCount": 288683,
+            "likeIncrease": 918,
+            "commentCount": 13355,
+            "commentIncrease": 18,
             "subscriberCount": 33800000,
-            "rawScore": 39.4,
-            "normalizedScore": 4.9,
+            "rawScore": 36.8,
+            "normalizedScore": 6.8,
             "genres": [
                 {
                     "slug": "music",
@@ -1393,40 +1455,38 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 200.4,
-                "engagement": 42.6,
-                "subscriberRatio": 39.2,
-                "freshness": 14.0
+                "velocity": 205.4,
+                "engagement": 36.3,
+                "subscriberRatio": 23.1,
+                "freshness": 13.9
             }
         },
         {
-            "rank": 41,
-            "previousRank": 71,
-            "rankChange": 30,
-            "videoId": "5aDY0w8_PdU",
-            "title": "【#にじ甲2026】熱狂！にじさんじ甲子園2026#6【天開司/舞元啓介/Vtuber】",
-            "channelId": "UCZYyhgoV314CM14zBD6vd4A",
-            "channelName": "バーチャル債務者youtuber天開司",
-            "thumbnailUrl": "https://i.ytimg.com/vi/5aDY0w8_PdU/maxresdefault.jpg",
-            "publishedAt": "2026-07-24T14:36:25Z",
-            "viewCount": 461189,
-            "viewIncrease": 292,
-            "likeCount": 7079,
-            "likeIncrease": 158,
-            "commentCount": 109,
-            "commentIncrease": 8,
-            "subscriberCount": 366000,
-            "rawScore": 32.3,
-            "normalizedScore": 2.4,
+            "rank": 43,
+            "videoId": "8qBGu4yYGC0",
+            "title": "ちるるのAI β | AIニュース解説 | 2026.07.25",
+            "channelId": "UCCrIRPEPbTti4qe2OsGg07g",
+            "channelName": "chiruruAI",
+            "thumbnailUrl": "https://i.ytimg.com/vi/8qBGu4yYGC0/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:41:53Z",
+            "viewCount": 35,
+            "viewIncrease": 35,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 88,
+            "rawScore": 35.7,
+            "normalizedScore": 4.5,
             "genres": [
                 {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.6
                 },
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
+                    "slug": "programming",
+                    "name": "IT・プログラミング",
                     "confidence": 0.3
                 },
                 {
@@ -1436,41 +1496,74 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 82.8,
-                "engagement": 63.2,
-                "subscriberRatio": 23.8,
-                "freshness": 19.0
+                "velocity": 17.6,
+                "engagement": 0.0,
+                "subscriberRatio": 63.6,
+                "freshness": 44.0
             }
         },
         {
-            "rank": 42,
-            "videoId": "-nymKDaihNI",
-            "title": "3分集中BGM #勉強 #勉強用bgm #music #作業用bgm",
-            "channelId": "UC0UgnoZMp244dvIo-ulcV2A",
-            "channelName": "15min勉強BGM",
-            "thumbnailUrl": "https://i.ytimg.com/vi/-nymKDaihNI/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:32:22Z",
-            "viewCount": 4,
-            "viewIncrease": 4,
+            "rank": 44,
+            "previousRank": 99,
+            "rankChange": 55,
+            "videoId": "HkzhJiV7TSQ",
+            "title": "'Travis Japan Concert Tour 2026 ’s travelers' Bonus Disc Trailer（Standard Edition）",
+            "channelId": "UCoEIdZkDEZdrCDCJSqwifzw",
+            "channelName": "Travis Japan",
+            "thumbnailUrl": "https://i.ytimg.com/vi/HkzhJiV7TSQ/sddefault.jpg",
+            "publishedAt": "2026-07-24T11:00:30Z",
+            "viewCount": 51654,
+            "viewIncrease": 778,
+            "likeCount": 6654,
+            "likeIncrease": 11,
+            "commentCount": 386,
+            "commentIncrease": 1,
+            "subscriberCount": 640000,
+            "rawScore": 34.9,
+            "normalizedScore": 2.3,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.5
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 137.6,
+                "engagement": 31.7,
+                "subscriberRatio": 28.0,
+                "freshness": 17.7
+            }
+        },
+        {
+            "rank": 45,
+            "videoId": "FqxRsCL0AJg",
+            "title": "【やる気が出るBGM】【戦闘BGM】【作業用BGM】勉強・仕事・筋トレ・創作でテンションを上げたい人に🎧",
+            "channelId": "UCKCdYC7q39N3t8A9lF-4zjQ",
+            "channelName": "黒丸鏡 | Cinematic BGM",
+            "thumbnailUrl": "https://i.ytimg.com/vi/FqxRsCL0AJg/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T16:35:32Z",
+            "viewCount": 1,
+            "viewIncrease": 1,
             "likeCount": 0,
             "likeIncrease": 0,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 23,
-            "rawScore": 22.7,
+            "subscriberCount": 1,
+            "rawScore": 17.8,
             "normalizedScore": 0.0,
             "genres": [
                 {
                     "slug": "music",
                     "name": "音楽",
-                    "confidence": 0.3
+                    "confidence": 0.4
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 3.0,
+                "velocity": 0.8,
                 "engagement": 0.0,
-                "subscriberRatio": 40.3,
-                "freshness": 52.5
+                "subscriberRatio": 26.0,
+                "freshness": 66.2
             }
         }
     ]

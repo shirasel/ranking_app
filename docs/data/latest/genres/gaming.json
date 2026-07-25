@@ -1,31 +1,33 @@
 {
-    "generatedAt": "2026-07-25T16:11:19.759968557Z",
+    "generatedAt": "2026-07-25T16:52:32.948873553Z",
     "period": "24h",
     "genre": {
         "slug": "gaming",
         "name": "ゲーム",
-        "confidence": 0.3
+        "confidence": 0.8
     },
     "status": "official",
-    "totalVideos": 55,
-    "totalChannels": 55,
+    "totalVideos": 37,
+    "totalChannels": 37,
     "ranking": [
         {
             "rank": 1,
+            "previousRank": 1,
+            "rankChange": 0,
             "videoId": "BW2EbnCi1vo",
             "title": "デスコーラス　ゲーム実況",
             "channelId": "UC8xkzBruPP96NI22ki4mB_w",
             "channelName": "バーバパパ",
             "thumbnailUrl": "https://i.ytimg.com/vi/BW2EbnCi1vo/maxresdefault.jpg",
             "publishedAt": "2026-07-25T15:57:09Z",
-            "viewCount": 32169,
-            "viewIncrease": 32169,
-            "likeCount": 1596,
-            "likeIncrease": 1596,
-            "commentCount": 4,
-            "commentIncrease": 4,
+            "viewCount": 36831,
+            "viewIncrease": 4662,
+            "likeCount": 1631,
+            "likeIncrease": 35,
+            "commentCount": 5,
+            "commentIncrease": 1,
             "subscriberCount": 834000,
-            "rawScore": 159.7,
+            "rawScore": 138.7,
             "normalizedScore": 100.0,
             "genres": [
                 {
@@ -40,100 +42,71 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 140.7,
-                "engagement": 33.2,
-                "subscriberRatio": 64.7,
-                "freshness": 66.9
+                "velocity": 172.5,
+                "engagement": 20.5,
+                "subscriberRatio": 43.9,
+                "freshness": 58.6
             }
         },
         {
             "rank": 2,
-            "videoId": "LTg8YLxkKYY",
-            "title": "Si leyeron esto escriban: \"El hierro es vida\" #minecraft #minecraftshorts #humor #reto #hierro",
-            "channelId": "UC40lrNnjN9P66V4zzGSinVg",
-            "channelName": "EdaEsvila",
-            "thumbnailUrl": "https://i.ytimg.com/vi/LTg8YLxkKYY/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T15:00:18Z",
-            "viewCount": 20180,
-            "viewIncrease": 20180,
-            "likeCount": 4442,
-            "likeIncrease": 4442,
-            "commentCount": 327,
-            "commentIncrease": 327,
-            "subscriberCount": 1700000,
-            "rawScore": 136.8,
-            "normalizedScore": 98.1,
-            "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 131.6,
-                "engagement": 60.5,
-                "subscriberRatio": 52.0,
-                "freshness": 56.0
-            }
-        },
-        {
-            "rank": 3,
-            "videoId": "L0YaCtRE5ug",
-            "title": "CRAZY Minecraft TNT #minecraft",
-            "channelId": "UCCMi4InM6BkrqOpev4BeGQQ",
-            "channelName": "GTA Lover YT",
-            "thumbnailUrl": "https://i.ytimg.com/vi/L0YaCtRE5ug/maxresdefault_live.jpg",
-            "publishedAt": "2026-07-25T15:29:08Z",
-            "viewCount": 3591,
-            "viewIncrease": 3591,
-            "likeCount": 502,
-            "likeIncrease": 502,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 24300,
-            "rawScore": 130.7,
-            "normalizedScore": 96.3,
-            "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 98.0,
-                "engagement": 37.5,
-                "subscriberRatio": 79.2,
-                "freshness": 60.9
-            }
-        },
-        {
-            "rank": 4,
+            "previousRank": 6,
+            "rankChange": 4,
             "videoId": "_cN9qw1Wgx0",
             "title": "🎧 The Random Play 2nd Anniversary — Fantasy Electronic Music Festival is now officially live!",
             "channelId": "UCb7ve-ncnLh41F4sYpFTcXA",
             "channelName": "HoYoFair",
             "thumbnailUrl": "https://i.ytimg.com/vi/_cN9qw1Wgx0/maxresdefault.jpg",
             "publishedAt": "2026-07-25T12:45:07Z",
-            "viewCount": 92320,
-            "viewIncrease": 92320,
-            "likeCount": 10591,
-            "likeIncrease": 10591,
-            "commentCount": 313,
-            "commentIncrease": 313,
+            "viewCount": 129659,
+            "viewIncrease": 37339,
+            "likeCount": 11065,
+            "likeIncrease": 474,
+            "commentCount": 324,
+            "commentIncrease": 11,
             "subscriberCount": 733000,
-            "rawScore": 124.9,
+            "rawScore": 123.8,
+            "normalizedScore": 97.2,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 213.2,
+                "engagement": 25.2,
+                "subscriberRatio": 67.7,
+                "freshness": 40.4
+            }
+        },
+        {
+            "rank": 3,
+            "videoId": "2NOhAKtmLNE",
+            "title": "Meow, That's right!  #pngtuber #vtuber #envtuber #vtuberclips",
+            "channelId": "UCFKccX8PkR2j4b1hyNll1HQ",
+            "channelName": "Pastella Von Velveteen",
+            "thumbnailUrl": "https://i.ytimg.com/vi/2NOhAKtmLNE/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T16:00:35Z",
+            "viewCount": 402,
+            "viewIncrease": 402,
+            "likeCount": 15,
+            "likeIncrease": 15,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 518,
+            "rawScore": 111.6,
             "normalizedScore": 94.4,
             "genres": [
                 {
@@ -145,258 +118,34 @@
                     "slug": "minecraft",
                     "name": "Minecraft",
                     "confidence": 0.3
-                },
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 161.3,
-                "engagement": 52.2,
-                "subscriberRatio": 77.5,
-                "freshness": 42.9
+                "velocity": 56.2,
+                "engagement": 42.0,
+                "subscriberRatio": 90.1,
+                "freshness": 59.2
             }
         },
         {
-            "rank": 5,
-            "videoId": "yh-v-ffS7iE",
-            "title": "a logica do minecraft 3",
-            "channelId": "UCjNJD1UaGhT6O3IrBO4_SQg",
-            "channelName": "gui gui",
-            "thumbnailUrl": "https://i.ytimg.com/vi/yh-v-ffS7iE/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:00:37Z",
-            "viewCount": 33976,
-            "viewIncrease": 33976,
-            "likeCount": 4402,
-            "likeIncrease": 4402,
-            "commentCount": 32,
-            "commentIncrease": 32,
-            "subscriberCount": 1340000,
-            "rawScore": 121.7,
-            "normalizedScore": 92.6,
-            "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 141.8,
-                "engagement": 46.6,
-                "subscriberRatio": 60.1,
-                "freshness": 49.0
-            }
-        },
-        {
-            "rank": 6,
-            "videoId": "jJKTsQIqkv4",
-            "title": "Pokémon Champions はじまりの王者決定戦 にじさんじ杯【#ポケチャンにじさんじ杯】",
-            "channelId": "UCX7YkU9nEeaoZbkVLVajcMg",
-            "channelName": "にじさんじ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/jJKTsQIqkv4/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:44:59Z",
-            "viewCount": 532562,
-            "viewIncrease": 532562,
-            "likeCount": 9375,
-            "likeIncrease": 9375,
-            "commentCount": 66,
-            "commentIncrease": 66,
-            "subscriberCount": 2000000,
-            "rawScore": 120.9,
-            "normalizedScore": 90.7,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 195.6,
-                "engagement": 25.4,
-                "subscriberRatio": 85.6,
-                "freshness": 39.4
-            }
-        },
-        {
-            "rank": 7,
-            "videoId": "LcxyEh4iUVE",
-            "title": "【ホロドリ】本編を遊ぶためまずは全員を引きます【獅白ぼたん/ホロライブ】",
-            "channelId": "UCUKD-uaobj9jiqB-VXt71mA",
-            "channelName": "Botan Ch.獅白ぼたん",
-            "thumbnailUrl": "https://i.ytimg.com/vi/LcxyEh4iUVE/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:07Z",
-            "viewCount": 258977,
-            "viewIncrease": 258977,
-            "likeCount": 10854,
-            "likeIncrease": 10854,
-            "commentCount": 25,
-            "commentIncrease": 25,
-            "subscriberCount": 1580000,
-            "rawScore": 118.0,
-            "normalizedScore": 88.9,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.5
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 181.5,
-                "engagement": 31.4,
-                "subscriberRatio": 80.4,
-                "freshness": 40.2
-            }
-        },
-        {
-            "rank": 8,
-            "videoId": "U0a1thwgLLk",
-            "title": "11 Ways to STEAL OP ORES from Villagers..",
-            "channelId": "UClqifC6Nd7v-IfTqce4k62A",
-            "channelName": "Carry Depie",
-            "thumbnailUrl": "https://i.ytimg.com/vi/U0a1thwgLLk/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:49:03Z",
-            "viewCount": 368061,
-            "viewIncrease": 368061,
-            "likeCount": 8654,
-            "likeIncrease": 8654,
-            "commentCount": 518,
-            "commentIncrease": 518,
-            "subscriberCount": 4560000,
-            "rawScore": 117.7,
-            "normalizedScore": 87.0,
-            "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.5
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 188.4,
-                "engagement": 35.9,
-                "subscriberRatio": 72.7,
-                "freshness": 39.6
-            }
-        },
-        {
-            "rank": 9,
-            "videoId": "8t75SG8iJ1A",
-            "title": "【 #にじ甲2026】春甲子園！1年目冬~流星ミルキーウェイ学園いくぞおおおおおおおおおお🌠【星川サラ/にじさんじ】",
-            "channelId": "UC9V3Y3_uzU5e-usObb6IE1w",
-            "channelName": "星川サラ / Sara Hoshikawa",
-            "thumbnailUrl": "https://i.ytimg.com/vi/8t75SG8iJ1A/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:32:45Z",
-            "viewCount": 218934,
-            "viewIncrease": 218934,
-            "likeCount": 3730,
-            "likeIncrease": 3730,
-            "commentCount": 55,
-            "commentIncrease": 55,
-            "subscriberCount": 1210000,
-            "rawScore": 111.2,
-            "normalizedScore": 85.2,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 178.2,
-                "engagement": 26.9,
-                "subscriberRatio": 81.4,
-                "freshness": 38.8
-            }
-        },
-        {
-            "rank": 10,
-            "videoId": "E1L-3nvoQyY",
-            "title": "Share ke Teman Kamu yang Suka Begadang  #vtuber #vtuberindonesia #manhwa #anime #bfe #voiceacting",
-            "channelId": "UCjdkRficwVbB-FM-7dA_Pkg",
-            "channelName": "Eori Vandana Ch.",
-            "thumbnailUrl": "https://i.ytimg.com/vi/E1L-3nvoQyY/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:00:33Z",
-            "viewCount": 964,
-            "viewIncrease": 964,
-            "likeCount": 52,
-            "likeIncrease": 52,
-            "commentCount": 13,
-            "commentIncrease": 13,
-            "subscriberCount": 227,
-            "rawScore": 110.5,
-            "normalizedScore": 83.3,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 72.7,
-                "engagement": 53.3,
-                "subscriberRatio": 99.6,
-                "freshness": 49.0
-            }
-        },
-        {
-            "rank": 11,
+            "rank": 4,
+            "previousRank": 16,
+            "rankChange": 12,
             "videoId": "WAoKs0UCbvU",
             "title": "課金圧が強すぎて「剣投資」と呼ばれた強欲なクソゲー【グラディエーターバーサス】【クソゲーオブザイヤー】",
             "channelId": "UCHyYUv384bv9eMOC1UoG9PQ",
             "channelName": "からすまAチャンネル",
             "thumbnailUrl": "https://i.ytimg.com/vi/WAoKs0UCbvU/maxresdefault.jpg",
             "publishedAt": "2026-07-25T11:07:38Z",
-            "viewCount": 122341,
-            "viewIncrease": 122341,
-            "likeCount": 3386,
-            "likeIncrease": 3386,
-            "commentCount": 378,
-            "commentIncrease": 378,
+            "viewCount": 143067,
+            "viewIncrease": 20726,
+            "likeCount": 3582,
+            "likeIncrease": 196,
+            "commentCount": 390,
+            "commentIncrease": 12,
             "subscriberCount": 1190000,
-            "rawScore": 106.6,
-            "normalizedScore": 81.5,
+            "rawScore": 101.8,
+            "normalizedScore": 91.7,
             "genres": [
                 {
                     "slug": "gaming",
@@ -410,29 +159,67 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 166.8,
-                "engagement": 40.8,
-                "subscriberRatio": 75.3,
-                "freshness": 37.7
+                "velocity": 201.7,
+                "engagement": 25.4,
+                "subscriberRatio": 56.1,
+                "freshness": 36.0
             }
         },
         {
-            "rank": 12,
+            "rank": 5,
+            "videoId": "Xd65nMsJtXw",
+            "title": "You Don't Deserve Context #vtuber #goldieneko #meme",
+            "channelId": "UCawUXCFaOgJi9sDVEDQJypA",
+            "channelName": "GoldieNeko",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Xd65nMsJtXw/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T16:00:32Z",
+            "viewCount": 321,
+            "viewIncrease": 321,
+            "likeCount": 34,
+            "likeIncrease": 34,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 6230,
+            "rawScore": 101.0,
+            "normalizedScore": 88.9,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 52.1,
+                "engagement": 51.2,
+                "subscriberRatio": 67.8,
+                "freshness": 59.1
+            }
+        },
+        {
+            "rank": 6,
+            "previousRank": 17,
+            "rankChange": 11,
             "videoId": "6VyRYXs_nYM",
             "title": "【超究極石流】1回だけですよ【モンスト】",
             "channelId": "UCqfELxLmasBwYET4ZAMfMqA",
             "channelName": "がみくん",
             "thumbnailUrl": "https://i.ytimg.com/vi/6VyRYXs_nYM/maxresdefault.jpg",
             "publishedAt": "2026-07-25T11:38:24Z",
-            "viewCount": 64691,
-            "viewIncrease": 64691,
-            "likeCount": 1035,
-            "likeIncrease": 1035,
-            "commentCount": 341,
-            "commentIncrease": 341,
+            "viewCount": 77996,
+            "viewIncrease": 13305,
+            "likeCount": 1073,
+            "likeIncrease": 38,
+            "commentCount": 346,
+            "commentIncrease": 5,
             "subscriberCount": 581000,
-            "rawScore": 105.6,
-            "normalizedScore": 79.6,
+            "rawScore": 99.7,
+            "normalizedScore": 86.1,
             "genres": [
                 {
                     "slug": "gaming",
@@ -446,103 +233,105 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 154.4,
-                "engagement": 39.4,
-                "subscriberRatio": 76.2,
-                "freshness": 39.1
+                "velocity": 193.0,
+                "engagement": 16.1,
+                "subscriberRatio": 59.0,
+                "freshness": 37.2
             }
         },
         {
-            "rank": 13,
-            "videoId": "i3j5fTRtk1w",
-            "title": "La magia no es lo mío #vtuber #minecraft  #twitch",
-            "channelId": "UCbkHJryyajDaQUZWx4yNTFQ",
-            "channelName": "Sylver_VT",
-            "thumbnailUrl": "https://i.ytimg.com/vi/i3j5fTRtk1w/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T15:00:34Z",
-            "viewCount": 439,
-            "viewIncrease": 439,
-            "likeCount": 11,
-            "likeIncrease": 11,
+            "rank": 7,
+            "videoId": "gXvy_q56kwk",
+            "title": "【スプラ レイダース】 スピード縛り 初見プレイ ガジェットの能力で〇ぬのを辞めたいｗ  #初見さん ROMさん 大歓迎　【Splatoon Raiders】#shorts #スプラ #raiders",
+            "channelId": "UC9lub6P2DFY6vIWwBSSnfPA",
+            "channelName": "あやっぺの星⭐🎀セルフ AI 新人Vtuber 第1形態",
+            "thumbnailUrl": "https://i.ytimg.com/vi/gXvy_q56kwk/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T15:42:19Z",
+            "viewCount": 243,
+            "viewIncrease": 243,
+            "likeCount": 27,
+            "likeIncrease": 27,
             "commentCount": 1,
             "commentIncrease": 1,
-            "subscriberCount": 184,
-            "rawScore": 105.4,
-            "normalizedScore": 77.8,
+            "subscriberCount": 3220,
+            "rawScore": 96.6,
+            "normalizedScore": 83.3,
             "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.99
-                },
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
+                    "confidence": 0.5
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
                     "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 57.8,
-                "engagement": 38.6,
-                "subscriberRatio": 91.1,
+                "velocity": 47.1,
+                "engagement": 52.9,
+                "subscriberRatio": 72.0,
                 "freshness": 56.2
             }
         },
         {
-            "rank": 14,
-            "videoId": "T-ZMvh01q0w",
-            "title": "Chơi Minecraft với Ber Béo 2",
-            "channelId": "UCb6KKXusfTFE4HdOgd1vHYw",
-            "channelName": "Dương404",
-            "thumbnailUrl": "https://i.ytimg.com/vi/T-ZMvh01q0w/maxresdefault_live.jpg",
-            "publishedAt": "2026-07-25T15:37:47Z",
-            "viewCount": 3004,
-            "viewIncrease": 3004,
-            "likeCount": 174,
-            "likeIncrease": 174,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 860000,
-            "rawScore": 103.5,
-            "normalizedScore": 75.9,
+            "rank": 8,
+            "previousRank": 22,
+            "rankChange": 14,
+            "videoId": "BnYXMNwbU5g",
+            "title": "これが10年前の\"最上位ポケモン対戦\"です。",
+            "channelId": "UCmnZL4tFRl4sm-uJOxTLHmg",
+            "channelName": "今日ポケch.",
+            "thumbnailUrl": "https://i.ytimg.com/vi/BnYXMNwbU5g/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T10:58:05Z",
+            "viewCount": 85911,
+            "viewIncrease": 10875,
+            "likeCount": 1612,
+            "likeIncrease": 61,
+            "commentCount": 154,
+            "commentIncrease": 5,
+            "subscriberCount": 670000,
+            "rawScore": 94.4,
+            "normalizedScore": 80.6,
             "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.8
-                },
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
                     "confidence": 0.3
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 94.5,
-                "engagement": 31.9,
-                "subscriberRatio": 38.9,
-                "freshness": 62.6
+                "velocity": 189.1,
+                "engagement": 21.0,
+                "subscriberRatio": 55.3,
+                "freshness": 35.6
             }
         },
         {
-            "rank": 15,
-            "previousRank": 11,
-            "rankChange": -4,
+            "rank": 9,
+            "previousRank": 20,
+            "rankChange": 11,
             "videoId": "i4qoaZPKZnc",
             "title": "完成したクイズ施設を色んな賢さの配信者で試すk4sen【VCR RUST】",
             "channelId": "UChUjERVG8eKEAJSCef-tTmg",
             "channelName": "k4sen / かせん",
             "thumbnailUrl": "https://i.ytimg.com/vi/i4qoaZPKZnc/maxresdefault.jpg",
             "publishedAt": "2026-07-25T09:00:06Z",
-            "viewCount": 197463,
-            "viewIncrease": 143825,
-            "likeCount": 5099,
-            "likeIncrease": 2250,
-            "commentCount": 236,
-            "commentIncrease": 83,
+            "viewCount": 216114,
+            "viewIncrease": 18651,
+            "likeCount": 5298,
+            "likeIncrease": 199,
+            "commentCount": 246,
+            "commentIncrease": 10,
             "subscriberCount": 1090000,
-            "rawScore": 102.5,
-            "normalizedScore": 74.1,
+            "rawScore": 89.6,
+            "normalizedScore": 77.8,
             "genres": [
                 {
                     "slug": "gaming",
@@ -556,29 +345,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 203.7,
-                "engagement": 29.1,
-                "subscriberRatio": 78.0,
-                "freshness": 33.0
+                "velocity": 199.6,
+                "engagement": 26.0,
+                "subscriberRatio": 55.9,
+                "freshness": 31.8
             }
         },
         {
-            "rank": 16,
+            "rank": 10,
+            "previousRank": 21,
+            "rankChange": 11,
             "videoId": "zneG0w7Zt9E",
             "title": "新しいメンバーが加わることになりました",
             "channelId": "UCZLeZXjm_opUQFhLa4I_VFg",
             "channelName": "リオラch-スプラ解説-",
             "thumbnailUrl": "https://i.ytimg.com/vi/zneG0w7Zt9E/maxresdefault.jpg",
             "publishedAt": "2026-07-25T10:00:06Z",
-            "viewCount": 81259,
-            "viewIncrease": 81259,
-            "likeCount": 4205,
-            "likeIncrease": 4205,
-            "commentCount": 401,
-            "commentIncrease": 401,
+            "viewCount": 89181,
+            "viewIncrease": 7922,
+            "likeCount": 4277,
+            "likeIncrease": 72,
+            "commentCount": 405,
+            "commentIncrease": 4,
             "subscriberCount": 358000,
-            "rawScore": 101.6,
-            "normalizedScore": 72.2,
+            "rawScore": 89.4,
+            "normalizedScore": 75.0,
             "genres": [
                 {
                     "slug": "learning",
@@ -602,29 +393,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 158.8,
-                "engagement": 47.9,
-                "subscriberRatio": 83.9,
-                "freshness": 35.0
+                "velocity": 182.9,
+                "engagement": 24.6,
+                "subscriberRatio": 58.7,
+                "freshness": 33.6
             }
         },
         {
-            "rank": 17,
-            "videoId": "BnYXMNwbU5g",
-            "title": "これが10年前の\"最上位ポケモン対戦\"です。",
-            "channelId": "UCmnZL4tFRl4sm-uJOxTLHmg",
-            "channelName": "今日ポケch.",
-            "thumbnailUrl": "https://i.ytimg.com/vi/BnYXMNwbU5g/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T10:58:05Z",
-            "viewCount": 75036,
-            "viewIncrease": 75036,
-            "likeCount": 1551,
-            "likeIncrease": 1551,
-            "commentCount": 149,
-            "commentIncrease": 149,
-            "subscriberCount": 670000,
-            "rawScore": 100.5,
-            "normalizedScore": 70.4,
+            "rank": 11,
+            "previousRank": 8,
+            "rankChange": -3,
+            "videoId": "jJKTsQIqkv4",
+            "title": "Pokémon Champions はじまりの王者決定戦 にじさんじ杯【#ポケチャンにじさんじ杯】",
+            "channelId": "UCX7YkU9nEeaoZbkVLVajcMg",
+            "channelName": "にじさんじ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/jJKTsQIqkv4/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T11:44:59Z",
+            "viewCount": 538189,
+            "viewIncrease": 5627,
+            "likeCount": 9420,
+            "likeIncrease": 45,
+            "commentCount": 70,
+            "commentIncrease": 4,
+            "subscriberCount": 2000000,
+            "rawScore": 89.2,
+            "normalizedScore": 72.2,
             "genres": [
                 {
                     "slug": "gaming",
@@ -638,149 +431,305 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 157.3,
-                "engagement": 36.5,
-                "subscriberRatio": 76.2,
-                "freshness": 37.2
+                "velocity": 176.2,
+                "engagement": 25.1,
+                "subscriberRatio": 36.6,
+                "freshness": 37.5
             }
         },
         {
-            "rank": 18,
-            "videoId": "rocEc-FRo80",
-            "title": "We Love Green #shorts #vtuber #deltarune",
-            "channelId": "UC_inceROvyUy3FLo8jpNVfg",
-            "channelName": "0rri Android💔⚙️",
-            "thumbnailUrl": "https://i.ytimg.com/vi/rocEc-FRo80/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:00:18Z",
-            "viewCount": 595,
-            "viewIncrease": 595,
-            "likeCount": 24,
-            "likeIncrease": 24,
+            "rank": 12,
+            "previousRank": 46,
+            "rankChange": 34,
+            "videoId": "bZuYHtyum6E",
+            "title": "呪い倒す人生 #第五人格 #identityv #ゲーム実況 #サバイバー #チェイス",
+            "channelId": "UCjgKuODcax05e_oZOj_B0uQ",
+            "channelName": "ねむさん",
+            "thumbnailUrl": "https://i.ytimg.com/vi/bZuYHtyum6E/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:00:32Z",
+            "viewCount": 1628,
+            "viewIncrease": 269,
+            "likeCount": 67,
+            "likeIncrease": 10,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 23600,
+            "rawScore": 87.7,
+            "normalizedScore": 69.4,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.8
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 116.8,
+                "engagement": 44.0,
+                "subscriberRatio": 51.5,
+                "freshness": 41.3
+            }
+        },
+        {
+            "rank": 13,
+            "videoId": "lfKL8UIbJpo",
+            "title": "忘れじの言の葉　【歌ってみた】　#Cover　 #shorts",
+            "channelId": "UCUgWbRf-bPxSOSL-hO7En6w",
+            "channelName": "心宵-koyoi-",
+            "thumbnailUrl": "https://i.ytimg.com/vi/lfKL8UIbJpo/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T13:00:16Z",
+            "viewCount": 1337,
+            "viewIncrease": 1337,
+            "likeCount": 15,
+            "likeIncrease": 15,
             "commentCount": 2,
             "commentIncrease": 2,
-            "subscriberCount": 821,
-            "rawScore": 98.8,
-            "normalizedScore": 68.5,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 63.5,
-                "engagement": 44.1,
-                "subscriberRatio": 94.4,
-                "freshness": 48.9
-            }
-        },
-        {
-            "rank": 19,
-            "videoId": "IZmWGR4WF8U",
-            "title": "Minecraft, But Every Choice Changes the World…",
-            "channelId": "UCharrcPjOA4XLCVcfkyepDg",
-            "channelName": "Firelight",
-            "thumbnailUrl": "https://i.ytimg.com/vi/IZmWGR4WF8U/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:15Z",
-            "viewCount": 56726,
-            "viewIncrease": 56726,
-            "likeCount": 3410,
-            "likeIncrease": 3410,
-            "commentCount": 32,
-            "commentIncrease": 32,
-            "subscriberCount": 4270000,
-            "rawScore": 98.2,
+            "subscriberCount": 1520,
+            "rawScore": 86.0,
             "normalizedScore": 66.7,
             "genres": [
                 {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.99
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.4
                 },
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 78.9,
+                "engagement": 30.7,
+                "subscriberRatio": 98.6,
+                "freshness": 41.3
+            }
+        },
+        {
+            "rank": 14,
+            "previousRank": 9,
+            "rankChange": -5,
+            "videoId": "LcxyEh4iUVE",
+            "title": "【ホロドリ】本編を遊ぶためまずは全員を引きます【獅白ぼたん/ホロライブ】",
+            "channelId": "UCUKD-uaobj9jiqB-VXt71mA",
+            "channelName": "Botan Ch.獅白ぼたん",
+            "thumbnailUrl": "https://i.ytimg.com/vi/LcxyEh4iUVE/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:00:07Z",
+            "viewCount": 261044,
+            "viewIncrease": 2067,
+            "likeCount": 10876,
+            "likeIncrease": 22,
+            "commentCount": 27,
+            "commentIncrease": 2,
+            "subscriberCount": 1580000,
+            "rawScore": 81.6,
+            "normalizedScore": 63.9,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.5
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
                     "confidence": 0.3
                 },
                 {
                     "slug": "music",
                     "name": "音楽",
                     "confidence": 0.2
-                },
-                {
-                    "slug": "programming",
-                    "name": "IT・プログラミング",
-                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 151.8,
-                "engagement": 39.1,
-                "subscriberRatio": 53.2,
-                "freshness": 40.2
+                "velocity": 156.6,
+                "engagement": 28.4,
+                "subscriberRatio": 28.7,
+                "freshness": 38.2
             }
         },
         {
-            "rank": 20,
-            "previousRank": 1,
-            "rankChange": -19,
+            "rank": 15,
+            "previousRank": 42,
+            "rankChange": 27,
+            "videoId": "JVK9VVlQ_bU",
+            "title": "最後の守ってとこ好き　#shorts  #ゲーム実況#イナイレ  #サッカー #イナズマイレブン#ゲーム配信 #アニメ",
+            "channelId": "UClaAx3Wa1B7qxzfFrpCg6Cg",
+            "channelName": "高見‼️",
+            "thumbnailUrl": "https://i.ytimg.com/vi/JVK9VVlQ_bU/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:00:29Z",
+            "viewCount": 1519,
+            "viewIncrease": 214,
+            "likeCount": 15,
+            "likeIncrease": 1,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 209,
+            "rawScore": 79.8,
+            "normalizedScore": 61.1,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.8
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 112.4,
+                "engagement": 13.6,
+                "subscriberRatio": 83.3,
+                "freshness": 38.2
+            }
+        },
+        {
+            "rank": 16,
+            "previousRank": 51,
+            "rankChange": 35,
+            "videoId": "mM-yw3-5vxQ",
+            "title": "『T-83』大暴れ！！Part2『YOU ARE THE MONSTER』#shorts  #ゲーム実況 #こま爺 #youarethemonster",
+            "channelId": "UCFtNXrH_Xjobw15ByQ5uOeQ",
+            "channelName": "こま爺",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mM-yw3-5vxQ/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:00:36Z",
+            "viewCount": 1209,
+            "viewIncrease": 186,
+            "likeCount": 6,
+            "likeIncrease": 1,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 49,
+            "rawScore": 78.7,
+            "normalizedScore": 58.3,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.8
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 109.6,
+                "engagement": 14.5,
+                "subscriberRatio": 81.7,
+                "freshness": 38.2
+            }
+        },
+        {
+            "rank": 17,
+            "previousRank": 36,
+            "rankChange": 19,
+            "videoId": "kAFp69uA788",
+            "title": "絶対にルールを破ってはいけない『Creepy Horse』がヤバい【マインクラフト】",
+            "channelId": "UCglQWY_cZKJI4m3CxjNrUxg",
+            "channelName": "ぴくとはうす",
+            "thumbnailUrl": "https://i.ytimg.com/vi/kAFp69uA788/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T08:30:26Z",
+            "viewCount": 79829,
+            "viewIncrease": 7046,
+            "likeCount": 2938,
+            "likeIncrease": 83,
+            "commentCount": 159,
+            "commentIncrease": 4,
+            "subscriberCount": 1350000,
+            "rawScore": 77.9,
+            "normalizedScore": 55.6,
+            "genres": [
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.7
+                },
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 180.6,
+                "engagement": 26.9,
+                "subscriberRatio": 43.1,
+                "freshness": 31.1
+            }
+        },
+        {
+            "rank": 18,
+            "previousRank": 14,
+            "rankChange": -4,
+            "videoId": "8t75SG8iJ1A",
+            "title": "【 #にじ甲2026】春甲子園！1年目冬~流星ミルキーウェイ学園いくぞおおおおおおおおおお🌠【星川サラ/にじさんじ】",
+            "channelId": "UC9V3Y3_uzU5e-usObb6IE1w",
+            "channelName": "星川サラ / Sara Hoshikawa",
+            "thumbnailUrl": "https://i.ytimg.com/vi/8t75SG8iJ1A/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T11:32:45Z",
+            "viewCount": 220293,
+            "viewIncrease": 1359,
+            "likeCount": 3739,
+            "likeIncrease": 9,
+            "commentCount": 60,
+            "commentIncrease": 5,
+            "subscriberCount": 1210000,
+            "rawScore": 76.5,
+            "normalizedScore": 52.8,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 148.4,
+                "engagement": 31.3,
+                "subscriberRatio": 27.2,
+                "freshness": 37.0
+            }
+        },
+        {
+            "rank": 19,
+            "previousRank": 30,
+            "rankChange": 11,
             "videoId": "tbytCjPIg9o",
             "title": "VALORANT Challengers Japan 2026 Season Finals Offline DAY 1",
             "channelId": "UCzVgCrOcBAWYEHTtVOMPAtw",
             "channelName": "VALORANT // JAPAN",
             "thumbnailUrl": "https://i.ytimg.com/vi/tbytCjPIg9o/maxresdefault.jpg",
             "publishedAt": "2026-07-25T10:19:04Z",
-            "viewCount": 415663,
-            "viewIncrease": 15840,
-            "likeCount": 1893,
-            "likeIncrease": 98,
+            "viewCount": 418896,
+            "viewIncrease": 3233,
+            "likeCount": 1899,
+            "likeIncrease": 6,
             "commentCount": 13,
-            "commentIncrease": 12,
-            "subscriberCount": 481000,
-            "rawScore": 88.1,
-            "normalizedScore": 64.8,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 160.6,
-                "engagement": 23.6,
-                "subscriberRatio": 63.0,
-                "freshness": 35.7
-            }
-        },
-        {
-            "rank": 21,
-            "videoId": "xH22UmKuMSQ",
-            "title": "【ポケモンチャンピオンズ】ハズレと見せかけて普通に強いメガヘルガー【VTuber】",
-            "channelId": "UCyG7hwRLEfHLiK4lPt5g3vw",
-            "channelName": "シラクサアーカイブス",
-            "thumbnailUrl": "https://i.ytimg.com/vi/xH22UmKuMSQ/maxresdefault_live.jpg",
-            "publishedAt": "2026-07-25T12:07:26Z",
-            "viewCount": 8860,
-            "viewIncrease": 8860,
-            "likeCount": 113,
-            "likeIncrease": 113,
-            "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 59100,
-            "rawScore": 87.6,
-            "normalizedScore": 63.0,
+            "subscriberCount": 481000,
+            "rawScore": 75.0,
+            "normalizedScore": 50.0,
             "genres": [
                 {
                     "slug": "gaming",
@@ -794,67 +743,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 115.6,
-                "engagement": 20.5,
-                "subscriberRatio": 79.4,
-                "freshness": 40.7
+                "velocity": 165.4,
+                "engagement": 8.2,
+                "subscriberRatio": 45.8,
+                "freshness": 34.2
             }
         },
         {
-            "rank": 22,
-            "videoId": "scmKVvsombw",
-            "title": "Original Kaizo #furry #vtuber #furries #mario #retrogaming #retro",
-            "channelId": "UCyGzDz19Q2brDKABVtft-BQ",
-            "channelName": "MerleKoz",
-            "thumbnailUrl": "https://i.ytimg.com/vi/scmKVvsombw/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T13:00:24Z",
-            "viewCount": 733,
-            "viewIncrease": 733,
-            "likeCount": 21,
-            "likeIncrease": 21,
-            "commentCount": 2,
-            "commentIncrease": 2,
-            "subscriberCount": 1780,
-            "rawScore": 87.2,
-            "normalizedScore": 61.1,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 67.4,
-                "engagement": 40.5,
-                "subscriberRatio": 90.4,
-                "freshness": 44.0
-            }
-        },
-        {
-            "rank": 23,
-            "previousRank": 20,
-            "rankChange": -3,
+            "rank": 19,
+            "previousRank": 33,
+            "rankChange": 14,
             "videoId": "qLMW0SWYYoA",
             "title": "【めめ村】巨人が荒らしまくる！ゴール前でハンバーガーを食べたものが勝利するゴルフ大乱闘⛳【SuperBattleGolf】【ゆっくり実況】",
             "channelId": "UCy0DH4rgPPjDWVZO7wibcSQ",
             "channelName": "めめんともり",
             "thumbnailUrl": "https://i.ytimg.com/vi/qLMW0SWYYoA/maxresdefault.jpg",
             "publishedAt": "2026-07-25T07:30:27Z",
-            "viewCount": 70564,
-            "viewIncrease": 30405,
-            "likeCount": 4360,
-            "likeIncrease": 1127,
-            "commentCount": 226,
-            "commentIncrease": 33,
+            "viewCount": 75028,
+            "viewIncrease": 4464,
+            "likeCount": 4423,
+            "likeIncrease": 63,
+            "commentCount": 229,
+            "commentIncrease": 3,
             "subscriberCount": 367000,
-            "rawScore": 87.1,
-            "normalizedScore": 59.3,
+            "rawScore": 75.0,
+            "normalizedScore": 50.0,
             "genres": [
                 {
                     "slug": "gaming",
@@ -873,65 +786,29 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 173.3,
-                "engagement": 38.1,
-                "subscriberRatio": 73.0,
-                "freshness": 30.6
+                "velocity": 171.7,
+                "engagement": 28.9,
+                "subscriberRatio": 52.2,
+                "freshness": 29.7
             }
         },
         {
-            "rank": 24,
-            "videoId": "Uwy4eJ5kNNM",
-            "title": "Minecraft'ta Otomatik Karpuz Farmı Yapmak ? ⛏💎",
-            "channelId": "UC32Rckd0qfn2yO6tGLWOG2w",
-            "channelName": "Zeki Furkan ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Uwy4eJ5kNNM/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:32Z",
-            "viewCount": 10794,
-            "viewIncrease": 10794,
-            "likeCount": 213,
-            "likeIncrease": 213,
-            "commentCount": 8,
-            "commentIncrease": 8,
-            "subscriberCount": 280000,
-            "rawScore": 86.9,
-            "normalizedScore": 57.4,
-            "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 119.4,
-                "engagement": 31.8,
-                "subscriberRatio": 64.7,
-                "freshness": 40.3
-            }
-        },
-        {
-            "rank": 25,
-            "previousRank": 32,
-            "rankChange": 7,
+            "rank": 21,
+            "previousRank": 35,
+            "rankChange": 14,
             "videoId": "E7mt3DXnu3U",
             "title": "FINAL FANTASY XIV: EVERCOLD - Extended Teaser Trailer",
             "channelId": "UCpx2BZg8ABgaDV50sGJtWAg",
             "channelName": "FINAL FANTASY XIV",
             "thumbnailUrl": "https://i.ytimg.com/vi/E7mt3DXnu3U/maxresdefault.jpg",
             "publishedAt": "2026-07-25T08:05:44Z",
-            "viewCount": 62111,
-            "viewIncrease": 44186,
-            "likeCount": 2511,
-            "likeIncrease": 901,
+            "viewCount": 67383,
+            "viewIncrease": 5272,
+            "likeCount": 2601,
+            "likeIncrease": 90,
             "subscriberCount": 737000,
-            "rawScore": 86.3,
-            "normalizedScore": 55.6,
+            "rawScore": 74.4,
+            "normalizedScore": 44.4,
             "genres": [
                 {
                     "slug": "gaming",
@@ -945,67 +822,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 180.6,
-                "engagement": 23.9,
-                "subscriberRatio": 69.5,
-                "freshness": 31.5
+                "velocity": 174.9,
+                "engagement": 22.6,
+                "subscriberRatio": 46.5,
+                "freshness": 30.5
             }
         },
         {
-            "rank": 26,
-            "videoId": "kAFp69uA788",
-            "title": "絶対にルールを破ってはいけない『Creepy Horse』がヤバい【マインクラフト】",
-            "channelId": "UCglQWY_cZKJI4m3CxjNrUxg",
-            "channelName": "ぴくとはうす",
-            "thumbnailUrl": "https://i.ytimg.com/vi/kAFp69uA788/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T08:30:26Z",
-            "viewCount": 72783,
-            "viewIncrease": 72783,
-            "likeCount": 2855,
-            "likeIncrease": 2855,
-            "commentCount": 155,
-            "commentIncrease": 155,
-            "subscriberCount": 1350000,
-            "rawScore": 85.8,
-            "normalizedScore": 53.7,
-            "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.7
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 156.7,
-                "engagement": 41.7,
-                "subscriberRatio": 68.3,
-                "freshness": 32.2
-            }
-        },
-        {
-            "rank": 27,
-            "previousRank": 3,
-            "rankChange": -24,
+            "rank": 21,
+            "previousRank": 37,
+            "rankChange": 16,
             "videoId": "ragJNmyeX8A",
             "title": "【#3】ドラゴンボールカカロットやるしゅばあああああああああああああああああああああああああああ！！！！！！【ホロライブ/大空スバル】",
             "channelId": "UCvzGlP9oQwU--Y0r9id_jnA",
             "channelName": "Subaru Ch. 大空スバル",
             "thumbnailUrl": "https://i.ytimg.com/vi/ragJNmyeX8A/maxresdefault.jpg",
             "publishedAt": "2026-07-25T08:58:42Z",
-            "viewCount": 401932,
-            "viewIncrease": 29602,
-            "likeCount": 10905,
-            "likeIncrease": 543,
-            "commentCount": 131,
-            "commentIncrease": 30,
+            "viewCount": 406773,
+            "viewIncrease": 4841,
+            "likeCount": 10935,
+            "likeIncrease": 30,
+            "commentCount": 137,
+            "commentIncrease": 6,
             "subscriberCount": 2010000,
-            "rawScore": 85.6,
-            "normalizedScore": 51.9,
+            "rawScore": 74.4,
+            "normalizedScore": 44.4,
             "genres": [
                 {
                     "slug": "gaming",
@@ -1019,67 +860,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 172.8,
-                "engagement": 32.6,
-                "subscriberRatio": 54.3,
-                "freshness": 33.0
+                "velocity": 173.3,
+                "engagement": 25.7,
+                "subscriberRatio": 35.0,
+                "freshness": 31.8
             }
         },
         {
-            "rank": 28,
-            "videoId": "6Q2FqouwjSA",
-            "title": "Cómo funciona el sistema inmune  #anime #humor #vtuber",
-            "channelId": "UCOKKal3uU2J_4gemrC4evZQ",
-            "channelName": "Vela Lightmare",
-            "thumbnailUrl": "https://i.ytimg.com/vi/6Q2FqouwjSA/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:16Z",
-            "viewCount": 746,
-            "viewIncrease": 746,
-            "likeCount": 25,
-            "likeIncrease": 25,
-            "commentCount": 5,
-            "commentIncrease": 5,
-            "subscriberCount": 446,
-            "rawScore": 84.7,
-            "normalizedScore": 50.0,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 67.8,
-                "engagement": 46.1,
-                "subscriberRatio": 96.8,
-                "freshness": 40.2
-            }
-        },
-        {
-            "rank": 29,
-            "previousRank": 25,
-            "rankChange": -4,
+            "rank": 23,
+            "previousRank": 40,
+            "rankChange": 17,
             "videoId": "wuGyjM3MSq4",
             "title": "50人が小人になってしまった世界で虫から逃げながら全員集合 - マインクラフト【KUN】",
             "channelId": "UCoQhX2O93MVTWfgIz-8wOmg",
             "channelName": "KUNの50人クラフト",
             "thumbnailUrl": "https://i.ytimg.com/vi/wuGyjM3MSq4/maxresdefault.jpg",
             "publishedAt": "2026-07-25T07:00:27Z",
-            "viewCount": 78042,
-            "viewIncrease": 32922,
-            "likeCount": 2089,
-            "likeIncrease": 506,
-            "commentCount": 216,
-            "commentIncrease": 53,
+            "viewCount": 83578,
+            "viewIncrease": 5536,
+            "likeCount": 2128,
+            "likeIncrease": 39,
+            "commentCount": 218,
+            "commentIncrease": 2,
             "subscriberCount": 580000,
-            "rawScore": 82.9,
-            "normalizedScore": 48.1,
+            "rawScore": 71.8,
+            "normalizedScore": 38.9,
             "genres": [
                 {
                     "slug": "minecraft",
@@ -1098,151 +903,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 174.9,
-                "engagement": 33.3,
-                "subscriberRatio": 68.9,
-                "freshness": 29.9
+                "velocity": 175.9,
+                "engagement": 21.7,
+                "subscriberRatio": 49.6,
+                "freshness": 29.0
             }
         },
         {
-            "rank": 30,
-            "previousRank": 28,
-            "rankChange": -2,
-            "videoId": "2SX2z9w80rA",
-            "title": "※音量注意※絶叫集part124#shorts  #deadbydaylight #ゲーム実況 #dbdsurvivor #ゲーム実況 #デッドバイデイライト",
-            "channelId": "UCGXNq-IoXKBe_eV94OQozJA",
-            "channelName": "てぃーけぇー",
-            "thumbnailUrl": "https://i.ytimg.com/vi/2SX2z9w80rA/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:00:05Z",
-            "viewCount": 1015,
-            "viewIncrease": 648,
-            "likeCount": 8,
-            "likeIncrease": 6,
-            "commentCount": 2,
-            "commentIncrease": 1,
-            "subscriberCount": 1750,
-            "rawScore": 80.9,
-            "normalizedScore": 46.3,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 98.2,
-                "engagement": 29.5,
-                "subscriberRatio": 89.2,
-                "freshness": 37.3
-            }
-        },
-        {
-            "rank": 31,
-            "videoId": "JVK9VVlQ_bU",
-            "title": "最後の守ってとこ好き　#shorts  #ゲーム実況#イナイレ  #サッカー #イナズマイレブン#ゲーム配信 #アニメ",
-            "channelId": "UClaAx3Wa1B7qxzfFrpCg6Cg",
-            "channelName": "高見‼️",
-            "thumbnailUrl": "https://i.ytimg.com/vi/JVK9VVlQ_bU/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:29Z",
-            "viewCount": 1305,
-            "viewIncrease": 1305,
-            "likeCount": 14,
-            "likeIncrease": 14,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 209,
-            "rawScore": 80.8,
-            "normalizedScore": 44.4,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 78.4,
-                "engagement": 19.2,
-                "subscriberRatio": 102.9,
-                "freshness": 40.3
-            }
-        },
-        {
-            "rank": 32,
-            "videoId": "uqxdJDbWZzk",
-            "title": "ロブロックスの都市伝説に迫る #ゲーム実況 #ロブロックス",
-            "channelId": "UC2gMPijT5-nmYvtjZ5VTm-w",
-            "channelName": "天災シレア!!  ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/uqxdJDbWZzk/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:06:01Z",
-            "viewCount": 1250,
-            "viewIncrease": 1250,
-            "likeCount": 8,
-            "likeIncrease": 8,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 416,
-            "rawScore": 79.3,
-            "normalizedScore": 42.6,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.7
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 77.6,
-                "engagement": 15.6,
-                "subscriberRatio": 102.4,
-                "freshness": 40.5
-            }
-        },
-        {
-            "rank": 33,
-            "previousRank": 47,
-            "rankChange": 14,
+            "rank": 24,
+            "previousRank": 44,
+            "rankChange": 20,
             "videoId": "rWJo9ksttNw",
             "title": "VTuberデビューしたばかりの実況者 #実況コント #vtuber #ゲーム実況 #コント #minecraft #マイクラ #マイクラ実況 #マインクラフト #shorts",
             "channelId": "UCrIoYj7KNl-G71-SJVR8DIg",
             "channelName": "ゲーミングういじ",
             "thumbnailUrl": "https://i.ytimg.com/vi/rWJo9ksttNw/maxresdefault.jpg",
             "publishedAt": "2026-07-25T11:00:36Z",
-            "viewCount": 2460,
-            "viewIncrease": 1698,
-            "likeCount": 38,
-            "likeIncrease": 31,
+            "viewCount": 2827,
+            "viewIncrease": 367,
+            "likeCount": 42,
+            "likeIncrease": 4,
             "commentCount": 1,
-            "commentIncrease": 1,
+            "commentIncrease": 0,
             "subscriberCount": 43600,
-            "rawScore": 79.2,
-            "normalizedScore": 40.7,
+            "rawScore": 68.0,
+            "normalizedScore": 36.1,
             "genres": [
                 {
                     "slug": "gaming",
@@ -1256,67 +941,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 117.0,
-                "engagement": 30.3,
-                "subscriberRatio": 64.8,
-                "freshness": 37.4
+                "velocity": 122.9,
+                "engagement": 19.4,
+                "subscriberRatio": 48.3,
+                "freshness": 35.7
             }
         },
         {
-            "rank": 34,
-            "videoId": "bZuYHtyum6E",
-            "title": "呪い倒す人生 #第五人格 #identityv #ゲーム実況 #サバイバー #チェイス",
-            "channelId": "UCjgKuODcax05e_oZOj_B0uQ",
-            "channelName": "ねむさん",
-            "thumbnailUrl": "https://i.ytimg.com/vi/bZuYHtyum6E/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T13:00:32Z",
-            "viewCount": 1359,
-            "viewIncrease": 1359,
-            "likeCount": 57,
-            "likeIncrease": 57,
+            "rank": 24,
+            "previousRank": 56,
+            "rankChange": 32,
+            "videoId": "XVhJgKMzO5o",
+            "title": "よくあるバグシリーズ【戦国ダイナスティ】 #ゲーム実況 #twitch",
+            "channelId": "UCsip_UJ7KAx4N5sshznDVdg",
+            "channelName": "まあーゲーム",
+            "thumbnailUrl": "https://i.ytimg.com/vi/XVhJgKMzO5o/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T11:00:39Z",
+            "viewCount": 1896,
+            "viewIncrease": 181,
+            "likeCount": 2,
+            "likeIncrease": 0,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 23600,
-            "rawScore": 78.2,
-            "normalizedScore": 38.9,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 79.2,
-                "engagement": 29.4,
-                "subscriberRatio": 69.0,
-                "freshness": 44.0
-            }
-        },
-        {
-            "rank": 35,
-            "previousRank": 29,
-            "rankChange": -6,
-            "videoId": "UXE6ZWBqfTE",
-            "title": "あたまおかしい【#UNDERTALE】 #ゲーム実況 #shorts",
-            "channelId": "UCZ_XzjifKYUyY0Y3H_IokYA",
-            "channelName": "ただのきこり🌲はゲームができない",
-            "thumbnailUrl": "https://i.ytimg.com/vi/UXE6ZWBqfTE/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:00:34Z",
-            "viewCount": 1159,
-            "viewIncrease": 683,
-            "likeCount": 10,
-            "likeIncrease": 6,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 1410,
-            "rawScore": 78.1,
-            "normalizedScore": 37.0,
+            "subscriberCount": 183,
+            "rawScore": 68.0,
+            "normalizedScore": 36.1,
             "genres": [
                 {
                     "slug": "gaming",
@@ -1330,31 +979,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 99.2,
-                "engagement": 17.8,
-                "subscriberRatio": 92.1,
-                "freshness": 37.4
+                "velocity": 109.1,
+                "engagement": 0.0,
+                "subscriberRatio": 81.4,
+                "freshness": 35.7
             }
         },
         {
-            "rank": 36,
-            "previousRank": 26,
-            "rankChange": -10,
+            "rank": 26,
+            "previousRank": 48,
+            "rankChange": 22,
             "videoId": "gDhcwqdSsTo",
             "title": "町に蜂を放って蜂テロを起こすSHAKA【VCR RUST】",
             "channelId": "UCjg5-lUiUzdmzzBRY9Xqrhw",
             "channelName": "SHAKAch",
             "thumbnailUrl": "https://i.ytimg.com/vi/gDhcwqdSsTo/maxresdefault.jpg",
             "publishedAt": "2026-07-25T07:00:18Z",
-            "viewCount": 112625,
-            "viewIncrease": 32213,
-            "likeCount": 1411,
-            "likeIncrease": 294,
-            "commentCount": 70,
-            "commentIncrease": 8,
+            "viewCount": 117007,
+            "viewIncrease": 4382,
+            "likeCount": 1443,
+            "likeIncrease": 32,
+            "commentCount": 71,
+            "commentIncrease": 1,
             "subscriberCount": 1220000,
-            "rawScore": 76.9,
-            "normalizedScore": 35.2,
+            "rawScore": 67.1,
+            "normalizedScore": 30.6,
             "genres": [
                 {
                     "slug": "gaming",
@@ -1368,136 +1017,74 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 174.4,
-                "engagement": 22.3,
-                "subscriberRatio": 60.6,
-                "freshness": 29.9
+                "velocity": 171.3,
+                "engagement": 20.5,
+                "subscriberRatio": 39.2,
+                "freshness": 29.0
             }
         },
         {
-            "rank": 37,
-            "videoId": "mM-yw3-5vxQ",
-            "title": "『T-83』大暴れ！！Part2『YOU ARE THE MONSTER』#shorts  #ゲーム実況 #こま爺 #youarethemonster",
-            "channelId": "UCFtNXrH_Xjobw15ByQ5uOeQ",
-            "channelName": "こま爺",
-            "thumbnailUrl": "https://i.ytimg.com/vi/mM-yw3-5vxQ/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:36Z",
-            "viewCount": 1023,
-            "viewIncrease": 1023,
-            "likeCount": 5,
-            "likeIncrease": 5,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 49,
-            "rawScore": 75.7,
-            "normalizedScore": 33.3,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 73.8,
-                "engagement": 13.9,
-                "subscriberRatio": 100.2,
-                "freshness": 40.3
-            }
-        },
-        {
-            "rank": 38,
-            "previousRank": 29,
-            "rankChange": -9,
-            "videoId": "lT5GhBai5aI",
-            "title": "タンシオかわいくない？ #ゲーム配信 #ゲーム実況 #splatoon #splatoonraiders #スプラトゥーン #スプラトゥーンレイダース",
-            "channelId": "UCeDVzoGuJ9i44MmHjtw5saw",
-            "channelName": "七味ゴエ  むぅ トランスジェンダー",
-            "thumbnailUrl": "https://i.ytimg.com/vi/lT5GhBai5aI/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:00:22Z",
-            "viewCount": 1358,
-            "viewIncrease": 861,
-            "likeCount": 2,
+            "rank": 27,
+            "previousRank": 43,
+            "rankChange": 16,
+            "videoId": "uqxdJDbWZzk",
+            "title": "ロブロックスの都市伝説に迫る #ゲーム実況 #ロブロックス",
+            "channelId": "UC2gMPijT5-nmYvtjZ5VTm-w",
+            "channelName": "天災シレア!!  ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/uqxdJDbWZzk/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T12:06:01Z",
+            "viewCount": 1342,
+            "viewIncrease": 92,
+            "likeCount": 6,
             "likeIncrease": 0,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 977,
-            "rawScore": 75.5,
-            "normalizedScore": 31.5,
+            "subscriberCount": 417,
+            "rawScore": 65.4,
+            "normalizedScore": 27.8,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.5
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 103.7,
-                "engagement": 0.0,
-                "subscriberRatio": 98.4,
-                "freshness": 37.4
-            }
-        },
-        {
-            "rank": 39,
-            "videoId": "4FHumDHxwQA",
-            "title": "【#ポケモンユナイト】すべてを間違えるVtuber【#大稲荷アタル #Vtuber】",
-            "channelId": "UC5GMan4y8pJhN3TnKAMbWDw",
-            "channelName": "大稲荷アタル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/4FHumDHxwQA/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T12:00:05Z",
-            "viewCount": 755,
-            "viewIncrease": 755,
-            "likeCount": 1,
-            "likeIncrease": 1,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 527,
-            "rawScore": 73.2,
-            "normalizedScore": 29.6,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
+                    "confidence": 0.99
                 },
                 {
                     "slug": "minecraft",
                     "name": "Minecraft",
-                    "confidence": 0.3
+                    "confidence": 0.7
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 68.0,
-                "engagement": 17.2,
-                "subscriberRatio": 97.0,
-                "freshness": 40.2
+                "velocity": 96.0,
+                "engagement": 0.0,
+                "subscriberRatio": 74.1,
+                "freshness": 38.4
             }
         },
         {
-            "rank": 39,
-            "previousRank": 36,
-            "rankChange": -3,
+            "rank": 28,
+            "previousRank": 54,
+            "rankChange": 26,
             "videoId": "J0AvGs24bjE",
             "title": "【検証】初心者が新作『スプラレイダース』を1日で完全クリアを目指した結果・・・",
             "channelId": "UCEeEFug3M-aQ62H8LOQt-YQ",
             "channelName": "GON",
             "thumbnailUrl": "https://i.ytimg.com/vi/J0AvGs24bjE/maxresdefault.jpg",
             "publishedAt": "2026-07-25T03:09:56Z",
-            "viewCount": 156900,
-            "viewIncrease": 41484,
-            "likeCount": 4219,
-            "likeIncrease": 618,
-            "commentCount": 335,
-            "commentIncrease": 50,
+            "viewCount": 163403,
+            "viewIncrease": 6503,
+            "likeCount": 4282,
+            "likeIncrease": 63,
+            "commentCount": 337,
+            "commentIncrease": 2,
             "subscriberCount": 521000,
-            "rawScore": 73.2,
-            "normalizedScore": 29.6,
+            "rawScore": 64.3,
+            "normalizedScore": 25.0,
             "genres": [
                 {
                     "slug": "gaming",
@@ -1516,137 +1103,62 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 179.4,
-                "engagement": 31.8,
-                "subscriberRatio": 72.5,
-                "freshness": 25.8
+                "velocity": 179.0,
+                "engagement": 23.4,
+                "subscriberRatio": 52.5,
+                "freshness": 25.2
             }
         },
         {
-            "rank": 41,
-            "videoId": "XVhJgKMzO5o",
-            "title": "よくあるバグシリーズ【戦国ダイナスティ】 #ゲーム実況 #twitch",
-            "channelId": "UCsip_UJ7KAx4N5sshznDVdg",
-            "channelName": "まあーゲーム",
-            "thumbnailUrl": "https://i.ytimg.com/vi/XVhJgKMzO5o/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:00:39Z",
-            "viewCount": 1715,
-            "viewIncrease": 1715,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 0,
+            "rank": 29,
+            "videoId": "kBIGdtZQ7oE",
+            "title": "【 #にじ甲2026 】私立朝晴高校☀️2年目甲子園～⚾✨【 七瀬すず菜 /にじさんじ】",
+            "channelId": "UCtC3B1n4XMiJmrDtu1Ni5qw",
+            "channelName": "七瀬 すず菜 / Nanase Suzuna【にじさんじ】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/kBIGdtZQ7oE/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T07:32:14Z",
+            "viewCount": 370103,
+            "viewIncrease": 1153,
+            "likeCount": 5776,
+            "likeIncrease": 5,
+            "commentCount": 93,
             "commentIncrease": 0,
-            "subscriberCount": 183,
-            "rawScore": 73.1,
-            "normalizedScore": 25.9,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.95
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 83.7,
-                "engagement": 6.0,
-                "subscriberRatio": 105.9,
-                "freshness": 37.4
-            }
-        },
-        {
-            "rank": 42,
-            "videoId": "x4DIoq7vN_8",
-            "title": "Who's the REAL VERITY?! ",
-            "channelId": "UCIFf3obhbXcDu1_U3aHjz-A",
-            "channelName": "Knoxy",
-            "thumbnailUrl": "https://i.ytimg.com/vi/x4DIoq7vN_8/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:01:21Z",
-            "viewCount": 13040,
-            "viewIncrease": 13040,
-            "likeCount": 444,
-            "likeIncrease": 444,
-            "commentCount": 8,
-            "commentIncrease": 8,
-            "subscriberCount": 4480000,
-            "rawScore": 73.0,
-            "normalizedScore": 24.1,
-            "genres": [
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.5
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 123.1,
-                "engagement": 35.1,
-                "subscriberRatio": 37.0,
-                "freshness": 37.4
-            }
-        },
-        {
-            "rank": 43,
-            "videoId": "KaO3ajxmPHs",
-            "title": "#117【Level Devil】四面楚歌【VTuber切り抜き】#Shorts #ゲーム実況",
-            "channelId": "UCGJWNWTxMaHdjeW4wbzBI-A",
-            "channelName": "伊椎 馨 / Kaworu Ishii",
-            "thumbnailUrl": "https://i.ytimg.com/vi/KaO3ajxmPHs/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T11:00:35Z",
-            "viewCount": 920,
-            "viewIncrease": 920,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 422,
-            "rawScore": 67.2,
+            "subscriberCount": 292000,
+            "rawScore": 59.0,
             "normalizedScore": 22.2,
             "genres": [
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
+                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 71.8,
-                "engagement": 9.0,
-                "subscriberRatio": 99.1,
-                "freshness": 37.4
+                "velocity": 145.2,
+                "engagement": 13.1,
+                "subscriberRatio": 40.2,
+                "freshness": 29.7
             }
         },
         {
-            "rank": 44,
+            "rank": 30,
+            "previousRank": 68,
+            "rankChange": 38,
             "videoId": "xUar7sZONYA",
             "title": "社会人はつらいよ【夜廻】 #ゲーム実況 #夜廻",
             "channelId": "UCmi11yDlj8Bz-UojlH9byAw",
             "channelName": "梧桐ここん",
             "thumbnailUrl": "https://i.ytimg.com/vi/xUar7sZONYA/maxresdefault.jpg",
             "publishedAt": "2026-07-25T11:00:38Z",
-            "viewCount": 558,
-            "viewIncrease": 558,
+            "viewCount": 624,
+            "viewIncrease": 66,
             "likeCount": 5,
-            "likeIncrease": 5,
+            "likeIncrease": 0,
             "commentCount": 0,
             "commentIncrease": 0,
             "subscriberCount": 131,
-            "rawScore": 65.0,
-            "normalizedScore": 20.4,
+            "rawScore": 57.1,
+            "normalizedScore": 19.4,
             "genres": [
                 {
                     "slug": "gaming",
@@ -1660,68 +1172,30 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 62.3,
-                "engagement": 18.0,
-                "subscriberRatio": 93.7,
-                "freshness": 37.4
+                "velocity": 89.5,
+                "engagement": 0.0,
+                "subscriberRatio": 70.5,
+                "freshness": 35.7
             }
         },
         {
-            "rank": 45,
-            "previousRank": 49,
-            "rankChange": 4,
-            "videoId": "_1Bxg5rY7pE",
-            "title": "ガーテンオブバンバンに新キャラが追加された..",
-            "channelId": "UC9Lx-zRFGfpuls27tNAOIqA",
-            "channelName": "マエスケ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/_1Bxg5rY7pE/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T01:46:23Z",
-            "viewCount": 224926,
-            "viewIncrease": 35281,
-            "likeCount": 4991,
-            "likeIncrease": 380,
-            "commentCount": 623,
-            "commentIncrease": 31,
-            "subscriberCount": 2090000,
-            "rawScore": 64.2,
-            "normalizedScore": 18.5,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "minecraft",
-                    "name": "Minecraft",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 176.2,
-                "engagement": 28.1,
-                "subscriberRatio": 55.7,
-                "freshness": 24.7
-            }
-        },
-        {
-            "rank": 46,
-            "previousRank": 54,
-            "rankChange": 8,
+            "rank": 31,
+            "previousRank": 75,
+            "rankChange": 44,
             "videoId": "9eHXsvfJoWs",
             "title": "全体チャットで暴言を吐いてしまい謹慎いじりをされるうひ、にじさんじチームに加入するも会話に混ざれないうひ【ぶいすぽ/切り抜き/千燈ゆうひ/乾伸一郎/葛葉/らいじん/エクスアルビオ/VCR Rust3】",
             "channelId": "UCbAffpeZmYjQp0u4wtNd2rg",
             "channelName": "ぶいすぽの切り抜き",
             "thumbnailUrl": "https://i.ytimg.com/vi/9eHXsvfJoWs/maxresdefault.jpg",
             "publishedAt": "2026-07-24T20:23:13Z",
-            "viewCount": 183304,
-            "viewIncrease": 11211,
-            "likeCount": 2037,
-            "likeIncrease": 136,
-            "commentCount": 189,
-            "commentIncrease": 9,
+            "viewCount": 185178,
+            "viewIncrease": 1874,
+            "likeCount": 2044,
+            "likeIncrease": 7,
+            "commentCount": 191,
+            "commentIncrease": 2,
             "subscriberCount": 14500,
-            "rawScore": 59.9,
+            "rawScore": 53.6,
             "normalizedScore": 16.7,
             "genres": [
                 {
@@ -1736,31 +1210,69 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 153.8,
-                "engagement": 28.5,
-                "subscriberRatio": 97.2,
-                "freshness": 21.4
+                "velocity": 154.7,
+                "engagement": 21.8,
+                "subscriberRatio": 77.8,
+                "freshness": 21.1
             }
         },
         {
-            "rank": 47,
-            "previousRank": 55,
-            "rankChange": 8,
+            "rank": 32,
+            "previousRank": 69,
+            "rankChange": 37,
+            "videoId": "_1Bxg5rY7pE",
+            "title": "ガーテンオブバンバンに新キャラが追加された..",
+            "channelId": "UC9Lx-zRFGfpuls27tNAOIqA",
+            "channelName": "マエスケ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/_1Bxg5rY7pE/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T01:46:23Z",
+            "viewCount": 228418,
+            "viewIncrease": 3492,
+            "likeCount": 5010,
+            "likeIncrease": 19,
+            "commentCount": 625,
+            "commentIncrease": 2,
+            "subscriberCount": 2090000,
+            "rawScore": 53.1,
+            "normalizedScore": 13.9,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 166.9,
+                "engagement": 21.6,
+                "subscriberRatio": 31.2,
+                "freshness": 24.2
+            }
+        },
+        {
+            "rank": 33,
+            "previousRank": 80,
+            "rankChange": 47,
             "videoId": "_QP9YEtC4Qg",
             "title": "【まとめ】深夜になると会話がおかしくなるア家族ｗｗｗ（VCR RUST）【叶/椎名/にじさんじ切り抜き】",
             "channelId": "UCeuNlK0yX-6_4930q0JUGNw",
             "channelName": "白瀬",
             "thumbnailUrl": "https://i.ytimg.com/vi/_QP9YEtC4Qg/maxresdefault.jpg",
             "publishedAt": "2026-07-25T00:52:13Z",
-            "viewCount": 100004,
-            "viewIncrease": 6212,
-            "likeCount": 1224,
-            "likeIncrease": 73,
+            "viewCount": 101282,
+            "viewIncrease": 1278,
+            "likeCount": 1238,
+            "likeIncrease": 14,
             "commentCount": 22,
-            "commentIncrease": 2,
+            "commentIncrease": 0,
             "subscriberCount": 200000,
-            "rawScore": 55.2,
-            "normalizedScore": 14.8,
+            "rawScore": 50.0,
+            "normalizedScore": 11.1,
             "genres": [
                 {
                     "slug": "gaming",
@@ -1779,35 +1291,30 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 142.3,
-                "engagement": 24.9,
-                "subscriberRatio": 62.3,
-                "freshness": 24.0
+                "velocity": 147.2,
+                "engagement": 19.4,
+                "subscriberRatio": 45.3,
+                "freshness": 23.6
             }
         },
         {
-            "rank": 48,
-            "videoId": "c5BBQ22Q0zM",
-            "title": "水族館/音楽生成AI",
-            "channelId": "UCXqFrA_3aD4YmxUf-WktE5A",
-            "channelName": "アンデスの歌うネズミ / AI Music",
-            "thumbnailUrl": "https://i.ytimg.com/vi/c5BBQ22Q0zM/maxresdefault.jpg",
-            "publishedAt": "2026-07-25T14:44:42Z",
-            "viewCount": 1,
-            "viewIncrease": 1,
-            "likeCount": 1,
-            "likeIncrease": 1,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 21,
-            "rawScore": 48.8,
-            "normalizedScore": 13.0,
+            "rank": 34,
+            "videoId": "5aDY0w8_PdU",
+            "title": "【#にじ甲2026】熱狂！にじさんじ甲子園2026#6【天開司/舞元啓介/Vtuber】",
+            "channelId": "UCZYyhgoV314CM14zBD6vd4A",
+            "channelName": "バーチャル債務者youtuber天開司",
+            "thumbnailUrl": "https://i.ytimg.com/vi/5aDY0w8_PdU/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T14:36:25Z",
+            "viewCount": 464043,
+            "viewIncrease": 2854,
+            "likeCount": 7091,
+            "likeIncrease": 12,
+            "commentCount": 109,
+            "commentIncrease": 0,
+            "subscriberCount": 366000,
+            "rawScore": 42.0,
+            "normalizedScore": 8.3,
             "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.45
-                },
                 {
                     "slug": "gaming",
                     "name": "ゲーム",
@@ -1817,34 +1324,77 @@
                     "slug": "minecraft",
                     "name": "Minecraft",
                     "confidence": 0.3
+                },
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 0.8,
-                "engagement": 63.6,
-                "subscriberRatio": 26.0,
-                "freshness": 54.0
+                "velocity": 162.9,
+                "engagement": 12.9,
+                "subscriberRatio": 47.4,
+                "freshness": 18.8
             }
         },
         {
-            "rank": 49,
-            "previousRank": 84,
-            "rankChange": 35,
+            "rank": 35,
+            "previousRank": 64,
+            "rankChange": 29,
+            "videoId": "KaO3ajxmPHs",
+            "title": "#117【Level Devil】四面楚歌【VTuber切り抜き】#Shorts #ゲーム実況",
+            "channelId": "UCGJWNWTxMaHdjeW4wbzBI-A",
+            "channelName": "伊椎 馨 / Kaworu Ishii",
+            "thumbnailUrl": "https://i.ytimg.com/vi/KaO3ajxmPHs/maxresdefault.jpg",
+            "publishedAt": "2026-07-25T11:00:35Z",
+            "viewCount": 935,
+            "viewIncrease": 15,
+            "likeCount": 2,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 422,
+            "rawScore": 41.3,
+            "normalizedScore": 5.6,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.99
+                },
+                {
+                    "slug": "minecraft",
+                    "name": "Minecraft",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 61.2,
+                "engagement": 0.0,
+                "subscriberRatio": 54.5,
+                "freshness": 35.7
+            }
+        },
+        {
+            "rank": 36,
+            "previousRank": 93,
+            "rankChange": 57,
             "videoId": "sYM5DQT_R4Y",
             "title": "【マインクラフト】100本ノックでボールを連続キャッチできるまで終われません【日常組】",
             "channelId": "UCZFO75r8iYNI2XPmoFEG6ig",
             "channelName": "日常組",
             "thumbnailUrl": "https://i.ytimg.com/vi/sYM5DQT_R4Y/maxresdefault.jpg",
             "publishedAt": "2026-07-24T08:00:05Z",
-            "viewCount": 689349,
-            "viewIncrease": 50048,
-            "likeCount": 18663,
-            "likeIncrease": 676,
-            "commentCount": 588,
-            "commentIncrease": 15,
+            "viewCount": 698918,
+            "viewIncrease": 9569,
+            "likeCount": 18712,
+            "likeIncrease": 49,
+            "commentCount": 587,
+            "commentIncrease": 0,
             "subscriberCount": 2580000,
-            "rawScore": 45.5,
-            "normalizedScore": 11.1,
+            "rawScore": 40.7,
+            "normalizedScore": 2.8,
             "genres": [
                 {
                     "slug": "gaming",
@@ -1858,31 +1408,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 183.0,
-                "engagement": 25.7,
-                "subscriberRatio": 57.3,
-                "freshness": 17.1
+                "velocity": 186.6,
+                "engagement": 14.2,
+                "subscriberRatio": 39.5,
+                "freshness": 16.9
             }
         },
         {
-            "rank": 50,
-            "previousRank": 85,
-            "rankChange": 35,
+            "rank": 37,
+            "previousRank": 94,
+            "rankChange": 57,
             "videoId": "YoSVQaMSnMg",
             "title": "バケツ100万杯の海底神殿の水をすべて抜くまで終われません！【マイクラ】",
             "channelId": "UCj4PjeVMnNTHIR5EeoNKPAw",
             "channelName": "ドズル社",
             "thumbnailUrl": "https://i.ytimg.com/vi/YoSVQaMSnMg/maxresdefault.jpg",
             "publishedAt": "2026-07-24T09:15:06Z",
-            "viewCount": 514946,
-            "viewIncrease": 33687,
-            "likeCount": 12582,
-            "likeIncrease": 491,
+            "viewCount": 519941,
+            "viewIncrease": 4995,
+            "likeCount": 12616,
+            "likeIncrease": 34,
             "commentCount": 565,
-            "commentIncrease": 8,
+            "commentIncrease": 0,
             "subscriberCount": 2810000,
-            "rawScore": 44.1,
-            "normalizedScore": 9.3,
+            "rawScore": 38.3,
+            "normalizedScore": 0.0,
             "genres": [
                 {
                     "slug": "minecraft",
@@ -1896,10 +1446,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 175.3,
-                "engagement": 25.5,
-                "subscriberRatio": 52.1,
-                "freshness": 17.4
+                "velocity": 173.9,
+                "engagement": 16.1,
+                "subscriberRatio": 31.8,
+                "freshness": 17.2
             }
         }
     ]

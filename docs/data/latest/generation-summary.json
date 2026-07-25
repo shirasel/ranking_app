@@ -1,6 +1,6 @@
 {
-    "generatedAt": "2026-07-25T16:11:19.759968557Z",
-    "inputVideos": 122,
+    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "inputVideos": 119,
     "rankingVideos": 100,
     "genreRankings": 6,
     "collection": {
@@ -12,40 +12,81 @@
                 "status": "ok"
             },
             {
-                "source": "keyword:Minecraft",
-                "requested": 12,
-                "collected": 12,
-                "status": "ok"
-            },
-            {
-                "source": "keyword:プログラミング",
-                "requested": 12,
-                "collected": 12,
+                "source": "keyword:ゲーム実況",
+                "requested": 10,
+                "collected": 10,
                 "status": "ok"
             },
             {
                 "source": "keyword:VTuber",
-                "requested": 12,
-                "collected": 12,
+                "requested": 10,
+                "collected": 10,
                 "status": "ok"
             },
             {
-                "source": "keyword:ゲーム実況",
-                "requested": 12,
-                "collected": 12,
+                "source": "keyword:歌ってみた",
+                "requested": 10,
+                "collected": 10,
                 "status": "ok"
             },
             {
                 "source": "keyword:作業用BGM",
-                "requested": 12,
-                "collected": 12,
+                "requested": 10,
+                "collected": 10,
                 "status": "ok"
             },
             {
-                "source": "keyword:生成AI",
-                "requested": 12,
-                "collected": 12,
+                "source": "keyword:ニュース 解説",
+                "requested": 10,
+                "collected": 10,
                 "status": "ok"
+            },
+            {
+                "source": "keyword:料理",
+                "requested": 10,
+                "collected": 10,
+                "status": "ok"
+            },
+            {
+                "source": "keyword:ガジェット",
+                "requested": 10,
+                "collected": 10,
+                "status": "ok"
+            },
+            {
+                "source": "keyword:旅行",
+                "requested": 10,
+                "collected": 0,
+                "status": "skipped",
+                "message": "quota budget limit"
+            },
+            {
+                "source": "keyword:美容",
+                "requested": 10,
+                "collected": 0,
+                "status": "skipped",
+                "message": "quota budget limit"
+            },
+            {
+                "source": "keyword:スポーツ",
+                "requested": 10,
+                "collected": 0,
+                "status": "skipped",
+                "message": "quota budget limit"
+            },
+            {
+                "source": "keyword:アニメ",
+                "requested": 10,
+                "collected": 0,
+                "status": "skipped",
+                "message": "quota budget limit"
+            },
+            {
+                "source": "keyword:勉強",
+                "requested": 10,
+                "collected": 0,
+                "status": "skipped",
+                "message": "quota budget limit"
             },
             {
                 "source": "popular:JP",
@@ -54,13 +95,13 @@
                 "status": "ok"
             }
         ],
-        "uniqueCandidateIds": 122,
-        "fetchedVideoIds": 122,
-        "publicVideos": 122,
-        "estimatedQuotaUnits": 607
+        "uniqueCandidateIds": 120,
+        "fetchedVideoIds": 120,
+        "publicVideos": 119,
+        "estimatedQuotaUnits": 707
     },
     "retention": {
         "historyDeleted": 0,
-        "videoDetailsDeleted": 59
+        "videoDetailsDeleted": 45
     }
 }
