@@ -32,7 +32,7 @@
         <div class="hero-copy">
           <p class="eyebrow">24時間ランキング</p>
           <h1>いま伸びているYouTube動画を<span class="phrase-nowrap">見つける</span></h1>
-          <p class="lead">動画名、チャンネル名、ジャンルから検索できます。順位の計算は裏側に隠し、見る側は気になる動画をすぐ探せるようにしました。</p>
+          <p class="lead">動画名、チャンネル名、ジャンルでランキングを検索できます。</p>
           <form class="hero-search" action="rankings/overall-ranking.html" role="search">
             <label for="home-ranking-search">ランキングを検索</label>
             <div class="hero-search-field">
@@ -41,16 +41,12 @@
               <button type="submit">検索</button>
             </div>
           </form>
+          <p class="home-updated">最終更新 <span data-updated-at>読み込み中</span></p>
           <div class="hero-actions">
-            <a class="button primary" href="rankings/overall-ranking.html">ランキングを見る</a>
-            <a class="button secondary" href="rankings/genre-ranking.html">ジャンルで探す</a>
+            <a class="button secondary" href="rankings/overall-ranking.html">総合ランキング</a>
+            <a class="button secondary" href="rankings/genre-ranking.html">ジャンル別ランキング</a>
           </div>
         </div>
-        <aside class="hero-panel" aria-label="更新情報">
-          <span class="panel-label">最終更新</span>
-          <strong data-updated-at>読み込み中</strong>
-          <span class="panel-note">生成済みJSONを表示</span>
-        </aside>
       </section>
 
       <section class="content-grid">
