@@ -129,6 +129,7 @@ Two workflows are included:
   - uses Node 24-compatible GitHub Actions
   - builds and tests with mock data only
   - validates generated public JSON after mock generation
+  - opens or updates a GitHub Issue when the workflow fails
   - does not require `YOUTUBE_API_KEY`
   - does not commit generated changes
 - `.github/workflows/update-rankings.yml`
@@ -136,6 +137,7 @@ Two workflows are included:
   - uses Node 24-compatible GitHub Actions
   - uses `YOUTUBE_API_KEY` from repository secrets for real updates
   - validates generated public JSON before detecting changes
+  - opens or updates a GitHub Issue when the workflow fails
   - commits only when `docs/data` changes
   - prevents overlapping update runs with workflow concurrency
 

@@ -24,6 +24,7 @@ jobs:
     if: github.event_name != 'push'
     permissions:
       contents: write
+      issues: write
 
     steps:
       - name: Checkout
@@ -99,3 +100,9 @@ jobs:
           git add docs/data
           git commit -m "chore: ランキングデータを更新"
           git push
+
+      - name: Notify failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/notify-action-failure-issue.js

@@ -10,6 +10,7 @@ node --check docs\assets\js\ranking.js || goto :failed
 node --check docs\assets\js\video.js || goto :failed
 node --check docs\assets\js\operation-log.js || goto :failed
 node --check tools\write-validation-action-summary.js || goto :failed
+node --check tools\notify-action-failure-issue.js || goto :failed
 node --check tools\check-youtube-api-key.js || goto :failed
 node --check tools\serve-github-pages-preview.js || goto :failed
 

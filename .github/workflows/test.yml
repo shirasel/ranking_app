@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      issues: write
 
     steps:
       - name: Checkout
@@ -40,3 +41,9 @@ jobs:
       - name: Write validation summary
         if: always()
         run: node tools/write-validation-action-summary.js
+
+      - name: Notify failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/notify-action-failure-issue.js
