@@ -1,16 +1,16 @@
 package com.ytranklab.bootstrap
 
+import com.ytranklab.app.collection.YouTubeVideoCollectionService
+import com.ytranklab.app.generation.RankingCandidateFactoryFactory
+import com.ytranklab.app.generation.RankingDocumentGenerator
+import com.ytranklab.app.generation.RankingGenerationPersistenceFactory
 import com.ytranklab.app.reporting.GenerationReporter
-import com.ytranklab.app.reporting.SystemGenerationReporter
 import com.ytranklab.config.AppConfigLoader
 import com.ytranklab.collection.reporting.CollectionReporter
-import com.ytranklab.collection.reporting.SystemCollectionReporter
 import com.ytranklab.history.HistoryRetentionService
 import com.ytranklab.mock.MockVideoDataSource
 import com.ytranklab.output.RankingJsonWriter
-import com.ytranklab.statistics.FileStatisticsRepository
 import com.ytranklab.statistics.StatisticsRepository
-import com.ytranklab.youtube.KtorYouTubeApiClient
 import com.ytranklab.youtube.YouTubeApiClient
 import java.nio.file.Path
 
@@ -35,30 +35,13 @@ data class RankingApplicationDependencies(
     val historyRetentionServiceFactory: HistoryRetentionServiceFactory,
     val generationReporter: GenerationReporter,
     val collectionReporter: CollectionReporter,
+    val videoCollectionService: YouTubeVideoCollectionService,
+    val candidateFactoryFactory: RankingCandidateFactoryFactory,
+    val documentGenerator: RankingDocumentGenerator,
+    val persistenceFactory: RankingGenerationPersistenceFactory,
 ) {
     companion object {
-        fun fromProjectRoot(projectRoot: Path): RankingApplicationDependencies {
-            val paths = AppPaths(projectRoot)
-            val configLoader = AppConfigLoader(paths.configDirectory)
-
-            return RankingApplicationDependencies(
-                configLoader = configLoader,
-                mockVideoDataSource = MockVideoDataSource(paths.mockDirectory),
-                youtubeApiClientFactory = YouTubeApiClientFactory { apiKey -> KtorYouTubeApiClient(apiKey) },
-                statisticsRepositoryFactory = StatisticsRepositoryFactory { useFallbackStatistics ->
-                    FileStatisticsRepository(
-                        statisticsFile = paths.statisticsFile,
-                        fallbackFile = if (useFallbackStatistics) paths.fallbackStatisticsFile else null,
-                        preferFallback = useFallbackStatistics,
-                    )
-                },
-                rankingJsonWriter = RankingJsonWriter(paths.dataDirectory),
-                historyRetentionServiceFactory = HistoryRetentionServiceFactory {
-                    HistoryRetentionService(paths.dataDirectory, configLoader.loadRankingConfig().retention)
-                },
-                generationReporter = SystemGenerationReporter(),
-                collectionReporter = SystemCollectionReporter(),
-            )
-        }
+        fun fromProjectRoot(projectRoot: Path): RankingApplicationDependencies =
+            DefaultRankingApplicationDependenciesFactory(projectRoot).create()
     }
 }

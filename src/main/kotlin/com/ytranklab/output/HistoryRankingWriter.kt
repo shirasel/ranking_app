@@ -1,0 +1,57 @@
+package com.ytranklab.output
+
+import com.ytranklab.domain.RankingDocument
+import java.nio.file.Path
+import java.time.OffsetDateTime
+import java.time.format.DateTimeFormatter
+import kotlin.io.path.exists
+import kotlin.io.path.isRegularFile
+import kotlin.io.path.readText
+import kotlin.io.path.relativeTo
+import kotlin.io.path.walk
+import kotlinx.serialization.json.Json
+
+class HistoryRankingWriter(
+    private val historyDirectory: Path,
+    private val latestDirectory: Path,
+    private val fileWriter: JsonFileWriter,
+    private val json: Json = Json { ignoreUnknownKeys = true },
+) {
+    fun writeHistory(overall: RankingDocument) {
+        val generatedAt = OffsetDateTime.parse(overall.generatedAt)
+        val historyFile = historyDirectory
+            .resolve(generatedAt.format(DateTimeFormatter.ofPattern("yyyy")))
+            .resolve(generatedAt.format(DateTimeFormatter.ofPattern("MM")))
+            .resolve("${generatedAt.format(DateTimeFormatter.ofPattern("dd"))}.json")
+        fileWriter.write(historyFile, fileWriter.encode(RankingDocument.serializer(), overall))
+    }
+
+    fun writeHistoryIndex() {
+        val items = loadHistoryDocuments().map { document ->
+            val generatedAt = OffsetDateTime.parse(document.generatedAt)
+            HistoryIndexItem(
+                date = generatedAt.format(DateTimeFormatter.ISO_LOCAL_DATE),
+                generatedAt = document.generatedAt,
+                path = "history/${generatedAt.format(DateTimeFormatter.ofPattern("yyyy"))}/${generatedAt.format(DateTimeFormatter.ofPattern("MM"))}/${generatedAt.format(DateTimeFormatter.ofPattern("dd"))}.json",
+                totalVideos = document.ranking.size,
+            )
+        }
+        fileWriter.write(
+            latestDirectory.resolve("history-index.json"),
+            fileWriter.encode(HistoryIndexDocument.serializer(), HistoryIndexDocument(items = items)),
+        )
+    }
+
+    private fun loadHistoryDocuments(): List<RankingDocument> {
+        if (!historyDirectory.exists()) return emptyList()
+        return historyDirectory.walk()
+            .filter { it.isRegularFile() && it.toString().endsWith(".json") }
+            .sortedBy { it.relativeTo(historyDirectory).toString() }
+            .mapNotNull { file ->
+                runCatching {
+                    json.decodeFromString(RankingDocument.serializer(), file.readText())
+                }.getOrNull()
+            }
+            .toList()
+    }
+}
