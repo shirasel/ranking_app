@@ -39,6 +39,20 @@
     app.setText("[data-operation-details-deleted]", app.formatNumber(retention.videoDetailsDeleted || 0) + "件");
 
     renderSources(sourceResults);
+    renderHealthChecks(app.generationHealth(summary));
+  }
+
+  function renderHealthChecks(checks) {
+    var container = app.qs("[data-operation-health]");
+    if (!container) return;
+    app.clear(container);
+
+    checks.forEach(function (check) {
+      var item = app.el("article", { className: "health-item " + check.level });
+      item.appendChild(app.el("strong", { text: check.title }));
+      item.appendChild(app.el("span", { text: check.detail }));
+      container.appendChild(item);
+    });
   }
 
   function renderSources(sourceResults) {

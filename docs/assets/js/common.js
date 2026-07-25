@@ -108,6 +108,80 @@
     return { text: "古いデータ", detail: "生成 " + ageText, level: "stale" };
   }
 
+  function generationHealth(summary) {
+    var collection = summary.collection || {};
+    var sourceResults = collection.sourceResults || [];
+    var checks = [];
+    var freshness = generationFreshness(summary.generatedAt);
+    var skippedSources = sourceResults.filter(function (source) {
+      return source.status === "skipped";
+    });
+
+    checks.push({
+      level: freshness.level,
+      title: "生成時刻",
+      detail: freshness.detail
+    });
+
+    if ((summary.rankingVideos || 0) < 1) {
+      checks.push({
+        level: "stale",
+        title: "ランキング反映",
+        detail: "ランキング対象動画が0本です。"
+      });
+    } else {
+      checks.push({
+        level: "ok",
+        title: "ランキング反映",
+        detail: formatNumber(summary.rankingVideos || 0) + "本を表示できます。"
+      });
+    }
+
+    if (skippedSources.length > 0) {
+      checks.push({
+        level: "warn",
+        title: "収集元",
+        detail: formatNumber(skippedSources.length) + "件の収集元がスキップされました。"
+      });
+    } else {
+      checks.push({
+        level: "ok",
+        title: "収集元",
+        detail: "スキップされた収集元はありません。"
+      });
+    }
+
+    if ((summary.inputVideos || 0) > (collection.publicVideos || 0)) {
+      checks.push({
+        level: "warn",
+        title: "公開動画",
+        detail: "非公開または削除済みの動画が含まれている可能性があります。"
+      });
+    } else {
+      checks.push({
+        level: "ok",
+        title: "公開動画",
+        detail: "入力動画はすべて公開動画として扱われています。"
+      });
+    }
+
+    if ((collection.estimatedQuotaUnits || 0) >= 8000) {
+      checks.push({
+        level: "warn",
+        title: "API使用量",
+        detail: "推定使用量が高めです。収集元数を確認してください。"
+      });
+    } else {
+      checks.push({
+        level: "ok",
+        title: "API使用量",
+        detail: "推定使用量は通常範囲です。"
+      });
+    }
+
+    return checks;
+  }
+
   function rankChangeLabel(entry) {
     if (entry.previousRank === null || entry.previousRank === undefined) {
       return { text: "NEW", className: "rank-change new" };
@@ -255,6 +329,7 @@
     formatNumber: formatNumber,
     formatScore: formatScore,
     generationFreshness: generationFreshness,
+    generationHealth: generationHealth,
     rankChangeLabel: rankChangeLabel,
     safeYouTubeUrl: safeYouTubeUrl,
     renderRankingList: renderRankingList,

@@ -74,7 +74,21 @@
     );
     app.setText("[data-summary-freshness]", freshness.detail);
 
+    renderHealthChecks("[data-summary-health]", app.generationHealth(summary).slice(0, 3));
     renderSourceResults(sourceResults);
+  }
+
+  function renderHealthChecks(selector, checks) {
+    var container = app.qs(selector);
+    if (!container) return;
+    app.clear(container);
+
+    checks.forEach(function (check) {
+      var item = app.el("article", { className: "health-item " + check.level });
+      item.appendChild(app.el("strong", { text: check.title }));
+      item.appendChild(app.el("span", { text: check.detail }));
+      container.appendChild(item);
+    });
   }
 
   function renderSourceResults(sourceResults) {

@@ -538,6 +538,50 @@ main {
   gap: 8px;
 }
 
+.health-list {
+  display: grid;
+  gap: 8px;
+}
+
+.compact-health {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.operation-health {
+  margin-top: 18px;
+}
+
+.health-item {
+  min-height: 58px;
+  display: grid;
+  align-content: center;
+  gap: 2px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.health-item strong {
+  font-size: 0.9rem;
+}
+
+.health-item span {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.health-item.ok {
+  border-color: color-mix(in srgb, var(--good) 40%, var(--line));
+}
+
+.health-item.warn {
+  border-color: #d99a2b;
+}
+
+.health-item.stale {
+  border-color: color-mix(in srgb, var(--bad) 48%, var(--line));
+}
+
 .source-list.detailed {
   gap: 10px;
 }
@@ -832,6 +876,10 @@ main {
 
   .summary-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .compact-health {
+    grid-template-columns: 1fr;
   }
 
   .ranking-card,
