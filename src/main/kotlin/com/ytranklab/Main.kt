@@ -1,6 +1,7 @@
 package com.ytranklab
 
 import com.ytranklab.app.RankingApplication
+import com.ytranklab.security.SecretLoader
 import kotlin.io.path.Path
 import kotlin.system.exitProcess
 
@@ -20,7 +21,9 @@ fun main(args: Array<String>) {
 }
 
 private fun runGenerate(useMock: Boolean) {
-    if (!useMock && System.getenv("YOUTUBE_API_KEY").isNullOrBlank()) {
+    val secrets = SecretLoader(Path(".")).load()
+
+    if (!useMock && secrets.youtubeApiKey.isNullOrBlank()) {
         System.err.println("YOUTUBE_API_KEY is not set. Use --mock for local mock generation.")
         exitProcess(1)
     }

@@ -68,9 +68,21 @@ gradle test build
 
 ## YouTube Data API
 
-Set `YOUTUBE_API_KEY` in your local environment. For GitHub Actions, add the same name to repository secrets.
+Set `YOUTUBE_API_KEY` in your local `.env` file or environment variables. For GitHub Actions, add the same name to repository secrets.
 
 The frontend must never call the YouTube Data API directly. It reads generated JSON only.
+
+Do not commit actual API keys. `.env` and `.env.*` are ignored by Git, while `.env.example` contains only variable names.
+
+Secrets must not be written to:
+
+- GitHub Actions logs
+- GitHub Pages HTML
+- JavaScript files
+- Public JSON
+- Error messages
+- Test output
+- Build artifacts
 
 ## GitHub Actions Schedule
 
