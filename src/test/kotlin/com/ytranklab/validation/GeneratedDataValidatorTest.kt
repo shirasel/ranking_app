@@ -59,8 +59,9 @@ class GeneratedDataValidatorTest {
         latestDirectory.resolve("discovery.json").writeText(rankingDocument())
         latestDirectory.resolve("generation-summary.json").writeText(generationSummary())
         genreDirectory.resolve("gaming.json").writeText(genreDocument())
-        videoDirectory.resolve("video123").writeText("")
-        videoDirectory.resolve("video123.json").writeText(videoDetailDocument())
+        listOf("video123", "video456", "video789").forEach { videoId ->
+            videoDirectory.resolve("$videoId.json").writeText(videoDetailDocument(videoId))
+        }
         return dataDirectory
     }
 
@@ -69,35 +70,9 @@ class GeneratedDataValidatorTest {
           "generatedAt": "2026-07-25T06:00:00+09:00",
           "period": "daily",
           "ranking": [
-            {
-              "rank": 1,
-              "previousRank": null,
-              "rankChange": null,
-              "videoId": "video123",
-              "title": "Sample",
-              "channelId": "channel123",
-              "channelName": "Channel",
-              "thumbnailUrl": "",
-              "publishedAt": "2026-07-25T01:00:00+09:00",
-              "viewCount": 1000,
-              "viewIncrease": 100,
-              "likeCount": 100,
-              "likeIncrease": 10,
-              "commentCount": 5,
-              "commentIncrease": 1,
-              "subscriberCount": 10000,
-              "rawScore": 10.0,
-              "normalizedScore": 90.0,
-              "genres": [
-                {"slug": "gaming", "name": "ゲーム", "confidence": 1.0}
-              ],
-              "scoreBreakdown": {
-                "velocity": 1.0,
-                "engagement": 1.0,
-                "subscriberRatio": 1.0,
-                "freshness": 1.0
-              }
-            }
+            ${rankingEntry("video123", 1, 10.0)},
+            ${rankingEntry("video456", 1, 10.0)},
+            ${rankingEntry("video789", 3, 8.0)}
           ]
         }
     """.trimIndent()
@@ -108,16 +83,16 @@ class GeneratedDataValidatorTest {
           "period": "daily",
           "genre": {"slug": "gaming", "name": "ゲーム", "confidence": 1.0},
           "status": "official",
-          "totalVideos": 1,
-          "totalChannels": 1,
+          "totalVideos": 3,
+          "totalChannels": 3,
           "ranking": []
         }
     """.trimIndent()
 
-    private fun videoDetailDocument(): String = """
+    private fun videoDetailDocument(videoId: String): String = """
         {
           "generatedAt": "2026-07-25T06:00:00+09:00",
-          "video": ${rankingEntry()},
+          "video": ${rankingEntry(videoId, 1, 10.0)},
           "scoreBreakdown": {
             "velocity": 1.0,
             "engagement": 1.0,
@@ -130,14 +105,14 @@ class GeneratedDataValidatorTest {
         }
     """.trimIndent()
 
-    private fun rankingEntry(): String = """
+    private fun rankingEntry(videoId: String, rank: Int, rawScore: Double): String = """
         {
-          "rank": 1,
+          "rank": $rank,
           "previousRank": null,
           "rankChange": null,
-          "videoId": "video123",
+          "videoId": "$videoId",
           "title": "Sample",
-          "channelId": "channel123",
+          "channelId": "channel-$videoId",
           "channelName": "Channel",
           "thumbnailUrl": "",
           "publishedAt": "2026-07-25T01:00:00+09:00",
@@ -148,7 +123,7 @@ class GeneratedDataValidatorTest {
           "commentCount": 5,
           "commentIncrease": 1,
           "subscriberCount": 10000,
-          "rawScore": 10.0,
+          "rawScore": $rawScore,
           "normalizedScore": 90.0,
           "genres": [
             {"slug": "gaming", "name": "ゲーム", "confidence": 1.0}
@@ -165,14 +140,14 @@ class GeneratedDataValidatorTest {
     private fun generationSummary(): String = """
         {
           "generatedAt": "2026-07-25T06:00:00+09:00",
-          "inputVideos": 1,
-          "rankingVideos": 1,
+          "inputVideos": 3,
+          "rankingVideos": 3,
           "genreRankings": 1,
           "collection": {
             "sourceResults": [],
-            "uniqueCandidateIds": 1,
-            "fetchedVideoIds": 1,
-            "publicVideos": 1,
+            "uniqueCandidateIds": 3,
+            "fetchedVideoIds": 3,
+            "publicVideos": 3,
             "estimatedQuotaUnits": 0
           },
           "retention": {
