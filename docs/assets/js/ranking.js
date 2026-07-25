@@ -138,7 +138,9 @@
     var container = app.qs("[data-overall-ranking]");
     var input = app.qs("[data-ranking-search]");
     var periodButtons = app.qsa("[data-period-button]");
-    var initialView = new URLSearchParams(window.location.search).get("view") || "overall";
+    var searchParams = new URLSearchParams(window.location.search);
+    var initialView = searchParams.get("view") || "overall";
+    var initialQuery = searchParams.get("q") || "";
     var currentPath = "latest/overall.json";
     var currentView = "overall";
 
@@ -203,12 +205,17 @@
       });
     }
 
-    function updateViewUrl(view) {
+    function updateViewUrl(view, query) {
       var url = new URL(window.location.href);
       if (view === "overall") {
         url.searchParams.delete("view");
       } else {
         url.searchParams.set("view", view);
+      }
+      if (query) {
+        url.searchParams.set("q", query);
+      } else {
+        url.searchParams.delete("q");
       }
       window.history.replaceState(null, "", url.toString());
     }
@@ -219,18 +226,29 @@
       setActiveButton(currentView);
       app.setText("[data-ranking-eyebrow]", eyebrowForView(currentView));
       app.setText("[data-ranking-title]", titleForView(currentView));
-      if (shouldUpdateUrl) updateViewUrl(currentView);
+      if (shouldUpdateUrl) updateViewUrl(currentView, input ? input.value.trim() : "");
       app.showState("overall", "ランキングJSONを読み込んでいます。");
       app.loadJson(path)
       .then(function (document) {
         app.setText("[data-updated-at]", "最終更新 " + app.formatDateTime(document.generatedAt));
         allEntries = document.ranking || [];
-        renderOverallEntries(allEntries, "");
+        renderFilteredEntries();
       })
       .catch(function () {
         app.showState("overall", "ランキングデータを読み込めませんでした。");
         app.clear(container);
       });
+    }
+
+    function renderFilteredEntries() {
+      var query = input ? input.value.trim().toLowerCase() : "";
+      var filtered = allEntries.filter(function (entry) {
+        var genreText = (entry.genres || []).map(function (genre) {
+          return genre.name + " " + genre.slug;
+        }).join(" ");
+        return (entry.title + " " + entry.channelName + " " + genreText).toLowerCase().indexOf(query) >= 0;
+      });
+      renderOverallEntries(filtered, query);
     }
 
     periodButtons.forEach(function (button) {
@@ -243,6 +261,8 @@
       });
     });
 
+    if (input) input.value = initialQuery;
+
     var initialButton = periodButtons.find(function (button) {
       return button.getAttribute("data-ranking-view") === initialView;
     }) || periodButtons[0];
@@ -254,14 +274,9 @@
 
     if (input) {
       input.addEventListener("input", function () {
-        var query = input.value.trim().toLowerCase();
-        var filtered = allEntries.filter(function (entry) {
-          var genreText = (entry.genres || []).map(function (genre) {
-            return genre.name + " " + genre.slug;
-          }).join(" ");
-          return (entry.title + " " + entry.channelName + " " + genreText).toLowerCase().indexOf(query) >= 0;
-        });
-        renderOverallEntries(filtered, query);
+        var query = input.value.trim();
+        updateViewUrl(currentView, query);
+        renderFilteredEntries();
       });
     }
   }

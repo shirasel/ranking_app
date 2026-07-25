@@ -31,8 +31,16 @@
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">24時間ランキング</p>
-          <h1>いま伸びているYouTube動画を見つける</h1>
-          <p class="lead">視聴速度、反応率、登録者規模、鮮度を組み合わせた独自スコアで、総合ランキングとジャンル別ランキングを表示します。</p>
+          <h1>いま伸びているYouTube動画を<span class="phrase-nowrap">見つける</span></h1>
+          <p class="lead">動画名、チャンネル名、ジャンルから検索できます。順位の計算は裏側に隠し、見る側は気になる動画をすぐ探せるようにしました。</p>
+          <form class="hero-search" action="rankings/overall-ranking.html" role="search">
+            <label for="home-ranking-search">ランキングを検索</label>
+            <div class="hero-search-field">
+              <span aria-hidden="true">⌕</span>
+              <input id="home-ranking-search" type="search" name="q" placeholder="動画名・チャンネル・ジャンル">
+              <button type="submit">検索</button>
+            </div>
+          </form>
           <div class="hero-actions">
             <a class="button primary" href="rankings/overall-ranking.html">ランキングを見る</a>
             <a class="button secondary" href="rankings/genre-ranking.html">ジャンルで探す</a>
