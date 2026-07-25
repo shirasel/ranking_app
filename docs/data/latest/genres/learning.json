@@ -12,7 +12,37 @@
     "ranking": [
         {
             "rank": 1,
-            "previousRank": 3,
+            "previousRank": 1,
+            "rankChange": 0,
+            "videoId": "mockHiddenSubscribers01",
+            "title": "小規模チャンネルが伸びたニュース解説",
+            "channelId": "channelHiddenSubs",
+            "channelName": "Morning Brief",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mockHiddenSubscribers01/hqdefault.jpg",
+            "publishedAt": "2026-07-25T02:15:00+09:00",
+            "viewCount": 21000,
+            "viewIncrease": 20000,
+            "commentCount": 180,
+            "commentIncrease": 172,
+            "rawScore": 100.6,
+            "normalizedScore": 100.0,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.99
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 131.5,
+                "engagement": 19.7,
+                "subscriberRatio": 90.1,
+                "freshness": 41.7
+            }
+        },
+        {
+            "rank": 2,
+            "previousRank": 4,
             "rankChange": 2,
             "videoId": "mockProgramming01",
             "title": "Kotlin CLIでJSONランキングを作る実践講座",
@@ -21,14 +51,14 @@
             "thumbnailUrl": "https://i.ytimg.com/vi/mockProgramming01/hqdefault.jpg",
             "publishedAt": "2026-07-23T18:30:00+09:00",
             "viewCount": 42000,
-            "viewIncrease": 0,
+            "viewIncrease": 20000,
             "likeCount": 3100,
-            "likeIncrease": 0,
+            "likeIncrease": 1500,
             "commentCount": 260,
-            "commentIncrease": 0,
+            "commentIncrease": 140,
             "subscriberCount": 85000,
-            "rawScore": 203.0,
-            "normalizedScore": 100.0,
+            "rawScore": 43.8,
+            "normalizedScore": 0.0,
             "genres": [
                 {
                     "slug": "programming",
@@ -42,40 +72,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 0.0,
-                "engagement": 1785.7,
-                "subscriberRatio": 0.0,
-                "freshness": 11.4
-            }
-        },
-        {
-            "rank": 2,
-            "previousRank": 4,
-            "rankChange": 2,
-            "videoId": "mockHiddenSubscribers01",
-            "title": "小規模チャンネルが伸びたニュース解説",
-            "channelId": "channelHiddenSubs",
-            "channelName": "Morning Brief",
-            "thumbnailUrl": "https://i.ytimg.com/vi/mockHiddenSubscribers01/hqdefault.jpg",
-            "publishedAt": "2026-07-25T02:15:00+09:00",
-            "viewCount": 21000,
-            "viewIncrease": 0,
-            "commentCount": 180,
-            "commentIncrease": 0,
-            "rawScore": 150.0,
-            "normalizedScore": 0.0,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.99
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 0.0,
-                "engagement": 428.6,
-                "subscriberRatio": 0.0,
-                "freshness": 35.0
+                "velocity": 131.5,
+                "engagement": 52.5,
+                "subscriberRatio": 84.3,
+                "freshness": 16.3
             }
         }
     ]

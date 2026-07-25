@@ -10,22 +10,20 @@ import kotlin.math.pow
 
 class RankingCalculator(private val config: RankingConfig) {
     fun calculate(video: YouTubeVideo, delta: StatisticDelta, capturedAt: String): ScoreResult {
-        val viewCount = video.viewCount.coerceAtLeast(0)
-        val likeCount = video.likeCount?.coerceAtLeast(0) ?: 0
-        val commentCount = video.commentCount?.coerceAtLeast(0) ?: 0
-        val subscriberCount = (video.subscriberCount ?: config.minimumSubscriberCount).coerceAtLeast(config.minimumSubscriberCount)
+        val subscriberCount = (video.subscriberCount ?: config.unknownSubscriberCount).coerceAtLeast(config.minimumSubscriberCount)
         val publishedAgeHours = hoursBetween(video.publishedAt, capturedAt).coerceAtLeast(0.0)
 
         val viewVelocity = delta.viewVelocity.coerceAtLeast(0.0)
-        val subscriberRatio = delta.viewIncrease.toDouble() / subscriberCount.toDouble()
-        val likeRate = likeCount.toDouble() / viewCount.coerceAtLeast(1).toDouble()
-        val commentRate = commentCount.toDouble() / viewCount.coerceAtLeast(1).toDouble()
+        val viewIncrease = delta.viewIncrease.coerceAtLeast(0)
+        val subscriberRatio = viewIncrease.toDouble() / subscriberCount.toDouble()
+        val likeRate = rate(delta.likeIncrease ?: 0, viewIncrease, config.maxLikeRate)
+        val commentRate = rate(delta.commentIncrease ?: 0, viewIncrease, config.maxCommentRate)
         val ageDecay = 1.0 / (publishedAgeHours + 2.0).pow(config.ageDecayExponent)
 
         val velocityComponent = log10(viewVelocity + 1.0) * config.weights.velocity
         val subscriberComponent = log10(subscriberRatio * 10000.0 + 1.0) * config.weights.subscriberRatio
-        val likeComponent = likeRate * 1000.0 * config.weights.likeRate
-        val commentComponent = commentRate * 5000.0 * config.weights.commentRate
+        val likeComponent = log10(likeRate * 1000.0 + 1.0) * config.weights.likeRate
+        val commentComponent = log10(commentRate * 5000.0 + 1.0) * config.weights.commentRate
         val rawScore = safeScore((velocityComponent + subscriberComponent + likeComponent + commentComponent) * ageDecay)
 
         return ScoreResult(
@@ -41,6 +39,11 @@ class RankingCalculator(private val config: RankingConfig) {
 
     private fun safeScore(value: Double): Double =
         if (value.isFinite() && !value.isNaN()) value.coerceAtLeast(0.0) else 0.0
+
+    private fun rate(increase: Long, viewIncrease: Long, maxRate: Double): Double {
+        if (viewIncrease <= 0) return 0.0
+        return (increase.coerceAtLeast(0).toDouble() / viewIncrease.toDouble()).coerceIn(0.0, maxRate)
+    }
 }
 
 data class ScoreResult(

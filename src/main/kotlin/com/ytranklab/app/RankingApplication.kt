@@ -69,6 +69,7 @@ class RankingApplication(private val projectRoot: Path) {
         val statisticsRepository = FileStatisticsRepository(
             statisticsFile = projectRoot.resolve("docs/data/statistics/latest.json"),
             fallbackFile = if (useFallbackStatistics) projectRoot.resolve("mock/previous-statistics.json") else null,
+            preferFallback = useFallbackStatistics,
         )
         val previousStatistics = statisticsRepository.loadLatest()
         val differ = StatisticsDiffer(rankingConfig.periodHours)
@@ -86,6 +87,7 @@ class RankingApplication(private val projectRoot: Path) {
                 val score = calculator.calculate(video, delta, capturedAt)
                 RankingCandidate(video, delta, genres, score)
             }
+            .filter { it.delta.viewIncrease >= rankingConfig.minimumViewIncrease }
 
         val previousRanking = writer.loadPreviousOverallRanks()
         val overall = generator.generateOverall(capturedAt, candidates, previousRanking)

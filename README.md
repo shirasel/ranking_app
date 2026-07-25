@@ -208,19 +208,23 @@ For a public repository, set Pages to publish from the `docs` directory on the d
 
 ## Ranking Algorithm
 
-The initial raw score is:
+The raw score prioritizes short-term growth. Videos with fewer than `ranking.minimumViewIncrease` new views are excluded from the ranking candidates. Engagement uses recent deltas when available, and extreme rates are capped before scoring.
 
 ```text
 rawScore =
 (
   log10(viewVelocity + 1) * velocityWeight
   + log10(subscriberRatio * 10000 + 1) * subscriberRatioWeight
-  + likeRate * 1000 * likeRateWeight
-  + commentRate * 5000 * commentRateWeight
+  + log10(cappedDeltaLikeRate * 1000 + 1) * likeRateWeight
+  + log10(cappedDeltaCommentRate * 5000 + 1) * commentRateWeight
 ) * ageDecay
 ```
 
 Weights and thresholds live in `config/ranking.yml`.
+
+`ranking.minimumSubscriberCount` is the floor for known subscriber counts. When a channel hides subscriber counts, `ranking.unknownSubscriberCount` is used instead so hidden subscriber counts do not automatically receive the strongest small-channel boost.
+
+`ranking.minimumViewIncrease` controls the minimum recent view increase required for a video to enter generated rankings.
 
 ## Genre Rules
 

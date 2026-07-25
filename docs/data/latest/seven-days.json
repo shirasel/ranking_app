@@ -4,37 +4,6 @@
     "ranking": [
         {
             "rank": 1,
-            "videoId": "mockMusicHighLike01",
-            "title": "夏の夜に聴きたいJ-POPカバー 歌ってみた",
-            "channelId": "channelMusicLarge",
-            "channelName": "Blue Note Room",
-            "thumbnailUrl": "https://i.ytimg.com/vi/mockMusicHighLike01/hqdefault.jpg",
-            "publishedAt": "2026-07-24T12:00:00+09:00",
-            "viewCount": 620000,
-            "viewIncrease": 0,
-            "likeCount": 54000,
-            "likeIncrease": 0,
-            "commentCount": 4200,
-            "commentIncrease": 0,
-            "subscriberCount": 1400000,
-            "rawScore": 0.0,
-            "normalizedScore": 100.0,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.9
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 0.0,
-                "engagement": 2080.6,
-                "subscriberRatio": 0.0,
-                "freshness": 16.6
-            }
-        },
-        {
-            "rank": 2,
             "videoId": "mockMinecraftVelocity01",
             "title": "マイクラ最新アップデートを最速で攻略してみた",
             "channelId": "channelSmallGaming",
@@ -49,7 +18,7 @@
             "commentIncrease": 0,
             "subscriberCount": 12000,
             "rawScore": 0.0,
-            "normalizedScore": 75.0,
+            "normalizedScore": 100.0,
             "genres": [
                 {
                     "slug": "minecraft",
@@ -64,13 +33,72 @@
             ],
             "scoreBreakdown": {
                 "velocity": 0.0,
-                "engagement": 1451.4,
-                "subscriberRatio": 0.0,
-                "freshness": 23.7
+                "engagement": 50.5,
+                "subscriberRatio": 128.1,
+                "freshness": 30.2
+            }
+        },
+        {
+            "rank": 2,
+            "videoId": "mockHiddenSubscribers01",
+            "title": "小規模チャンネルが伸びたニュース解説",
+            "channelId": "channelHiddenSubs",
+            "channelName": "Morning Brief",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mockHiddenSubscribers01/hqdefault.jpg",
+            "publishedAt": "2026-07-25T02:15:00+09:00",
+            "viewCount": 21000,
+            "viewIncrease": 0,
+            "commentCount": 180,
+            "commentIncrease": 0,
+            "rawScore": 0.0,
+            "normalizedScore": 75.0,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.99
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 0.0,
+                "engagement": 19.7,
+                "subscriberRatio": 90.1,
+                "freshness": 41.7
             }
         },
         {
             "rank": 3,
+            "videoId": "mockMusicHighLike01",
+            "title": "夏の夜に聴きたいJ-POPカバー 歌ってみた",
+            "channelId": "channelMusicLarge",
+            "channelName": "Blue Note Room",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mockMusicHighLike01/hqdefault.jpg",
+            "publishedAt": "2026-07-24T12:00:00+09:00",
+            "viewCount": 620000,
+            "viewIncrease": 0,
+            "likeCount": 54000,
+            "likeIncrease": 0,
+            "commentCount": 4200,
+            "commentIncrease": 0,
+            "subscriberCount": 1400000,
+            "rawScore": 0.0,
+            "normalizedScore": 50.0,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.9
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 0.0,
+                "engagement": 52.9,
+                "subscriberRatio": 78.3,
+                "freshness": 22.4
+            }
+        },
+        {
+            "rank": 4,
             "videoId": "mockProgramming01",
             "title": "Kotlin CLIでJSONランキングを作る実践講座",
             "channelId": "channelLearning",
@@ -85,7 +113,7 @@
             "commentIncrease": 0,
             "subscriberCount": 85000,
             "rawScore": 0.0,
-            "normalizedScore": 50.0,
+            "normalizedScore": 25.0,
             "genres": [
                 {
                     "slug": "programming",
@@ -100,37 +128,9 @@
             ],
             "scoreBreakdown": {
                 "velocity": 0.0,
-                "engagement": 1785.7,
-                "subscriberRatio": 0.0,
-                "freshness": 11.4
-            }
-        },
-        {
-            "rank": 4,
-            "videoId": "mockHiddenSubscribers01",
-            "title": "小規模チャンネルが伸びたニュース解説",
-            "channelId": "channelHiddenSubs",
-            "channelName": "Morning Brief",
-            "thumbnailUrl": "https://i.ytimg.com/vi/mockHiddenSubscribers01/hqdefault.jpg",
-            "publishedAt": "2026-07-25T02:15:00+09:00",
-            "viewCount": 21000,
-            "viewIncrease": 0,
-            "commentCount": 180,
-            "commentIncrease": 0,
-            "rawScore": 0.0,
-            "normalizedScore": 25.0,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.99
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 0.0,
-                "engagement": 428.6,
-                "subscriberRatio": 0.0,
-                "freshness": 35.0
+                "engagement": 52.5,
+                "subscriberRatio": 84.3,
+                "freshness": 16.3
             }
         }
     ]

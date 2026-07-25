@@ -1,9 +1,9 @@
 {
     "generatedAt": "2026-07-25T06:00:00+09:00",
     "video": {
-        "rank": 4,
-        "previousRank": 4,
-        "rankChange": 0,
+        "rank": 2,
+        "previousRank": 1,
+        "rankChange": -1,
         "videoId": "mockHiddenSubscribers01",
         "title": "小規模チャンネルが伸びたニュース解説",
         "channelId": "channelHiddenSubs",
@@ -11,11 +11,11 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/mockHiddenSubscribers01/hqdefault.jpg",
         "publishedAt": "2026-07-25T02:15:00+09:00",
         "viewCount": 21000,
-        "viewIncrease": 0,
+        "viewIncrease": 20000,
         "commentCount": 180,
-        "commentIncrease": 0,
-        "rawScore": 150.0,
-        "normalizedScore": 0.0,
+        "commentIncrease": 172,
+        "rawScore": 100.6,
+        "normalizedScore": 66.7,
         "genres": [
             {
                 "slug": "learning",
@@ -24,17 +24,17 @@
             }
         ],
         "scoreBreakdown": {
-            "velocity": 0.0,
-            "engagement": 428.6,
-            "subscriberRatio": 0.0,
-            "freshness": 35.0
+            "velocity": 131.5,
+            "engagement": 19.7,
+            "subscriberRatio": 90.1,
+            "freshness": 41.7
         }
     },
     "scoreBreakdown": {
-        "velocity": 0.0,
-        "engagement": 428.6,
-        "subscriberRatio": 0.0,
-        "freshness": 35.0
+        "velocity": 131.5,
+        "engagement": 19.7,
+        "subscriberRatio": 90.1,
+        "freshness": 41.7
     },
     "genres": [
         {

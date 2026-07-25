@@ -72,7 +72,7 @@ class RankingGenerator(
         val entries = toEntries(
             candidates.sortedWith(
                 compareByDescending<RankingCandidate> {
-                    val subscribers = it.video.subscriberCount ?: config.minimumSubscriberCount
+                    val subscribers = it.video.subscriberCount ?: config.unknownSubscriberCount
                     it.delta.viewIncrease.toDouble() / subscribers.coerceAtLeast(config.minimumSubscriberCount).toDouble()
                 }.thenByDescending { it.score.rawScore },
             ),

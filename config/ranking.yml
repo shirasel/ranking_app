@@ -3,12 +3,16 @@ ranking:
   maxOverallItems: 100
   maxGenreItems: 50
   minimumSubscriberCount: 1000
-  ageDecayExponent: 0.6
+  unknownSubscriberCount: 50000
+  minimumViewIncrease: 1
+  ageDecayExponent: 0.5
+  maxLikeRate: 0.12
+  maxCommentRate: 0.03
   weights:
-    velocity: 35
+    velocity: 45
     subscriberRatio: 25
-    likeRate: 20
-    commentRate: 10
+    likeRate: 18
+    commentRate: 12
   genreRanking:
     minimumVideos: 20
     minimumChannels: 5

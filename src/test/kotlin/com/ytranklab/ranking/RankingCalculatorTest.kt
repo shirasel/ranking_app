@@ -16,7 +16,11 @@ class RankingCalculatorTest {
         maxOverallItems = 100,
         maxGenreItems = 50,
         minimumSubscriberCount = 1000,
+        unknownSubscriberCount = 50000,
+        minimumViewIncrease = 1,
         ageDecayExponent = 0.6,
+        maxLikeRate = 0.12,
+        maxCommentRate = 0.03,
         weights = RankingWeights(35.0, 25.0, 20.0, 10.0),
         genreRanking = GenreRankingConfig(20, 5),
         retention = RetentionConfig(500, 90, 365),
@@ -76,5 +80,59 @@ class RankingCalculatorTest {
         )
 
         assertEquals(0.0, result.rawScore)
+    }
+
+    @Test
+    fun ignoresCumulativeEngagementWhenVideoDidNotGrow() {
+        val video = YouTubeVideo(
+            videoId = "v1",
+            title = "High engagement archive",
+            channelId = "c1",
+            channelName = "Channel",
+            youtubeCategoryId = "24",
+            publishedAt = "2026-07-25T00:00:00+09:00",
+            viewCount = 1000,
+            likeCount = 500,
+            commentCount = 200,
+            subscriberCount = 10000,
+        )
+
+        val result = RankingCalculator(config).calculate(
+            video = video,
+            delta = StatisticDelta(0, 0, 0, 6.0, 0.0),
+            capturedAt = "2026-07-25T06:00:00+09:00",
+        )
+
+        assertEquals(0.0, result.rawScore)
+        assertEquals(0.0, result.breakdown.engagement)
+    }
+
+    @Test
+    fun capsExtremeDeltaEngagementRates() {
+        val video = YouTubeVideo(
+            videoId = "v1",
+            title = "Burst",
+            channelId = "c1",
+            channelName = "Channel",
+            youtubeCategoryId = "24",
+            publishedAt = "2026-07-25T00:00:00+09:00",
+            viewCount = 1000,
+            likeCount = 900,
+            commentCount = 800,
+            subscriberCount = 10000,
+        )
+
+        val capped = RankingCalculator(config).calculate(
+            video = video,
+            delta = StatisticDelta(100, 1000, 1000, 1.0, 100.0),
+            capturedAt = "2026-07-25T06:00:00+09:00",
+        )
+        val atCap = RankingCalculator(config).calculate(
+            video = video,
+            delta = StatisticDelta(100, 12, 3, 1.0, 100.0),
+            capturedAt = "2026-07-25T06:00:00+09:00",
+        )
+
+        assertEquals(atCap.breakdown.engagement, capped.breakdown.engagement)
     }
 }

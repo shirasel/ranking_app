@@ -19,6 +19,7 @@ interface StatisticsRepository {
 class FileStatisticsRepository(
     private val statisticsFile: Path,
     private val fallbackFile: Path? = null,
+    private val preferFallback: Boolean = false,
 ) : StatisticsRepository {
     private val videoStatisticsDirectory = statisticsFile.parent.resolve("videos")
     private val json = Json {
@@ -28,6 +29,7 @@ class FileStatisticsRepository(
 
     override fun loadLatest(): Map<String, VideoStatistic> {
         val source = when {
+            preferFallback && fallbackFile?.exists() == true -> fallbackFile
             statisticsFile.exists() -> statisticsFile
             fallbackFile?.exists() == true -> fallbackFile
             else -> return emptyMap()
