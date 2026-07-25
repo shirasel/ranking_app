@@ -70,6 +70,12 @@ Tests:
 tools/run-gradle-local.cmd test build
 ```
 
+Generated JSON validation:
+
+```bash
+tools/validate-generated-data.cmd
+```
+
 Static preview:
 
 ```bash
@@ -111,12 +117,14 @@ Two workflows are included:
   - runs on push and pull request
   - uses Node 24-compatible GitHub Actions
   - builds and tests with mock data only
+  - validates generated public JSON after mock generation
   - does not require `YOUTUBE_API_KEY`
   - does not commit generated changes
 - `.github/workflows/update-rankings.yml`
   - runs on schedule and manual dispatch
   - uses Node 24-compatible GitHub Actions
   - uses `YOUTUBE_API_KEY` from repository secrets for real updates
+  - validates generated public JSON before detecting changes
   - commits only when `docs/data` changes
   - prevents overlapping update runs with workflow concurrency
 

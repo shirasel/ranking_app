@@ -33,3 +33,6 @@ jobs:
 
       - name: Verify mock generation
         run: ./gradlew run --args="generate --mock"
+
+      - name: Validate generated JSON
+        run: ./gradlew run --args="validate"

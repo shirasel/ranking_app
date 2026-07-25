@@ -64,6 +64,9 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.use_mock == 'true'
         run: ./gradlew run --args="generate --mock"
 
+      - name: Validate generated JSON
+        run: ./gradlew run --args="validate"
+
       - name: Detect changes
         id: diff
         shell: bash

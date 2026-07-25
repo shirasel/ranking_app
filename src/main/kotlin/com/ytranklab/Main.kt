@@ -2,6 +2,7 @@ package com.ytranklab
 
 import com.ytranklab.app.RankingApplication
 import com.ytranklab.security.SecretLoader
+import com.ytranklab.validation.GeneratedDataValidator
 import kotlin.io.path.Path
 import kotlin.system.exitProcess
 
@@ -11,6 +12,7 @@ fun main(args: Array<String>) {
 
     when (command) {
         "generate" -> runGenerate(useMock)
+        "validate" -> runValidate()
         null, "help", "--help", "-h" -> printUsage()
         else -> {
             System.err.println("Unknown command: $command")
@@ -18,6 +20,23 @@ fun main(args: Array<String>) {
             exitProcess(2)
         }
     }
+}
+
+private fun runValidate() {
+    val report = GeneratedDataValidator(Path("docs", "data")).validate()
+
+    report.warnings.forEach { warning ->
+        println("Warning: $warning")
+    }
+
+    if (!report.isSuccess) {
+        report.errors.forEach { error ->
+            System.err.println("Error: $error")
+        }
+        exitProcess(1)
+    }
+
+    println("Generated ranking JSON validation passed.")
 }
 
 private fun runGenerate(useMock: Boolean) {
@@ -46,6 +65,7 @@ private fun printUsage() {
         Usage:
           gradle run --args="generate --mock"
           YOUTUBE_API_KEY=xxxxx gradle run --args="generate"
+          gradle run --args="validate"
         """.trimIndent(),
     )
 }
