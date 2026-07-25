@@ -3,6 +3,7 @@ package com.ytranklab.app
 import com.ytranklab.config.AppConfigLoader
 import com.ytranklab.collection.VideoCollector
 import com.ytranklab.genre.RuleBasedGenreClassifier
+import com.ytranklab.history.HistoryRetentionService
 import com.ytranklab.mock.MockVideoDataSource
 import com.ytranklab.output.RankingJsonWriter
 import com.ytranklab.ranking.RankingCalculator
@@ -77,6 +78,8 @@ class RankingApplication(private val projectRoot: Path) {
         writer.writeAll(overall, genres, trending, discovery)
         writer.writeVideoDetails(overall.ranking, capturedAt)
         statisticsRepository.saveLatest(capturedAt, videos)
+        HistoryRetentionService(projectRoot.resolve("docs/data"), rankingConfig.retention)
+            .cleanup(capturedAt, overall.ranking.map { it.videoId }.toSet())
 
         return GenerateResult(
             overallCount = overall.ranking.size,

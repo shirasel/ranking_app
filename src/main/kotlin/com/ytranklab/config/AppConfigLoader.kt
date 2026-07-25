@@ -83,7 +83,7 @@ class AppConfigLoader(private val configDirectory: Path) {
     }
 
     private fun readMap(path: Path): Map<String, Any?> =
-        path.inputStream().use { yaml.load<Map<String, Any?>>(it) ?: emptyMap() }
+        path.inputStream().use { yaml.load<Any?>(it).asMap() }
 }
 
 data class RankingConfig(
@@ -145,7 +145,12 @@ data class CollectionConfig(
     val maxChannelVideos: Int,
 )
 
-private fun Any?.asMap(): Map<String, Any?> = this as? Map<String, Any?> ?: emptyMap()
+private fun Any?.asMap(): Map<String, Any?> {
+    if (this !is Map<*, *>) return emptyMap()
+    return entries
+        .filter { it.key != null }
+        .associate { it.key.toString() to it.value }
+}
 
 private fun Map<String, Any?>.map(key: String): Map<String, Any?> = this[key].asMap()
 

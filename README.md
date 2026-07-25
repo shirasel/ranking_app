@@ -189,9 +189,11 @@ Initial policy:
 - Detailed statistics: 90 days
 - Ranking history: 365 days
 
+After ranking JSON is generated successfully, `HistoryRetentionService` removes ranking history outside the configured retention window and removes stale video detail JSON files that are no longer present in the latest overall ranking.
+
 ## Current Phase
 
-Phase 6 implements scheduled GitHub Actions updates. The repository can build, test, generate mock rankings, and update real ranking JSON from the YouTube Data API through GitHub Actions.
+The current implementation includes scheduled GitHub Actions updates and production data-retention cleanup. The repository can build, test, generate mock rankings, update real ranking JSON from the YouTube Data API through GitHub Actions, and keep generated JSON from growing indefinitely.
 
 ## Generated JSON
 
