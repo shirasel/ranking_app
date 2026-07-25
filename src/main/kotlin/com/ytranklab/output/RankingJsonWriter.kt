@@ -118,6 +118,7 @@ class RankingJsonWriter(private val dataDirectory: Path) {
         val targetDate = generatedAt.toLocalDate()
         val entries = overall.ranking
             .map { entry -> entry.withTodayDelta(targetDate) }
+            .filter { it.viewIncrease > 0 }
             .sortedWith(compareByDescending<RankingEntry> { it.viewIncrease }.thenByDescending { it.rawScore })
             .mapIndexed { index, entry ->
                 entry.copy(

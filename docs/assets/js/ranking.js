@@ -138,18 +138,57 @@
     var container = app.qs("[data-overall-ranking]");
     var input = app.qs("[data-ranking-search]");
     var periodButtons = app.qsa("[data-period-button]");
+    var currentPath = "latest/overall.json";
+
+    function periodLabel(path) {
+      if (path.indexOf("today.json") >= 0) return "本日";
+      if (path.indexOf("seven-days.json") >= 0) return "7日間";
+      return "24時間";
+    }
+
+    function renderOverallEntries(entries, query) {
+      app.showState("overall", "");
+      if (entries.length) {
+        app.renderRankingList(container, entries);
+        return;
+      }
+
+      if (query) {
+        app.renderEmptyState(container, {
+          title: "検索条件に一致する動画がありません。",
+          message: periodLabel(currentPath) + "ランキング内で、別のキーワードを試してください。"
+        });
+        return;
+      }
+
+      if (currentPath.indexOf("today.json") >= 0) {
+        app.renderEmptyState(container, {
+          title: "本日分の増加データはまだありません。",
+          message: "本日ランキングは、今日の複数回の収集結果から再生数の増加が確認できた動画だけを表示します。",
+          actionText: "24時間ランキングを見る",
+          href: "rankings/overall-ranking.html"
+        });
+        return;
+      }
+
+      app.renderEmptyState(container, {
+        title: periodLabel(currentPath) + "ランキングはまだありません。",
+        message: "次回のランキング生成後に表示されます。"
+      });
+    }
 
     function loadOverall(path) {
+      currentPath = path;
       app.showState("overall", "ランキングJSONを読み込んでいます。");
       app.loadJson(path)
       .then(function (document) {
-        app.showState("overall", "");
         app.setText("[data-updated-at]", "最終更新 " + app.formatDateTime(document.generatedAt));
         allEntries = document.ranking || [];
-        app.renderRankingList(container, allEntries);
+        renderOverallEntries(allEntries, "");
       })
       .catch(function () {
         app.showState("overall", "ランキングデータを読み込めませんでした。");
+        app.clear(container);
       });
     }
 
@@ -174,7 +213,7 @@
           }).join(" ");
           return (entry.title + " " + entry.channelName + " " + genreText).toLowerCase().indexOf(query) >= 0;
         });
-        app.renderRankingList(container, filtered);
+        renderOverallEntries(filtered, query);
       });
     }
   }

@@ -297,6 +297,18 @@
     });
   }
 
+  function renderEmptyState(container, options) {
+    clear(container);
+    options = options || {};
+    var state = el("div", { className: "empty-state" });
+    state.appendChild(el("strong", { text: options.title || "表示できるランキングがありません。" }));
+    state.appendChild(el("p", { text: options.message || "条件に一致する動画がありません。" }));
+    if (options.href && options.actionText) {
+      state.appendChild(el("a", { className: "button secondary", text: options.actionText, href: pageUrl(options.href) }));
+    }
+    container.appendChild(state);
+  }
+
   function renderGenreLinks(container) {
     clear(container);
     GENRES.filter(function (genre) {
@@ -333,6 +345,7 @@
     rankChangeLabel: rankChangeLabel,
     safeYouTubeUrl: safeYouTubeUrl,
     renderRankingList: renderRankingList,
+    renderEmptyState: renderEmptyState,
     renderGenreLinks: renderGenreLinks,
     appendGenreTags: appendGenreTags
   };
