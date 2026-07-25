@@ -25,45 +25,17 @@ class VideoCollector(
             status = "ok",
         )
 
-        sourceConfig.channels
-            .filter { it.enabled }
-            .forEach { channel ->
-                if (!quotaBudget.trySpend(CHANNEL_UPLOAD_COST)) {
-                    sourceResults += skippedByQuota("channel:${channel.id}", sourceConfig.collection.maxChannelVideos)
-                    return@forEach
-                }
-                val result = collectSafely("channel:${channel.id}") {
-                    client.fetchLatestVideoIdsForChannel(channel.id, sourceConfig.collection.maxChannelVideos)
-                }
-                videoIds.addAll(result.videoIds)
-                sourceResults += result.toSourceCollectionResult(requested = sourceConfig.collection.maxChannelVideos)
-            }
+        val sourceTasks = buildSourceTasks()
+            .sortedWith(compareBy<SourceTask> { it.priority }.thenBy { it.order })
 
-        sourceConfig.keywords.forEach { keyword ->
-            if (!quotaBudget.trySpend(SEARCH_COST)) {
-                sourceResults += skippedByQuota("keyword:$keyword", sourceConfig.collection.maxSearchResultsPerKeyword)
+        sourceTasks.forEach { task ->
+            if (!quotaBudget.trySpend(task.cost)) {
+                sourceResults += skippedByQuota(task.sourceName, task.requested)
                 return@forEach
             }
-            val result = collectSafely("keyword:$keyword") {
-                client.searchVideoIds(keyword, sourceConfig.collection.maxSearchResultsPerKeyword)
-            }
+            val result = collectSafely(task.sourceName) { task.fetch() }
             videoIds.addAll(result.videoIds)
-            sourceResults += result.toSourceCollectionResult(requested = sourceConfig.collection.maxSearchResultsPerKeyword)
-        }
-
-        if (sourceConfig.collection.includePopularVideos) {
-            if (!quotaBudget.trySpend(POPULAR_COST)) {
-                sourceResults += skippedByQuota("popular:${sourceConfig.collection.regionCode}", sourceConfig.collection.maxPopularVideos)
-            } else {
-                val result = collectSafely("popular:${sourceConfig.collection.regionCode}") {
-                    client.fetchPopularVideoIds(
-                        regionCode = sourceConfig.collection.regionCode,
-                        maxResults = sourceConfig.collection.maxPopularVideos,
-                    )
-                }
-                videoIds.addAll(result.videoIds)
-                sourceResults += result.toSourceCollectionResult(requested = sourceConfig.collection.maxPopularVideos)
-            }
+            sourceResults += result.toSourceCollectionResult(requested = task.requested)
         }
 
         val limitedIds = videoIds.take(sourceConfig.collection.maxVideos)
@@ -82,6 +54,53 @@ class VideoCollector(
                 estimatedQuotaUnits = estimateQuotaUnits(sourceResults, limitedIds.size, videos.map { it.channelId }.distinct().size),
             ),
         )
+    }
+
+    private fun buildSourceTasks(): List<SourceTask> {
+        val tasks = mutableListOf<SourceTask>()
+        var order = 0
+
+        sourceConfig.channels
+            .filter { it.enabled }
+            .forEach { channel ->
+                tasks += SourceTask(
+                    sourceName = "channel:${channel.id}",
+                    requested = sourceConfig.collection.maxChannelVideos,
+                    cost = CHANNEL_UPLOAD_COST,
+                    priority = channel.priority,
+                    order = order++,
+                    fetch = { client.fetchLatestVideoIdsForChannel(channel.id, sourceConfig.collection.maxChannelVideos) },
+                )
+            }
+
+        sourceConfig.keywords.forEach { keyword ->
+            tasks += SourceTask(
+                sourceName = "keyword:${keyword.term}",
+                requested = sourceConfig.collection.maxSearchResultsPerKeyword,
+                cost = SEARCH_COST,
+                priority = keyword.priority,
+                order = order++,
+                fetch = { client.searchVideoIds(keyword.term, sourceConfig.collection.maxSearchResultsPerKeyword) },
+            )
+        }
+
+        if (sourceConfig.collection.includePopularVideos) {
+            tasks += SourceTask(
+                sourceName = "popular:${sourceConfig.collection.regionCode}",
+                requested = sourceConfig.collection.maxPopularVideos,
+                cost = POPULAR_COST,
+                priority = sourceConfig.collection.popularPriority,
+                order = order++,
+                fetch = {
+                    client.fetchPopularVideoIds(
+                        regionCode = sourceConfig.collection.regionCode,
+                        maxResults = sourceConfig.collection.maxPopularVideos,
+                    )
+                },
+            )
+        }
+
+        return tasks
     }
 
     private fun skippedByQuota(source: String, requested: Int): SourceCollectionResult =
@@ -111,6 +130,15 @@ class VideoCollector(
 private const val SEARCH_COST = 100
 private const val POPULAR_COST = 1
 private const val CHANNEL_UPLOAD_COST = 2
+
+private data class SourceTask(
+    val sourceName: String,
+    val requested: Int,
+    val cost: Int,
+    val priority: Int,
+    val order: Int,
+    val fetch: suspend () -> List<String>,
+)
 
 private class QuotaBudget(
     private val maxEstimatedQuotaUnits: Int,

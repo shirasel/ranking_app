@@ -6,12 +6,18 @@
 channels: []
 
 keywords:
-  - Minecraft
-  - プログラミング
-  - VTuber
-  - ゲーム実況
-  - 作業用BGM
-  - 生成AI
+  - term: Minecraft
+    priority: 100
+  - term: プログラミング
+    priority: 110
+  - term: VTuber
+    priority: 120
+  - term: ゲーム実況
+    priority: 130
+  - term: 作業用BGM
+    priority: 180
+  - term: 生成AI
+    priority: 190
 
 # Add specific video IDs only when you want to force-track known candidates.
 videos: []
@@ -24,4 +30,5 @@ collection:
   maxChannelVideos: 10
   maxEstimatedQuotaUnits: 800
   reservedDetailQuotaUnits: 20
+  popularPriority: 900
   regionCode: JP

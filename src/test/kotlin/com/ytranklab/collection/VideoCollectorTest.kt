@@ -3,6 +3,7 @@ package com.ytranklab.collection
 import com.ytranklab.config.CollectionConfig
 import com.ytranklab.config.SourceChannel
 import com.ytranklab.config.SourceConfig
+import com.ytranklab.config.SourceKeyword
 import com.ytranklab.domain.YouTubeVideo
 import com.ytranklab.youtube.YouTubeApiClient
 import com.ytranklab.youtube.YouTubeApiException
@@ -16,7 +17,7 @@ class VideoCollectorTest {
         val client = FakeYouTubeApiClient()
         val config = SourceConfig(
             channels = listOf(SourceChannel("channel-1", enabled = true)),
-            keywords = listOf("Kotlin"),
+            keywords = listOf(SourceKeyword("Kotlin")),
             videos = listOf("manualVideo01", "bad id"),
             collection = CollectionConfig(
                 maxVideos = 10,
@@ -27,6 +28,7 @@ class VideoCollectorTest {
                 maxChannelVideos = 5,
                 maxEstimatedQuotaUnits = 9000,
                 reservedDetailQuotaUnits = 20,
+                popularPriority = 300,
             ),
         )
 
@@ -43,7 +45,7 @@ class VideoCollectorTest {
         val client = FailingSearchYouTubeApiClient()
         val config = SourceConfig(
             channels = emptyList(),
-            keywords = listOf("broken"),
+            keywords = listOf(SourceKeyword("broken")),
             videos = listOf("manualVideo01"),
             collection = CollectionConfig(
                 maxVideos = 10,
@@ -54,6 +56,7 @@ class VideoCollectorTest {
                 maxChannelVideos = 5,
                 maxEstimatedQuotaUnits = 9000,
                 reservedDetailQuotaUnits = 20,
+                popularPriority = 300,
             ),
         )
 
@@ -70,7 +73,7 @@ class VideoCollectorTest {
         val client = FakeYouTubeApiClient()
         val config = SourceConfig(
             channels = emptyList(),
-            keywords = listOf("Kotlin", "Minecraft"),
+            keywords = listOf(SourceKeyword("Kotlin"), SourceKeyword("Minecraft")),
             videos = listOf("manualVideo01"),
             collection = CollectionConfig(
                 maxVideos = 10,
@@ -81,6 +84,7 @@ class VideoCollectorTest {
                 maxChannelVideos = 5,
                 maxEstimatedQuotaUnits = 150,
                 reservedDetailQuotaUnits = 20,
+                popularPriority = 300,
             ),
         )
 
@@ -93,11 +97,40 @@ class VideoCollectorTest {
         assertEquals(103, result.report.estimatedQuotaUnits)
     }
 
+    @Test
+    fun collectsHigherPrioritySourcesBeforeLowerPrioritySources() = runBlocking {
+        val client = FakeYouTubeApiClient()
+        val config = SourceConfig(
+            channels = emptyList(),
+            keywords = listOf(SourceKeyword("low", priority = 300), SourceKeyword("high", priority = 50)),
+            videos = listOf("manualVideo01"),
+            collection = CollectionConfig(
+                maxVideos = 10,
+                maxSearchResultsPerKeyword = 5,
+                includePopularVideos = true,
+                regionCode = "JP",
+                maxPopularVideos = 5,
+                maxChannelVideos = 5,
+                maxEstimatedQuotaUnits = 121,
+                reservedDetailQuotaUnits = 20,
+                popularPriority = 100,
+            ),
+        )
+
+        val result = VideoCollector(config, client).collect()
+
+        assertEquals(listOf("manualVideo01", "searchVideoHigh01", "popularVideo01"), client.fetchedIds)
+        assertEquals("ok", result.report.sourceResults.first { it.source == "keyword:high" }.status)
+        assertEquals("ok", result.report.sourceResults.first { it.source == "popular:JP" }.status)
+        assertEquals("skipped", result.report.sourceResults.first { it.source == "keyword:low" }.status)
+        assertEquals("quota budget limit", result.report.sourceResults.first { it.source == "keyword:low" }.message)
+    }
+
     private class FakeYouTubeApiClient : YouTubeApiClient {
         var fetchedIds: List<String> = emptyList()
 
         override suspend fun searchVideoIds(keyword: String, maxResults: Int): List<String> =
-            listOf("searchVideo01", "manualVideo01")
+            if (keyword == "high") listOf("searchVideoHigh01", "manualVideo01") else listOf("searchVideo01", "manualVideo01")
 
         override suspend fun fetchPopularVideoIds(regionCode: String, maxResults: Int): List<String> =
             listOf("popularVideo01")

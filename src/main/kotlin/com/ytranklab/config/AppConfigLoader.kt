@@ -63,13 +63,25 @@ class AppConfigLoader(private val configDirectory: Path) {
             if (id.isBlank()) {
                 null
             } else {
-                SourceChannel(id = id, enabled = map.boolean("enabled", true))
+                SourceChannel(id = id, enabled = map.boolean("enabled", true), priority = map.int("priority", 100))
             }
+        }
+        val keywords = root.list("keywords").mapNotNull { item ->
+            val map = item.asMap()
+            val term = if (map.isEmpty()) {
+                item.toString()
+            } else {
+                map.optionalString("term")
+                    ?: map.optionalString("keyword")
+                    ?: map.optionalString("query")
+                    ?: ""
+            }
+            if (term.isBlank()) null else SourceKeyword(term = term, priority = map.int("priority", 200))
         }
         val collection = root.map("collection")
         return SourceConfig(
             channels = channels,
-            keywords = root.list("keywords").map { it.toString() }.filter { it.isNotBlank() },
+            keywords = keywords,
             videos = root.list("videos").map { it.toString() }.filter { it.isNotBlank() },
             collection = CollectionConfig(
                 maxVideos = collection.int("maxVideos", 500),
@@ -80,6 +92,7 @@ class AppConfigLoader(private val configDirectory: Path) {
                 maxChannelVideos = collection.int("maxChannelVideos", 10),
                 maxEstimatedQuotaUnits = collection.int("maxEstimatedQuotaUnits", 9000),
                 reservedDetailQuotaUnits = collection.int("reservedDetailQuotaUnits", 20),
+                popularPriority = collection.int("popularPriority", 300),
             ),
         )
     }
@@ -128,7 +141,7 @@ data class GenreRule(
 
 data class SourceConfig(
     val channels: List<SourceChannel>,
-    val keywords: List<String>,
+    val keywords: List<SourceKeyword>,
     val videos: List<String>,
     val collection: CollectionConfig,
 )
@@ -136,6 +149,12 @@ data class SourceConfig(
 data class SourceChannel(
     val id: String,
     val enabled: Boolean,
+    val priority: Int = 100,
+)
+
+data class SourceKeyword(
+    val term: String,
+    val priority: Int = 200,
 )
 
 data class CollectionConfig(
@@ -147,6 +166,7 @@ data class CollectionConfig(
     val maxChannelVideos: Int,
     val maxEstimatedQuotaUnits: Int,
     val reservedDetailQuotaUnits: Int,
+    val popularPriority: Int,
 )
 
 private fun Any?.asMap(): Map<String, Any?> {
