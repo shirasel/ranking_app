@@ -19,7 +19,7 @@ The application is designed for GitHub Pages. The public site only needs to read
 
 - Kotlin CLI
 - Java 25
-- Kotlin Gradle Plugin 2.4.10
+- Kotlin Gradle Plugin 2.1.21
 - Gradle Kotlin DSL
 - kotlinx.serialization
 - Ktor Client
@@ -46,24 +46,32 @@ The application is designed for GitHub Pages. The public site only needs to read
 
 ## Local Setup
 
-Install Java 25 and Gradle 9.1.0 or later. Java 25 requires Gradle 9.1.0+ according to the Gradle compatibility matrix. This repository intentionally does not commit API keys.
+Install Java 25. The repository includes Gradle Wrapper, so a global Gradle installation is not required. Local helper scripts keep Gradle caches under this project in `.gradle-home`.
+
+Kotlin 2.1.21 does not emit JVM 25 bytecode yet, so the build runs on the Java 25 toolchain while targeting JVM 23 bytecode.
 
 Mock generation:
 
 ```bash
-gradle run --args="generate --mock"
+scripts/generate-mock.cmd
 ```
 
 Real generation:
 
 ```bash
-YOUTUBE_API_KEY=xxxxx gradle run --args="generate"
+scripts/gradle-local.cmd run --args="generate"
 ```
 
 Tests:
 
 ```bash
-gradle test build
+scripts/gradle-local.cmd test build
+```
+
+Static preview:
+
+```bash
+scripts/preview-docs.cmd
 ```
 
 ## YouTube Data API

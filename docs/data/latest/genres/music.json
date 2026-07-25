@@ -1,0 +1,45 @@
+{
+    "generatedAt": "2026-07-25T06:00:00+09:00",
+    "period": "24h",
+    "genre": {
+        "slug": "music",
+        "name": "音楽",
+        "confidence": 0.9
+    },
+    "status": "reference",
+    "totalVideos": 1,
+    "totalChannels": 1,
+    "ranking": [
+        {
+            "rank": 1,
+            "videoId": "mockMusicHighLike01",
+            "title": "夏の夜に聴きたいJ-POPカバー 歌ってみた",
+            "channelId": "channelMusicLarge",
+            "channelName": "Blue Note Room",
+            "thumbnailUrl": "https://i.ytimg.com/vi/mockMusicHighLike01/hqdefault.jpg",
+            "publishedAt": "2026-07-24T12:00:00+09:00",
+            "viewCount": 620000,
+            "viewIncrease": 190000,
+            "likeCount": 54000,
+            "likeIncrease": 16000,
+            "commentCount": 4200,
+            "commentIncrease": 1200,
+            "subscriberCount": 1400000,
+            "rawScore": 380.4,
+            "normalizedScore": 100.0,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.9
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 136.5,
+                "engagement": 2080.6,
+                "subscriberRatio": 78.3,
+                "freshness": 16.6
+            }
+        }
+    ]
+}
