@@ -29,16 +29,18 @@
 
     <main id="main">
       <section class="page-title">
-        <p class="eyebrow">Overall ranking</p>
-        <h1>総合ランキング</h1>
+        <p class="eyebrow" data-ranking-eyebrow>Overall ranking</p>
+        <h1 data-ranking-title>総合ランキング</h1>
         <p data-updated-at>読み込み中</p>
       </section>
 
       <section class="toolbar" aria-label="ランキング操作">
         <div class="segmented" aria-label="期間">
-          <button type="button" class="active" data-period-button="latest/overall.json">24時間</button>
-          <button type="button" data-period-button="latest/today.json">本日</button>
-          <button type="button" data-period-button="latest/seven-days.json">7日間</button>
+          <button type="button" class="active" data-period-button="latest/overall.json" data-ranking-view="overall">24時間</button>
+          <button type="button" data-period-button="latest/today.json" data-ranking-view="today">本日</button>
+          <button type="button" data-period-button="latest/seven-days.json" data-ranking-view="seven-days">7日間</button>
+          <button type="button" data-period-button="latest/trending.json" data-ranking-view="trending">急上昇</button>
+          <button type="button" data-period-button="latest/discovery.json" data-ranking-view="discovery">発掘</button>
           <a href="history-ranking.html">過去日</a>
         </div>
         <label class="search-box">

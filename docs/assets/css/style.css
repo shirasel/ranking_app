@@ -317,9 +317,16 @@ main {
   padding: 36px 0 24px;
 }
 
-.page-title p:last-child {
+.page-title > p:not(.eyebrow) {
   margin: 0;
   color: var(--muted);
+}
+
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
 }
 
 .toolbar {
@@ -331,6 +338,7 @@ main {
 
 .segmented {
   display: inline-flex;
+  flex-wrap: wrap;
   gap: 4px;
   padding: 4px;
   background: var(--surface-strong);

@@ -138,12 +138,32 @@
     var container = app.qs("[data-overall-ranking]");
     var input = app.qs("[data-ranking-search]");
     var periodButtons = app.qsa("[data-period-button]");
+    var initialView = new URLSearchParams(window.location.search).get("view") || "overall";
     var currentPath = "latest/overall.json";
+    var currentView = "overall";
 
     function periodLabel(path) {
       if (path.indexOf("today.json") >= 0) return "本日";
       if (path.indexOf("seven-days.json") >= 0) return "7日間";
+      if (path.indexOf("trending.json") >= 0) return "急上昇";
+      if (path.indexOf("discovery.json") >= 0) return "発掘";
       return "24時間";
+    }
+
+    function titleForView(view) {
+      if (view === "today") return "本日ランキング";
+      if (view === "seven-days") return "7日間ランキング";
+      if (view === "trending") return "急上昇ランキング";
+      if (view === "discovery") return "発掘ランキング";
+      return "総合ランキング";
+    }
+
+    function eyebrowForView(view) {
+      if (view === "today") return "Today ranking";
+      if (view === "seven-days") return "Seven day ranking";
+      if (view === "trending") return "Trending ranking";
+      if (view === "discovery") return "Discovery ranking";
+      return "Overall ranking";
     }
 
     function renderOverallEntries(entries, query) {
@@ -177,8 +197,29 @@
       });
     }
 
-    function loadOverall(path) {
+    function setActiveButton(view) {
+      periodButtons.forEach(function (item) {
+        item.classList.toggle("active", item.getAttribute("data-ranking-view") === view);
+      });
+    }
+
+    function updateViewUrl(view) {
+      var url = new URL(window.location.href);
+      if (view === "overall") {
+        url.searchParams.delete("view");
+      } else {
+        url.searchParams.set("view", view);
+      }
+      window.history.replaceState(null, "", url.toString());
+    }
+
+    function loadOverall(path, view, shouldUpdateUrl) {
       currentPath = path;
+      currentView = view || "overall";
+      setActiveButton(currentView);
+      app.setText("[data-ranking-eyebrow]", eyebrowForView(currentView));
+      app.setText("[data-ranking-title]", titleForView(currentView));
+      if (shouldUpdateUrl) updateViewUrl(currentView);
       app.showState("overall", "ランキングJSONを読み込んでいます。");
       app.loadJson(path)
       .then(function (document) {
@@ -194,15 +235,22 @@
 
     periodButtons.forEach(function (button) {
       button.addEventListener("click", function () {
-        periodButtons.forEach(function (item) {
-          item.classList.remove("active");
-        });
-        button.classList.add("active");
-        loadOverall(button.getAttribute("data-period-button"));
+        loadOverall(
+          button.getAttribute("data-period-button"),
+          button.getAttribute("data-ranking-view") || "overall",
+          true
+        );
       });
     });
 
-    loadOverall("latest/overall.json");
+    var initialButton = periodButtons.find(function (button) {
+      return button.getAttribute("data-ranking-view") === initialView;
+    }) || periodButtons[0];
+    loadOverall(
+      initialButton.getAttribute("data-period-button"),
+      initialButton.getAttribute("data-ranking-view") || "overall",
+      false
+    );
 
     if (input) {
       input.addEventListener("input", function () {
