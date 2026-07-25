@@ -26,7 +26,7 @@
         app.renderRankingList(app.qs("[data-home-overall]"), (document.ranking || []).slice(0, 5), { compact: true });
       })
       .catch(function () {
-        app.showState("overall", "まだランキングデータがありません。モック生成後に表示されます。");
+        app.showState("overall", "まだランキングデータがありません。次回の実データ生成後に表示されます。");
         app.setText("[data-updated-at]", "未生成");
       });
 
@@ -127,7 +127,7 @@
         app.renderRankingList(app.qs(listSelector), entries, { compact: true });
       })
       .catch(function () {
-        app.showState(stateName, "データ生成後に表示されます。");
+        app.showState(stateName, "次回の実データ生成後に表示されます。");
       });
   }
 
