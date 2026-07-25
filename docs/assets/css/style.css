@@ -285,6 +285,10 @@ main {
   margin-bottom: 12px;
 }
 
+.freshness-text {
+  margin-top: 0;
+}
+
 .section-heading,
 .toolbar {
   display: flex;
@@ -578,6 +582,19 @@ main {
 }
 
 .source-status.skipped {
+  color: var(--bad);
+}
+
+.status-pill.ok,
+.source-status.ok {
+  color: var(--good);
+}
+
+.status-pill.warn {
+  color: #a86700;
+}
+
+.status-pill.stale {
   color: var(--bad);
 }
 

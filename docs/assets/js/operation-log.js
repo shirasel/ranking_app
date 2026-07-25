@@ -18,16 +18,20 @@
     var collection = summary.collection || {};
     var retention = summary.retention || {};
     var sourceResults = collection.sourceResults || [];
+    var freshness = app.generationFreshness(summary.generatedAt);
+    var statusNode = app.qs("[data-operation-status]");
     var skippedCount = sourceResults.filter(function (source) {
       return source.status === "skipped";
     }).length;
 
     app.setText("[data-operation-updated-at]", "最終生成 " + app.formatDateTime(summary.generatedAt));
+    app.setText("[data-operation-freshness]", freshness.detail);
     app.setText("[data-operation-input]", app.formatNumber(summary.inputVideos || 0) + "本");
     app.setText("[data-operation-candidates]", app.formatNumber(collection.uniqueCandidateIds || 0) + "件");
     app.setText("[data-operation-fetched]", app.formatNumber(collection.fetchedVideoIds || 0) + "件");
     app.setText("[data-operation-quota]", app.formatNumber(collection.estimatedQuotaUnits || 0) + " units");
-    app.setText("[data-operation-status]", skippedCount > 0 ? "一部スキップ" : "正常");
+    app.setText("[data-operation-status]", skippedCount > 0 && freshness.level === "ok" ? "一部スキップ" : freshness.text);
+    if (statusNode) statusNode.className = "status-pill " + freshness.level;
     app.setText("[data-operation-ranking]", app.formatNumber(summary.rankingVideos || 0) + "本");
     app.setText("[data-operation-public]", app.formatNumber(collection.publicVideos || 0) + "本");
     app.setText("[data-operation-genres]", app.formatNumber(summary.genreRankings || 0));

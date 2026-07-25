@@ -158,7 +158,7 @@ The frontend uses `textContent` and DOM APIs for generated content. It does not 
 
 `docs/index.html` is kept only as the required GitHub Pages entry point and redirects to `docs/home.html`.
 
-The home page displays `docs/data/latest/generation-summary.json` so update status, source counts, estimated quota units, and retention cleanup counts can be checked from GitHub Pages.
+The home page and operation log display `docs/data/latest/generation-summary.json` so update freshness, source counts, estimated quota units, and retention cleanup counts can be checked from GitHub Pages.
 
 For a public repository, set Pages to publish from the `docs` directory on the default branch.
 

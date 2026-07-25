@@ -84,6 +84,30 @@
     return Number(value).toFixed(1);
   }
 
+  function generationFreshness(value) {
+    if (!value) {
+      return { text: "日時不明", detail: "生成日時を確認できません。", level: "stale" };
+    }
+
+    var date = new Date(value);
+    if (Number.isNaN(date.getTime())) {
+      return { text: "日時不明", detail: "生成日時を確認できません。", level: "stale" };
+    }
+
+    var ageHours = Math.max(0, (Date.now() - date.getTime()) / 36e5);
+    var ageText = ageHours < 1
+      ? Math.max(0, Math.round(ageHours * 60)) + "分前"
+      : Math.round(ageHours) + "時間前";
+
+    if (ageHours <= 8) {
+      return { text: "最新", detail: "生成 " + ageText, level: "ok" };
+    }
+    if (ageHours <= 24) {
+      return { text: "要確認", detail: "生成 " + ageText, level: "warn" };
+    }
+    return { text: "古いデータ", detail: "生成 " + ageText, level: "stale" };
+  }
+
   function rankChangeLabel(entry) {
     if (entry.previousRank === null || entry.previousRank === undefined) {
       return { text: "NEW", className: "rank-change new" };
@@ -230,6 +254,7 @@
     formatDateTime: formatDateTime,
     formatNumber: formatNumber,
     formatScore: formatScore,
+    generationFreshness: generationFreshness,
     rankChangeLabel: rankChangeLabel,
     safeYouTubeUrl: safeYouTubeUrl,
     renderRankingList: renderRankingList,

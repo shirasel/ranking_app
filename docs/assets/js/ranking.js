@@ -51,12 +51,18 @@
     var collection = summary.collection || {};
     var retention = summary.retention || {};
     var sourceResults = collection.sourceResults || [];
+    var freshness = app.generationFreshness(summary.generatedAt);
     var skippedCount = sourceResults.filter(function (result) {
       return result.status === "skipped";
     }).length;
-    var statusText = skippedCount > 0 ? "一部スキップ" : "生成完了";
+    var statusText = freshness.text;
+    var statusNode = app.qs("[data-summary-status]");
+    if (skippedCount > 0 && freshness.level === "ok") {
+      statusText = "一部スキップ";
+    }
 
     app.setText("[data-summary-status]", statusText);
+    if (statusNode) statusNode.className = "status-pill summary-status " + freshness.level;
     app.setText("[data-summary-input]", app.formatNumber(summary.inputVideos || 0) + "本");
     app.setText("[data-summary-public]", app.formatNumber(collection.publicVideos || 0) + "本");
     app.setText("[data-summary-ranking]", app.formatNumber(summary.rankingVideos || 0) + "本");
@@ -66,6 +72,7 @@
       "保持期間チェック: 履歴削除 " + app.formatNumber(retention.historyDeleted || 0)
         + "件 / 詳細削除 " + app.formatNumber(retention.videoDetailsDeleted || 0) + "件"
     );
+    app.setText("[data-summary-freshness]", freshness.detail);
 
     renderSourceResults(sourceResults);
   }
