@@ -1,48 +1,58 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
     "video": {
-        "rank": 19,
-        "previousRank": 20,
-        "rankChange": 1,
+        "rank": 68,
+        "previousRank": 19,
+        "rankChange": -49,
         "videoId": "i4qoaZPKZnc",
         "title": "完成したクイズ施設を色んな賢さの配信者で試すk4sen【VCR RUST】",
         "channelId": "UChUjERVG8eKEAJSCef-tTmg",
         "channelName": "k4sen / かせん",
         "thumbnailUrl": "https://i.ytimg.com/vi/i4qoaZPKZnc/maxresdefault.jpg",
         "publishedAt": "2026-07-25T09:00:06Z",
-        "viewCount": 216114,
-        "viewIncrease": 18651,
-        "likeCount": 5298,
-        "likeIncrease": 199,
-        "commentCount": 246,
-        "commentIncrease": 10,
+        "viewCount": 279432,
+        "viewIncrease": 63318,
+        "likeCount": 5962,
+        "likeIncrease": 664,
+        "commentCount": 277,
+        "commentIncrease": 31,
         "subscriberCount": 1090000,
-        "rawScore": 89.6,
-        "normalizedScore": 83.2,
+        "rawScore": 61.2,
+        "normalizedScore": 32.3,
         "genres": [
             {
                 "slug": "gaming",
                 "name": "ゲーム",
                 "confidence": 0.3
+            },
+            {
+                "slug": "vtuber",
+                "name": "VTuber",
+                "confidence": 0.3
             }
         ],
         "scoreBreakdown": {
-            "velocity": 199.6,
-            "engagement": 26,
-            "subscriberRatio": 55.9,
-            "freshness": 31.8
+            "velocity": 143.0,
+            "engagement": 25.5,
+            "subscriberRatio": 69.1,
+            "freshness": 25.8
         }
     },
     "scoreBreakdown": {
-        "velocity": 199.6,
-        "engagement": 26,
-        "subscriberRatio": 55.9,
-        "freshness": 31.8
+        "velocity": 143.0,
+        "engagement": 25.5,
+        "subscriberRatio": 69.1,
+        "freshness": 25.8
     },
     "genres": [
         {
             "slug": "gaming",
             "name": "ゲーム",
+            "confidence": 0.3
+        },
+        {
+            "slug": "vtuber",
+            "name": "VTuber",
             "confidence": 0.3
         }
     ]

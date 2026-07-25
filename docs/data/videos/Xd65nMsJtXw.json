@@ -1,23 +1,30 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
     "video": {
-        "rank": 14,
+        "rank": 40,
+        "previousRank": 14,
+        "rankChange": -26,
         "videoId": "Xd65nMsJtXw",
         "title": "You Don't Deserve Context #vtuber #goldieneko #meme",
         "channelId": "UCawUXCFaOgJi9sDVEDQJypA",
         "channelName": "GoldieNeko",
         "thumbnailUrl": "https://i.ytimg.com/vi/Xd65nMsJtXw/maxresdefault.jpg",
         "publishedAt": "2026-07-25T16:00:32Z",
-        "viewCount": 321,
-        "viewIncrease": 321,
-        "likeCount": 34,
-        "likeIncrease": 34,
-        "commentCount": 1,
-        "commentIncrease": 1,
+        "viewCount": 911,
+        "viewIncrease": 590,
+        "likeCount": 104,
+        "likeIncrease": 70,
+        "commentCount": 8,
+        "commentIncrease": 7,
         "subscriberCount": 6230,
-        "rawScore": 101,
-        "normalizedScore": 87.9,
+        "rawScore": 72.3,
+        "normalizedScore": 60.6,
         "genres": [
+            {
+                "slug": "vtuber",
+                "name": "VTuber",
+                "confidence": 0.5
+            },
             {
                 "slug": "gaming",
                 "name": "ゲーム",
@@ -25,19 +32,24 @@
             }
         ],
         "scoreBreakdown": {
-            "velocity": 52.1,
-            "engagement": 51.2,
-            "subscriberRatio": 67.8,
-            "freshness": 59.1
+            "velocity": 72.1,
+            "engagement": 58.8,
+            "subscriberRatio": 74.4,
+            "freshness": 35.2
         }
     },
     "scoreBreakdown": {
-        "velocity": 52.1,
-        "engagement": 51.2,
-        "subscriberRatio": 67.8,
-        "freshness": 59.1
+        "velocity": 72.1,
+        "engagement": 58.8,
+        "subscriberRatio": 74.4,
+        "freshness": 35.2
     },
     "genres": [
+        {
+            "slug": "vtuber",
+            "name": "VTuber",
+            "confidence": 0.5
+        },
         {
             "slug": "gaming",
             "name": "ゲーム",

@@ -1,49 +1,59 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
     "video": {
-        "rank": 12,
-        "previousRank": 16,
-        "rankChange": 4,
+        "rank": 53,
+        "previousRank": 12,
+        "rankChange": -41,
         "videoId": "WAoKs0UCbvU",
         "title": "課金圧が強すぎて「剣投資」と呼ばれた強欲なクソゲー【グラディエーターバーサス】【クソゲーオブザイヤー】",
         "channelId": "UCHyYUv384bv9eMOC1UoG9PQ",
         "channelName": "からすまAチャンネル",
         "thumbnailUrl": "https://i.ytimg.com/vi/WAoKs0UCbvU/maxresdefault.jpg",
         "publishedAt": "2026-07-25T11:07:38Z",
-        "viewCount": 143067,
-        "viewIncrease": 20726,
-        "likeCount": 3582,
-        "likeIncrease": 196,
-        "commentCount": 390,
-        "commentIncrease": 12,
+        "viewCount": 207249,
+        "viewIncrease": 64182,
+        "likeCount": 4218,
+        "likeIncrease": 636,
+        "commentCount": 432,
+        "commentIncrease": 42,
         "subscriberCount": 1190000,
-        "rawScore": 101.8,
-        "normalizedScore": 89.7,
+        "rawScore": 66.1,
+        "normalizedScore": 47.5,
         "genres": [
             {
                 "slug": "gaming",
                 "name": "ゲーム",
                 "confidence": 0.3
+            },
+            {
+                "slug": "vtuber",
+                "name": "VTuber",
+                "confidence": 0.1
             }
         ],
         "scoreBreakdown": {
-            "velocity": 201.7,
-            "engagement": 25.4,
-            "subscriberRatio": 56.1,
-            "freshness": 36
+            "velocity": 143.2,
+            "engagement": 26.2,
+            "subscriberRatio": 68.3,
+            "freshness": 27.8
         }
     },
     "scoreBreakdown": {
-        "velocity": 201.7,
-        "engagement": 25.4,
-        "subscriberRatio": 56.1,
-        "freshness": 36
+        "velocity": 143.2,
+        "engagement": 26.2,
+        "subscriberRatio": 68.3,
+        "freshness": 27.8
     },
     "genres": [
         {
             "slug": "gaming",
             "name": "ゲーム",
             "confidence": 0.3
+        },
+        {
+            "slug": "vtuber",
+            "name": "VTuber",
+            "confidence": 0.1
         }
     ]
 }

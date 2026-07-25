@@ -1,49 +1,59 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
     "video": {
-        "rank": 9,
-        "previousRank": 12,
-        "rankChange": 3,
+        "rank": 48,
+        "previousRank": 9,
+        "rankChange": -39,
         "videoId": "TfvYFX06Mes",
         "title": "ACEes【真夜中のZOO】Arena Tour 2026 \"V\" より",
         "channelId": "UC1cHlPIE-kqiPvpyYz2O8rQ",
         "channelName": "ジュニアCHANNEL",
         "thumbnailUrl": "https://i.ytimg.com/vi/TfvYFX06Mes/maxresdefault.jpg",
         "publishedAt": "2026-07-25T11:00:28Z",
-        "viewCount": 148567,
-        "viewIncrease": 22733,
-        "likeCount": 16648,
-        "likeIncrease": 457,
-        "commentCount": 8835,
-        "commentIncrease": 534,
+        "viewCount": 206931,
+        "viewIncrease": 58364,
+        "likeCount": 17639,
+        "likeIncrease": 991,
+        "commentCount": 10491,
+        "commentIncrease": 1656,
         "subscriberCount": 2080000,
-        "rawScore": 108.1,
-        "normalizedScore": 92.5,
+        "rawScore": 69.6,
+        "normalizedScore": 52.5,
         "genres": [
             {
-                "slug": "uncategorized",
-                "name": "未分類",
-                "confidence": 0.1
+                "slug": "vtuber",
+                "name": "VTuber",
+                "confidence": 0.3
+            },
+            {
+                "slug": "entertainment",
+                "name": "エンタメ",
+                "confidence": 0.3
             }
         ],
         "scoreBreakdown": {
-            "velocity": 203.5,
-            "engagement": 48.7,
-            "subscriberRatio": 51.1,
-            "freshness": 35.7
+            "velocity": 141.8,
+            "engagement": 48.4,
+            "subscriberRatio": 61.2,
+            "freshness": 27.7
         }
     },
     "scoreBreakdown": {
-        "velocity": 203.5,
-        "engagement": 48.7,
-        "subscriberRatio": 51.1,
-        "freshness": 35.7
+        "velocity": 141.8,
+        "engagement": 48.4,
+        "subscriberRatio": 61.2,
+        "freshness": 27.7
     },
     "genres": [
         {
-            "slug": "uncategorized",
-            "name": "未分類",
-            "confidence": 0.1
+            "slug": "vtuber",
+            "name": "VTuber",
+            "confidence": 0.3
+        },
+        {
+            "slug": "entertainment",
+            "name": "エンタメ",
+            "confidence": 0.3
         }
     ]
 }

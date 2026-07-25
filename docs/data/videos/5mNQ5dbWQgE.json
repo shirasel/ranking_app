@@ -1,49 +1,59 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
     "video": {
-        "rank": 79,
-        "previousRank": 13,
-        "rankChange": -66,
+        "rank": 59,
+        "previousRank": 79,
+        "rankChange": 20,
         "videoId": "5mNQ5dbWQgE",
         "title": "сикс севен #Zuzeeer #Зюзя #втубер",
         "channelId": "UCfLF8B7lUR0jAP1yiUiuOEg",
         "channelName": "Zuzeeer",
         "thumbnailUrl": "https://i.ytimg.com/vi/5mNQ5dbWQgE/maxresdefault.jpg",
         "publishedAt": "2026-07-25T15:00:13Z",
-        "viewCount": 764,
-        "viewIncrease": 14,
-        "likeCount": 18,
-        "likeIncrease": 0,
-        "commentCount": 3,
-        "commentIncrease": 0,
+        "viewCount": 1478,
+        "viewIncrease": 714,
+        "likeCount": 30,
+        "likeIncrease": 12,
+        "commentCount": 4,
+        "commentIncrease": 1,
         "subscriberCount": 2190,
-        "rawScore": 53.5,
-        "normalizedScore": 27.1,
+        "rawScore": 65.1,
+        "normalizedScore": 41.4,
         "genres": [
             {
-                "slug": "uncategorized",
-                "name": "未分類",
-                "confidence": 0.1
+                "slug": "vtuber",
+                "name": "VTuber",
+                "confidence": 0.3
+            },
+            {
+                "slug": "entertainment",
+                "name": "エンタメ",
+                "confidence": 0.3
             }
         ],
         "scoreBreakdown": {
-            "velocity": 59.9,
-            "engagement": 0,
-            "subscriberRatio": 45.3,
-            "freshness": 50.9
+            "velocity": 74.9,
+            "engagement": 33.3,
+            "subscriberRatio": 87.8,
+            "freshness": 33.2
         }
     },
     "scoreBreakdown": {
-        "velocity": 59.9,
-        "engagement": 0,
-        "subscriberRatio": 45.3,
-        "freshness": 50.9
+        "velocity": 74.9,
+        "engagement": 33.3,
+        "subscriberRatio": 87.8,
+        "freshness": 33.2
     },
     "genres": [
         {
-            "slug": "uncategorized",
-            "name": "未分類",
-            "confidence": 0.1
+            "slug": "vtuber",
+            "name": "VTuber",
+            "confidence": 0.3
+        },
+        {
+            "slug": "entertainment",
+            "name": "エンタメ",
+            "confidence": 0.3
         }
     ]
 }

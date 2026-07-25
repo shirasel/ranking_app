@@ -1,46 +1,68 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
     "video": {
-        "rank": 24,
+        "rank": 64,
+        "previousRank": 24,
+        "rankChange": -40,
         "videoId": "_e8uZLw4p24",
         "title": "やみつき🍆ネギ味噌なす #料理 #レシピ #時短料理 #なす #shorts",
         "channelId": "UC0K6OJVlU1y5h75YmjH8HJw",
         "channelName": "いとえり時短クッキング",
         "thumbnailUrl": "https://i.ytimg.com/vi/_e8uZLw4p24/maxresdefault.jpg",
         "publishedAt": "2026-07-25T14:58:29Z",
-        "viewCount": 1028,
-        "viewIncrease": 1028,
-        "likeCount": 43,
-        "likeIncrease": 43,
-        "commentCount": 3,
-        "commentIncrease": 3,
+        "viewCount": 3503,
+        "viewIncrease": 2475,
+        "likeCount": 131,
+        "likeIncrease": 88,
+        "commentCount": 4,
+        "commentIncrease": 1,
         "subscriberCount": 70600,
-        "rawScore": 87,
-        "normalizedScore": 78.5,
+        "rawScore": 63.4,
+        "normalizedScore": 36.4,
         "genres": [
             {
-                "slug": "uncategorized",
-                "name": "未分類",
+                "slug": "cooking",
+                "name": "料理",
+                "confidence": 0.99
+            },
+            {
+                "slug": "beauty",
+                "name": "美容",
+                "confidence": 0.3
+            },
+            {
+                "slug": "vtuber",
+                "name": "VTuber",
                 "confidence": 0.1
             }
         ],
         "scoreBreakdown": {
-            "velocity": 73.9,
-            "engagement": 43.7,
-            "subscriberRatio": 54.2,
-            "freshness": 50.6
+            "velocity": 93.7,
+            "engagement": 33.9,
+            "subscriberRatio": 63.7,
+            "freshness": 33.1
         }
     },
     "scoreBreakdown": {
-        "velocity": 73.9,
-        "engagement": 43.7,
-        "subscriberRatio": 54.2,
-        "freshness": 50.6
+        "velocity": 93.7,
+        "engagement": 33.9,
+        "subscriberRatio": 63.7,
+        "freshness": 33.1
     },
     "genres": [
         {
-            "slug": "uncategorized",
-            "name": "未分類",
+            "slug": "cooking",
+            "name": "料理",
+            "confidence": 0.99
+        },
+        {
+            "slug": "beauty",
+            "name": "美容",
+            "confidence": 0.3
+        },
+        {
+            "slug": "vtuber",
+            "name": "VTuber",
             "confidence": 0.1
         }
     ]

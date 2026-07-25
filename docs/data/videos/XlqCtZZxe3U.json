@@ -1,47 +1,59 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
     "video": {
-        "rank": 1,
+        "rank": 5,
+        "previousRank": 1,
+        "rankChange": -4,
         "videoId": "XlqCtZZxe3U",
         "title": "CÓmo c paga un strem¿¿ 🐑⁉️#animation #humor #latam #furry #mexico #memes #animationmeme  #vtuber",
         "channelId": "UCnzejZMpE4ZK10cgXVHdpLQ",
         "channelName": "Bluwuly",
         "thumbnailUrl": "https://i.ytimg.com/vi/XlqCtZZxe3U/maxresdefault.jpg",
         "publishedAt": "2026-07-25T14:47:29Z",
-        "viewCount": 97612,
-        "viewIncrease": 97612,
-        "likeCount": 12880,
-        "likeIncrease": 12880,
-        "commentCount": 615,
-        "commentIncrease": 615,
-        "subscriberCount": 288000,
-        "rawScore": 151.6,
-        "normalizedScore": 100,
+        "viewCount": 477976,
+        "viewIncrease": 380364,
+        "likeCount": 40297,
+        "likeIncrease": 27417,
+        "commentCount": 1306,
+        "commentIncrease": 691,
+        "subscriberCount": 290000,
+        "rawScore": 104.6,
+        "normalizedScore": 96.0,
         "genres": [
             {
-                "slug": "uncategorized",
-                "name": "未分類",
-                "confidence": 0.1
+                "slug": "vtuber",
+                "name": "VTuber",
+                "confidence": 0.5
+            },
+            {
+                "slug": "anime",
+                "name": "アニメ",
+                "confidence": 0.3
             }
         ],
         "scoreBreakdown": {
-            "velocity": 162.4,
-            "engagement": 55.6,
-            "subscriberRatio": 88.3,
-            "freshness": 49.5
+            "velocity": 170.2,
+            "engagement": 45.6,
+            "subscriberRatio": 102.9,
+            "freshness": 32.8
         }
     },
     "scoreBreakdown": {
-        "velocity": 162.4,
-        "engagement": 55.6,
-        "subscriberRatio": 88.3,
-        "freshness": 49.5
+        "velocity": 170.2,
+        "engagement": 45.6,
+        "subscriberRatio": 102.9,
+        "freshness": 32.8
     },
     "genres": [
         {
-            "slug": "uncategorized",
-            "name": "未分類",
-            "confidence": 0.1
+            "slug": "vtuber",
+            "name": "VTuber",
+            "confidence": 0.5
+        },
+        {
+            "slug": "anime",
+            "name": "アニメ",
+            "confidence": 0.3
         }
     ]
 }

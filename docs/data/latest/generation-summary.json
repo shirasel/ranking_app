@@ -1,8 +1,8 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
-    "inputVideos": 119,
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
+    "inputVideos": 356,
     "rankingVideos": 100,
-    "genreRankings": 6,
+    "genreRankings": 12,
     "collection": {
         "sourceResults": [
             {
@@ -10,6 +10,62 @@
                 "requested": 0,
                 "collected": 0,
                 "status": "ok"
+            },
+            {
+                "source": "category-popular:10:音楽",
+                "requested": 25,
+                "collected": 25,
+                "status": "ok"
+            },
+            {
+                "source": "category-popular:17:スポーツ",
+                "requested": 20,
+                "collected": 20,
+                "status": "ok"
+            },
+            {
+                "source": "category-popular:20:ゲーム",
+                "requested": 25,
+                "collected": 25,
+                "status": "ok"
+            },
+            {
+                "source": "category-popular:24:エンタメ",
+                "requested": 25,
+                "collected": 25,
+                "status": "ok"
+            },
+            {
+                "source": "category-popular:25:ニュース",
+                "requested": 15,
+                "collected": 15,
+                "status": "ok"
+            },
+            {
+                "source": "category-popular:26:ハウツー",
+                "requested": 20,
+                "collected": 20,
+                "status": "ok"
+            },
+            {
+                "source": "category-popular:27:教育",
+                "requested": 15,
+                "collected": 0,
+                "status": "skipped",
+                "message": "YouTube API request failed after retries"
+            },
+            {
+                "source": "category-popular:28:科学技術",
+                "requested": 15,
+                "collected": 15,
+                "status": "ok"
+            },
+            {
+                "source": "category-popular:19:旅行",
+                "requested": 10,
+                "collected": 0,
+                "status": "skipped",
+                "message": "YouTube API request failed after retries"
             },
             {
                 "source": "keyword:ゲーム実況",
@@ -48,6 +104,12 @@
                 "status": "ok"
             },
             {
+                "source": "tracked-previous",
+                "requested": 75,
+                "collected": 75,
+                "status": "ok"
+            },
+            {
                 "source": "keyword:ガジェット",
                 "requested": 10,
                 "collected": 10,
@@ -56,37 +118,62 @@
             {
                 "source": "keyword:旅行",
                 "requested": 10,
-                "collected": 0,
-                "status": "skipped",
-                "message": "quota budget limit"
+                "collected": 10,
+                "status": "ok"
             },
             {
                 "source": "keyword:美容",
                 "requested": 10,
-                "collected": 0,
-                "status": "skipped",
-                "message": "quota budget limit"
+                "collected": 10,
+                "status": "ok"
             },
             {
                 "source": "keyword:スポーツ",
                 "requested": 10,
-                "collected": 0,
-                "status": "skipped",
-                "message": "quota budget limit"
+                "collected": 10,
+                "status": "ok"
             },
             {
                 "source": "keyword:アニメ",
                 "requested": 10,
-                "collected": 0,
-                "status": "skipped",
-                "message": "quota budget limit"
+                "collected": 10,
+                "status": "ok"
             },
             {
                 "source": "keyword:勉強",
                 "requested": 10,
-                "collected": 0,
-                "status": "skipped",
-                "message": "quota budget limit"
+                "collected": 10,
+                "status": "ok"
+            },
+            {
+                "source": "recent-view-count:ゲーム実況",
+                "requested": 8,
+                "collected": 8,
+                "status": "ok"
+            },
+            {
+                "source": "recent-view-count:歌ってみた",
+                "requested": 8,
+                "collected": 8,
+                "status": "ok"
+            },
+            {
+                "source": "recent-view-count:ニュース 解説",
+                "requested": 8,
+                "collected": 8,
+                "status": "ok"
+            },
+            {
+                "source": "recent-view-count:料理",
+                "requested": 6,
+                "collected": 6,
+                "status": "ok"
+            },
+            {
+                "source": "recent-view-count:ガジェット",
+                "requested": 6,
+                "collected": 6,
+                "status": "ok"
             },
             {
                 "source": "popular:JP",
@@ -95,13 +182,13 @@
                 "status": "ok"
             }
         ],
-        "uniqueCandidateIds": 120,
-        "fetchedVideoIds": 120,
-        "publicVideos": 119,
-        "estimatedQuotaUnits": 707
+        "uniqueCandidateIds": 358,
+        "fetchedVideoIds": 358,
+        "publicVideos": 356,
+        "estimatedQuotaUnits": 1216
     },
     "retention": {
         "historyDeleted": 0,
-        "videoDetailsDeleted": 45
+        "videoDetailsDeleted": 73
     }
 }

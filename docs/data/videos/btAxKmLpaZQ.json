@@ -1,47 +1,49 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
     "video": {
-        "rank": 11,
+        "rank": 60,
+        "previousRank": 11,
+        "rankChange": -49,
         "videoId": "btAxKmLpaZQ",
         "title": "Splorting #envtuber #vtuber",
         "channelId": "UC9tVCVJcWnXe1pgSCjXOZow",
         "channelName": "Cyrin",
         "thumbnailUrl": "https://i.ytimg.com/vi/btAxKmLpaZQ/maxresdefault.jpg",
         "publishedAt": "2026-07-25T16:00:39Z",
-        "viewCount": 396,
-        "viewIncrease": 396,
-        "likeCount": 13,
+        "viewCount": 797,
+        "viewIncrease": 401,
+        "likeCount": 26,
         "likeIncrease": 13,
         "commentCount": 0,
         "commentIncrease": 0,
-        "subscriberCount": 311,
-        "rawScore": 102.7,
-        "normalizedScore": 90.7,
+        "subscriberCount": 319,
+        "rawScore": 64.7,
+        "normalizedScore": 40.4,
         "genres": [
             {
-                "slug": "uncategorized",
-                "name": "未分類",
-                "confidence": 0.1
+                "slug": "vtuber",
+                "name": "VTuber",
+                "confidence": 0.5
             }
         ],
         "scoreBreakdown": {
-            "velocity": 55.9,
-            "engagement": 27.5,
-            "subscriberRatio": 89.9,
-            "freshness": 59.2
+            "velocity": 66.2,
+            "engagement": 27.4,
+            "subscriberRatio": 90.1,
+            "freshness": 35.2
         }
     },
     "scoreBreakdown": {
-        "velocity": 55.9,
-        "engagement": 27.5,
-        "subscriberRatio": 89.9,
-        "freshness": 59.2
+        "velocity": 66.2,
+        "engagement": 27.4,
+        "subscriberRatio": 90.1,
+        "freshness": 35.2
     },
     "genres": [
         {
-            "slug": "uncategorized",
-            "name": "未分類",
-            "confidence": 0.1
+            "slug": "vtuber",
+            "name": "VTuber",
+            "confidence": 0.5
         }
     ]
 }

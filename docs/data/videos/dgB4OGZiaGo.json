@@ -1,47 +1,49 @@
 {
-    "generatedAt": "2026-07-25T16:52:32.948873553Z",
+    "generatedAt": "2026-07-25T22:04:52.900125195Z",
     "video": {
-        "rank": 5,
+        "rank": 7,
+        "previousRank": 5,
+        "rankChange": -2,
         "videoId": "dgB4OGZiaGo",
         "title": "ПОСВЯЩЕНИЕ #twitch #vtuber #sleduck #streamer #shorts  #юмор #memes #viral #fyp #мем #youtubeshorts",
         "channelId": "UCiR8IdaaRTEPsL4I4y6B6_g",
         "channelName": "URODSK Shorts",
         "thumbnailUrl": "https://i.ytimg.com/vi/dgB4OGZiaGo/maxresdefault.jpg",
         "publishedAt": "2026-07-25T15:00:36Z",
-        "viewCount": 2606,
-        "viewIncrease": 2606,
-        "likeCount": 236,
-        "likeIncrease": 236,
-        "commentCount": 10,
-        "commentIncrease": 10,
-        "subscriberCount": 6090,
-        "rawScore": 119,
-        "normalizedScore": 96.3,
+        "viewCount": 38536,
+        "viewIncrease": 35930,
+        "likeCount": 3072,
+        "likeIncrease": 2836,
+        "commentCount": 55,
+        "commentIncrease": 45,
+        "subscriberCount": 6160,
+        "rawScore": 99.0,
+        "normalizedScore": 93.9,
         "genres": [
             {
-                "slug": "uncategorized",
-                "name": "未分類",
-                "confidence": 0.1
+                "slug": "vtuber",
+                "name": "VTuber",
+                "confidence": 0.8
             }
         ],
         "scoreBreakdown": {
-            "velocity": 91.8,
-            "engagement": 51,
-            "subscriberRatio": 90.8,
-            "freshness": 51
+            "velocity": 134.4,
+            "engagement": 44.6,
+            "subscriberRatio": 119.1,
+            "freshness": 33.2
         }
     },
     "scoreBreakdown": {
-        "velocity": 91.8,
-        "engagement": 51,
-        "subscriberRatio": 90.8,
-        "freshness": 51
+        "velocity": 134.4,
+        "engagement": 44.6,
+        "subscriberRatio": 119.1,
+        "freshness": 33.2
     },
     "genres": [
         {
-            "slug": "uncategorized",
-            "name": "未分類",
-            "confidence": 0.1
+            "slug": "vtuber",
+            "name": "VTuber",
+            "confidence": 0.8
         }
     ]
 }
