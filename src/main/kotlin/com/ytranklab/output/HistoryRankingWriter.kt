@@ -28,13 +28,12 @@ class HistoryRankingWriter(
     }
 
     fun writeHistoryIndex() {
-        val items = loadHistoryDocuments().map { document ->
-            val generatedAt = OffsetDateTime.parse(document.generatedAt).atZoneSameInstant(HISTORY_ZONE)
+        val items = loadHistoryDocuments().map { history ->
             HistoryIndexItem(
-                date = generatedAt.format(DateTimeFormatter.ISO_LOCAL_DATE),
-                generatedAt = document.generatedAt,
-                path = "history/${generatedAt.format(DateTimeFormatter.ofPattern("yyyy"))}/${generatedAt.format(DateTimeFormatter.ofPattern("MM"))}/${generatedAt.format(DateTimeFormatter.ofPattern("dd"))}.json",
-                totalVideos = document.ranking.size,
+                date = history.date,
+                generatedAt = history.document.generatedAt,
+                path = history.path,
+                totalVideos = history.document.ranking.size,
             )
         }
         fileWriter.write(
@@ -43,18 +42,30 @@ class HistoryRankingWriter(
         )
     }
 
-    private fun loadHistoryDocuments(): List<RankingDocument> {
+    private fun loadHistoryDocuments(): List<HistoryDocumentFile> {
         if (!historyDirectory.exists()) return emptyList()
         return historyDirectory.walk()
             .filter { it.isRegularFile() && it.toString().endsWith(".json") }
             .sortedBy { it.relativeTo(historyDirectory).toString() }
             .mapNotNull { file ->
                 runCatching {
-                    json.decodeFromString(RankingDocument.serializer(), file.readText())
+                    val relativePath = file.relativeTo(historyDirectory).toString().replace('\\', '/')
+                    val date = relativePath.removeSuffix(".json").replace('/', '-')
+                    HistoryDocumentFile(
+                        date = date,
+                        path = "history/$relativePath",
+                        document = json.decodeFromString(RankingDocument.serializer(), file.readText()),
+                    )
                 }.getOrNull()
             }
             .toList()
     }
 }
+
+private data class HistoryDocumentFile(
+    val date: String,
+    val path: String,
+    val document: RankingDocument,
+)
 
 private val HISTORY_ZONE: ZoneId = ZoneId.of("Asia/Tokyo")
