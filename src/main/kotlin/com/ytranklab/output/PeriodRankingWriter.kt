@@ -4,6 +4,7 @@ import com.ytranklab.domain.RankingDocument
 import com.ytranklab.domain.RankingEntry
 import java.nio.file.Path
 import java.time.OffsetDateTime
+import java.time.ZoneId
 
 class PeriodRankingWriter(
     private val latestDirectory: Path,
@@ -12,12 +13,12 @@ class PeriodRankingWriter(
     private val fileWriter: JsonFileWriter,
 ) {
     fun writeToday(overall: RankingDocument) {
-        val generatedAt = OffsetDateTime.parse(overall.generatedAt)
+        val generatedAt = OffsetDateTime.parse(overall.generatedAt).atZoneSameInstant(PERIOD_ZONE)
         val targetDate = generatedAt.toLocalDate()
         val entries = overall.ranking
             .map { entry ->
                 val statistics = statisticsReader.load(entry.videoId)
-                    .filter { OffsetDateTime.parse(it.capturedAt).toLocalDate() == targetDate }
+                    .filter { OffsetDateTime.parse(it.capturedAt).atZoneSameInstant(PERIOD_ZONE).toLocalDate() == targetDate }
                     .sortedBy { it.capturedAt }
                 deltaFactory.withStatisticDelta(entry, statistics)
             }
@@ -69,3 +70,5 @@ class PeriodRankingWriter(
         return ((total - index).toDouble() / total.toDouble()) * 100.0
     }
 }
+
+private val PERIOD_ZONE: ZoneId = ZoneId.of("Asia/Tokyo")
