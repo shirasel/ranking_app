@@ -23,6 +23,7 @@ class KtorYouTubeHttpTransport(
 ) : YouTubeHttpTransport, AutoCloseable {
     override suspend fun getJson(path: String, parameters: Map<String, String>): String {
         var lastError: Throwable? = null
+        val requestDescription = describeRequest(path, parameters)
         repeat(maxRetries) { attempt ->
             try {
                 val response = httpClient.get("https://www.googleapis.com/youtube/v3/$path") {
@@ -35,10 +36,11 @@ class KtorYouTubeHttpTransport(
                 }
 
                 val error = errorParser.parse(body)
+                val message = "YouTube API request failed: $requestDescription status=${response.status.value} ${error.message}"
                 if (!error.retryable) {
-                    throw YouTubeApiException("YouTube API request failed: ${error.message}")
+                    throw YouTubeApiException(message)
                 }
-                lastError = YouTubeApiException("YouTube API request failed: ${error.message}")
+                lastError = YouTubeApiException(message)
             } catch (error: YouTubeApiException) {
                 throw error
             } catch (error: IOException) {
@@ -53,7 +55,7 @@ class KtorYouTubeHttpTransport(
             }
         }
 
-        throw YouTubeApiException("YouTube API request failed after retries", lastError)
+        throw YouTubeApiException("YouTube API request failed after retries: ${lastError.safeMessage()}", lastError)
     }
 
     override fun close() {
@@ -61,7 +63,23 @@ class KtorYouTubeHttpTransport(
     }
 
     private fun backoffMillis(attempt: Int): Long = 500L * (1 shl attempt)
+
+    private fun describeRequest(path: String, parameters: Map<String, String>): String =
+        buildString {
+            append(path)
+            parameters.entries
+                .filterNot { (key, _) -> key.equals("key", ignoreCase = true) }
+                .sortedBy { (key, _) -> key }
+                .joinToString("&") { (key, value) -> "$key=${value.take(MAX_LOGGED_PARAMETER_LENGTH)}" }
+                .takeIf { it.isNotBlank() }
+                ?.let { append("?").append(it) }
+        }
 }
+
+private const val MAX_LOGGED_PARAMETER_LENGTH = 160
+
+private fun Throwable?.safeMessage(): String =
+    this?.message?.take(300) ?: "request failed"
 
 private fun defaultHttpClient(): HttpClient =
     HttpClient(CIO) {

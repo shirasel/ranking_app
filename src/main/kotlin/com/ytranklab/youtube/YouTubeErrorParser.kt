@@ -11,6 +11,8 @@ class YouTubeErrorParser(
         "quotaExceeded",
         "forbidden",
         "badRequest",
+        "notFound",
+        "videoNotFound",
     )
 
     fun parse(body: String): YouTubeApiError {
