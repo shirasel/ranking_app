@@ -3,6 +3,7 @@ package com.ytranklab.output
 import com.ytranklab.domain.RankingDocument
 import java.nio.file.Path
 import java.time.OffsetDateTime
+import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import kotlin.io.path.exists
 import kotlin.io.path.isRegularFile
@@ -18,7 +19,7 @@ class HistoryRankingWriter(
     private val json: Json = Json { ignoreUnknownKeys = true },
 ) {
     fun writeHistory(overall: RankingDocument) {
-        val generatedAt = OffsetDateTime.parse(overall.generatedAt)
+        val generatedAt = OffsetDateTime.parse(overall.generatedAt).atZoneSameInstant(HISTORY_ZONE)
         val historyFile = historyDirectory
             .resolve(generatedAt.format(DateTimeFormatter.ofPattern("yyyy")))
             .resolve(generatedAt.format(DateTimeFormatter.ofPattern("MM")))
@@ -28,7 +29,7 @@ class HistoryRankingWriter(
 
     fun writeHistoryIndex() {
         val items = loadHistoryDocuments().map { document ->
-            val generatedAt = OffsetDateTime.parse(document.generatedAt)
+            val generatedAt = OffsetDateTime.parse(document.generatedAt).atZoneSameInstant(HISTORY_ZONE)
             HistoryIndexItem(
                 date = generatedAt.format(DateTimeFormatter.ISO_LOCAL_DATE),
                 generatedAt = document.generatedAt,
@@ -55,3 +56,5 @@ class HistoryRankingWriter(
             .toList()
     }
 }
+
+private val HISTORY_ZONE: ZoneId = ZoneId.of("Asia/Tokyo")
