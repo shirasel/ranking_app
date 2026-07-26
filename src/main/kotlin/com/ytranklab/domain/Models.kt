@@ -16,6 +16,7 @@ data class YouTubeVideo(
     val likeCount: Long? = null,
     val commentCount: Long? = null,
     val subscriberCount: Long? = null,
+    val durationSeconds: Long? = null,
     val status: String = "public",
 )
 
@@ -54,6 +55,8 @@ data class RankingEntry(
     val commentCount: Long? = null,
     val commentIncrease: Long? = null,
     val subscriberCount: Long? = null,
+    val durationSeconds: Long? = null,
+    val isShort: Boolean = false,
     val rawScore: Double,
     val normalizedScore: Double,
     val genres: List<GenreScore>,

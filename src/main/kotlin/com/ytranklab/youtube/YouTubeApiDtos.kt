@@ -47,6 +47,7 @@ internal data class VideoListResponse(
 internal data class VideoItem(
     val id: String,
     val snippet: VideoSnippet,
+    val contentDetails: VideoContentDetails? = null,
     val statistics: VideoStatistics? = null,
     val status: VideoStatus? = null,
 )
@@ -72,6 +73,11 @@ internal data class VideoStatistics(
     val viewCount: String? = null,
     val likeCount: String? = null,
     val commentCount: String? = null,
+)
+
+@Serializable
+internal data class VideoContentDetails(
+    val duration: String? = null,
 )
 
 @Serializable

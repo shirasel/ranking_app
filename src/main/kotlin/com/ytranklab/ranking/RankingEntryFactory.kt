@@ -31,6 +31,8 @@ class RankingEntryFactory(private val normalizer: RankingNormalizer) {
                 commentCount = candidate.video.commentCount,
                 commentIncrease = candidate.delta.commentIncrease,
                 subscriberCount = candidate.video.subscriberCount,
+                durationSeconds = candidate.video.durationSeconds,
+                isShort = candidate.video.isShortVideo(),
                 rawScore = candidate.score.rawScore,
                 normalizedScore = normalizer.normalize(rank, sorted.size),
                 genres = candidate.genres,
@@ -38,4 +40,10 @@ class RankingEntryFactory(private val normalizer: RankingNormalizer) {
             )
         }
     }
+}
+
+private fun com.ytranklab.domain.YouTubeVideo.isShortVideo(): Boolean {
+    durationSeconds?.let { return it <= 60L }
+    val text = "$title\n$description".lowercase()
+    return text.contains("#shorts") || text.contains("#short") || text.contains("youtube shorts")
 }

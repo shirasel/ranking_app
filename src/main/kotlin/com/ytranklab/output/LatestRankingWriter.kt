@@ -8,6 +8,10 @@ class LatestRankingWriter(
     private val latestDirectory: Path,
     private val genreDirectory: Path,
     private val fileWriter: JsonFileWriter,
+    private val videoFormatRankingWriter: VideoFormatRankingWriter = VideoFormatRankingWriter(
+        latestDirectory = latestDirectory,
+        fileWriter = fileWriter,
+    ),
 ) {
     fun write(
         overall: RankingDocument,
@@ -27,6 +31,7 @@ class LatestRankingWriter(
             latestDirectory.resolve("discovery.json"),
             fileWriter.encode(RankingDocument.serializer(), discovery),
         )
+        videoFormatRankingWriter.write(overall)
         genres.forEach { (slug, document) ->
             fileWriter.write(
                 genreDirectory.resolve("$slug.json"),

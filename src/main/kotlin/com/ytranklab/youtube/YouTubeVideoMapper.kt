@@ -20,9 +20,18 @@ class YouTubeVideoMapper {
             likeCount = item.statistics?.likeCount?.toLongOrNull(),
             commentCount = item.statistics?.commentCount?.toLongOrNull(),
             subscriberCount = subscriberCounts[item.snippet.channelId],
+            durationSeconds = item.contentDetails?.duration?.toDurationSeconds(),
             status = status,
         )
     }
+}
+
+private fun String.toDurationSeconds(): Long? {
+    val match = Regex("""PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?""").matchEntire(this) ?: return null
+    val hours = match.groupValues[1].toLongOrNull() ?: 0L
+    val minutes = match.groupValues[2].toLongOrNull() ?: 0L
+    val seconds = match.groupValues[3].toLongOrNull() ?: 0L
+    return hours * 3600L + minutes * 60L + seconds
 }
 
 private fun Map<String, Thumbnail>.bestUrl(): String =

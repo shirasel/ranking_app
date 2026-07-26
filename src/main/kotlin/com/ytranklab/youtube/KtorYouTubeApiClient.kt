@@ -110,7 +110,7 @@ class KtorYouTubeApiClient(
             val response = transport.getJson(
                 path = "videos",
                 parameters = mapOf(
-                    "part" to "snippet,statistics,status",
+                    "part" to "snippet,contentDetails,statistics,status",
                     "id" to chunk.joinToString(","),
                 ),
             )
