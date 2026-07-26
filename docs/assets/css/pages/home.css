@@ -10,7 +10,7 @@
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(2rem, 3.4vw, 3.15rem);
+  font-size: 2.8rem;
   line-height: 1.12;
   letter-spacing: 0;
   font-weight: 500;
@@ -114,7 +114,7 @@ body[data-page="home"] .hero {
 }
 
 body[data-page="home"] .hero h1 {
-  font-size: clamp(2.1rem, 4.2vw, 3.6rem);
+  font-size: 3.2rem;
 }
 
 body[data-page="home"] .lead {
@@ -221,11 +221,82 @@ body[data-page="home"] .operation-summary {
   .metric-strip {
     grid-template-columns: 1fr;
   }
+
+  body[data-page="home"] .hero {
+    max-width: 760px;
+    padding: 42px 0 34px;
+  }
+
+  body[data-page="home"] .hero h1,
+  .hero h1 {
+    font-size: 2.45rem;
+  }
 }
 
 @media (max-width: 640px) {
   .hero {
     min-height: 0;
     padding-top: 34px;
+  }
+
+  body[data-page="home"] main {
+    padding-top: 8px;
+  }
+
+  body[data-page="home"] .hero {
+    padding: 34px 0 28px;
+    text-align: left;
+  }
+
+  body[data-page="home"] .hero h1,
+  .hero h1 {
+    font-size: 2rem;
+    line-height: 1.18;
+  }
+
+  body[data-page="home"] .lead {
+    margin-top: 14px;
+    font-size: 1rem;
+  }
+
+  body[data-page="home"] .hero-search label {
+    text-align: left;
+  }
+
+  .hero-search {
+    max-width: none;
+    margin-top: 20px;
+  }
+
+  .hero-search-field {
+    grid-template-columns: auto minmax(0, 1fr);
+    border-radius: 22px;
+    padding: 10px 12px;
+  }
+
+  .hero-search-field button {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-height: 42px;
+  }
+
+  body[data-page="home"] .hero-actions {
+    justify-content: stretch;
+  }
+
+  body[data-page="home"] .section-heading {
+    gap: 8px;
+  }
+
+  body[data-page="home"] .operation-summary {
+    margin-top: 32px;
+    padding-top: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  body[data-page="home"] .hero h1,
+  .hero h1 {
+    font-size: 1.75rem;
   }
 }

@@ -141,3 +141,44 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 640px) {
+  .detail-media,
+  .detail-panel,
+  .history-panel {
+    padding: 14px;
+  }
+
+  .detail-panel dl {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .detail-panel dd {
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .bar-label {
+    gap: 10px;
+    font-size: 0.82rem;
+  }
+
+  .trend-table-wrap {
+    margin-right: -14px;
+    padding-right: 14px;
+  }
+
+  .trend-table {
+    min-width: 520px;
+  }
+
+  .rank-timeline,
+  .trend-bars {
+    overflow-x: auto;
+  }
+
+  .rank-point {
+    flex: 0 0 28px;
+  }
+}

@@ -42,3 +42,25 @@
   border-radius: 8px;
   color: var(--muted);
 }
+
+@media (max-width: 900px) {
+  .operation-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .operation-definition {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .operation-definition dd {
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .operation-validation {
+    margin-top: 14px;
+  }
+}

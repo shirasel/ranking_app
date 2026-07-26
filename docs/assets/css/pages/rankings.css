@@ -37,3 +37,42 @@
     grid-column: 1 / -1;
   }
 }
+
+@media (max-width: 640px) {
+  body[data-page="overall"] .section-block,
+  body[data-page="genre"] .section-block,
+  body[data-page="history"] .section-block {
+    padding-top: 8px;
+  }
+
+  body[data-page="overall"] .ranking-list:not(.compact) .thumbnail,
+  body[data-page="genre"] .ranking-list:not(.compact) .thumbnail,
+  body[data-page="history"] .ranking-list:not(.compact) .thumbnail {
+    width: min(100%, 320px);
+  }
+
+  body[data-page="overall"] .ranking-list:not(.compact) .video-title,
+  body[data-page="genre"] .ranking-list:not(.compact) .video-title,
+  body[data-page="history"] .ranking-list:not(.compact) .video-title {
+    font-size: 0.98rem;
+  }
+
+  body[data-page="overall"] .ranking-list:not(.compact) .video-meta,
+  body[data-page="genre"] .ranking-list:not(.compact) .video-meta,
+  body[data-page="history"] .ranking-list:not(.compact) .video-meta {
+    gap: 6px 8px;
+    font-size: 0.82rem;
+  }
+
+  body[data-page="overall"] .history-picker:not([hidden]) {
+    display: grid;
+  }
+}
+
+@media (max-width: 420px) {
+  body[data-page="overall"] .ranking-list:not(.compact) .thumbnail,
+  body[data-page="genre"] .ranking-list:not(.compact) .thumbnail,
+  body[data-page="history"] .ranking-list:not(.compact) .thumbnail {
+    width: 100%;
+  }
+}
