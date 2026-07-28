@@ -1,34 +1,78 @@
 {
-    "generatedAt": "2026-07-28T17:08:57.919527041Z",
+    "generatedAt": "2026-07-28T22:42:01.731042172Z",
     "period": "24h",
     "genre": {
         "slug": "travel",
         "name": "旅行",
-        "confidence": 0.5
+        "confidence": 0.2
     },
     "status": "reference",
-    "totalVideos": 11,
-    "totalChannels": 11,
+    "totalVideos": 12,
+    "totalChannels": 12,
     "ranking": [
         {
             "rank": 1,
+            "videoId": "L6u-aTXUf40",
+            "title": "3泊4日の青森旅行が最高すぎた　part2",
+            "channelId": "UC9cWgCidXQGAhx9kuwmnAHw",
+            "channelName": "おろちんゆーの素揚げ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/L6u-aTXUf40/maxresdefault.jpg",
+            "publishedAt": "2026-07-28T18:45:59Z",
+            "viewCount": 16243,
+            "viewIncrease": 16243,
+            "likeCount": 1233,
+            "likeIncrease": 1233,
+            "commentCount": 226,
+            "commentIncrease": 226,
+            "subscriberCount": 638000,
+            "durationSeconds": 3603,
+            "rawScore": 88.4,
+            "normalizedScore": 100.0,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.4
+                },
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "entertainment",
+                    "name": "エンタメ",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 99.1,
+                "engagement": 56.1,
+                "subscriberRatio": 60.2,
+                "freshness": 41.1
+            }
+        },
+        {
+            "rank": 2,
+            "previousRank": 35,
+            "rankChange": 33,
             "videoId": "awWq9pLcYE0",
             "title": "イタリアの料理人がピエモンテを丸ごといただく逸品を作ります #イタリア料理",
             "channelId": "UCUnJm7Yl_aVEMKt6hCFnnPA",
             "channelName": "旅するイタリア食堂",
             "thumbnailUrl": "https://i.ytimg.com/vi/awWq9pLcYE0/maxresdefault.jpg",
             "publishedAt": "2026-07-28T14:35:24Z",
-            "viewCount": 1096,
-            "viewIncrease": 1096,
-            "likeCount": 45,
-            "likeIncrease": 45,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 3910,
+            "viewCount": 2237,
+            "viewIncrease": 1141,
+            "likeCount": 104,
+            "likeIncrease": 59,
+            "commentCount": 3,
+            "commentIncrease": 2,
+            "subscriberCount": 3920,
             "durationSeconds": 60,
             "isShort": true,
-            "rawScore": 85.7,
-            "normalizedScore": 100.0,
+            "rawScore": 66.2,
+            "normalizedScore": 90.9,
             "genres": [
                 {
                     "slug": "cooking",
@@ -42,96 +86,33 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 58.4,
-                "engagement": 38.2,
-                "subscriberRatio": 86.2,
-                "freshness": 46.9
-            }
-        },
-        {
-            "rank": 2,
-            "videoId": "DKtHezqw2OI",
-            "title": "盤點那些知名景點現實與網路上的差距 #景區 #旅行",
-            "channelId": "UCj0fBXqu845xc4d_nnAg8Gw",
-            "channelName": "空空視界",
-            "thumbnailUrl": "https://i.ytimg.com/vi/DKtHezqw2OI/maxresdefault.jpg",
-            "publishedAt": "2026-07-28T16:00:26Z",
-            "viewCount": 496,
-            "viewIncrease": 496,
-            "likeCount": 8,
-            "likeIncrease": 8,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 6360,
-            "durationSeconds": 88,
-            "rawScore": 79.8,
-            "normalizedScore": 90.0,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.4
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 46.8,
-                "engagement": 22.2,
-                "subscriberRatio": 72.3,
-                "freshness": 56.5
+                "velocity": 81.0,
+                "engagement": 42.9,
+                "subscriberRatio": 86.6,
+                "freshness": 31.5
             }
         },
         {
             "rank": 3,
-            "videoId": "sk-3uQxDanw",
-            "title": "【ホテルハック3選】 #ライフハック #旅行の裏ワザ",
-            "channelId": "UC3k2SErPpk4oxP50Tdh2TnA",
-            "channelName": "こあら🐨試したくなる暮らしハック",
-            "thumbnailUrl": "https://i.ytimg.com/vi/sk-3uQxDanw/maxresdefault.jpg",
-            "publishedAt": "2026-07-28T11:30:59Z",
-            "viewCount": 7996,
-            "viewIncrease": 7782,
-            "likeCount": 50,
-            "likeIncrease": 49,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 13700,
-            "durationSeconds": 28,
-            "isShort": true,
-            "rawScore": 79.7,
-            "normalizedScore": 80.0,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.6
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 110.6,
-                "engagement": 15.5,
-                "subscriberRatio": 93.9,
-                "freshness": 36.2
-            }
-        },
-        {
-            "rank": 4,
+            "previousRank": 57,
+            "rankChange": 54,
             "videoId": "pEk8WC_ZCIc",
             "title": "31登別温泉＃北海道＃観光＃旅行＃グルメ",
             "channelId": "UCp4U4EthLlg5aVgKJEorG2g",
             "channelName": "北海道のミカタ",
             "thumbnailUrl": "https://i.ytimg.com/vi/pEk8WC_ZCIc/maxresdefault.jpg",
             "publishedAt": "2026-07-28T15:00:34Z",
-            "viewCount": 473,
-            "viewIncrease": 473,
-            "likeCount": 4,
-            "likeIncrease": 4,
+            "viewCount": 1005,
+            "viewIncrease": 532,
+            "likeCount": 6,
+            "likeIncrease": 2,
             "commentCount": 0,
             "commentIncrease": 0,
             "subscriberCount": 24,
             "durationSeconds": 45,
             "isShort": true,
-            "rawScore": 76.5,
-            "normalizedScore": 70.0,
+            "rawScore": 56.2,
+            "normalizedScore": 81.8,
             "genres": [
                 {
                     "slug": "travel",
@@ -140,31 +121,33 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 46.1,
-                "engagement": 17.6,
-                "subscriberRatio": 91.9,
-                "freshness": 49.2
+                "velocity": 69.5,
+                "engagement": 12.2,
+                "subscriberRatio": 93.1,
+                "freshness": 32.1
             }
         },
         {
-            "rank": 5,
+            "rank": 4,
+            "previousRank": 69,
+            "rankChange": 65,
             "videoId": "NWve-TGdWK0",
             "title": "40代友達ゼロ友達と旅行したことないぼっち主婦 #ぼっち #友達いない #旅行",
             "channelId": "UC-5mF4B4nyTGTD7bKRyOIjA",
             "channelName": "あずき",
             "thumbnailUrl": "https://i.ytimg.com/vi/NWve-TGdWK0/maxresdefault.jpg",
             "publishedAt": "2026-07-28T12:00:38Z",
-            "viewCount": 1450,
-            "viewIncrease": 1450,
-            "likeCount": 13,
-            "likeIncrease": 13,
-            "commentCount": 4,
+            "viewCount": 1861,
+            "viewIncrease": 411,
+            "likeCount": 25,
+            "likeIncrease": 12,
+            "commentCount": 8,
             "commentIncrease": 4,
             "subscriberCount": 1530,
             "durationSeconds": 34,
             "isShort": true,
-            "rawScore": 72.6,
-            "normalizedScore": 60.0,
+            "rawScore": 55.7,
+            "normalizedScore": 72.7,
             "genres": [
                 {
                     "slug": "travel",
@@ -173,53 +156,77 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 62.6,
-                "engagement": 32.0,
-                "subscriberRatio": 99.4,
-                "freshness": 37.4
+                "velocity": 65.6,
+                "engagement": 47.0,
+                "subscriberRatio": 85.7,
+                "freshness": 28.1
+            }
+        },
+        {
+            "rank": 5,
+            "videoId": "Qf7-QyOPnms",
+            "title": "『京都旅行で行く京うどん屋-はなれ一休庵』",
+            "channelId": "UCLzOYCYscfw6vea3KZkStPw",
+            "channelName": "はなれ一休庵　Kyoto Udon",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Qf7-QyOPnms/maxresdefault.jpg",
+            "publishedAt": "2026-07-28T13:34:02Z",
+            "viewCount": 1781,
+            "viewIncrease": 1781,
+            "likeCount": 7,
+            "likeIncrease": 7,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 22,
+            "durationSeconds": 38,
+            "isShort": true,
+            "rawScore": 55.3,
+            "normalizedScore": 63.6,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.6
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 65.7,
+                "engagement": 12.5,
+                "subscriberRatio": 106.3,
+                "freshness": 30.0
             }
         },
         {
             "rank": 6,
-            "videoId": "qf_d1mxvxR4",
-            "title": "広島・宮島・厳島神社開運ツアー #開運  #スピリチュアル  #占い #リトリート #運勢 #旅行 #パワースポット",
-            "channelId": "UC2B32iVMeagWseMoRL-t8hw",
-            "channelName": "ホントのあなたを知ってますか?《乱舞魁子の開運チャンネル》",
-            "thumbnailUrl": "https://i.ytimg.com/vi/qf_d1mxvxR4/maxresdefault.jpg",
-            "publishedAt": "2026-07-28T13:23:08Z",
-            "viewCount": 835,
-            "viewIncrease": 835,
-            "likeCount": 2,
-            "likeIncrease": 2,
+            "previousRank": 51,
+            "rankChange": 45,
+            "videoId": "DKtHezqw2OI",
+            "title": "盤點那些知名景點現實與網路上的差距 #景區 #旅行",
+            "channelId": "UCj0fBXqu845xc4d_nnAg8Gw",
+            "channelName": "空空視界",
+            "thumbnailUrl": "https://i.ytimg.com/vi/DKtHezqw2OI/maxresdefault.jpg",
+            "publishedAt": "2026-07-28T16:00:26Z",
+            "viewCount": 940,
+            "viewIncrease": 444,
+            "likeCount": 17,
+            "likeIncrease": 9,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 139,
-            "durationSeconds": 47,
-            "isShort": true,
-            "rawScore": 67.6,
-            "normalizedScore": 50.0,
+            "subscriberCount": 6360,
+            "durationSeconds": 88,
+            "rawScore": 54.9,
+            "normalizedScore": 54.5,
             "genres": [
                 {
                     "slug": "travel",
                     "name": "旅行",
                     "confidence": 0.4
-                },
-                {
-                    "slug": "cooking",
-                    "name": "料理",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "beauty",
-                    "name": "美容",
-                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 54.4,
-                "engagement": 9.6,
-                "subscriberRatio": 98.0,
-                "freshness": 41.7
+                "velocity": 66.8,
+                "engagement": 23.9,
+                "subscriberRatio": 71.1,
+                "freshness": 33.9
             }
         },
         {
@@ -230,16 +237,16 @@
             "channelName": "あんずチャンネル",
             "thumbnailUrl": "https://i.ytimg.com/vi/tn3HhSZK9Mg/maxresdefault.jpg",
             "publishedAt": "2026-07-28T12:30:25Z",
-            "viewCount": 3395,
-            "viewIncrease": 3395,
-            "likeCount": 302,
-            "likeIncrease": 302,
-            "commentCount": 33,
-            "commentIncrease": 33,
+            "viewCount": 5737,
+            "viewIncrease": 2342,
+            "likeCount": 420,
+            "likeIncrease": 118,
+            "commentCount": 40,
+            "commentIncrease": 7,
             "subscriberCount": 1160000,
             "durationSeconds": 89,
-            "rawScore": 65.2,
-            "normalizedScore": 40.0,
+            "rawScore": 48.8,
+            "normalizedScore": 45.5,
             "genres": [
                 {
                     "slug": "travel",
@@ -263,63 +270,29 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 75.4,
-                "engagement": 55.5,
-                "subscriberRatio": 37.0,
-                "freshness": 38.8
+                "velocity": 91.9,
+                "engagement": 45.2,
+                "subscriberRatio": 33.2,
+                "freshness": 28.6
             }
         },
         {
             "rank": 8,
-            "videoId": "8HwQ99EqQ2E",
-            "title": "「旅行Vlog」首爾仁川魚市場｜新鮮皇帝蟹｜即買即蒸｜最佳鮮味",
-            "channelId": "UC6NCVnv6j6whcwdoALwMhqQ",
-            "channelName": "祖兒 生活隨意行",
-            "thumbnailUrl": "https://i.ytimg.com/vi/8HwQ99EqQ2E/maxresdefault.jpg",
-            "publishedAt": "2026-07-28T11:10:38Z",
-            "viewCount": 1086,
-            "viewIncrease": 1086,
-            "likeCount": 12,
-            "likeIncrease": 12,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 214,
-            "durationSeconds": 19,
+            "videoId": "QnP3SBVRWqU",
+            "title": "ありりん徳島旅行🚗 想い出 #shorts #旅行 #阿波踊り ＃徳島",
+            "channelId": "UCcjpqbl5yp3YyHc-1TlM7HQ",
+            "channelName": "🍀ありりん🍀",
+            "thumbnailUrl": "https://i.ytimg.com/vi/QnP3SBVRWqU/maxresdefault.jpg",
+            "publishedAt": "2026-07-28T19:00:07Z",
+            "viewCount": 43,
+            "viewIncrease": 43,
+            "likeCount": 1,
+            "likeIncrease": 1,
+            "subscriberCount": 30,
+            "durationSeconds": 21,
             "isShort": true,
-            "rawScore": 63.3,
-            "normalizedScore": 30.0,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.6
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 58.3,
-                "engagement": 19.5,
-                "subscriberRatio": 100.9,
-                "freshness": 35.4
-            }
-        },
-        {
-            "rank": 9,
-            "videoId": "GcHoi60jrQ0",
-            "title": "【Akira】原來 LV 郵輪裡是這樣的😯#愿望 #旅行 #搞笑 #抖音 #海湖莊園",
-            "channelId": "UCyvCVTvINNyJY2amo4QHK1Q",
-            "channelName": "曹九_Akira",
-            "thumbnailUrl": "https://i.ytimg.com/vi/GcHoi60jrQ0/maxresdefault.jpg",
-            "publishedAt": "2026-07-28T12:00:18Z",
-            "viewCount": 642,
-            "viewIncrease": 642,
-            "likeCount": 10,
-            "likeIncrease": 10,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 138,
-            "durationSeconds": 172,
-            "rawScore": 62.8,
-            "normalizedScore": 20.0,
+            "rawScore": 44.6,
+            "normalizedScore": 36.4,
             "genres": [
                 {
                     "slug": "travel",
@@ -328,63 +301,75 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 50.5,
-                "engagement": 22.0,
-                "subscriberRatio": 95.2,
-                "freshness": 37.4
+                "velocity": 15.6,
+                "engagement": 24.9,
+                "subscriberRatio": 65.9,
+                "freshness": 41.9
             }
         },
         {
-            "rank": 10,
-            "videoId": "cES--dBP9rQ",
-            "title": "李李仁1舉動被鍾欣凌瞪【#花甲少年趣旅行】EP197｜#shorts #沖繩 #李李仁 #鍾欣凌 #范少勳 #峮峮",
-            "channelId": "UCrpi3ntE4xuGP9N0jtxEP7Q",
-            "channelName": "花甲少年趣旅行",
-            "thumbnailUrl": "https://i.ytimg.com/vi/cES--dBP9rQ/maxresdefault.jpg",
-            "publishedAt": "2026-07-28T13:15:21Z",
-            "viewCount": 753,
-            "viewIncrease": 753,
-            "likeCount": 13,
-            "likeIncrease": 13,
+            "rank": 9,
+            "previousRank": 91,
+            "rankChange": 82,
+            "videoId": "qf_d1mxvxR4",
+            "title": "広島・宮島・厳島神社開運ツアー #開運  #スピリチュアル  #占い #リトリート #運勢 #旅行 #パワースポット",
+            "channelId": "UC2B32iVMeagWseMoRL-t8hw",
+            "channelName": "ホントのあなたを知ってますか?《乱舞魁子の開運チャンネル》",
+            "thumbnailUrl": "https://i.ytimg.com/vi/qf_d1mxvxR4/maxresdefault.jpg",
+            "publishedAt": "2026-07-28T13:23:08Z",
+            "viewCount": 1016,
+            "viewIncrease": 181,
+            "likeCount": 2,
+            "likeIncrease": 0,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 181000,
-            "durationSeconds": 36,
+            "subscriberCount": 139,
+            "durationSeconds": 47,
             "isShort": true,
-            "rawScore": 47.9,
-            "normalizedScore": 10.0,
+            "rawScore": 40.1,
+            "normalizedScore": 27.3,
             "genres": [
                 {
                     "slug": "travel",
                     "name": "旅行",
-                    "confidence": 0.99
+                    "confidence": 0.4
+                },
+                {
+                    "slug": "cooking",
+                    "name": "料理",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "beauty",
+                    "name": "美容",
+                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 52.9,
-                "engagement": 22.7,
-                "subscriberRatio": 40.7,
-                "freshness": 41.2
+                "velocity": 53.4,
+                "engagement": 0.0,
+                "subscriberRatio": 81.4,
+                "freshness": 29.7
             }
         },
         {
-            "rank": 11,
+            "rank": 10,
             "videoId": "IIKLyZYV3qg",
             "title": "東京飯店推薦🇯🇵 #飯店開箱 #tokyohotel #東京 #住宿 #旅行",
             "channelId": "UCO9wEDPMwTC1BXJRaOSarjg",
             "channelName": "心甜 Christy",
             "thumbnailUrl": "https://i.ytimg.com/vi/IIKLyZYV3qg/maxresdefault.jpg",
             "publishedAt": "2026-07-28T13:03:23Z",
-            "viewCount": 573,
-            "viewIncrease": 573,
-            "likeCount": 26,
-            "likeIncrease": 26,
-            "commentCount": 0,
-            "commentIncrease": 0,
+            "viewCount": 857,
+            "viewIncrease": 284,
+            "likeCount": 32,
+            "likeIncrease": 6,
+            "commentCount": 1,
+            "commentIncrease": 1,
             "subscriberCount": 215000,
             "durationSeconds": 80,
-            "rawScore": 46.6,
-            "normalizedScore": 0.0,
+            "rawScore": 37.6,
+            "normalizedScore": 18.2,
             "genres": [
                 {
                     "slug": "travel",
@@ -393,10 +378,85 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 48.9,
-                "engagement": 30.0,
-                "subscriberRatio": 36.0,
-                "freshness": 40.5
+                "velocity": 60.1,
+                "engagement": 39.4,
+                "subscriberRatio": 28.8,
+                "freshness": 29.3
+            }
+        },
+        {
+            "rank": 11,
+            "videoId": "cES--dBP9rQ",
+            "title": "李李仁1舉動被鍾欣凌瞪【#花甲少年趣旅行】EP197｜#shorts #沖繩 #李李仁 #鍾欣凌 #范少勳 #峮峮",
+            "channelId": "UCrpi3ntE4xuGP9N0jtxEP7Q",
+            "channelName": "花甲少年趣旅行",
+            "thumbnailUrl": "https://i.ytimg.com/vi/cES--dBP9rQ/maxresdefault.jpg",
+            "publishedAt": "2026-07-28T13:15:21Z",
+            "viewCount": 1010,
+            "viewIncrease": 257,
+            "likeCount": 14,
+            "likeIncrease": 1,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 181000,
+            "durationSeconds": 36,
+            "isShort": true,
+            "rawScore": 29.7,
+            "normalizedScore": 9.1,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.99
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 58.6,
+                "engagement": 12.4,
+                "subscriberRatio": 29.5,
+                "freshness": 29.6
+            }
+        },
+        {
+            "rank": 12,
+            "videoId": "8UG52oJER3E",
+            "title": "ベトナム経済ニュース解説｜為替・交通・ビジネスの最新動向【2026年7月29日】",
+            "channelId": "UCl3VoXiw_dSkSralIOPYGpQ",
+            "channelName": "ベトナム毎日ニュース速報",
+            "thumbnailUrl": "https://i.ytimg.com/vi/8UG52oJER3E/maxresdefault.jpg",
+            "publishedAt": "2026-07-28T18:17:30Z",
+            "viewCount": 1,
+            "viewIncrease": 1,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 38,
+            "durationSeconds": 119,
+            "rawScore": 10.5,
+            "normalizedScore": 0.0,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.99
+                },
+                {
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.2
+                },
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 0.6,
+                "engagement": 0.0,
+                "subscriberRatio": 26.0,
+                "freshness": 39.5
             }
         }
     ]

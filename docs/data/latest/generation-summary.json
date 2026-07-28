@@ -1,6 +1,6 @@
 {
-    "generatedAt": "2026-07-28T17:08:57.919527041Z",
-    "inputVideos": 343,
+    "generatedAt": "2026-07-28T22:42:01.731042172Z",
+    "inputVideos": 332,
     "rankingVideos": 100,
     "genreRankings": 12,
     "collection": {
@@ -26,7 +26,7 @@
             {
                 "source": "category-popular:20:ゲーム",
                 "requested": 25,
-                "collected": 24,
+                "collected": 25,
                 "status": "ok"
             },
             {
@@ -178,17 +178,17 @@
             {
                 "source": "popular:JP",
                 "requested": 50,
-                "collected": 49,
+                "collected": 50,
                 "status": "ok"
             }
         ],
-        "uniqueCandidateIds": 343,
-        "fetchedVideoIds": 343,
-        "publicVideos": 343,
+        "uniqueCandidateIds": 332,
+        "fetchedVideoIds": 332,
+        "publicVideos": 332,
         "estimatedQuotaUnits": 1215
     },
     "retention": {
         "historyDeleted": 0,
-        "videoDetailsDeleted": 89
+        "videoDetailsDeleted": 60
     }
 }
