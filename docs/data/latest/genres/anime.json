@@ -1,72 +1,299 @@
 {
-    "generatedAt": "2026-07-29T16:58:05.095337038Z",
+    "generatedAt": "2026-07-29T22:39:07.546512149Z",
     "period": "24h",
     "genre": {
         "slug": "anime",
         "name": "アニメ",
         "confidence": 0.2
     },
-    "status": "official",
-    "totalVideos": 20,
-    "totalChannels": 20,
+    "status": "reference",
+    "totalVideos": 19,
+    "totalChannels": 19,
     "ranking": [
         {
             "rank": 1,
-            "videoId": "k8j-sf3lRQo",
-            "title": "Y a que moi quiiii...? Ah.... #vtuber #vtuberfr #vtuberclips #anecdote #humour #chaussette",
-            "channelId": "UCo2LRpxQDqnyona5okxEzPg",
-            "channelName": "Akage Alice",
-            "thumbnailUrl": "https://i.ytimg.com/vi/k8j-sf3lRQo/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T16:19:20Z",
-            "viewCount": 509,
-            "viewIncrease": 509,
-            "likeCount": 61,
-            "likeIncrease": 61,
-            "commentCount": 14,
-            "commentIncrease": 14,
-            "subscriberCount": 2340,
-            "durationSeconds": 34,
+            "videoId": "gbAO2LHKIJ8",
+            "title": "【フリーレン】シュタルク危機一髪！ #葬送のフリーレン #アニメ #イラスト",
+            "channelId": "UCG6asVlh6ya_KIltZq7imNQ",
+            "channelName": "バズイラスト大全",
+            "thumbnailUrl": "https://i.ytimg.com/vi/gbAO2LHKIJ8/maxresdefault.jpg",
+            "publishedAt": "2026-07-29T22:00:00Z",
+            "viewCount": 1749,
+            "viewIncrease": 1749,
+            "likeCount": 21,
+            "likeIncrease": 21,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 35200,
+            "durationSeconds": 6,
             "isShort": true,
-            "rawScore": 119.4,
+            "rawScore": 93.9,
             "normalizedScore": 100.0,
             "genres": [
                 {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.5
-                },
-                {
                     "slug": "anime",
                     "name": "アニメ",
-                    "confidence": 0.3
+                    "confidence": 0.7
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 47.1,
-                "engagement": 63.2,
-                "subscriberRatio": 83.4,
-                "freshness": 61.6
+                "velocity": 65.4,
+                "engagement": 20.1,
+                "subscriberRatio": 67.4,
+                "freshness": 61.4
             }
         },
         {
             "rank": 2,
+            "videoId": "Nc7hT2vYsLQ",
+            "title": "【🟡朝活】最近の朝ごはん #Shorts #Vtuber 【 仲町あられ / 夢限大みゅーたいぷ 】",
+            "channelId": "UCWfF0DB6m_t2CE3KcOOOX7g",
+            "channelName": "仲町あられ -Nakamachi Arale- / 夢限大みゅーたいぷ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Nc7hT2vYsLQ/maxresdefault_live.jpg",
+            "publishedAt": "2026-07-29T21:36:10Z",
+            "viewCount": 933,
+            "viewIncrease": 933,
+            "likeCount": 282,
+            "likeIncrease": 282,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 49300,
+            "isShort": true,
+            "rawScore": 86.4,
+            "normalizedScore": 94.4,
+            "genres": [
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.9
+                },
+                {
+                    "slug": "entertainment",
+                    "name": "エンタメ",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.2
+                },
+                {
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 56.0,
+                "engagement": 37.5,
+                "subscriberRatio": 57.0,
+                "freshness": 57.4
+            }
+        },
+        {
+            "rank": 3,
+            "previousRank": 37,
+            "rankChange": 34,
+            "videoId": "Ncj-HLYGEj8",
+            "title": "デク落ち着け! #アニメ #myheroacademia #僕のヒーローアカデミア #ヒロアカ #anime",
+            "channelId": "UCtVJUajQ2-WrlXXstfv7voQ",
+            "channelName": "フェルンが呆れた反応集",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Ncj-HLYGEj8/maxresdefault.jpg",
+            "publishedAt": "2026-07-29T13:55:32Z",
+            "viewCount": 10910,
+            "viewIncrease": 8147,
+            "likeCount": 193,
+            "likeIncrease": 156,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 3690,
+            "durationSeconds": 6,
+            "isShort": true,
+            "rawScore": 74.1,
+            "normalizedScore": 88.9,
+            "genres": [
+                {
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 110.5,
+                "engagement": 23.5,
+                "subscriberRatio": 108.6,
+                "freshness": 30.5
+            }
+        },
+        {
+            "rank": 4,
+            "previousRank": 41,
+            "rankChange": 37,
+            "videoId": "kQCrqv0l5Ow",
+            "title": "恐れを乗り越え、自分だけのヒーローに。 #アニメ #anime #shorts",
+            "channelId": "UCXS6XiLhA2gDV-N77DeJ2pA",
+            "channelName": "Cito Harvell",
+            "thumbnailUrl": "https://i.ytimg.com/vi/kQCrqv0l5Ow/maxresdefault.jpg",
+            "publishedAt": "2026-07-29T14:09:39Z",
+            "viewCount": 2174,
+            "viewIncrease": 1112,
+            "likeCount": 247,
+            "likeIncrease": 172,
+            "commentCount": 3,
+            "commentIncrease": 2,
+            "subscriberCount": 5970,
+            "durationSeconds": 177,
+            "rawScore": 65.3,
+            "normalizedScore": 83.3,
+            "genres": [
+                {
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.4
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 80.3,
+                "engagement": 49.5,
+                "subscriberRatio": 81.8,
+                "freshness": 30.9
+            }
+        },
+        {
+            "rank": 5,
+            "previousRank": 38,
+            "rankChange": 33,
+            "videoId": "G-gZC1ABPcM",
+            "title": "【ワンパンマン】生き返らせた一言 #アニメ #ワンパンマン #漫画",
+            "channelId": "UCDjd4n71g4yihh3gn0zDsQA",
+            "channelName": "同人コミックまとめ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/G-gZC1ABPcM/maxresdefault.jpg",
+            "publishedAt": "2026-07-29T13:00:32Z",
+            "viewCount": 9307,
+            "viewIncrease": 4270,
+            "likeCount": 302,
+            "likeIncrease": 127,
+            "commentCount": 2,
+            "commentIncrease": 0,
+            "subscriberCount": 12100,
+            "durationSeconds": 12,
+            "isShort": true,
+            "rawScore": 63.4,
+            "normalizedScore": 77.8,
+            "genres": [
+                {
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 100.7,
+                "engagement": 26.8,
+                "subscriberRatio": 88.7,
+                "freshness": 29.3
+            }
+        },
+        {
+            "rank": 6,
+            "videoId": "MAfnNkSqEgs",
+            "title": "【話題】カフェでやりがちな貴族のたしなみｗ #漫画 #アニメ #shorts",
+            "channelId": "UC-egu8GG0YMzvzkPHZ79DHg",
+            "channelName": "ホッと一息アニメ・漫画ch",
+            "thumbnailUrl": "https://i.ytimg.com/vi/MAfnNkSqEgs/maxresdefault.jpg",
+            "publishedAt": "2026-07-29T13:00:18Z",
+            "viewCount": 17464,
+            "viewIncrease": 17464,
+            "likeCount": 166,
+            "likeIncrease": 166,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 58400,
+            "durationSeconds": 6,
+            "isShort": true,
+            "rawScore": 60.6,
+            "normalizedScore": 72.2,
+            "genres": [
+                {
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.99
+                },
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "entertainment",
+                    "name": "エンタメ",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 100.2,
+                "engagement": 19.7,
+                "subscriberRatio": 86.9,
+                "freshness": 29.3
+            }
+        },
+        {
+            "rank": 7,
+            "videoId": "borAlxKbg9E",
+            "title": "【ワガママ女】フェルンに関する雑学【葬送のフリーレン】 #アニメ #葬送のフリーレン",
+            "channelId": "UCWkId0Azgpuaa1o9bh7uDRA",
+            "channelName": "ユーベルの裏垢【葬送のフリーレン】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/borAlxKbg9E/maxresdefault.jpg",
+            "publishedAt": "2026-07-29T13:05:53Z",
+            "viewCount": 3046,
+            "viewIncrease": 3046,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 13,
+            "durationSeconds": 52,
+            "isShort": true,
+            "rawScore": 56.2,
+            "normalizedScore": 66.7,
+            "genres": [
+                {
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.4
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 73.7,
+                "engagement": 5.1,
+                "subscriberRatio": 112.1,
+                "freshness": 29.4
+            }
+        },
+        {
+            "rank": 8,
+            "previousRank": 25,
+            "rankChange": 17,
             "videoId": "7w5bT5ADrEk",
             "title": "【呪術廻戦】助けてー! #アニメ #漫画 #shorts #呪術廻戦",
             "channelId": "UCNOsPzeKQ2syTMH9e8g1Mzw",
             "channelName": "バズーる!イラスト大百科",
             "thumbnailUrl": "https://i.ytimg.com/vi/7w5bT5ADrEk/maxresdefault.jpg",
             "publishedAt": "2026-07-29T14:07:41Z",
-            "viewCount": 1766,
-            "viewIncrease": 1766,
-            "likeCount": 10,
-            "likeIncrease": 10,
+            "viewCount": 2558,
+            "viewIncrease": 792,
+            "likeCount": 11,
+            "likeIncrease": 1,
             "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 1190,
+            "commentIncrease": 0,
+            "subscriberCount": 1220,
             "durationSeconds": 7,
             "isShort": true,
-            "rawScore": 87.2,
-            "normalizedScore": 94.7,
+            "rawScore": 54.5,
+            "normalizedScore": 61.1,
             "genres": [
                 {
                     "slug": "anime",
@@ -85,278 +312,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 65.5,
-                "engagement": 21.8,
-                "subscriberRatio": 104.3,
-                "freshness": 45.5
-            }
-        },
-        {
-            "rank": 3,
-            "videoId": "0ALXo1IovMg",
-            "title": "誰が1番変わったと思う？ #漫画 #アニメ #shorts #呪術廻戦",
-            "channelId": "UCQD0i1MdlXXdzfRplTWO2ag",
-            "channelName": "三玖の1コマ漫画",
-            "thumbnailUrl": "https://i.ytimg.com/vi/0ALXo1IovMg/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T12:00:35Z",
-            "viewCount": 5791,
-            "viewIncrease": 5791,
-            "likeCount": 38,
-            "likeIncrease": 38,
-            "commentCount": 5,
-            "commentIncrease": 5,
-            "subscriberCount": 324,
-            "durationSeconds": 7,
-            "isShort": true,
-            "rawScore": 86.1,
-            "normalizedScore": 89.5,
-            "genres": [
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.85
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 83.5,
-                "engagement": 24.5,
-                "subscriberRatio": 119.1,
-                "freshness": 37.9
-            }
-        },
-        {
-            "rank": 4,
-            "videoId": "o6cUSiNAwd4",
-            "title": "ここで働かせてください！#アニメ #漫画",
-            "channelId": "UCsh84JsYxviPrG2tPKOnEuw",
-            "channelName": "あにめ漫画ストック",
-            "thumbnailUrl": "https://i.ytimg.com/vi/o6cUSiNAwd4/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T12:00:16Z",
-            "viewCount": 32289,
-            "viewIncrease": 32289,
-            "likeCount": 96,
-            "likeIncrease": 96,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 21100,
-            "durationSeconds": 6,
-            "isShort": true,
-            "rawScore": 85.3,
-            "normalizedScore": 84.2,
-            "genres": [
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.85
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 109.5,
-                "engagement": 10.8,
-                "subscriberRatio": 104.6,
-                "freshness": 37.9
-            }
-        },
-        {
-            "rank": 5,
-            "videoId": "q5cEh4MltLk",
-            "title": "【遅刻集】堂々としすぎているVtuber #vtuber #shorts #sf6",
-            "channelId": "UC0p7Dp1aWZVgwqyBMn2FZkA",
-            "channelName": "きにゃ粉むすめ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/q5cEh4MltLk/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T15:00:35Z",
-            "viewCount": 826,
-            "viewIncrease": 826,
-            "likeCount": 6,
-            "likeIncrease": 6,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 177,
-            "durationSeconds": 61,
-            "rawScore": 84.9,
-            "normalizedScore": 78.9,
-            "genres": [
-                {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "entertainment",
-                    "name": "エンタメ",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 54.2,
-                "engagement": 16.5,
-                "subscriberRatio": 97.9,
-                "freshness": 50.3
-            }
-        },
-        {
-            "rank": 6,
-            "videoId": "Ncj-HLYGEj8",
-            "title": "デク落ち着け! #アニメ #myheroacademia #僕のヒーローアカデミア #ヒロアカ #anime",
-            "channelId": "UCtVJUajQ2-WrlXXstfv7voQ",
-            "channelName": "フェルンが呆れた反応集",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Ncj-HLYGEj8/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T13:55:32Z",
-            "viewCount": 2763,
-            "viewIncrease": 2763,
-            "likeCount": 37,
-            "likeIncrease": 37,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 3690,
-            "durationSeconds": 6,
-            "isShort": true,
-            "rawScore": 84.7,
-            "normalizedScore": 73.7,
-            "genres": [
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.7
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 72.3,
-                "engagement": 20.8,
-                "subscriberRatio": 96.9,
-                "freshness": 44.6
-            }
-        },
-        {
-            "rank": 7,
-            "videoId": "G-gZC1ABPcM",
-            "title": "【ワンパンマン】生き返らせた一言 #アニメ #ワンパンマン #漫画",
-            "channelId": "UCDjd4n71g4yihh3gn0zDsQA",
-            "channelName": "同人コミックまとめ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/G-gZC1ABPcM/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T13:00:32Z",
-            "viewCount": 5037,
-            "viewIncrease": 5037,
-            "likeCount": 175,
-            "likeIncrease": 175,
-            "commentCount": 2,
-            "commentIncrease": 2,
-            "subscriberCount": 12100,
-            "durationSeconds": 12,
-            "isShort": true,
-            "rawScore": 84.2,
-            "normalizedScore": 68.4,
-            "genres": [
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.7
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 81.3,
-                "engagement": 33.7,
-                "subscriberRatio": 90.5,
-                "freshness": 41.0
-            }
-        },
-        {
-            "rank": 8,
-            "videoId": "kQCrqv0l5Ow",
-            "title": "恐れを乗り越え、自分だけのヒーローに。 #アニメ #anime #shorts",
-            "channelId": "UCXS6XiLhA2gDV-N77DeJ2pA",
-            "channelName": "Cito Harvell",
-            "thumbnailUrl": "https://i.ytimg.com/vi/kQCrqv0l5Ow/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T14:09:39Z",
-            "viewCount": 1062,
-            "viewIncrease": 1062,
-            "likeCount": 75,
-            "likeIncrease": 75,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 5960,
-            "durationSeconds": 177,
-            "rawScore": 82.9,
-            "normalizedScore": 63.2,
-            "genres": [
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.4
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 57.9,
-                "engagement": 42.5,
-                "subscriberRatio": 81.3,
-                "freshness": 45.6
+                "velocity": 75.2,
+                "engagement": 6.4,
+                "subscriberRatio": 95.3,
+                "freshness": 30.8
             }
         },
         {
             "rank": 9,
-            "videoId": "s_xqcfqx8r4",
-            "title": "誰かわかる？ #shorts #おもしろ #サザエさん #アニメ #家族",
-            "channelId": "UCw8Mmlt6S77v6TxaO0UGn8Q",
-            "channelName": "バズ猫",
-            "thumbnailUrl": "https://i.ytimg.com/vi/s_xqcfqx8r4/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T12:00:04Z",
-            "viewCount": 6608,
-            "viewIncrease": 6608,
-            "likeCount": 38,
-            "likeIncrease": 38,
-            "commentCount": 3,
-            "commentIncrease": 3,
-            "subscriberCount": 15000,
-            "durationSeconds": 6,
-            "isShort": true,
-            "rawScore": 74.9,
-            "normalizedScore": 57.9,
-            "genres": [
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.4
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 85.5,
-                "engagement": 21.1,
-                "subscriberRatio": 91.1,
-                "freshness": 37.9
-            }
-        },
-        {
-            "rank": 10,
+            "previousRank": 79,
+            "rankChange": 70,
             "videoId": "Yo3peZPDdbU",
             "title": "#animation #アニメ #animeshorts",
             "channelId": "UCZBXqj7X70q3qJ0DKZ2gjdA",
             "channelName": "ふびんず",
             "thumbnailUrl": "https://i.ytimg.com/vi/Yo3peZPDdbU/maxresdefault.jpg",
             "publishedAt": "2026-07-29T13:57:08Z",
-            "viewCount": 1373,
-            "viewIncrease": 1373,
+            "viewCount": 2113,
+            "viewIncrease": 740,
             "commentCount": 0,
             "commentIncrease": 0,
             "subscriberCount": 281,
             "durationSeconds": 16,
             "isShort": true,
-            "rawScore": 73.9,
-            "normalizedScore": 52.6,
+            "rawScore": 52.3,
+            "normalizedScore": 55.6,
             "genres": [
                 {
                     "slug": "anime",
@@ -365,32 +345,32 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 61.8,
+                "velocity": 74.1,
                 "engagement": 0.0,
-                "subscriberRatio": 103.4,
-                "freshness": 44.7
+                "subscriberRatio": 96.7,
+                "freshness": 30.6
             }
         },
         {
-            "rank": 11,
-            "previousRank": 50,
-            "rankChange": 39,
+            "rank": 10,
+            "previousRank": 80,
+            "rankChange": 70,
             "videoId": "GzpDeFf9lgs",
             "title": "新超フェスマーズ聖100レべフルブリーグ！旗奪取しすぎ最強！【バウンティラッシュ】",
             "channelId": "UCdkVEDVAW5aFmA-Mkz0lAFQ",
             "channelName": "ひたまゆ。",
             "thumbnailUrl": "https://i.ytimg.com/vi/GzpDeFf9lgs/maxresdefault.jpg",
             "publishedAt": "2026-07-29T08:15:21Z",
-            "viewCount": 74488,
-            "viewIncrease": 47146,
-            "likeCount": 972,
-            "likeIncrease": 258,
-            "commentCount": 251,
-            "commentIncrease": 68,
+            "viewCount": 83187,
+            "viewIncrease": 8699,
+            "likeCount": 1029,
+            "likeIncrease": 57,
+            "commentCount": 256,
+            "commentIncrease": 5,
             "subscriberCount": 413000,
             "durationSeconds": 1055,
-            "rawScore": 73.6,
-            "normalizedScore": 47.4,
+            "rawScore": 47.6,
+            "normalizedScore": 50.0,
             "genres": [
                 {
                     "slug": "gaming",
@@ -404,97 +384,97 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 138.7,
-                "engagement": 25.6,
-                "subscriberRatio": 76.4,
-                "freshness": 30.6
+                "velocity": 111.5,
+                "engagement": 22.9,
+                "subscriberRatio": 58.1,
+                "freshness": 24.7
+            }
+        },
+        {
+            "rank": 11,
+            "videoId": "v_EbXWHuz30",
+            "title": "【ワンピース】嫁にするなら誰？　#アニメ",
+            "channelId": "UCzRDgIXgeAMGdBHinPhaxaw",
+            "channelName": "スーパーごろりch",
+            "thumbnailUrl": "https://i.ytimg.com/vi/v_EbXWHuz30/maxresdefault.jpg",
+            "publishedAt": "2026-07-29T13:00:16Z",
+            "viewCount": 2181,
+            "viewIncrease": 2181,
+            "likeCount": 9,
+            "likeIncrease": 9,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 26600,
+            "durationSeconds": 20,
+            "isShort": true,
+            "rawScore": 45.3,
+            "normalizedScore": 44.4,
+            "genres": [
+                {
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.4
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 68.7,
+                "engagement": 12.8,
+                "subscriberRatio": 72.9,
+                "freshness": 29.3
             }
         },
         {
             "rank": 12,
-            "videoId": "kS5oS6W_2dE",
-            "title": "あなたはどっち派？ #漫画 #アニメ #shorts",
-            "channelId": "UC8_miyB5bm-SowKdt9L3dPA",
-            "channelName": "人気アニメ・漫画の面白投稿",
-            "thumbnailUrl": "https://i.ytimg.com/vi/kS5oS6W_2dE/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T12:00:14Z",
-            "viewCount": 3249,
-            "viewIncrease": 3249,
-            "likeCount": 68,
-            "likeIncrease": 68,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 10400,
-            "durationSeconds": 6,
+            "videoId": "qRL_WVjifdo",
+            "title": "偶然にしては完璧すぎる配送詐欺",
+            "channelId": "UCfg4JYBONB4_ufM5HorWCrQ",
+            "channelName": "1分ちょうだい",
+            "thumbnailUrl": "https://i.ytimg.com/vi/qRL_WVjifdo/maxresdefault.jpg",
+            "publishedAt": "2026-07-26T16:42:19Z",
+            "viewCount": 4520605,
+            "viewIncrease": 186674,
+            "likeCount": 86628,
+            "likeIncrease": 1962,
+            "commentCount": 920,
+            "commentIncrease": 24,
+            "subscriberCount": 96100,
+            "durationSeconds": 26,
             "isShort": true,
-            "rawScore": 72.5,
-            "normalizedScore": 42.1,
+            "rawScore": 32.1,
+            "normalizedScore": 38.9,
             "genres": [
                 {
                     "slug": "anime",
                     "name": "アニメ",
-                    "confidence": 0.99
+                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 74.7,
-                "engagement": 29.0,
-                "subscriberRatio": 87.4,
-                "freshness": 37.9
+                "velocity": 158.1,
+                "engagement": 21.7,
+                "subscriberRatio": 107.2,
+                "freshness": 11.2
             }
         },
         {
             "rank": 13,
-            "videoId": "zAYIg6Tz8DM",
-            "title": "【ヒロアカ】丸見えなのに隠れてる #アニメ #僕のヒーローアカデミア #漫画",
-            "channelId": "UCD_0by96lqETlbMCUzFYGHQ",
-            "channelName": "アニメムクムク",
-            "thumbnailUrl": "https://i.ytimg.com/vi/zAYIg6Tz8DM/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T12:00:34Z",
-            "viewCount": 2460,
-            "viewIncrease": 2460,
-            "likeCount": 123,
-            "likeIncrease": 123,
-            "commentCount": 2,
-            "commentIncrease": 2,
-            "subscriberCount": 23300,
-            "durationSeconds": 6,
-            "isShort": true,
-            "rawScore": 70.3,
-            "normalizedScore": 36.8,
-            "genres": [
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.9
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 70.5,
-                "engagement": 39.2,
-                "subscriberRatio": 75.6,
-                "freshness": 37.9
-            }
-        },
-        {
-            "rank": 14,
             "videoId": "f1vxJO46i1Q",
             "title": "ブリーチと縮毛矯正同時にしたら髪質が🥺 #美容師 #ホワイトカラー #ブリーチ #メンズ縮毛矯正 #ホワイトブリーチ",
             "channelId": "UCOTbQsA0P-zPZnP5319BPpQ",
             "channelName": "[垢抜け研究所]こーちゃんねる",
             "thumbnailUrl": "https://i.ytimg.com/vi/f1vxJO46i1Q/maxresdefault.jpg",
             "publishedAt": "2026-07-29T12:47:01Z",
-            "viewCount": 1331,
-            "viewIncrease": 1331,
-            "likeCount": 10,
-            "likeIncrease": 10,
+            "viewCount": 1424,
+            "viewIncrease": 93,
+            "likeCount": 11,
+            "likeIncrease": 1,
             "commentCount": 0,
             "commentIncrease": 0,
             "subscriberCount": 15600,
             "durationSeconds": 51,
             "isShort": true,
-            "rawScore": 60.9,
-            "normalizedScore": 31.6,
+            "rawScore": 31.1,
+            "normalizedScore": 33.3,
             "genres": [
                 {
                     "slug": "beauty",
@@ -508,30 +488,30 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 61.3,
-                "engagement": 16.7,
-                "subscriberRatio": 73.3,
-                "freshness": 40.2
+                "velocity": 43.4,
+                "engagement": 19.3,
+                "subscriberRatio": 44.6,
+                "freshness": 29.0
             }
         },
         {
-            "rank": 15,
+            "rank": 14,
             "videoId": "1X8NXI6iU7k",
             "title": "映画『RYUJI 竜二』ロング予告【10.30 fri 全国公開】🕶️🚬",
             "channelId": "UCgRKSubXLm6EXf03qwHXOCQ",
             "channelName": "映画・ドラマ情報　カルチュア・エンタテインメント",
             "thumbnailUrl": "https://i.ytimg.com/vi/1X8NXI6iU7k/maxresdefault.jpg",
             "publishedAt": "2026-07-27T23:00:02Z",
-            "viewCount": 227418,
-            "viewIncrease": 23595,
-            "likeCount": 9069,
-            "likeIncrease": 298,
-            "commentCount": 319,
-            "commentIncrease": 15,
+            "viewCount": 233498,
+            "viewIncrease": 6080,
+            "likeCount": 9145,
+            "likeIncrease": 76,
+            "commentCount": 323,
+            "commentIncrease": 4,
             "subscriberCount": 33700,
             "durationSeconds": 94,
-            "rawScore": 38.0,
-            "normalizedScore": 26.3,
+            "rawScore": 30.6,
+            "normalizedScore": 27.8,
             "genres": [
                 {
                     "slug": "anime",
@@ -545,64 +525,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 128.2,
+                "velocity": 106.0,
                 "engagement": 27.9,
-                "subscriberRatio": 96.1,
-                "freshness": 15.1
+                "subscriberRatio": 81.4,
+                "freshness": 14.2
             }
         },
         {
-            "rank": 16,
-            "videoId": "qRL_WVjifdo",
-            "title": "偶然にしては完璧すぎる配送詐欺",
-            "channelId": "UCfg4JYBONB4_ufM5HorWCrQ",
-            "channelName": "1分ちょうだい",
-            "thumbnailUrl": "https://i.ytimg.com/vi/qRL_WVjifdo/maxresdefault.jpg",
-            "publishedAt": "2026-07-26T16:42:19Z",
-            "viewCount": 4333931,
-            "viewIncrease": 420089,
-            "likeCount": 84666,
-            "likeIncrease": 6141,
-            "commentCount": 896,
-            "commentIncrease": 66,
-            "subscriberCount": 96000,
-            "durationSeconds": 26,
-            "isShort": true,
-            "rawScore": 36.3,
-            "normalizedScore": 21.1,
-            "genres": [
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 172.0,
-                "engagement": 24.5,
-                "subscriberRatio": 116.0,
-                "freshness": 11.6
-            }
-        },
-        {
-            "rank": 17,
+            "rank": 15,
             "videoId": "p08MQuIDwaI",
             "title": "360kgの磁石で海の中から引き上げたもの",
             "channelId": "UCg-KFZisJjG45CSC4eNjSxA",
             "channelName": "1分だけ",
             "thumbnailUrl": "https://i.ytimg.com/vi/p08MQuIDwaI/maxresdefault.jpg",
             "publishedAt": "2026-07-25T05:00:26Z",
-            "viewCount": 4710766,
-            "viewIncrease": 347698,
-            "likeCount": 40732,
-            "likeIncrease": 2676,
-            "commentCount": 232,
-            "commentIncrease": 7,
+            "viewCount": 4845301,
+            "viewIncrease": 134535,
+            "likeCount": 41459,
+            "likeIncrease": 727,
+            "commentCount": 235,
+            "commentIncrease": 3,
             "subscriberCount": 581000,
             "durationSeconds": 38,
             "isShort": true,
-            "rawScore": 26.8,
-            "normalizedScore": 15.8,
+            "rawScore": 23.5,
+            "normalizedScore": 22.2,
             "genres": [
                 {
                     "slug": "anime",
@@ -611,31 +558,61 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 169.1,
-                "engagement": 17.4,
-                "subscriberRatio": 94.4,
-                "freshness": 9.5
+                "velocity": 153.1,
+                "engagement": 15.1,
+                "subscriberRatio": 84.1,
+                "freshness": 9.3
             }
         },
         {
-            "rank": 18,
+            "rank": 16,
+            "videoId": "68NANk21a5s",
+            "title": "【作業用BGM】【薬屋のひとりごと】スッピン猫猫風の納涼風景【和を以て貴しとなす】【和敬清】",
+            "channelId": "UCL9NtsUWjgRpJZoStL_Bw-w",
+            "channelName": "yumbo yuno",
+            "thumbnailUrl": "https://i.ytimg.com/vi/68NANk21a5s/maxresdefault.jpg",
+            "publishedAt": "2026-07-29T19:30:04Z",
+            "viewCount": 48,
+            "viewIncrease": 48,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 25400,
+            "durationSeconds": 172,
+            "rawScore": 21.7,
+            "normalizedScore": 16.7,
+            "genres": [
+                {
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 16.7,
+                "engagement": 0.0,
+                "subscriberRatio": 32.5,
+                "freshness": 44.1
+            }
+        },
+        {
+            "rank": 17,
             "videoId": "1QOTHOY23CU",
             "title": "水をこぼさずにトマトをとれ #パラ高",
             "channelId": "UC438NzuH3byhVc9KSXKc8ZA",
             "channelName": "私立パラの丸高校",
             "thumbnailUrl": "https://i.ytimg.com/vi/1QOTHOY23CU/maxresdefault.jpg",
             "publishedAt": "2026-07-25T08:00:34Z",
-            "viewCount": 4686799,
-            "viewIncrease": 72446,
-            "likeCount": 70159,
-            "likeIncrease": 487,
+            "viewCount": 4701900,
+            "viewIncrease": 15101,
+            "likeCount": 70334,
+            "likeIncrease": 175,
             "commentCount": 632,
-            "commentIncrease": 3,
+            "commentIncrease": 0,
             "subscriberCount": 1280000,
             "durationSeconds": 37,
             "isShort": true,
-            "rawScore": 22.3,
-            "normalizedScore": 10.5,
+            "rawScore": 18.0,
+            "normalizedScore": 11.1,
             "genres": [
                 {
                     "slug": "anime",
@@ -644,31 +621,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 145.2,
-                "engagement": 17.0,
-                "subscriberRatio": 68.8,
-                "freshness": 9.7
+                "velocity": 119.9,
+                "engagement": 19.8,
+                "subscriberRatio": 51.9,
+                "freshness": 9.4
             }
         },
         {
-            "rank": 19,
+            "rank": 18,
             "videoId": "rDJm_KIdOFM",
             "title": "登録者数1000万人YouTuberも驚いた サムスン最安スマホの耐久性",
             "channelId": "UCLiPbjTEuGto_iRasBrfu7w",
             "channelName": "一分一秒",
             "thumbnailUrl": "https://i.ytimg.com/vi/rDJm_KIdOFM/maxresdefault.jpg",
             "publishedAt": "2026-07-20T09:00:17Z",
-            "viewCount": 739599,
-            "viewIncrease": 6524,
-            "likeCount": 9669,
-            "likeIncrease": 49,
+            "viewCount": 742482,
+            "viewIncrease": 2883,
+            "likeCount": 9687,
+            "likeIncrease": 18,
             "commentCount": 239,
             "commentIncrease": 0,
             "subscriberCount": 758000,
             "durationSeconds": 38,
             "isShort": true,
-            "rawScore": 11.6,
-            "normalizedScore": 5.3,
+            "rawScore": 9.9,
+            "normalizedScore": 5.6,
             "genres": [
                 {
                     "slug": "gadgets",
@@ -682,29 +659,29 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 108.7,
-                "engagement": 16.7,
-                "subscriberRatio": 48.5,
-                "freshness": 6.7
+                "velocity": 94.7,
+                "engagement": 15.5,
+                "subscriberRatio": 39.8,
+                "freshness": 6.6
             }
         },
         {
-            "rank": 20,
+            "rank": 19,
             "videoId": "l2jvIuTp534",
             "title": "米津玄師「夜鷹」Kenshi Yonezu - Yodaka",
             "channelId": "UCUCeZaZeJbEYAAzvMgrKOPQ",
             "channelName": "Kenshi Yonezu  米津玄師",
             "thumbnailUrl": "https://i.ytimg.com/vi/l2jvIuTp534/maxresdefault.jpg",
             "publishedAt": "2026-07-15T11:00:06Z",
-            "viewCount": 4007286,
-            "viewIncrease": 34238,
-            "likeCount": 86386,
-            "likeIncrease": 217,
-            "commentCount": 5253,
-            "commentIncrease": 17,
+            "viewCount": 4018215,
+            "viewIncrease": 10929,
+            "likeCount": 86463,
+            "likeIncrease": 77,
+            "commentCount": 5281,
+            "commentIncrease": 28,
             "subscriberCount": 8710000,
             "durationSeconds": 209,
-            "rawScore": 10.6,
+            "rawScore": 9.3,
             "normalizedScore": 0.0,
             "genres": [
                 {
@@ -719,10 +696,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 133.8,
-                "engagement": 22.1,
-                "subscriberRatio": 40.1,
-                "freshness": 5.4
+                "velocity": 114.9,
+                "engagement": 30.0,
+                "subscriberRatio": 28.3,
+                "freshness": 5.3
             }
         }
     ]
