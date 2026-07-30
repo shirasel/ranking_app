@@ -135,4 +135,37 @@ class RankingCalculatorTest {
 
         assertEquals(atCap.breakdown.engagement, capped.breakdown.engagement)
     }
+
+    @Test
+    fun appliesShortScoreMultiplierToShortVideos() {
+        val longVideo = YouTubeVideo(
+            videoId = "long",
+            title = "Long form update",
+            channelId = "c1",
+            channelName = "Channel",
+            youtubeCategoryId = "24",
+            publishedAt = "2026-07-25T00:00:00+09:00",
+            viewCount = 10000,
+            likeCount = 900,
+            commentCount = 120,
+            subscriberCount = 10000,
+            durationSeconds = 600,
+        )
+        val shortVideo = longVideo.copy(videoId = "short", title = "Short update #shorts", durationSeconds = 30)
+        val delta = StatisticDelta(
+            viewIncrease = 8000,
+            likeIncrease = 700,
+            commentIncrease = 80,
+            elapsedHours = 24.0,
+            viewVelocity = 333.33,
+        )
+        val calculator = RankingCalculator(config)
+
+        val longResult = calculator.calculate(longVideo, delta, "2026-07-25T06:00:00+09:00")
+        val shortResult = calculator.calculate(shortVideo, delta, "2026-07-25T06:00:00+09:00")
+
+        assertEquals(round1(longResult.rawScore * config.shortScoreMultiplier), shortResult.rawScore)
+        assertEquals(100.0, longResult.breakdown.formatAdjustment)
+        assertEquals(85.0, shortResult.breakdown.formatAdjustment)
+    }
 }

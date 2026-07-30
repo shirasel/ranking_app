@@ -34,6 +34,7 @@ data class ScoreBreakdown(
     val subscriberRatio: Double,
     val freshness: Double,
     val sevenDayVelocity: Double = 0.0,
+    val formatAdjustment: Double = 100.0,
 )
 
 @Serializable

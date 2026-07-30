@@ -8,6 +8,7 @@ ranking:
   ageDecayExponent: 0.5
   maxLikeRate: 0.12
   maxCommentRate: 0.03
+  shortScoreMultiplier: 0.85
   weights:
     velocity: 35
     sevenDayVelocity: 10

@@ -24,6 +24,7 @@ class RankingConfigReader(
             ageDecayExponent = ranking.double("ageDecayExponent", 0.6),
             maxLikeRate = ranking.double("maxLikeRate", 0.12),
             maxCommentRate = ranking.double("maxCommentRate", 0.03),
+            shortScoreMultiplier = ranking.double("shortScoreMultiplier", 0.85),
             weights = RankingWeights(
                 velocity = weights.double("velocity", 35.0),
                 subscriberRatio = weights.double("subscriberRatio", 25.0),

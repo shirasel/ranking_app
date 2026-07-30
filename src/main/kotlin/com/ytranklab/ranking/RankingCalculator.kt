@@ -3,6 +3,7 @@ package com.ytranklab.ranking
 import com.ytranklab.config.RankingConfig
 import com.ytranklab.domain.ScoreBreakdown
 import com.ytranklab.domain.YouTubeVideo
+import com.ytranklab.domain.isShortVideo
 import com.ytranklab.statistics.StatisticDelta
 
 class RankingCalculator(
@@ -25,6 +26,8 @@ class RankingCalculator(
     private val freshnessCalculator: FreshnessScoreCalculator = FreshnessScoreCalculator(config.ageDecayExponent),
     private val sanitizer: ScoreSanitizer = ScoreSanitizer(),
 ) {
+    private val shortScoreMultiplier = config.shortScoreMultiplier.coerceIn(0.0, 1.0)
+
     fun calculate(video: YouTubeVideo, delta: StatisticDelta, capturedAt: String): ScoreResult {
         val velocityComponent = velocityCalculator.calculate(delta.viewVelocity)
         val sevenDayVelocityComponent = sevenDayVelocityCalculator.calculate(delta.sevenDayViewVelocity)
@@ -37,9 +40,11 @@ class RankingCalculator(
             ),
         )
         val ageDecay = freshnessCalculator.calculate(video.publishedAt, capturedAt)
-        val rawScore = sanitizer.safeScore(
+        val baseRawScore = sanitizer.safeScore(
             (velocityComponent + subscriberComponent + engagementScore.total) * ageDecay,
         ) + sevenDayVelocityComponent
+        val formatMultiplier = if (video.isShortVideo()) shortScoreMultiplier else 1.0
+        val rawScore = baseRawScore * formatMultiplier
         val safeRawScore = sanitizer.safeScore(
             rawScore,
         )
@@ -52,6 +57,7 @@ class RankingCalculator(
                 subscriberRatio = round1(subscriberComponent),
                 freshness = round1(ageDecay * 100.0),
                 sevenDayVelocity = round1(sevenDayVelocityComponent),
+                formatAdjustment = round1(formatMultiplier * 100.0),
             ),
         )
     }

@@ -2,6 +2,7 @@ package com.ytranklab.ranking
 
 import com.ytranklab.app.RankingCandidate
 import com.ytranklab.domain.RankingEntry
+import com.ytranklab.domain.isShortVideo
 
 class RankingEntryFactory(private val normalizer: RankingNormalizer) {
     fun create(sorted: List<RankingCandidate>, previousRanks: Map<String, Int>): List<RankingEntry> {
@@ -40,10 +41,4 @@ class RankingEntryFactory(private val normalizer: RankingNormalizer) {
             )
         }
     }
-}
-
-private fun com.ytranklab.domain.YouTubeVideo.isShortVideo(): Boolean {
-    durationSeconds?.let { return it <= 60L }
-    val text = "$title\n$description".lowercase()
-    return text.contains("#shorts") || text.contains("#short") || text.contains("youtube shorts")
 }

@@ -10,6 +10,7 @@ data class RankingConfig(
     val ageDecayExponent: Double,
     val maxLikeRate: Double,
     val maxCommentRate: Double,
+    val shortScoreMultiplier: Double = 0.85,
     val weights: RankingWeights,
     val genreRanking: GenreRankingConfig,
     val diversity: DiversityConfig = DiversityConfig(maxPrimaryGenreShare = 0.4),
