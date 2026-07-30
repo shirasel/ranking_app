@@ -1,6 +1,6 @@
 {
-    "generatedAt": "2026-07-29T22:39:07.546512149Z",
-    "inputVideos": 331,
+    "generatedAt": "2026-07-30T06:13:06.520213758Z",
+    "inputVideos": 329,
     "rankingVideos": 100,
     "genreRankings": 12,
     "collection": {
@@ -48,24 +48,10 @@
                 "status": "ok"
             },
             {
-                "source": "category-popular:27:教育",
-                "requested": 15,
-                "collected": 0,
-                "status": "skipped",
-                "message": "YouTube API request failed: videos?chart=mostPopular&maxResults=15&part=snippet&regionCode=JP&videoCategoryId=27 status=404 notFound: Requested entity was not found."
-            },
-            {
                 "source": "category-popular:28:科学技術",
                 "requested": 15,
                 "collected": 15,
                 "status": "ok"
-            },
-            {
-                "source": "category-popular:19:旅行",
-                "requested": 10,
-                "collected": 0,
-                "status": "skipped",
-                "message": "YouTube API request failed: videos?chart=mostPopular&maxResults=10&part=snippet&regionCode=JP&videoCategoryId=19 status=404 notFound: Requested entity was not found."
             },
             {
                 "source": "keyword:ゲーム実況",
@@ -182,13 +168,13 @@
                 "status": "ok"
             }
         ],
-        "uniqueCandidateIds": 331,
-        "fetchedVideoIds": 331,
-        "publicVideos": 331,
+        "uniqueCandidateIds": 329,
+        "fetchedVideoIds": 329,
+        "publicVideos": 329,
         "estimatedQuotaUnits": 1215
     },
     "retention": {
         "historyDeleted": 0,
-        "videoDetailsDeleted": 77
+        "videoDetailsDeleted": 97
     }
 }
