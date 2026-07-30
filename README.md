@@ -83,6 +83,14 @@ tools/verify-ranking-app.cmd
 tools/validate-generated-data.cmd
 ```
 
+履歴ランキングの再スコアリング:
+
+```bash
+tools/run-gradle-local.cmd run --args="rescore-history"
+```
+
+`rescore-history`は定期更新では実行しません。スコア計算式を変更し、既存の`docs/data/history`配下の過去日スナップショットにも新しい補正を反映したい場合だけ手動で実行してください。`generatedAt`は当時の生成日時を保持し、順位、`rawScore`、`normalizedScore`、スコア内訳の補正値を更新します。
+
 静的プレビュー:
 
 ```bash
@@ -153,19 +161,25 @@ collection:
   - 失敗時にGitHub Issueを作成または更新
   - `docs/data`に変更がある場合だけコミット
   - concurrencyで更新処理の重複実行を防止
+- `.github/workflows/rescore-history.yml`
+  - 手動実行のみ対応
+  - YouTube Data APIは呼び出さない
+  - スコア計算式を変更した場合に、既存の過去日スナップショットを再スコアリング
+  - 生成JSONを検証してから変更検出
+  - `docs/data`に変更がある場合だけコミット
 
 ランキング更新workflowのcronはUTCで以下です。
 
 ```text
-10 3,9,15,21 * * *
+47 3,9,15,21 * * *
 ```
 
 日本時間では以下に実行されます。
 
-- 00:10
-- 06:10
-- 12:10
-- 18:10
+- 00:47
+- 06:47
+- 12:47
+- 18:47
 
 手動実行時のみ、`use_mock`を`true`にするとモックデータ生成も可能です。本番更新では`use_mock=false`で実行してください。
 

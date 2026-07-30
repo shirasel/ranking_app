@@ -2,6 +2,7 @@ package com.ytranklab.cli
 
 import com.ytranklab.bootstrap.AppPaths
 import com.ytranklab.app.RankingApplication
+import com.ytranklab.history.HistoryRankingRescorer
 import com.ytranklab.security.SecretLoader
 import com.ytranklab.validation.GeneratedDataValidator
 
@@ -9,6 +10,7 @@ class CommandLineRankingApp(
     private val rankingApplication: RankingApplication,
     private val secretLoader: SecretLoader,
     private val validator: GeneratedDataValidator,
+    private val historyRescorer: HistoryRankingRescorer,
     private val paths: AppPaths,
     private val console: Console,
 ) {
@@ -19,6 +21,7 @@ class CommandLineRankingApp(
         return when (command) {
             "generate" -> generate(useMock)
             "validate" -> validate()
+            "rescore-history" -> rescoreHistory()
             null, "help", "--help", "-h" -> {
                 printUsage()
                 0
@@ -71,6 +74,13 @@ class CommandLineRankingApp(
         return 0
     }
 
+    private fun rescoreHistory(): Int {
+        val result = historyRescorer.rescore()
+        console.out("Rescored history ranking files: ${result.updatedFiles}/${result.scannedFiles}")
+        console.out("History directory: ${paths.dataDirectory.resolve("history").toAbsolutePath().normalize()}")
+        return 0
+    }
+
     private fun printUsage() {
         console.out(
             """
@@ -78,6 +88,7 @@ class CommandLineRankingApp(
               gradle run --args="generate --mock"
               YOUTUBE_API_KEY=xxxxx gradle run --args="generate"
               gradle run --args="validate"
+              gradle run --args="rescore-history"
             """.trimIndent(),
         )
     }

@@ -1,0 +1,78 @@
+name: Rescore history rankings
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: rescore-history
+  cancel-in-progress: false
+
+jobs:
+  rescore:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "25"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v6
+
+      - name: Make Gradle Wrapper executable
+        run: chmod +x ./gradlew
+
+      - name: Rescore history rankings
+        run: ./gradlew run --args="rescore-history"
+
+      - name: Validate generated JSON
+        run: ./gradlew run --args="validate"
+
+      - name: Write validation summary
+        if: always()
+        run: node tools/actions/write-validation-action-summary.js
+
+      - name: Detect changes
+        id: diff
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- docs/data)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Show rescore summary
+        shell: bash
+        run: |
+          if [ "${{ steps.diff.outputs.changed }}" = "true" ]; then
+            echo "History ranking JSON changed and will be committed."
+          else
+            echo "History ranking JSON did not change. Nothing to commit."
+          fi
+
+      - name: Commit rescored history data
+        if: steps.diff.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          git commit -m "chore: 過去ランキングを再スコアリング"
+          git push
+
+      - name: Notify failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/actions/notify-action-failure-issue.js
