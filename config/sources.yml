@@ -56,18 +56,10 @@ categoryPopular:
     youtubeCategoryId: "26"
     maxResults: 20
     priority: 125
-  - name: 教育
-    youtubeCategoryId: "27"
-    maxResults: 15
-    priority: 130
   - name: 科学技術
     youtubeCategoryId: "28"
     maxResults: 15
     priority: 135
-  - name: 旅行
-    youtubeCategoryId: "19"
-    maxResults: 10
-    priority: 140
 
 recentViewCountSearches:
   - term: ゲーム実況
