@@ -1,7 +1,6 @@
 package com.ytranklab.output
 
 import com.ytranklab.domain.RankingDocument
-import com.ytranklab.domain.RankingEntry
 import java.nio.file.Path
 import java.time.OffsetDateTime
 import java.time.ZoneId
@@ -20,20 +19,12 @@ class HistoryRankingWriter(
     private val json: Json = Json { ignoreUnknownKeys = true },
 ) {
     fun writeHistory(overall: RankingDocument) {
-        overall.ranking
-            .groupBy { entry -> OffsetDateTime.parse(entry.publishedAt).atZoneSameInstant(HISTORY_ZONE).toLocalDate() }
-            .forEach { (publishedDate, entries) ->
-                val historyFile = historyDirectory
-                    .resolve(publishedDate.format(DateTimeFormatter.ofPattern("yyyy")))
-                    .resolve(publishedDate.format(DateTimeFormatter.ofPattern("MM")))
-                    .resolve("${publishedDate.format(DateTimeFormatter.ofPattern("dd"))}.json")
-                val document = RankingDocument(
-                    generatedAt = overall.generatedAt,
-                    period = "history",
-                    ranking = entries.toDailyEntries(),
-                )
-                fileWriter.write(historyFile, fileWriter.encode(RankingDocument.serializer(), document))
-            }
+        val generatedAt = OffsetDateTime.parse(overall.generatedAt).atZoneSameInstant(HISTORY_ZONE)
+        val historyFile = historyDirectory
+            .resolve(generatedAt.format(DateTimeFormatter.ofPattern("yyyy")))
+            .resolve(generatedAt.format(DateTimeFormatter.ofPattern("MM")))
+            .resolve("${generatedAt.format(DateTimeFormatter.ofPattern("dd"))}.json")
+        fileWriter.write(historyFile, fileWriter.encode(RankingDocument.serializer(), overall))
     }
 
     fun writeHistoryIndex() {
@@ -68,23 +59,6 @@ class HistoryRankingWriter(
                 }.getOrNull()
             }
             .toList()
-    }
-
-    private fun List<RankingEntry>.toDailyEntries(): List<RankingEntry> =
-        sortedWith(compareByDescending<RankingEntry> { it.rawScore }.thenBy { it.rank })
-            .mapIndexed { index, entry ->
-                entry.copy(
-                    rank = index + 1,
-                    previousRank = null,
-                    rankChange = null,
-                    normalizedScore = normalize(index, size),
-                )
-            }
-            .take(100)
-
-    private fun normalize(index: Int, total: Int): Double {
-        if (total <= 1) return 100.0
-        return ((total - index).toDouble() / total.toDouble()) * 100.0
     }
 }
 
