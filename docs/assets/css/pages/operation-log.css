@@ -10,6 +10,17 @@
   align-items: start;
 }
 
+.operation-source-row .source-main {
+  width: 100%;
+}
+
+.operation-source-row .source-main strong,
+.operation-source-row .source-main span,
+.validation-message,
+.operation-definition dd {
+  overflow-wrap: anywhere;
+}
+
 .operation-definition {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -50,6 +61,36 @@
 }
 
 @media (max-width: 640px) {
+  body[data-page="operation"] .page-title {
+    gap: 6px;
+  }
+
+  body[data-page="operation"] .section-heading {
+    align-items: flex-start;
+  }
+
+  body[data-page="operation"] .section-heading .status-pill {
+    width: max-content;
+    max-width: 100%;
+  }
+
+  .operation-metrics article {
+    min-height: 72px;
+  }
+
+  .operation-source-row {
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .operation-source-row .source-main {
+    gap: 4px;
+  }
+
+  .operation-source-row .source-status {
+    align-self: flex-start;
+  }
+
   .operation-definition {
     grid-template-columns: 1fr;
     gap: 4px;
@@ -62,5 +103,20 @@
 
   .operation-validation {
     margin-top: 14px;
+  }
+
+  .validation-message {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .operation-source-row,
+  .validation-message {
+    font-size: 0.86rem;
+  }
+
+  .operation-definition {
+    font-size: 0.9rem;
   }
 }
