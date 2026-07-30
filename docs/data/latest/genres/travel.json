@@ -1,34 +1,138 @@
 {
-    "generatedAt": "2026-07-30T17:08:42.646373470Z",
+    "generatedAt": "2026-07-30T22:46:34.222446118Z",
     "period": "24h",
     "genre": {
         "slug": "travel",
         "name": "旅行",
-        "confidence": 0.7
+        "confidence": 0.9
     },
     "status": "reference",
-    "totalVideos": 11,
-    "totalChannels": 11,
+    "totalVideos": 10,
+    "totalChannels": 10,
     "ranking": [
         {
             "rank": 1,
+            "videoId": "Wl_njYzYUU4",
+            "title": "#レアレアデイズ #車中泊 #キャンピングカー #バンライフ# #旅行 #カップル #小豆島#shodoshima #小豆島オリーブ公園#ギリシャ風車#チキバン号#チキチキバンバン",
+            "channelId": "UCU_mYqr7-raNAosO2ZHVk7g",
+            "channelName": "レアレアデイズ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Wl_njYzYUU4/maxresdefault.jpg",
+            "publishedAt": "2026-07-30T22:00:30Z",
+            "viewCount": 456,
+            "viewIncrease": 456,
+            "likeCount": 3,
+            "likeIncrease": 3,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 1380,
+            "durationSeconds": 26,
+            "isShort": true,
+            "rawScore": 76.3,
+            "normalizedScore": 100.0,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.9
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 45.5,
+                "engagement": 15.8,
+                "subscriberRatio": 88.0,
+                "freshness": 60.1,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 2,
+            "videoId": "M-jcN8nVxkU",
+            "title": "#koreantrip #korea #韓国 #旅行 #海外旅行 #🇰🇷",
+            "channelId": "UCV2nPwUvqCOFNtTMumRT4TA",
+            "channelName": "misaki",
+            "thumbnailUrl": "https://i.ytimg.com/vi/M-jcN8nVxkU/maxresdefault.jpg",
+            "publishedAt": "2026-07-30T20:35:17Z",
+            "viewCount": 532,
+            "viewIncrease": 532,
+            "likeCount": 3,
+            "likeIncrease": 3,
+            "commentCount": 4,
+            "commentIncrease": 4,
+            "subscriberCount": 9,
+            "durationSeconds": 14,
+            "isShort": true,
+            "rawScore": 72.6,
+            "normalizedScore": 88.9,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.4
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 47.8,
+                "engagement": 33.8,
+                "subscriberRatio": 93.1,
+                "freshness": 48.9,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 3,
+            "videoId": "YVbLHpz1EjA",
+            "title": "絶景を求めて熊本県へ #サヌキオ旅 #バイク旅 #旅行 #絶景スポット #観光 #日本一周 #japantravel #熊本県 #九州旅行",
+            "channelId": "UCCVaNA6wSCji8FrM29JSaRw",
+            "channelName": "サヌキオ旅【讃岐男】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/YVbLHpz1EjA/maxresdefault.jpg",
+            "publishedAt": "2026-07-30T21:00:28Z",
+            "viewCount": 834,
+            "viewIncrease": 834,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 121,
+            "durationSeconds": 35,
+            "isShort": true,
+            "rawScore": 66.7,
+            "normalizedScore": 77.8,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.99
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 54.4,
+                "engagement": 0.0,
+                "subscriberRatio": 98.0,
+                "freshness": 51.5,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 4,
+            "previousRank": 26,
+            "rankChange": 22,
             "videoId": "CmyGc8H688w",
             "title": "この景色が見たくて #海外一人旅 #旅行 #パリ #ヨーロッパ #絶景",
             "channelId": "UCOrxKdvGCstShyX-4Yg8U8Q",
             "channelName": "まくみのおもいでよ",
             "thumbnailUrl": "https://i.ytimg.com/vi/CmyGc8H688w/maxresdefault.jpg",
             "publishedAt": "2026-07-30T15:45:43Z",
-            "viewCount": 884,
-            "viewIncrease": 884,
-            "likeCount": 6,
-            "likeIncrease": 6,
-            "commentCount": 0,
-            "commentIncrease": 0,
+            "viewCount": 1431,
+            "viewIncrease": 547,
+            "likeCount": 9,
+            "likeIncrease": 3,
+            "commentCount": 1,
+            "commentIncrease": 1,
             "subscriberCount": 326,
             "durationSeconds": 27,
             "isShort": true,
-            "rawScore": 78.7,
-            "normalizedScore": 100.0,
+            "rawScore": 53.8,
+            "normalizedScore": 66.7,
             "genres": [
                 {
                     "slug": "travel",
@@ -37,71 +141,37 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 55.2,
-                "engagement": 16.0,
-                "subscriberRatio": 98.7,
-                "freshness": 54.5,
+                "velocity": 69.8,
+                "engagement": 26.7,
+                "subscriberRatio": 93.5,
+                "freshness": 33.3,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 2,
-            "videoId": "URnHWes-1IQ",
-            "title": "鴨川のヌートリア #旅行 #vlog #京都",
-            "channelId": "UChumm1c90knBhr0XwL__8ow",
-            "channelName": "ただすきなことをする番組",
-            "thumbnailUrl": "https://i.ytimg.com/vi/URnHWes-1IQ/maxresdefault.jpg",
-            "publishedAt": "2026-07-30T14:35:30Z",
-            "viewCount": 891,
-            "viewIncrease": 891,
-            "likeCount": 7,
-            "likeIncrease": 7,
+            "rank": 5,
+            "videoId": "J92DbF8hdEo",
+            "title": "東南アジアの屋台のジュースは健康でしかも美味！ #英語 #旅行 #タイ #外資系",
+            "channelId": "UCTTkCFcbW4yC-G48A51wb2w",
+            "channelName": "Kengo【英語で人生を切り拓く】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/J92DbF8hdEo/maxresdefault.jpg",
+            "publishedAt": "2026-07-30T14:23:52Z",
+            "viewCount": 1777,
+            "viewIncrease": 1777,
+            "likeCount": 4,
+            "likeIncrease": 4,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 524,
-            "durationSeconds": 27,
+            "subscriberCount": 860,
+            "durationSeconds": 25,
             "isShort": true,
-            "rawScore": 68.2,
-            "normalizedScore": 90.0,
+            "rawScore": 47.8,
+            "normalizedScore": 55.6,
             "genres": [
                 {
                     "slug": "travel",
                     "name": "旅行",
                     "confidence": 0.4
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 55.3,
-                "engagement": 17.1,
-                "subscriberRatio": 98.7,
-                "freshness": 46.9,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 3,
-            "videoId": "28XETrnaxiA",
-            "title": "小樽社員旅行の1日を30秒で紹介！楽しすぎた2日間✨ #shorts",
-            "channelId": "UC59lq3YK7NIdftxicgD5VHA",
-            "channelName": "株式会社キャリアソリューション",
-            "thumbnailUrl": "https://i.ytimg.com/vi/28XETrnaxiA/maxresdefault.jpg",
-            "publishedAt": "2026-07-30T15:00:39Z",
-            "viewCount": 987,
-            "viewIncrease": 987,
-            "likeCount": 1,
-            "likeIncrease": 1,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 4,
-            "durationSeconds": 32,
-            "isShort": true,
-            "rawScore": 67.8,
-            "normalizedScore": 80.0,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.6
                 },
                 {
                     "slug": "vtuber",
@@ -115,66 +185,34 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 56.9,
-                "engagement": 5.5,
-                "subscriberRatio": 99.9,
-                "freshness": 49.2,
+                "velocity": 65.6,
+                "engagement": 9.2,
+                "subscriberRatio": 106.2,
+                "freshness": 31.1,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 4,
-            "videoId": "5-pt7EUaF3M",
-            "title": "アンコールワットサンライズ #旅行 #アンコールワット #アンコールワット #nature #nature #カンボジア #travel #automobile",
-            "channelId": "UC3qVyFTW0c2lXI6PtMOIkqQ",
-            "channelName": "カンボジア🇰🇭トラベルブロク",
-            "thumbnailUrl": "https://i.ytimg.com/vi/5-pt7EUaF3M/maxresdefault.jpg",
-            "publishedAt": "2026-07-30T13:36:06Z",
-            "viewCount": 272,
-            "viewIncrease": 272,
-            "likeCount": 41,
-            "likeIncrease": 41,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 81,
-            "durationSeconds": 10,
-            "isShort": true,
-            "rawScore": 64.0,
-            "normalizedScore": 70.0,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.4
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 38.2,
-                "engagement": 52.9,
-                "subscriberRatio": 85.9,
-                "freshness": 42.5,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 5,
+            "rank": 6,
+            "previousRank": 79,
+            "rankChange": 73,
             "videoId": "M8lpjAieQ1Q",
             "title": "33小樽＃北海道＃グルメ＃旅行",
             "channelId": "UCp4U4EthLlg5aVgKJEorG2g",
             "channelName": "北海道のミカタ",
             "thumbnailUrl": "https://i.ytimg.com/vi/M8lpjAieQ1Q/maxresdefault.jpg",
             "publishedAt": "2026-07-30T15:00:26Z",
-            "viewCount": 361,
-            "viewIncrease": 361,
-            "likeCount": 3,
-            "likeIncrease": 3,
+            "viewCount": 752,
+            "viewIncrease": 391,
+            "likeCount": 8,
+            "likeIncrease": 5,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 24,
+            "subscriberCount": 26,
             "durationSeconds": 40,
             "isShort": true,
-            "rawScore": 62.1,
-            "normalizedScore": 60.0,
+            "rawScore": 47.6,
+            "normalizedScore": 44.4,
             "genres": [
                 {
                     "slug": "travel",
@@ -183,31 +221,33 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 42.2,
-                "engagement": 17.4,
-                "subscriberRatio": 88.9,
-                "freshness": 49.2,
+                "velocity": 64.7,
+                "engagement": 20.5,
+                "subscriberRatio": 89.8,
+                "freshness": 32.0,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 6,
+            "rank": 7,
+            "previousRank": 84,
+            "rankChange": 77,
             "videoId": "HMcUyvqqYPU",
             "title": "带哈哈去三亚旅行，可以带狗进客舱的飞机真是养狗人士的福音~#萌寵 #pets #animals",
             "channelId": "UCJVOOO8P9lrdszfiytg51hw",
             "channelName": "疯铲姐妹",
             "thumbnailUrl": "https://i.ytimg.com/vi/HMcUyvqqYPU/maxresdefault.jpg",
             "publishedAt": "2026-07-30T14:30:32Z",
-            "viewCount": 618,
-            "viewIncrease": 618,
-            "likeCount": 14,
-            "likeIncrease": 14,
+            "viewCount": 1193,
+            "viewIncrease": 575,
+            "likeCount": 31,
+            "likeIncrease": 17,
             "commentCount": 1,
-            "commentIncrease": 1,
+            "commentIncrease": 0,
             "subscriberCount": 100000,
             "durationSeconds": 134,
-            "rawScore": 60.9,
-            "normalizedScore": 50.0,
+            "rawScore": 44.1,
+            "normalizedScore": 33.3,
             "genres": [
                 {
                     "slug": "travel",
@@ -216,68 +256,38 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 50.0,
-                "engagement": 36.2,
-                "subscriberRatio": 44.9,
-                "freshness": 46.5
-            }
-        },
-        {
-            "rank": 7,
-            "videoId": "BicVby2VgxU",
-            "title": "宮崎が誇る絶景✨高千穂峡#国内旅行#旅行#宮崎#高千穂峡#miyazaki#takachiho#絶景#ショート",
-            "channelId": "UCtHjcMYwb6neIX5v9-LApMQ",
-            "channelName": "かかとちゃんねる",
-            "thumbnailUrl": "https://i.ytimg.com/vi/BicVby2VgxU/maxresdefault.jpg",
-            "publishedAt": "2026-07-30T12:05:10Z",
-            "viewCount": 910,
-            "viewIncrease": 910,
-            "likeCount": 5,
-            "likeIncrease": 5,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 193,
-            "durationSeconds": 21,
-            "isShort": true,
-            "rawScore": 54.2,
-            "normalizedScore": 40.0,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.7
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 55.7,
-                "engagement": 14.6,
-                "subscriberRatio": 99.0,
-                "freshness": 37.7,
-                "formatAdjustment": 85.0
+                "velocity": 70.5,
+                "engagement": 26.7,
+                "subscriberRatio": 44.2,
+                "freshness": 31.2
             }
         },
         {
             "rank": 8,
-            "videoId": "wOCBbJxphxQ",
-            "title": "【AES03㊗30代卒業旅行in鳥取③】3/10 ５人の女旅 三朝温泉 大江戸温泉物語Premium 斉木別館",
-            "channelId": "UCKBLHCgHBvr7pG4p2K912BA",
-            "channelName": "HATHI🐘(ﾊｰﾃｨ)姫路のえりka",
-            "thumbnailUrl": "https://i.ytimg.com/vi/wOCBbJxphxQ/maxresdefault.jpg",
-            "publishedAt": "2026-07-30T12:30:59Z",
-            "viewCount": 908,
-            "viewIncrease": 908,
-            "likeCount": 0,
+            "previousRank": 61,
+            "rankChange": 53,
+            "videoId": "28XETrnaxiA",
+            "title": "小樽社員旅行の1日を30秒で紹介！楽しすぎた2日間✨ #shorts",
+            "channelId": "UC59lq3YK7NIdftxicgD5VHA",
+            "channelName": "株式会社キャリアソリューション",
+            "thumbnailUrl": "https://i.ytimg.com/vi/28XETrnaxiA/maxresdefault.jpg",
+            "publishedAt": "2026-07-30T15:00:39Z",
+            "viewCount": 1385,
+            "viewIncrease": 398,
+            "likeCount": 1,
             "likeIncrease": 0,
-            "subscriberCount": 526,
-            "durationSeconds": 52,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 4,
+            "durationSeconds": 32,
             "isShort": true,
-            "rawScore": 51.1,
-            "normalizedScore": 30.0,
+            "rawScore": 42.2,
+            "normalizedScore": 22.2,
             "genres": [
                 {
                     "slug": "travel",
                     "name": "旅行",
-                    "confidence": 0.4
+                    "confidence": 0.6
                 },
                 {
                     "slug": "vtuber",
@@ -291,32 +301,34 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 55.6,
+                "velocity": 65.0,
                 "engagement": 0.0,
-                "subscriberRatio": 99.0,
-                "freshness": 38.9,
+                "subscriberRatio": 90.0,
+                "freshness": 32.0,
                 "formatAdjustment": 85.0
             }
         },
         {
             "rank": 9,
-            "videoId": "esJqh7eV-kA",
-            "title": "かずみとゆきの沖縄旅行、現実はこんな感じです🥵#アラサー女子  #理想と現実 #沖縄旅行",
-            "channelId": "UCs6qvqG4XBrz2EB76Yb4elA",
-            "channelName": "東京ちゃこぺん",
-            "thumbnailUrl": "https://i.ytimg.com/vi/esJqh7eV-kA/maxresdefault.jpg",
-            "publishedAt": "2026-07-30T13:00:38Z",
-            "viewCount": 906,
-            "viewIncrease": 906,
-            "likeCount": 5,
-            "likeIncrease": 5,
+            "previousRank": 59,
+            "rankChange": 50,
+            "videoId": "URnHWes-1IQ",
+            "title": "鴨川のヌートリア #旅行 #vlog #京都",
+            "channelId": "UChumm1c90knBhr0XwL__8ow",
+            "channelName": "ただすきなことをする番組",
+            "thumbnailUrl": "https://i.ytimg.com/vi/URnHWes-1IQ/maxresdefault.jpg",
+            "publishedAt": "2026-07-30T14:35:30Z",
+            "viewCount": 1272,
+            "viewIncrease": 381,
+            "likeCount": 7,
+            "likeIncrease": 0,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 13400,
-            "durationSeconds": 24,
+            "subscriberCount": 524,
+            "durationSeconds": 27,
             "isShort": true,
-            "rawScore": 48.4,
-            "normalizedScore": 20.0,
+            "rawScore": 41.0,
+            "normalizedScore": 11.1,
             "genres": [
                 {
                     "slug": "travel",
@@ -325,32 +337,34 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 55.6,
-                "engagement": 14.7,
-                "subscriberRatio": 70.8,
-                "freshness": 40.4,
+                "velocity": 64.3,
+                "engagement": 0.0,
+                "subscriberRatio": 89.5,
+                "freshness": 31.3,
                 "formatAdjustment": 85.0
             }
         },
         {
             "rank": 10,
-            "videoId": "0Ufrwvemqb4",
-            "title": "🏍️✨新プラン登場✨atv&ウブドツアー #沖縄旅行 #バリ島ガイド #バリ恋ツアー #レンボンガンツアー",
-            "channelId": "UCPYvLwtwsGzK9x3bRqSrW_g",
-            "channelName": "バリ恋ツアー",
-            "thumbnailUrl": "https://i.ytimg.com/vi/0Ufrwvemqb4/maxresdefault.jpg",
-            "publishedAt": "2026-07-30T12:17:20Z",
-            "viewCount": 401,
-            "viewIncrease": 401,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 0,
+            "previousRank": 70,
+            "rankChange": 60,
+            "videoId": "5-pt7EUaF3M",
+            "title": "アンコールワットサンライズ #旅行 #アンコールワット #アンコールワット #nature #nature #カンボジア #travel #automobile",
+            "channelId": "UC3qVyFTW0c2lXI6PtMOIkqQ",
+            "channelName": "カンボジア🇰🇭トラベルブロク",
+            "thumbnailUrl": "https://i.ytimg.com/vi/5-pt7EUaF3M/maxresdefault.jpg",
+            "publishedAt": "2026-07-30T13:36:06Z",
+            "viewCount": 329,
+            "viewIncrease": 57,
+            "likeCount": 42,
+            "likeIncrease": 1,
+            "commentCount": 1,
             "commentIncrease": 0,
-            "subscriberCount": 572,
-            "durationSeconds": 26,
+            "subscriberCount": 81,
+            "durationSeconds": 10,
             "isShort": true,
-            "rawScore": 48.0,
-            "normalizedScore": 10.0,
+            "rawScore": 32.7,
+            "normalizedScore": 0.0,
             "genres": [
                 {
                     "slug": "travel",
@@ -359,49 +373,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 43.7,
-                "engagement": 14.0,
-                "subscriberRatio": 90.1,
-                "freshness": 38.2,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 11,
-            "videoId": "36uuulXRh_M",
-            "title": "浴衣ヘア #wig #ヘアアレンジ #ウィッグ #浴衣 #浴衣ヘア #美容師",
-            "channelId": "UC1aQqIoZ_Bfn0dUxaGQh-qA",
-            "channelName": "美容師さあや",
-            "thumbnailUrl": "https://i.ytimg.com/vi/36uuulXRh_M/maxresdefault.jpg",
-            "publishedAt": "2026-07-30T13:08:30Z",
-            "viewCount": 329,
-            "viewIncrease": 329,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 2890,
-            "durationSeconds": 36,
-            "isShort": true,
-            "rawScore": 46.0,
-            "normalizedScore": 0.0,
-            "genres": [
-                {
-                    "slug": "beauty",
-                    "name": "美容",
-                    "confidence": 0.6
-                },
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 40.9,
-                "engagement": 15.3,
-                "subscriberRatio": 76.4,
-                "freshness": 40.8,
+                "velocity": 36.7,
+                "engagement": 22.8,
+                "subscriberRatio": 68.9,
+                "freshness": 29.9,
                 "formatAdjustment": 85.0
             }
         }
