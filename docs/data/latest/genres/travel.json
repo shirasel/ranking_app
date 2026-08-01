@@ -1,66 +1,109 @@
 {
-    "generatedAt": "2026-08-01T16:37:29.103231647Z",
+    "generatedAt": "2026-08-01T22:38:06.035653520Z",
     "period": "24h",
     "genre": {
         "slug": "travel",
         "name": "旅行",
-        "confidence": 0.9
+        "confidence": 0.2
     },
     "status": "reference",
-    "totalVideos": 10,
-    "totalChannels": 10,
+    "totalVideos": 12,
+    "totalChannels": 12,
     "ranking": [
         {
             "rank": 1,
-            "videoId": "QzTgQQsS1vI",
-            "title": "【往復20時間】青春18きっぷで行く”日帰り旅行の限界”に挑戦してみた！",
-            "channelId": "UCix5u_j2mOZS9x_EPbKau4g",
-            "channelName": "ZAKI",
-            "thumbnailUrl": "https://i.ytimg.com/vi/QzTgQQsS1vI/maxresdefault.jpg",
-            "publishedAt": "2026-08-01T11:18:50Z",
-            "viewCount": 91706,
-            "viewIncrease": 91706,
-            "likeCount": 3635,
-            "likeIncrease": 3635,
-            "commentCount": 300,
-            "commentIncrease": 300,
-            "subscriberCount": 298000,
-            "durationSeconds": 3529,
-            "rawScore": 94.9,
+            "videoId": "GTvAK8AZppw",
+            "title": "沖縄料理鉄板酒場 ゆんたくさんで元気パワーチャージ✨夏バテ解消！",
+            "channelId": "UCEKb20Q56JX8zxn5azLfL_Q",
+            "channelName": "『車椅子でお出かけ』ナイスアームＨIROSHIMA JAPAN　”NICEARMーAYAKO”",
+            "thumbnailUrl": "https://i.ytimg.com/vi/GTvAK8AZppw/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T22:00:29Z",
+            "viewCount": 443,
+            "viewIncrease": 443,
+            "likeCount": 2,
+            "likeIncrease": 2,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 773,
+            "durationSeconds": 34,
+            "isShort": true,
+            "rawScore": 78.6,
             "normalizedScore": 100.0,
             "genres": [
                 {
+                    "slug": "cooking",
+                    "name": "料理",
+                    "confidence": 0.6
+                },
+                {
                     "slug": "travel",
                     "name": "旅行",
-                    "confidence": 0.9
+                    "confidence": 0.5
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 125.4,
-                "engagement": 43.8,
-                "subscriberRatio": 87.2,
-                "freshness": 37.0
+                "velocity": 45.1,
+                "engagement": 13.3,
+                "subscriberRatio": 91.2,
+                "freshness": 61.8,
+                "formatAdjustment": 85.0
             }
         },
         {
             "rank": 2,
+            "videoId": "wofTNgsQ84U",
+            "title": "自驾旅行快乐每一天 #记录旅行生活 #创作者中心 #创作灵感 #自驾旅行 #户外露营 @",
+            "channelId": "UCacHBC5O2ONW0q7-SYPcohA",
+            "channelName": "大姐在旅途 ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/wofTNgsQ84U/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T19:55:09Z",
+            "viewCount": 1214,
+            "viewIncrease": 1214,
+            "likeCount": 6,
+            "likeIncrease": 6,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 334,
+            "durationSeconds": 17,
+            "isShort": true,
+            "rawScore": 69.0,
+            "normalizedScore": 90.9,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.6
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 59.9,
+                "engagement": 13.9,
+                "subscriberRatio": 102.1,
+                "freshness": 46.1,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 3,
+            "previousRank": 42,
+            "rankChange": 39,
             "videoId": "uwAZrXLIxV4",
             "title": "韓国旅行に行く時に気を付ける場所  #shorts",
             "channelId": "UCMEI4RcffOJZUuYIVcim8Zw",
             "channelName": "KH / Killin9Hit",
             "thumbnailUrl": "https://i.ytimg.com/vi/uwAZrXLIxV4/maxresdefault.jpg",
             "publishedAt": "2026-08-01T12:00:01Z",
-            "viewCount": 74952,
-            "viewIncrease": 74952,
-            "likeCount": 4897,
-            "likeIncrease": 4897,
-            "commentCount": 44,
-            "commentIncrease": 44,
+            "viewCount": 262690,
+            "viewIncrease": 187738,
+            "likeCount": 7402,
+            "likeIncrease": 2505,
+            "commentCount": 66,
+            "commentIncrease": 22,
             "subscriberCount": 449000,
             "durationSeconds": 39,
             "isShort": true,
-            "rawScore": 80.2,
-            "normalizedScore": 88.9,
+            "rawScore": 64.8,
+            "normalizedScore": 81.8,
             "genres": [
                 {
                     "slug": "travel",
@@ -74,31 +117,101 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 122.3,
-                "engagement": 39.9,
-                "subscriberRatio": 80.6,
-                "freshness": 38.9,
+                "velocity": 157.3,
+                "engagement": 23.2,
+                "subscriberRatio": 90.5,
+                "freshness": 28.1,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 3,
+            "rank": 4,
+            "videoId": "WPA-jwI5498",
+            "title": "女生们你们都在忙什么呢？世界旅行清单带上护照出发吧出国旅行",
+            "channelId": "UCNXGN5ffJF-iOps0Le59DUg",
+            "channelName": "阳阳的日常",
+            "thumbnailUrl": "https://i.ytimg.com/vi/WPA-jwI5498/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T16:21:11Z",
+            "viewCount": 963,
+            "viewIncrease": 963,
+            "likeCount": 29,
+            "likeIncrease": 29,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 4,
+            "durationSeconds": 13,
+            "isShort": true,
+            "rawScore": 54.1,
+            "normalizedScore": 72.7,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.6
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 56.5,
+                "engagement": 26.9,
+                "subscriberRatio": 99.6,
+                "freshness": 34.8,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 5,
+            "videoId": "pcu90eKHDL0",
+            "title": "#早安祝福 #旅行 #能量療愈 #早安 #现实生活中的名言 #早安心语 #正能量 #心靈暖流 #早安语录 #分享 #心灵感悟 #早安朋友 #簡單人生 #生活 #人生感悟 #人間心理",
+            "channelId": "UCQ11CIaJR7XZpCrd0QaY1AQ",
+            "channelName": "Alina",
+            "thumbnailUrl": "https://i.ytimg.com/vi/pcu90eKHDL0/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T16:24:52Z",
+            "viewCount": 809,
+            "viewIncrease": 809,
+            "likeCount": 33,
+            "likeIncrease": 33,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 197,
+            "durationSeconds": 23,
+            "isShort": true,
+            "rawScore": 53.6,
+            "normalizedScore": 63.6,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.4
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 53.9,
+                "engagement": 29.2,
+                "subscriberRatio": 97.7,
+                "freshness": 34.9,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 6,
+            "previousRank": 63,
+            "rankChange": 57,
             "videoId": "J75-UGHBkNM",
             "title": "【Seoul vlog🇰🇷】親友と行く夏の韓国旅行が大優勝💛弘大/漢南洞/龍山｜最新カフェ,グルメ,ショッピング,美容｜スイカジュース飲み比べ🍉｜한글자막",
             "channelId": "UCInV6_lgTvmHSSKRiRAzeug",
             "channelName": "Amiki 아미키",
             "thumbnailUrl": "https://i.ytimg.com/vi/J75-UGHBkNM/maxresdefault.jpg",
             "publishedAt": "2026-08-01T12:01:28Z",
-            "viewCount": 925,
-            "viewIncrease": 925,
-            "likeCount": 43,
-            "likeIncrease": 43,
-            "commentCount": 10,
-            "commentIncrease": 10,
+            "viewCount": 1772,
+            "viewIncrease": 847,
+            "likeCount": 50,
+            "likeIncrease": 7,
+            "commentCount": 11,
+            "commentIncrease": 1,
             "subscriberCount": 3990,
             "durationSeconds": 1419,
-            "rawScore": 74.4,
-            "normalizedScore": 77.8,
+            "rawScore": 52.4,
+            "normalizedScore": 54.5,
             "genres": [
                 {
                     "slug": "travel",
@@ -117,31 +230,33 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 55.9,
-                "engagement": 51.1,
-                "subscriberRatio": 84.1,
-                "freshness": 38.9
+                "velocity": 75.3,
+                "engagement": 27.5,
+                "subscriberRatio": 83.2,
+                "freshness": 28.2
             }
         },
         {
-            "rank": 4,
+            "rank": 7,
+            "previousRank": 82,
+            "rankChange": 75,
             "videoId": "B6OGDRG7fhk",
             "title": "#shorts #旅行 #台北 #貓空纜車 #猫 #seikomatsuda",
             "channelId": "UChUBUbhlor7Ke_OhgfV0BsQ",
             "channelName": "フジッコ2 チャンネル (fujikko2 channel)",
             "thumbnailUrl": "https://i.ytimg.com/vi/B6OGDRG7fhk/maxresdefault.jpg",
             "publishedAt": "2026-08-01T14:04:09Z",
-            "viewCount": 1115,
-            "viewIncrease": 1115,
-            "likeCount": 3,
-            "likeIncrease": 3,
+            "viewCount": 2530,
+            "viewIncrease": 1415,
+            "likeCount": 4,
+            "likeIncrease": 1,
             "commentCount": 0,
             "commentIncrease": 0,
             "subscriberCount": 7,
             "durationSeconds": 29,
             "isShort": true,
-            "rawScore": 67.8,
-            "normalizedScore": 66.7,
+            "rawScore": 50.0,
+            "normalizedScore": 45.5,
             "genres": [
                 {
                     "slug": "travel",
@@ -150,31 +265,33 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 58.7,
-                "engagement": 10.2,
-                "subscriberRatio": 101.2,
-                "freshness": 46.9,
+                "velocity": 83.1,
+                "engagement": 4.2,
+                "subscriberRatio": 103.8,
+                "freshness": 30.8,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 5,
+            "rank": 8,
+            "previousRank": 96,
+            "rankChange": 88,
             "videoId": "fWZw-iU5Sng",
             "title": "友達との旅行は油断したらあかんよ#人生  #人間関係 #メンタルヘルス #旅行  #友達",
             "channelId": "UCmgP2RheaLi6Q2GN9CxqcCg",
             "channelName": "小林",
             "thumbnailUrl": "https://i.ytimg.com/vi/fWZw-iU5Sng/maxresdefault.jpg",
             "publishedAt": "2026-08-01T12:00:26Z",
-            "viewCount": 598,
-            "viewIncrease": 598,
+            "viewCount": 866,
+            "viewIncrease": 268,
             "likeCount": 1,
-            "likeIncrease": 1,
+            "likeIncrease": 0,
             "commentCount": 2,
-            "commentIncrease": 2,
+            "commentIncrease": 0,
             "subscriberCount": 306,
             "durationSeconds": 97,
-            "rawScore": 64.8,
-            "normalizedScore": 55.6,
+            "rawScore": 40.5,
+            "normalizedScore": 36.4,
             "genres": [
                 {
                     "slug": "travel",
@@ -193,31 +310,109 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 49.5,
-                "engagement": 22.7,
-                "subscriberRatio": 94.4,
-                "freshness": 38.9
+                "velocity": 58.1,
+                "engagement": 0.0,
+                "subscriberRatio": 85.7,
+                "freshness": 28.2
             }
         },
         {
-            "rank": 6,
+            "rank": 9,
+            "videoId": "g4TB7Lg-QXk",
+            "title": "人生で一度は！スカイダイビングがしたい！ #ワーホリ #旅行 #死ぬまでにしたいこと#夢 #スカイダイビング #ケアンズ",
+            "channelId": "UCyds0zuR9VyPYR4r-MGXFwg",
+            "channelName": "夢を叶える旅 | Miki",
+            "thumbnailUrl": "https://i.ytimg.com/vi/g4TB7Lg-QXk/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T12:39:05Z",
+            "viewCount": 1008,
+            "viewIncrease": 352,
+            "likeCount": 2,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 28,
+            "durationSeconds": 57,
+            "isShort": true,
+            "rawScore": 37.0,
+            "normalizedScore": 27.3,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.4
+                },
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "entertainment",
+                    "name": "エンタメ",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 62.2,
+                "engagement": 0.0,
+                "subscriberRatio": 88.7,
+                "freshness": 28.9,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 10,
+            "videoId": "XUh_GDbLfEI",
+            "title": "え？ここ本当に韓国？　#旅行 #海外一人旅 #女ひとり旅 #韓国　#釜山　#海東龍宮寺",
+            "channelId": "UC_jlX0q_Ys95zZSm8lDITuw",
+            "channelName": "旅するトイレちゃん🚽",
+            "thumbnailUrl": "https://i.ytimg.com/vi/XUh_GDbLfEI/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T12:00:34Z",
+            "viewCount": 1181,
+            "viewIncrease": 388,
+            "likeCount": 1,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 30,
+            "durationSeconds": 44,
+            "isShort": true,
+            "rawScore": 36.7,
+            "normalizedScore": 18.2,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.4
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 63.6,
+                "engagement": 0.0,
+                "subscriberRatio": 89.7,
+                "freshness": 28.2,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 11,
             "videoId": "DKeMa3iwLfY",
             "title": "【富山グルメ】麺屋ひろまる #旅行 #観光 #グルメ",
             "channelId": "UCbuypKZYMe9bj_Y2PlSGpiQ",
             "channelName": "旅行チャンネル【りょこチャン】",
             "thumbnailUrl": "https://i.ytimg.com/vi/DKeMa3iwLfY/maxresdefault.jpg",
             "publishedAt": "2026-08-01T12:30:18Z",
-            "viewCount": 1331,
-            "viewIncrease": 1331,
+            "viewCount": 1620,
+            "viewIncrease": 289,
             "likeCount": 7,
-            "likeIncrease": 7,
+            "likeIncrease": 0,
             "commentCount": 1,
-            "commentIncrease": 1,
+            "commentIncrease": 0,
             "subscriberCount": 1340,
             "durationSeconds": 30,
             "isShort": true,
-            "rawScore": 63.1,
-            "normalizedScore": 44.4,
+            "rawScore": 34.8,
+            "normalizedScore": 9.1,
             "genres": [
                 {
                     "slug": "travel",
@@ -226,157 +421,53 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 61.3,
-                "engagement": 22.5,
-                "subscriberRatio": 99.9,
-                "freshness": 40.4,
+                "velocity": 59.2,
+                "engagement": 0.0,
+                "subscriberRatio": 83.3,
+                "freshness": 28.7,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 7,
-            "videoId": "7ka5llmk6uM",
-            "title": "東京駅周辺の無料スポット13選！　夏休み #夫婦旅 #旅行 #60代",
-            "channelId": "UCyg1DPVq-8FjrgHzZbKs38g",
-            "channelName": "くまぴよ夫婦の日記",
-            "thumbnailUrl": "https://i.ytimg.com/vi/7ka5llmk6uM/maxresdefault.jpg",
-            "publishedAt": "2026-08-01T11:53:57Z",
-            "viewCount": 1668,
-            "viewIncrease": 1668,
-            "likeCount": 5,
-            "likeIncrease": 5,
+            "rank": 12,
+            "videoId": "ezyWOPI8N9k",
+            "title": "ベトナム経済ニュース解説｜為替・経済・ビジネスの最新動向【2026年8月2日】",
+            "channelId": "UCl3VoXiw_dSkSralIOPYGpQ",
+            "channelName": "ベトナム毎日ニュース速報",
+            "thumbnailUrl": "https://i.ytimg.com/vi/ezyWOPI8N9k/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T18:20:02Z",
+            "viewCount": 3,
+            "viewIncrease": 3,
+            "likeCount": 0,
+            "likeIncrease": 0,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 68,
-            "durationSeconds": 32,
-            "isShort": true,
-            "rawScore": 59.4,
-            "normalizedScore": 33.3,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.7
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 64.7,
-                "engagement": 10.8,
-                "subscriberRatio": 105.6,
-                "freshness": 38.6,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 8,
-            "videoId": "g4TB7Lg-QXk",
-            "title": "人生で一度は！スカイダイビングがしたい！ #ワーホリ #旅行 #死ぬまでにしたいこと#夢 #スカイダイビング #ケアンズ",
-            "channelId": "UCyds0zuR9VyPYR4r-MGXFwg",
-            "channelName": "夢を叶える旅 | Miki",
-            "thumbnailUrl": "https://i.ytimg.com/vi/g4TB7Lg-QXk/maxresdefault.jpg",
-            "publishedAt": "2026-08-01T12:39:05Z",
-            "viewCount": 656,
-            "viewIncrease": 656,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 28,
-            "durationSeconds": 57,
-            "isShort": true,
-            "rawScore": 54.7,
-            "normalizedScore": 22.2,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.4
-                },
-                {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "entertainment",
-                    "name": "エンタメ",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 50.8,
-                "engagement": 10.9,
-                "subscriberRatio": 95.4,
-                "freshness": 40.9,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 9,
-            "videoId": "XUh_GDbLfEI",
-            "title": "え？ここ本当に韓国？　#旅行 #海外一人旅 #女ひとり旅 #韓国　#釜山　#海東龍宮寺",
-            "channelId": "UC_jlX0q_Ys95zZSm8lDITuw",
-            "channelName": "旅するトイレちゃん🚽",
-            "thumbnailUrl": "https://i.ytimg.com/vi/XUh_GDbLfEI/maxresdefault.jpg",
-            "publishedAt": "2026-08-01T12:00:34Z",
-            "viewCount": 793,
-            "viewIncrease": 793,
-            "likeCount": 1,
-            "likeIncrease": 1,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 30,
-            "durationSeconds": 44,
-            "isShort": true,
-            "rawScore": 52.1,
-            "normalizedScore": 11.1,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.4
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 53.6,
-                "engagement": 6.4,
-                "subscriberRatio": 97.5,
-                "freshness": 38.9,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 10,
-            "videoId": "Q7zF6ghR3Zo",
-            "title": "世界遺産奈良へいこう！　#日本 #youtube #旅行 #奈良 #飛鳥",
-            "channelId": "UCj7EnzDJTbqXZBIAagoF7Ag",
-            "channelName": "青木繁雄",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Q7zF6ghR3Zo/maxresdefault.jpg",
-            "publishedAt": "2026-08-01T11:25:59Z",
-            "viewCount": 737,
-            "viewIncrease": 737,
-            "likeCount": 3,
-            "likeIncrease": 3,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 48,
-            "durationSeconds": 37,
-            "isShort": true,
-            "rawScore": 51.4,
+            "subscriberCount": 42,
+            "durationSeconds": 137,
+            "rawScore": 15.6,
             "normalizedScore": 0.0,
             "genres": [
                 {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.99
+                },
+                {
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.2
+                },
+                {
                     "slug": "travel",
                     "name": "旅行",
-                    "confidence": 0.4
+                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 52.5,
-                "engagement": 12.7,
-                "subscriberRatio": 96.7,
-                "freshness": 37.3,
-                "formatAdjustment": 85.0
+                "velocity": 1.8,
+                "engagement": 0.0,
+                "subscriberRatio": 37.3,
+                "freshness": 39.8
             }
         }
     ]
