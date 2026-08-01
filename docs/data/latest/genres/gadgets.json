@@ -1,33 +1,113 @@
 {
-    "generatedAt": "2026-07-31T22:41:42.799300657Z",
+    "generatedAt": "2026-08-01T06:17:06.125057088Z",
     "period": "24h",
     "genre": {
         "slug": "gadgets",
         "name": "ガジェット",
         "confidence": 0.1
     },
-    "status": "official",
-    "totalVideos": 20,
-    "totalChannels": 20,
+    "status": "reference",
+    "totalVideos": 15,
+    "totalChannels": 15,
     "ranking": [
         {
             "rank": 1,
+            "videoId": "ST5-QEKrqRY",
+            "title": "レイダースの激強ガジェット見つけました！ #スプラトゥーンレイダース #splatoonraiders #shorts",
+            "channelId": "UCphtG5pSC98I03d4fC1KT0A",
+            "channelName": "みるとんゲームズ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/ST5-QEKrqRY/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T05:45:35Z",
+            "viewCount": 982,
+            "viewIncrease": 982,
+            "likeCount": 81,
+            "likeIncrease": 81,
+            "commentCount": 11,
+            "commentIncrease": 11,
+            "subscriberCount": 45100,
+            "durationSeconds": 21,
+            "isShort": true,
+            "rawScore": 91.6,
+            "normalizedScore": 100.0,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.45
+                },
+                {
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.4
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 56.8,
+                "engagement": 55.7,
+                "subscriberRatio": 58.5,
+                "freshness": 63.0,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 2,
+            "videoId": "r6LIEpNQUKg",
+            "title": "機内持ち込みルールが変わったこと、知ってる？！#旅行　#豆知識",
+            "channelId": "UCg8ww6pjMuyUlQISxDO54tA",
+            "channelName": "世界と繋がるAlmond eSIM",
+            "thumbnailUrl": "https://i.ytimg.com/vi/r6LIEpNQUKg/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T03:00:29Z",
+            "viewCount": 753,
+            "viewIncrease": 753,
+            "likeCount": 5,
+            "likeIncrease": 5,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 295,
+            "durationSeconds": 58,
+            "isShort": true,
+            "rawScore": 61.4,
+            "normalizedScore": 92.9,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.9
+                },
+                {
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.1
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 52.9,
+                "engagement": 15.9,
+                "subscriberRatio": 96.9,
+                "freshness": 43.6,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 3,
+            "previousRank": 2,
+            "rankChange": -1,
             "videoId": "7McQi0bN5AE",
             "title": "【日本語実況】「Esports World Cup 2026」- ストリートファイター6 - Day3",
             "channelId": "UCu2Fxqf37DAZ0ZhIsd1FZwA",
             "channelName": "Capcom Fighters JP",
             "thumbnailUrl": "https://i.ytimg.com/vi/7McQi0bN5AE/maxresdefault.jpg",
             "publishedAt": "2026-07-31T17:50:55Z",
-            "viewCount": 539977,
-            "viewIncrease": 539977,
-            "likeCount": 4324,
-            "likeIncrease": 4324,
-            "commentCount": 14,
-            "commentIncrease": 14,
+            "viewCount": 570861,
+            "viewIncrease": 30884,
+            "likeCount": 4530,
+            "likeIncrease": 206,
+            "commentCount": 29,
+            "commentIncrease": 15,
             "subscriberCount": 274000,
             "durationSeconds": 25330,
-            "rawScore": 106.2,
-            "normalizedScore": 100.0,
+            "rawScore": 59.2,
+            "normalizedScore": 85.7,
             "genres": [
                 {
                     "slug": "gaming",
@@ -56,30 +136,32 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 152.3,
-                "engagement": 17.8,
-                "subscriberRatio": 107.4,
-                "freshness": 38.3
+                "velocity": 126.3,
+                "engagement": 22.3,
+                "subscriberRatio": 76.3,
+                "freshness": 26.3
             }
         },
         {
-            "rank": 2,
+            "rank": 4,
+            "previousRank": 7,
+            "rankChange": 3,
             "videoId": "WKLt0RVPql4",
             "title": "【ホロドリ】スバル先輩の水着ガチャ💙さよなら天井👋＃5【水宮枢／ホロライブDEV_IS】",
             "channelId": "UCjk2nKmHzgH5Xy-C5qYRd5A",
             "channelName": "Su Ch. 水宮枢 - FLOW GLOW",
             "thumbnailUrl": "https://i.ytimg.com/vi/WKLt0RVPql4/maxresdefault.jpg",
             "publishedAt": "2026-07-31T17:30:50Z",
-            "viewCount": 231067,
-            "viewIncrease": 231067,
-            "likeCount": 10816,
-            "likeIncrease": 10816,
-            "commentCount": 76,
-            "commentIncrease": 76,
+            "viewCount": 242668,
+            "viewIncrease": 11601,
+            "likeCount": 11082,
+            "likeIncrease": 266,
+            "commentCount": 100,
+            "commentIncrease": 24,
             "subscriberCount": 715000,
             "durationSeconds": 13844,
-            "rawScore": 98.0,
-            "normalizedScore": 94.7,
+            "rawScore": 53.2,
+            "normalizedScore": 78.6,
             "genres": [
                 {
                     "slug": "gaming",
@@ -98,111 +180,32 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 139.4,
-                "engagement": 35.3,
-                "subscriberRatio": 87.7,
-                "freshness": 37.4
-            }
-        },
-        {
-            "rank": 3,
-            "videoId": "03Oo-ZzyN30",
-            "title": "色んなガジェット試したいのに資金難すぎるので手伝ってくれ...！【スプラトゥーンレイダース/SplatoonRAIDERS】",
-            "channelId": "UCq8lZDyLorG0qRR4XUMYD1A",
-            "channelName": "けんしろ / サーモンラン",
-            "thumbnailUrl": "https://i.ytimg.com/vi/03Oo-ZzyN30/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T16:46:44Z",
-            "viewCount": 9984,
-            "viewIncrease": 9984,
-            "likeCount": 107,
-            "likeIncrease": 107,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 104000,
-            "durationSeconds": 8719,
-            "rawScore": 66.0,
-            "normalizedScore": 89.5,
-            "genres": [
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.4
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 91.7,
-                "engagement": 19.2,
-                "subscriberRatio": 74.6,
-                "freshness": 35.6
-            }
-        },
-        {
-            "rank": 4,
-            "videoId": "yp_-Z6i3J9k",
-            "title": "みい山アニメ化反対運動をする奴らと表現の自由#shorts",
-            "channelId": "UCRKutOrnx5S0tTxUR_wNYqA",
-            "channelName": "細川バレンタイン / 前向き教室",
-            "thumbnailUrl": "https://i.ytimg.com/vi/yp_-Z6i3J9k/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T21:00:06Z",
-            "viewCount": 1177,
-            "viewIncrease": 1177,
-            "likeCount": 32,
-            "likeIncrease": 32,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 294000,
-            "durationSeconds": 64,
-            "rawScore": 65.6,
-            "normalizedScore": 84.2,
-            "genres": [
-                {
-                    "slug": "anime",
-                    "name": "アニメ",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.1
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 59.5,
-                "engagement": 26.1,
-                "subscriberRatio": 40.3,
-                "freshness": 52.1
+                "velocity": 111.5,
+                "engagement": 37.5,
+                "subscriberRatio": 55.3,
+                "freshness": 26.0
             }
         },
         {
             "rank": 5,
-            "previousRank": 37,
-            "rankChange": 32,
+            "previousRank": 64,
+            "rankChange": 59,
             "videoId": "maRgZjsPs7Q",
             "title": "【スマホも一瞬で乗っ取る！】今、ネット販売されているUSBケーブルに改造された危険なUSBが大量に混入！【危険すぎる！】",
             "channelId": "UCYhXmcP7xSyGd5RFe15YJOg",
             "channelName": "パソコン博士TAIKI",
             "thumbnailUrl": "https://i.ytimg.com/vi/maRgZjsPs7Q/maxresdefault.jpg",
             "publishedAt": "2026-07-31T10:00:10Z",
-            "viewCount": 182641,
-            "viewIncrease": 72740,
-            "likeCount": 6292,
-            "likeIncrease": 1239,
-            "commentCount": 352,
-            "commentIncrease": 65,
+            "viewCount": 271872,
+            "viewIncrease": 89231,
+            "likeCount": 8523,
+            "likeIncrease": 2231,
+            "commentCount": 472,
+            "commentIncrease": 120,
             "subscriberCount": 1840000,
             "durationSeconds": 1249,
-            "rawScore": 62.8,
-            "normalizedScore": 78.9,
+            "rawScore": 52.1,
+            "normalizedScore": 71.4,
             "genres": [
                 {
                     "slug": "gadgets",
@@ -226,33 +229,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 144.3,
-                "engagement": 31.5,
-                "subscriberRatio": 65.0,
-                "freshness": 26.1
+                "velocity": 142.5,
+                "engagement": 36.1,
+                "subscriberRatio": 67.2,
+                "freshness": 21.2
             }
         },
         {
             "rank": 6,
-            "previousRank": 78,
-            "rankChange": 72,
             "videoId": "Y6clNDjy1ro",
             "title": "ジョブズも認めたSONY黄金時代",
             "channelId": "UCvbkUrW9XIxQ4B2R54Jw8ZA",
             "channelName": "ミニセカ",
             "thumbnailUrl": "https://i.ytimg.com/vi/Y6clNDjy1ro/maxresdefault.jpg",
             "publishedAt": "2026-07-31T07:50:24Z",
-            "viewCount": 133144,
-            "viewIncrease": 24315,
-            "likeCount": 1098,
-            "likeIncrease": 113,
-            "commentCount": 174,
-            "commentIncrease": 11,
-            "subscriberCount": 64800,
+            "viewCount": 152700,
+            "viewIncrease": 19556,
+            "likeCount": 1329,
+            "likeIncrease": 231,
+            "commentCount": 195,
+            "commentIncrease": 21,
+            "subscriberCount": 65000,
             "durationSeconds": 27,
             "isShort": true,
-            "rawScore": 49.0,
-            "normalizedScore": 73.7,
+            "rawScore": 40.6,
+            "normalizedScore": 64.3,
             "genres": [
                 {
                     "slug": "gadgets",
@@ -261,171 +262,32 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 127.6,
-                "engagement": 19.7,
-                "subscriberRatio": 89.4,
-                "freshness": 24.4,
+                "velocity": 119.4,
+                "engagement": 29.6,
+                "subscriberRatio": 87.0,
+                "freshness": 20.2,
                 "formatAdjustment": 85.0
             }
         },
         {
             "rank": 7,
-            "previousRank": 64,
-            "rankChange": 57,
-            "videoId": "WOyqUp-Qsmc",
-            "title": "使ってたら戦犯になるガジェット3選 #brawlstars #すごい #ブロスタ #役に立つ #ガジェット #音源使ってね #ばずれ",
-            "channelId": "UCKJnVWFC3bOxm7_Z8kXYxag",
-            "channelName": "うかそﾁｬﾝﾈﾙ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/WOyqUp-Qsmc/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T13:52:53Z",
-            "viewCount": 664,
-            "viewIncrease": 206,
-            "likeCount": 4,
-            "likeIncrease": 1,
-            "commentCount": 1,
-            "commentIncrease": 0,
-            "subscriberCount": 59,
-            "durationSeconds": 61,
-            "rawScore": 46.3,
-            "normalizedScore": 68.4,
-            "genres": [
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.4
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 55.5,
-                "engagement": 13.8,
-                "subscriberRatio": 82.9,
-                "freshness": 30.4
-            }
-        },
-        {
-            "rank": 8,
-            "videoId": "TGdffDKpVDc",
-            "title": "Tips voor je Galaxy-smartphone #tech #gadget #smartphonetips",
-            "channelId": "UCDueTmENxPZwiIhdzyuO-RQ",
-            "channelName": "ID Tech",
-            "thumbnailUrl": "https://i.ytimg.com/vi/TGdffDKpVDc/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T15:35:56Z",
-            "viewCount": 344,
-            "viewIncrease": 208,
-            "likeCount": 13,
-            "likeIncrease": 8,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 28800,
-            "durationSeconds": 93,
-            "rawScore": 43.5,
-            "normalizedScore": 63.2,
-            "genres": [
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 55.7,
-                "engagement": 28.7,
-                "subscriberRatio": 46.6,
-                "freshness": 33.2
-            }
-        },
-        {
-            "rank": 9,
-            "videoId": "dWJaXf1zKLQ",
-            "title": "やくたち😍🤩 クールなガジェット、スマート家電、家庭用品、発明品、美容",
-            "channelId": "UCbr2Z0Gu9cvUKGhzZTjgzcg",
-            "channelName": "Working Peace",
-            "thumbnailUrl": "https://i.ytimg.com/vi/dWJaXf1zKLQ/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T14:40:58Z",
-            "viewCount": 9665,
-            "viewIncrease": 5613,
-            "likeCount": 37,
-            "likeIncrease": 20,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 1890000,
-            "durationSeconds": 7,
-            "isShort": true,
-            "rawScore": 41.5,
-            "normalizedScore": 57.9,
-            "genres": [
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.4
-                },
-                {
-                    "slug": "beauty",
-                    "name": "美容",
-                    "confidence": 0.4
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 105.4,
-                "engagement": 11.9,
-                "subscriberRatio": 37.2,
-                "freshness": 31.6,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 10,
-            "videoId": "Nx6ID3_pm8w",
-            "title": "Epic Foam Sprayer , Best Car Gadget - Top Tech #iGyaan #toptech #fyp",
-            "channelId": "UC7dLvCYNwhYe-l__yczFp1Q",
-            "channelName": "iGyaan",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Nx6ID3_pm8w/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T12:47:35Z",
-            "viewCount": 3861,
-            "viewIncrease": 1547,
-            "likeCount": 55,
-            "likeIncrease": 8,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 1060000,
-            "durationSeconds": 43,
-            "isShort": true,
-            "rawScore": 32.0,
-            "normalizedScore": 52.6,
-            "genres": [
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 85.8,
-                "engagement": 14.2,
-                "subscriberRatio": 29.8,
-                "freshness": 29.0,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 11,
             "videoId": "VClKnOcR1gI",
             "title": "昔のガラケー、令和のスマホを凌駕してしまうwww【2ch面白いスレ】",
             "channelId": "UCp4_VYTZqBe41p5xQQXFHCg",
             "channelName": "おもしろニュース速報(おも速)",
             "thumbnailUrl": "https://i.ytimg.com/vi/VClKnOcR1gI/maxresdefault.jpg",
             "publishedAt": "2026-07-30T10:30:31Z",
-            "viewCount": 231499,
-            "viewIncrease": 12308,
-            "likeCount": 3506,
-            "likeIncrease": 61,
-            "commentCount": 543,
-            "commentIncrease": 9,
+            "viewCount": 249802,
+            "viewIncrease": 18303,
+            "likeCount": 3866,
+            "likeIncrease": 360,
+            "commentCount": 614,
+            "commentIncrease": 71,
             "subscriberCount": 125000,
             "durationSeconds": 59,
             "isShort": true,
-            "rawScore": 29.5,
-            "normalizedScore": 47.4,
+            "rawScore": 29.8,
+            "normalizedScore": 57.1,
             "genres": [
                 {
                     "slug": "gadgets",
@@ -449,32 +311,32 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 117.3,
-                "engagement": 22.0,
-                "subscriberRatio": 74.8,
-                "freshness": 16.2,
+                "velocity": 118.4,
+                "engagement": 39.4,
+                "subscriberRatio": 79.1,
+                "freshness": 14.8,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 12,
+            "rank": 8,
             "videoId": "IRDi2xm1jk8",
             "title": "かけ放題でストップと言わない女性客の末路",
             "channelId": "UCo_nZN5yB0rmfoPBVjYRMmw",
             "channelName": "全力回避フラグちゃん! / Flag Chan!",
             "thumbnailUrl": "https://i.ytimg.com/vi/IRDi2xm1jk8/maxresdefault.jpg",
             "publishedAt": "2026-07-30T07:00:18Z",
-            "viewCount": 2227595,
-            "viewIncrease": 22402,
-            "likeCount": 42328,
-            "likeIncrease": 391,
-            "commentCount": 123,
-            "commentIncrease": 1,
+            "viewCount": 2340166,
+            "viewIncrease": 112571,
+            "likeCount": 44419,
+            "likeIncrease": 2091,
+            "commentCount": 127,
+            "commentIncrease": 4,
             "subscriberCount": 2450000,
             "durationSeconds": 43,
             "isShort": true,
-            "rawScore": 26.2,
-            "normalizedScore": 42.1,
+            "rawScore": 28.7,
+            "normalizedScore": 50.0,
             "genres": [
                 {
                     "slug": "music",
@@ -503,31 +365,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 126.4,
-                "engagement": 23.8,
-                "subscriberRatio": 49.1,
-                "freshness": 15.5,
+                "velocity": 146.0,
+                "engagement": 24.1,
+                "subscriberRatio": 66.6,
+                "freshness": 14.2,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 13,
+            "rank": 9,
             "videoId": "0441c--RanI",
             "title": "21000円でSwitch2を買った結果",
             "channelId": "UCCWLJImQvwHTXTe5Z_88zmw",
             "channelName": "おじおじ ジャパン",
             "thumbnailUrl": "https://i.ytimg.com/vi/0441c--RanI/maxresdefault.jpg",
             "publishedAt": "2026-07-28T10:00:13Z",
-            "viewCount": 446184,
-            "viewIncrease": 4854,
-            "likeCount": 8981,
-            "likeIncrease": 28,
-            "commentCount": 1230,
-            "commentIncrease": 1,
+            "viewCount": 452892,
+            "viewIncrease": 6708,
+            "likeCount": 9166,
+            "likeIncrease": 185,
+            "commentCount": 1237,
+            "commentIncrease": 7,
             "subscriberCount": 423000,
             "durationSeconds": 2738,
-            "rawScore": 18.6,
-            "normalizedScore": 36.8,
+            "rawScore": 20.0,
+            "normalizedScore": 42.9,
             "genres": [
                 {
                     "slug": "gadgets",
@@ -542,29 +404,63 @@
             ],
             "scoreBreakdown": {
                 "velocity": 103.2,
-                "engagement": 18.6,
-                "subscriberRatio": 51.6,
-                "freshness": 10.7
+                "engagement": 35.7,
+                "subscriberRatio": 55.1,
+                "freshness": 10.3
             }
         },
         {
-            "rank": 14,
+            "rank": 10,
+            "videoId": "PvjHan0wZoE",
+            "title": "Wait… This Speaker Actually Splits in Half! 🤯 | Detachable Dual Speakers",
+            "channelId": "UC85MIJMcZNnhxx84BZMlJgg",
+            "channelName": "SimpleGhar Telugu",
+            "thumbnailUrl": "https://i.ytimg.com/vi/PvjHan0wZoE/maxresdefault.jpg",
+            "publishedAt": "2026-07-21T14:17:13Z",
+            "viewCount": 3797805,
+            "viewIncrease": 3797805,
+            "likeCount": 56467,
+            "likeIncrease": 56467,
+            "commentCount": 79,
+            "commentIncrease": 79,
+            "subscriberCount": 6720000,
+            "durationSeconds": 58,
+            "isShort": true,
+            "rawScore": 15.8,
+            "normalizedScore": 35.7,
+            "genres": [
+                {
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 182.0,
+                "engagement": 22.1,
+                "subscriberRatio": 93.8,
+                "freshness": 6.2,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 11,
             "videoId": "3yVhMvLJfu4",
             "title": "一瞬のためだけの修理に1週間もかかってしまった…！（GBASP）　#shorts",
             "channelId": "UCiBXkgUQ5rWeNehXsMimYRg",
             "channelName": "和田【Retro Games】",
             "thumbnailUrl": "https://i.ytimg.com/vi/3yVhMvLJfu4/maxresdefault.jpg",
             "publishedAt": "2026-07-22T09:00:02Z",
-            "viewCount": 1832087,
-            "viewIncrease": 11646,
-            "likeCount": 32741,
-            "likeIncrease": 147,
-            "commentCount": 364,
-            "commentIncrease": 0,
+            "viewCount": 1856080,
+            "viewIncrease": 23993,
+            "likeCount": 33135,
+            "likeIncrease": 394,
+            "commentCount": 367,
+            "commentIncrease": 3,
             "subscriberCount": 177000,
             "durationSeconds": 135,
-            "rawScore": 13.6,
-            "normalizedScore": 31.6,
+            "rawScore": 14.6,
+            "normalizedScore": 28.6,
             "genres": [
                 {
                     "slug": "gaming",
@@ -578,72 +474,30 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 116.5,
-                "engagement": 20.4,
-                "subscriberRatio": 70.5,
-                "freshness": 6.6
+                "velocity": 122.5,
+                "engagement": 24.9,
+                "subscriberRatio": 78.3,
+                "freshness": 6.5
             }
         },
         {
-            "rank": 14,
-            "videoId": "NVOjqYYdba0",
-            "title": "ベトナム経済ニュース解説｜リスク・交通・ビジネスの最新動向【2026年8月1日】",
-            "channelId": "UCl3VoXiw_dSkSralIOPYGpQ",
-            "channelName": "ベトナム毎日ニュース速報",
-            "thumbnailUrl": "https://i.ytimg.com/vi/NVOjqYYdba0/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T18:21:14Z",
-            "viewCount": 2,
-            "viewIncrease": 2,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 42,
-            "durationSeconds": 134,
-            "rawScore": 13.6,
-            "normalizedScore": 31.6,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 1.2,
-                "engagement": 0.0,
-                "subscriberRatio": 33.1,
-                "freshness": 39.7
-            }
-        },
-        {
-            "rank": 16,
+            "rank": 12,
             "videoId": "CYJTd49XapA",
             "title": "2026年上半期買ってよかったアイテム10選 1~5個目 #ガジェット #ガジェット紹介",
             "channelId": "UCYjykEbcPv_zUlIYK2FeJog",
             "channelName": "すぐる@iPhone・ガジェット",
             "thumbnailUrl": "https://i.ytimg.com/vi/CYJTd49XapA/maxresdefault.jpg",
             "publishedAt": "2026-07-19T13:26:02Z",
-            "viewCount": 1119746,
-            "viewIncrease": 12091,
-            "likeCount": 18521,
-            "likeIncrease": 128,
-            "commentCount": 130,
-            "commentIncrease": 0,
+            "viewCount": 1133903,
+            "viewIncrease": 14157,
+            "likeCount": 18762,
+            "likeIncrease": 241,
+            "commentCount": 134,
+            "commentIncrease": 4,
             "subscriberCount": 196000,
             "durationSeconds": 145,
-            "rawScore": 11.9,
-            "normalizedScore": 21.1,
+            "rawScore": 12.2,
+            "normalizedScore": 21.4,
             "genres": [
                 {
                     "slug": "gadgets",
@@ -652,122 +506,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 117.0,
-                "engagement": 19.2,
-                "subscriberRatio": 69.8,
-                "freshness": 5.8
+                "velocity": 114.5,
+                "engagement": 27.2,
+                "subscriberRatio": 71.5,
+                "freshness": 5.7
             }
         },
         {
-            "rank": 17,
-            "videoId": "voie32gN4P4",
-            "title": "ちるるのAI β | AIニュース解説 | 2026.07.31",
-            "channelId": "UCCrIRPEPbTti4qe2OsGg07g",
-            "channelName": "chiruruAI",
-            "thumbnailUrl": "https://i.ytimg.com/vi/voie32gN4P4/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T13:41:58Z",
-            "viewCount": 23,
-            "viewIncrease": 2,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 94,
-            "durationSeconds": 11737,
-            "rawScore": 11.4,
-            "normalizedScore": 15.8,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.6
-                },
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "beauty",
-                    "name": "美容",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.1
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 4.7,
-                "engagement": 0.0,
-                "subscriberRatio": 33.1,
-                "freshness": 30.2
-            }
-        },
-        {
-            "rank": 18,
-            "videoId": "kkG3LK13ECg",
-            "title": "Bent CPU Pins",
-            "channelId": "UCsGVf_iWPTiIGv57Tg2ap-w",
-            "channelName": "Tech Cleanse",
-            "thumbnailUrl": "https://i.ytimg.com/vi/kkG3LK13ECg/sddefault.jpg",
-            "publishedAt": "2026-07-12T16:32:29Z",
-            "viewCount": 11768082,
-            "viewIncrease": 81153,
-            "likeCount": 307796,
-            "likeIncrease": 928,
-            "commentCount": 3064,
-            "commentIncrease": 10,
-            "subscriberCount": 48200,
-            "durationSeconds": 32,
-            "isShort": true,
-            "rawScore": 10.8,
-            "normalizedScore": 10.5,
-            "genres": [
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 146.0,
-                "engagement": 22.2,
-                "subscriberRatio": 105.7,
-                "freshness": 4.6,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 19,
+            "rank": 13,
             "videoId": "9RNaEfhW7J8",
             "title": "【疑問2】スイッチ有料化システムでタイミングをズラしてホームボタンを押すとどうなる？ #電子工作 #diy #勝手に有料化シリーズ #nintendoswitch",
             "channelId": "UCdWvSW7SVXabiaEmX5AwWgg",
             "channelName": "技術ものづくりチャンネル (Kazumasa Kusaba)",
             "thumbnailUrl": "https://i.ytimg.com/vi/9RNaEfhW7J8/maxresdefault.jpg",
             "publishedAt": "2026-07-19T13:30:08Z",
-            "viewCount": 1607517,
-            "viewIncrease": 4013,
-            "likeCount": 23619,
-            "likeIncrease": 42,
-            "commentCount": 1121,
-            "commentIncrease": 0,
-            "subscriberCount": 33900,
+            "viewCount": 1621151,
+            "viewIncrease": 13634,
+            "likeCount": 23786,
+            "likeIncrease": 167,
+            "commentCount": 1123,
+            "commentIncrease": 2,
+            "subscriberCount": 34000,
             "durationSeconds": 41,
             "isShort": true,
-            "rawScore": 9.6,
-            "normalizedScore": 5.3,
+            "rawScore": 11.0,
+            "normalizedScore": 14.3,
             "genres": [
                 {
                     "slug": "gadgets",
@@ -781,31 +544,65 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 100.3,
-                "engagement": 19.1,
-                "subscriberRatio": 76.8,
-                "freshness": 5.8,
+                "velocity": 113.9,
+                "engagement": 23.1,
+                "subscriberRatio": 90.1,
+                "freshness": 5.7,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 20,
+            "rank": 14,
+            "videoId": "kkG3LK13ECg",
+            "title": "Bent CPU Pins",
+            "channelId": "UCsGVf_iWPTiIGv57Tg2ap-w",
+            "channelName": "Tech Cleanse",
+            "thumbnailUrl": "https://i.ytimg.com/vi/kkG3LK13ECg/sddefault.jpg",
+            "publishedAt": "2026-07-12T16:32:29Z",
+            "viewCount": 11839395,
+            "viewIncrease": 71313,
+            "likeCount": 308952,
+            "likeIncrease": 1156,
+            "commentCount": 3074,
+            "commentIncrease": 10,
+            "subscriberCount": 48300,
+            "durationSeconds": 32,
+            "isShort": true,
+            "rawScore": 10.5,
+            "normalizedScore": 7.1,
+            "genres": [
+                {
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 139.1,
+                "engagement": 25.0,
+                "subscriberRatio": 104.2,
+                "freshness": 4.6,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 15,
             "videoId": "rDJm_KIdOFM",
             "title": "登録者数1000万人YouTuberも驚いた サムスン最安スマホの耐久性",
             "channelId": "UCLiPbjTEuGto_iRasBrfu7w",
             "channelName": "一分一秒",
             "thumbnailUrl": "https://i.ytimg.com/vi/rDJm_KIdOFM/maxresdefault.jpg",
             "publishedAt": "2026-07-20T09:00:17Z",
-            "viewCount": 770196,
-            "viewIncrease": 2126,
-            "likeCount": 9937,
-            "likeIncrease": 5,
+            "viewCount": 774022,
+            "viewIncrease": 3826,
+            "likeCount": 9990,
+            "likeIncrease": 53,
             "commentCount": 244,
-            "commentIncrease": 1,
+            "commentIncrease": 0,
             "subscriberCount": 759000,
             "durationSeconds": 38,
             "isShort": true,
-            "rawScore": 7.3,
+            "rawScore": 7.9,
             "normalizedScore": 0.0,
             "genres": [
                 {
@@ -820,10 +617,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 90.6,
-                "engagement": 15.8,
-                "subscriberRatio": 36.6,
-                "freshness": 6.0,
+                "velocity": 94.6,
+                "engagement": 21.1,
+                "subscriberRatio": 42.8,
+                "freshness": 5.9,
                 "formatAdjustment": 85.0
             }
         }
