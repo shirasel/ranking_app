@@ -1,48 +1,50 @@
 {
-    "generatedAt": "2026-08-02T16:36:48.505868125Z",
+    "generatedAt": "2026-08-02T22:39:31.304434727Z",
     "video": {
-        "rank": 41,
+        "rank": 82,
+        "previousRank": 41,
+        "rankChange": -41,
         "videoId": "H1ZoibkS3rM",
         "title": "【EL6】ray / ツバサ × ていく【歌ってみた】",
         "channelId": "UCNMbL86u5LBeO_BWHp5pJ5g",
         "channelName": "Element Sicks【EL6】",
         "thumbnailUrl": "https://i.ytimg.com/vi/H1ZoibkS3rM/maxresdefault.jpg",
         "publishedAt": "2026-08-02T10:00:16Z",
-        "viewCount": 17359,
-        "viewIncrease": 17359,
-        "likeCount": 4446,
-        "likeIncrease": 4446,
-        "commentCount": 520,
-        "commentIncrease": 520,
+        "viewCount": 23799,
+        "viewIncrease": 6440,
+        "likeCount": 4788,
+        "likeIncrease": 342,
+        "commentCount": 537,
+        "commentIncrease": 17,
         "subscriberCount": 309000,
         "durationSeconds": 298,
-        "rawScore": 79.3,
-        "normalizedScore": 59.6,
+        "rawScore": 54.6,
+        "normalizedScore": 18.2,
         "genres": [
             {
                 "slug": "music",
                 "name": "音楽",
-                "confidence": 0.9
+                "confidence": 0.99
             }
         ],
         "scoreBreakdown": {
-            "velocity": 100.1,
-            "engagement": 63.6,
-            "subscriberRatio": 68.8,
-            "freshness": 34.1
+            "velocity": 106.0,
+            "engagement": 45.0,
+            "subscriberRatio": 58.0,
+            "freshness": 26.1
         }
     },
     "scoreBreakdown": {
-        "velocity": 100.1,
-        "engagement": 63.6,
-        "subscriberRatio": 68.8,
-        "freshness": 34.1
+        "velocity": 106.0,
+        "engagement": 45.0,
+        "subscriberRatio": 58.0,
+        "freshness": 26.1
     },
     "genres": [
         {
             "slug": "music",
             "name": "音楽",
-            "confidence": 0.9
+            "confidence": 0.99
         }
     ]
 }
