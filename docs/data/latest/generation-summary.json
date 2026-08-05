@@ -1,6 +1,6 @@
 {
-    "generatedAt": "2026-08-05T11:45:27.986260155Z",
-    "inputVideos": 338,
+    "generatedAt": "2026-08-05T17:10:35.284942467Z",
+    "inputVideos": 340,
     "rankingVideos": 100,
     "genreRankings": 12,
     "collection": {
@@ -32,7 +32,7 @@
             {
                 "source": "category-popular:24:エンタメ",
                 "requested": 25,
-                "collected": 24,
+                "collected": 25,
                 "status": "ok"
             },
             {
@@ -168,13 +168,13 @@
                 "status": "ok"
             }
         ],
-        "uniqueCandidateIds": 338,
-        "fetchedVideoIds": 338,
-        "publicVideos": 338,
+        "uniqueCandidateIds": 340,
+        "fetchedVideoIds": 340,
+        "publicVideos": 340,
         "estimatedQuotaUnits": 1215
     },
     "retention": {
         "historyDeleted": 0,
-        "videoDetailsDeleted": 97
+        "videoDetailsDeleted": 87
     }
 }
