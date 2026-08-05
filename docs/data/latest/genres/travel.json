@@ -1,32 +1,32 @@
 {
-    "generatedAt": "2026-08-05T06:11:51.113865206Z",
+    "generatedAt": "2026-08-05T11:45:27.986260155Z",
     "period": "24h",
     "genre": {
         "slug": "travel",
         "name": "旅行",
-        "confidence": 0.9
+        "confidence": 0.3
     },
     "status": "reference",
     "totalVideos": 14,
-    "totalChannels": 11,
+    "totalChannels": 14,
     "ranking": [
         {
             "rank": 1,
-            "videoId": "YXfZwaM3k6I",
+            "videoId": "xh3m2FAnqPU",
             "title": "【ジャンクスポーツ】プロ野球ニュース",
             "channelId": "UCoSvhwMvUb3sSG18QCaOAzQ",
             "channelName": "Chu Chỉ Nhược Review",
-            "thumbnailUrl": "https://i.ytimg.com/vi/YXfZwaM3k6I/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T03:00:13Z",
-            "viewCount": 4793,
-            "viewIncrease": 4793,
-            "likeCount": 43,
-            "likeIncrease": 43,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 1660,
-            "durationSeconds": 122,
-            "rawScore": 93.9,
+            "thumbnailUrl": "https://i.ytimg.com/vi/xh3m2FAnqPU/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T09:00:18Z",
+            "viewCount": 6702,
+            "viewIncrease": 6702,
+            "likeCount": 67,
+            "likeIncrease": 67,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 1740,
+            "durationSeconds": 78,
+            "rawScore": 100.5,
             "normalizedScore": 100.0,
             "genres": [
                 {
@@ -51,174 +51,176 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 80.6,
-                "engagement": 21.7,
-                "subscriberRatio": 111.5,
-                "freshness": 43.9
+                "velocity": 85.7,
+                "engagement": 18.7,
+                "subscriberRatio": 114.6,
+                "freshness": 45.9
             }
         },
         {
             "rank": 2,
-            "previousRank": 3,
-            "rankChange": 1,
-            "videoId": "Cwt9DhbQpOA",
-            "title": "【ジャンクスポーツ】プロ野球ニュース",
-            "channelId": "UCoSvhwMvUb3sSG18QCaOAzQ",
-            "channelName": "Chu Chỉ Nhược Review",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Cwt9DhbQpOA/maxresdefault.jpg",
-            "publishedAt": "2026-08-04T21:00:32Z",
-            "viewCount": 78934,
-            "viewIncrease": 73840,
-            "likeCount": 414,
-            "likeIncrease": 316,
-            "commentCount": 6,
-            "commentIncrease": 6,
-            "subscriberCount": 1660,
-            "durationSeconds": 98,
-            "rawScore": 88.5,
+            "videoId": "jzjYbT07eic",
+            "title": "イタリアのピザ職人が作る伝統パスタピッツァ #イタリア料理",
+            "channelId": "UCUnJm7Yl_aVEMKt6hCFnnPA",
+            "channelName": "旅するイタリア食堂",
+            "thumbnailUrl": "https://i.ytimg.com/vi/jzjYbT07eic/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T10:00:26Z",
+            "viewCount": 3275,
+            "viewIncrease": 3275,
+            "likeCount": 118,
+            "likeIncrease": 118,
+            "commentCount": 7,
+            "commentIncrease": 7,
+            "subscriberCount": 4170,
+            "durationSeconds": 54,
+            "isShort": true,
+            "rawScore": 93.6,
             "normalizedScore": 92.3,
             "genres": [
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "entertainment",
-                    "name": "エンタメ",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 139.9,
-                "engagement": 14.8,
-                "subscriberRatio": 141.2,
-                "freshness": 29.9
-            }
-        },
-        {
-            "rank": 3,
-            "videoId": "fesLSkC6g-U",
-            "title": "【ジャンクスポーツ】プロ野球ニュース",
-            "channelId": "UCoSvhwMvUb3sSG18QCaOAzQ",
-            "channelName": "Chu Chỉ Nhược Review",
-            "thumbnailUrl": "https://i.ytimg.com/vi/fesLSkC6g-U/maxresdefault.jpg",
-            "publishedAt": "2026-08-04T23:00:12Z",
-            "viewCount": 32779,
-            "viewIncrease": 32779,
-            "likeCount": 279,
-            "likeIncrease": 279,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 1660,
-            "durationSeconds": 115,
-            "rawScore": 85.7,
-            "normalizedScore": 84.6,
-            "genres": [
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.99
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "entertainment",
-                    "name": "エンタメ",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 109.7,
-                "engagement": 17.6,
-                "subscriberRatio": 132.4,
-                "freshness": 33.0
-            }
-        },
-        {
-            "rank": 4,
-            "videoId": "RYmfMf0bSmg",
-            "title": "【日本旅行】銀座で極上の肉料理を体験！ #short #外国人のリアクション #日本観光 #日本グルメ #海外の反応",
-            "channelId": "UC_J5PWlsjCZ1yCF_FxGizPQ",
-            "channelName": "世界が見たニッポンの凄さ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/RYmfMf0bSmg/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T02:00:05Z",
-            "viewCount": 5742,
-            "viewIncrease": 5742,
-            "likeCount": 119,
-            "likeIncrease": 119,
-            "commentCount": 8,
-            "commentIncrease": 8,
-            "subscriberCount": 38500,
-            "durationSeconds": 98,
-            "rawScore": 79.4,
-            "normalizedScore": 76.9,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.9
-                },
                 {
                     "slug": "cooking",
                     "name": "料理",
                     "confidence": 0.6
                 },
                 {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "entertainment",
-                    "name": "エンタメ",
+                    "slug": "travel",
+                    "name": "旅行",
                     "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 83.3,
-                "engagement": 34.9,
-                "subscriberRatio": 79.3,
-                "freshness": 40.2
+                "velocity": 74.8,
+                "engagement": 41.0,
+                "subscriberRatio": 97.4,
+                "freshness": 51.6,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 3,
+            "videoId": "UP83EaGDGf0",
+            "title": "【日本からハワイ✈️】国際ファミリー子連れ旅行🇺🇸…#shorts #アメリカ生活 #国際結婚 #海外生活 #3児ママ #子連れ  #国際ファミリー #子連れ旅行 #海外 #旅行",
+            "channelId": "UCQVSRbVuEztR891hfEXrFGw",
+            "channelName": "Ellie Ames",
+            "thumbnailUrl": "https://i.ytimg.com/vi/UP83EaGDGf0/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T09:40:01Z",
+            "viewCount": 5523,
+            "viewIncrease": 5523,
+            "likeCount": 244,
+            "likeIncrease": 244,
+            "subscriberCount": 153000,
+            "durationSeconds": 120,
+            "rawScore": 87.3,
+            "normalizedScore": 84.6,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.4
+                },
+                {
+                    "slug": "cooking",
+                    "name": "料理",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "beauty",
+                    "name": "美容",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 82.7,
+                "engagement": 29.8,
+                "subscriberRatio": 64.0,
+                "freshness": 49.5
+            }
+        },
+        {
+            "rank": 4,
+            "videoId": "vKh_xbB95kE",
+            "title": "【相場公開】フィリピン留学・セブ島留学の海外旅行保険は結局何がいいの？相場は？【留学費用削減】",
+            "channelId": "UCHIDaCuZ1IrkYNSKaFWN8YQ",
+            "channelName": "PGC留学センター【 フィリピン留学】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/vKh_xbB95kE/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T09:40:20Z",
+            "viewCount": 1211,
+            "viewIncrease": 1211,
+            "likeCount": 4,
+            "likeIncrease": 4,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 937,
+            "durationSeconds": 126,
+            "rawScore": 85.8,
+            "normalizedScore": 76.9,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.6
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 59.9,
+                "engagement": 11.4,
+                "subscriberRatio": 102.1,
+                "freshness": 49.5
             }
         },
         {
             "rank": 5,
-            "videoId": "d3sv8CXJwxA",
-            "title": "關聖帝君明天聖誕千秋 #閨蜜旅遊 #旅行 #真實的台灣 #travel #景區 #親子共遊 #假日好去處 #熱門 #台灣台北 #打卡 #紀錄 #宮廟",
+            "videoId": "fDgahVoHShw",
+            "title": "【シニア必見】シニア旅行の意外な本音ＴＯＰ５",
+            "channelId": "UCUSr3Xlw8U-xTyyG_mcNwHA",
+            "channelName": "シニアのアレコレ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/fDgahVoHShw/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T10:15:00Z",
+            "viewCount": 620,
+            "viewIncrease": 620,
+            "likeCount": 4,
+            "likeIncrease": 4,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 15,
+            "durationSeconds": 45,
+            "isShort": true,
+            "rawScore": 78.1,
+            "normalizedScore": 69.2,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.6
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 50.0,
+                "engagement": 27.2,
+                "subscriberRatio": 94.8,
+                "freshness": 53.5,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 6,
+            "videoId": "lPhL0kf44X8",
+            "title": "明天關聖帝君生日 #旅行 #閨蜜旅遊 #真實的台灣 #travel #景區 #假日好去處#打卡 #宮廟#行天宮",
             "channelId": "UCaahqxiyiyXn3RIaxkRs9Hg",
             "channelName": "這一週我們",
-            "thumbnailUrl": "https://i.ytimg.com/vi/d3sv8CXJwxA/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T04:30:16Z",
-            "viewCount": 651,
-            "viewIncrease": 651,
-            "likeCount": 20,
-            "likeIncrease": 20,
-            "commentCount": 2,
-            "commentIncrease": 2,
+            "thumbnailUrl": "https://i.ytimg.com/vi/lPhL0kf44X8/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T11:00:04Z",
+            "viewCount": 719,
+            "viewIncrease": 719,
+            "likeCount": 12,
+            "likeIncrease": 12,
+            "commentCount": 0,
+            "commentIncrease": 0,
             "subscriberCount": 8030,
-            "durationSeconds": 12,
+            "durationSeconds": 14,
             "isShort": true,
-            "rawScore": 73.1,
-            "normalizedScore": 69.2,
+            "rawScore": 76.1,
+            "normalizedScore": 61.5,
             "genres": [
                 {
                     "slug": "travel",
@@ -227,111 +229,70 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 50.7,
-                "engagement": 41.6,
-                "subscriberRatio": 72.7,
-                "freshness": 52.1,
+                "velocity": 52.2,
+                "engagement": 22.5,
+                "subscriberRatio": 73.8,
+                "freshness": 60.3,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 6,
-            "videoId": "ukuM7fBS5N4",
-            "title": "韩国人第一次去沛县旅行，沛县太发达啦！ #沛县 #江苏 #旅行 #韩国人 #美食",
-            "channelId": "UC7x0EEo48f559rdjUiPMPWA",
-            "channelName": "德哥新视界 ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/ukuM7fBS5N4/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T01:23:01Z",
-            "viewCount": 704,
-            "viewIncrease": 704,
-            "likeCount": 24,
-            "likeIncrease": 24,
+            "rank": 7,
+            "videoId": "16D-DWWjq3g",
+            "title": "飛行機乗ると首痛くならない？",
+            "channelId": "UCbW1K9JRniHKtDoyQl2M6-Q",
+            "channelName": "旅ギア | 旅グッズ紹介",
+            "thumbnailUrl": "https://i.ytimg.com/vi/16D-DWWjq3g/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T10:00:08Z",
+            "viewCount": 1048,
+            "viewIncrease": 1048,
+            "likeCount": 1,
+            "likeIncrease": 1,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 179,
-            "durationSeconds": 153,
-            "rawScore": 67.4,
-            "normalizedScore": 61.5,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.6
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 51.9,
-                "engagement": 27.8,
-                "subscriberRatio": 96.2,
-                "freshness": 38.3
-            }
-        },
-        {
-            "rank": 7,
-            "videoId": "Dc1a_wLHars",
-            "title": "外国人女性の出身国を当てろ！自然・BBQ・人気スポーツがヒント【国当てクイズ】",
-            "channelId": "UCoLRO8b5I_7db7BGHkv3fqQ",
-            "channelName": "日本と世界をつなげるーLangmate",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Dc1a_wLHars/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T00:48:56Z",
-            "viewCount": 1930,
-            "viewIncrease": 1930,
-            "likeCount": 18,
-            "likeIncrease": 18,
-            "commentCount": 3,
-            "commentIncrease": 3,
-            "subscriberCount": 755,
-            "durationSeconds": 57,
+            "subscriberCount": 47,
+            "durationSeconds": 33,
             "isShort": true,
-            "rawScore": 63.8,
+            "rawScore": 71.8,
             "normalizedScore": 53.8,
             "genres": [
                 {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.6
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.3
                 },
                 {
                     "slug": "travel",
                     "name": "旅行",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "cooking",
-                    "name": "料理",
                     "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 66.9,
-                "engagement": 29.6,
-                "subscriberRatio": 107.1,
-                "freshness": 36.8,
+                "velocity": 57.7,
+                "engagement": 5.2,
+                "subscriberRatio": 100.5,
+                "freshness": 51.6,
                 "formatAdjustment": 85.0
             }
         },
         {
             "rank": 8,
-            "videoId": "LuEUJ1Gpzc4",
-            "title": "#张家界旅游攻略 #张家界七星山 #旅行 #中国旅游景点 #中国旅游",
-            "channelId": "UC5UFFJwoJ9uBMzXJLjwbNyQ",
-            "channelName": "婷婷",
-            "thumbnailUrl": "https://i.ytimg.com/vi/LuEUJ1Gpzc4/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T00:39:41Z",
-            "viewCount": 604,
-            "viewIncrease": 604,
-            "likeCount": 23,
-            "likeIncrease": 23,
+            "videoId": "ADCFj4qSFvc",
+            "title": "バルセロナで多くのガウディ建築に触れる　 #海外一人旅 #旅行　#shorts  #vlog",
+            "channelId": "UCy8nbjeFDnAA7UEt7_a_dUA",
+            "channelName": "スバルに。",
+            "thumbnailUrl": "https://i.ytimg.com/vi/ADCFj4qSFvc/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T10:00:04Z",
+            "viewCount": 851,
+            "viewIncrease": 851,
+            "likeCount": 2,
+            "likeIncrease": 2,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 20,
-            "durationSeconds": 136,
-            "rawScore": 63.0,
+            "subscriberCount": 1440,
+            "durationSeconds": 46,
+            "isShort": true,
+            "rawScore": 69.5,
             "normalizedScore": 46.2,
             "genres": [
                 {
@@ -341,29 +302,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 49.6,
-                "engagement": 28.7,
-                "subscriberRatio": 94.5,
-                "freshness": 36.4
+                "velocity": 54.7,
+                "engagement": 9.5,
+                "subscriberRatio": 94.3,
+                "freshness": 51.6,
+                "formatAdjustment": 85.0
             }
         },
         {
             "rank": 9,
-            "videoId": "-CFVDzLNDoo",
-            "title": "#张家界旅游攻略 #张家界七星山 #旅行 #中国旅游景点 #张家界旅游",
-            "channelId": "UC5UFFJwoJ9uBMzXJLjwbNyQ",
-            "channelName": "婷婷",
-            "thumbnailUrl": "https://i.ytimg.com/vi/-CFVDzLNDoo/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T02:13:01Z",
-            "viewCount": 457,
-            "viewIncrease": 457,
-            "likeCount": 2,
-            "likeIncrease": 2,
+            "videoId": "fAGFySuFpgA",
+            "title": "小言を言われる前に、今年も海外旅行で乗りきります。 #海外 #妄想 #ショートドラマ #10億妄想女",
+            "channelId": "UCU2NS2h7xqqdAHSVUprIhdA",
+            "channelName": "けい10億妄想女",
+            "thumbnailUrl": "https://i.ytimg.com/vi/fAGFySuFpgA/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T10:00:10Z",
+            "viewCount": 726,
+            "viewIncrease": 726,
+            "likeCount": 4,
+            "likeIncrease": 4,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 20,
-            "durationSeconds": 64,
-            "rawScore": 61.5,
+            "subscriberCount": 1650,
+            "durationSeconds": 55,
+            "isShort": true,
+            "rawScore": 69.4,
             "normalizedScore": 38.5,
             "genres": [
                 {
@@ -373,31 +336,160 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 45.6,
-                "engagement": 13.1,
-                "subscriberRatio": 91.5,
-                "freshness": 40.9
+                "velocity": 52.3,
+                "engagement": 14.6,
+                "subscriberRatio": 91.1,
+                "freshness": 51.6,
+                "formatAdjustment": 85.0
             }
         },
         {
             "rank": 10,
-            "videoId": "GTA-dOH_JSU",
-            "title": "【韓国旅行】韓国人が並んでも食べたい！激辛冷麺 #shorts #韓国ひとり旅",
-            "channelId": "UCHi8y8PqBAqhG-8VT97puQQ",
-            "channelName": "CHIAKI 치아키 / クズ修行中の韓国トラベルライター",
-            "thumbnailUrl": "https://i.ytimg.com/vi/GTA-dOH_JSU/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T03:10:28Z",
-            "viewCount": 961,
-            "viewIncrease": 961,
-            "likeCount": 4,
-            "likeIncrease": 4,
+            "videoId": "r6dJZr30YtM",
+            "title": "【チェジュ島】旅行3日目の顔が限界…😱旅の疲れをリセットする厳選アイテム全部見せます💓【ナイトルーティン🌛】",
+            "channelId": "UChqgldmzFbug6EUBYabOYVQ",
+            "channelName": "ひよんちゃんねる",
+            "thumbnailUrl": "https://i.ytimg.com/vi/r6dJZr30YtM/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T09:30:03Z",
+            "viewCount": 1372,
+            "viewIncrease": 1372,
+            "likeCount": 61,
+            "likeIncrease": 61,
+            "commentCount": 5,
+            "commentIncrease": 5,
+            "subscriberCount": 701000,
+            "durationSeconds": 937,
+            "rawScore": 67.8,
+            "normalizedScore": 30.8,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.6
+                },
+                {
+                    "slug": "beauty",
+                    "name": "美容",
+                    "confidence": 0.5
+                },
+                {
+                    "slug": "cooking",
+                    "name": "料理",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.1
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 61.8,
+                "engagement": 45.2,
+                "subscriberRatio": 32.8,
+                "freshness": 48.5
+            }
+        },
+        {
+            "rank": 11,
+            "videoId": "EGgDqsrO5tI",
+            "title": "【韓国美容】眉毛アートで垢抜け！1年放置で薄くなった眉毛を復活させてきた！",
+            "channelId": "UCMRKqt-O6k7rR5ZSIFQ6KHg",
+            "channelName": "ありのハル 아리의하루",
+            "thumbnailUrl": "https://i.ytimg.com/vi/EGgDqsrO5tI/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T09:09:04Z",
+            "viewCount": 452,
+            "viewIncrease": 452,
+            "likeCount": 3,
+            "likeIncrease": 3,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 1100,
+            "durationSeconds": 38,
+            "isShort": true,
+            "rawScore": 65.2,
+            "normalizedScore": 23.1,
+            "genres": [
+                {
+                    "slug": "beauty",
+                    "name": "美容",
+                    "confidence": 0.9
+                },
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 45.4,
+                "engagement": 28.9,
+                "subscriberRatio": 90.3,
+                "freshness": 46.6,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 12,
+            "videoId": "hZEYxc0RCnA",
+            "title": "友達に詰められてる裏で…www【圧縮修学旅行in京都・奈良】#Shorts",
+            "channelId": "UCzrmDXYFK9ZdvMXwc0CZhjw",
+            "channelName": "てんピラ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/hZEYxc0RCnA/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T10:00:26Z",
+            "viewCount": 568,
+            "viewIncrease": 568,
+            "likeCount": 6,
+            "likeIncrease": 6,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 4100,
-            "durationSeconds": 30,
+            "subscriberCount": 3650,
+            "durationSeconds": 43,
             "isShort": true,
-            "rawScore": 58.3,
-            "normalizedScore": 30.8,
+            "rawScore": 64.8,
+            "normalizedScore": 15.4,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.8
+                },
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.2
+                },
+                {
+                    "slug": "entertainment",
+                    "name": "エンタメ",
+                    "confidence": 0.1
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 48.7,
+                "engagement": 19.1,
+                "subscriberRatio": 79.8,
+                "freshness": 51.6,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 13,
+            "videoId": "bFChsfjIOFo",
+            "title": "イタリア人観光客が日本旅行をエンジョイする！ #外国人観光客 #奈良 #東大寺大仏",
+            "channelId": "UCYMbftTIaU6HNJv0Ffjy65Q",
+            "channelName": "Mr. Tokyo",
+            "thumbnailUrl": "https://i.ytimg.com/vi/bFChsfjIOFo/hqdefault.jpg",
+            "publishedAt": "2026-08-05T09:00:13Z",
+            "viewCount": 996,
+            "viewIncrease": 996,
+            "likeCount": 15,
+            "likeIncrease": 15,
+            "subscriberCount": 3440,
+            "durationSeconds": 21,
+            "isShort": true,
+            "rawScore": 64.4,
+            "normalizedScore": 7.7,
             "genres": [
                 {
                     "slug": "travel",
@@ -406,145 +498,44 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 56.5,
-                "engagement": 12.8,
-                "subscriberRatio": 84.3,
-                "freshness": 44.6,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 11,
-            "videoId": "e_XmTk49pxg",
-            "title": "中国豪华游轮旅行：看绝美风光，享特色美食 #旅行 #youtubeshorts #旅游 #travel #何磊带你玩转游轮 #cruiseship #china #熱門",
-            "channelId": "UCmvsYrxtdrL8J4UqfvLT_yQ",
-            "channelName": "何磊帶你玩轉郵輪官方頻道 Leo's cruise adventure",
-            "thumbnailUrl": "https://i.ytimg.com/vi/e_XmTk49pxg/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T03:06:16Z",
-            "viewCount": 426,
-            "viewIncrease": 426,
-            "likeCount": 5,
-            "likeIncrease": 5,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 10000,
-            "durationSeconds": 62,
-            "rawScore": 57.8,
-            "normalizedScore": 23.1,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.7
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 44.6,
-                "engagement": 19.9,
-                "subscriberRatio": 65.8,
-                "freshness": 44.4
-            }
-        },
-        {
-            "rank": 12,
-            "videoId": "6FcuFFWiAxo",
-            "title": "#バリ島　#旅行　#子供　#言葉の壁#インドネシア",
-            "channelId": "UC6tz0PKs70xjUHT_641Ctog",
-            "channelName": "Hanagekko",
-            "thumbnailUrl": "https://i.ytimg.com/vi/6FcuFFWiAxo/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T01:22:11Z",
-            "viewCount": 1363,
-            "viewIncrease": 1363,
-            "subscriberCount": 1060,
-            "durationSeconds": 16,
-            "isShort": true,
-            "rawScore": 53.5,
-            "normalizedScore": 15.4,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.4
-                },
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 61.7,
-                "engagement": 0.0,
-                "subscriberRatio": 102.7,
-                "freshness": 38.3,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 13,
-            "videoId": "6HqFUIsnwyw",
-            "title": "终于轮到我拍这个旅行转场啦让e人定住真的太难了哈哈哈旅行转场旅行vlg旅行转场挑战吃饭转场旅行穿搭",
-            "channelId": "UCuSBREYmh-KfiLA7MdvjXwg",
-            "channelName": "亚妞er",
-            "thumbnailUrl": "https://i.ytimg.com/vi/6HqFUIsnwyw/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T00:57:48Z",
-            "viewCount": 864,
-            "viewIncrease": 864,
-            "likeCount": 5,
-            "likeIncrease": 5,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 25,
-            "durationSeconds": 16,
-            "isShort": true,
-            "rawScore": 53.2,
-            "normalizedScore": 7.7,
-            "genres": [
-                {
-                    "slug": "travel",
-                    "name": "旅行",
-                    "confidence": 0.6
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 54.9,
-                "engagement": 15.0,
-                "subscriberRatio": 98.4,
-                "freshness": 37.2,
+                "velocity": 57.0,
+                "engagement": 21.7,
+                "subscriberRatio": 86.5,
+                "freshness": 45.9,
                 "formatAdjustment": 85.0
             }
         },
         {
             "rank": 14,
-            "videoId": "GBylr-ci8ig",
-            "title": "20代共働き夫婦の宮古列島旅行 #宮古島 #沖縄 #vlog #旅行 #20代夫婦 #japan #travel #okinawa #miyakoisland",
-            "channelId": "UCRixNnc80nYnEK9WsblXnuQ",
-            "channelName": "あっぴー",
-            "thumbnailUrl": "https://i.ytimg.com/vi/GBylr-ci8ig/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T00:25:29Z",
-            "viewCount": 849,
-            "viewIncrease": 849,
-            "likeCount": 5,
-            "likeIncrease": 5,
+            "videoId": "MLeHsmOddJw",
+            "title": "【旅行する人必見】神奈川の観光地27個紹介していく！　#shorts #旅行",
+            "channelId": "UCUORP-ikL62BR3fd4IGFT0g",
+            "channelName": "アクトツアー",
+            "thumbnailUrl": "https://i.ytimg.com/vi/MLeHsmOddJw/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T09:00:14Z",
+            "viewCount": 607,
+            "viewIncrease": 607,
+            "likeCount": 3,
+            "likeIncrease": 3,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 5,
-            "durationSeconds": 41,
+            "subscriberCount": 190,
+            "durationSeconds": 60,
             "isShort": true,
-            "rawScore": 51.2,
+            "rawScore": 61.7,
             "normalizedScore": 0.0,
             "genres": [
                 {
                     "slug": "travel",
                     "name": "旅行",
-                    "confidence": 0.4
+                    "confidence": 0.9
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 54.6,
-                "engagement": 15.1,
-                "subscriberRatio": 98.2,
-                "freshness": 35.9,
+                "velocity": 49.7,
+                "engagement": 13.9,
+                "subscriberRatio": 94.6,
+                "freshness": 45.9,
                 "formatAdjustment": 85.0
             }
         }
