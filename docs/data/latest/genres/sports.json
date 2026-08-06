@@ -1,5 +1,5 @@
 {
-    "generatedAt": "2026-08-05T22:43:06.801565840Z",
+    "generatedAt": "2026-08-06T06:15:37.922217894Z",
     "period": "24h",
     "genre": {
         "slug": "sports",
@@ -7,28 +7,171 @@
         "confidence": 0.4
     },
     "status": "official",
-    "totalVideos": 25,
-    "totalChannels": 25,
+    "totalVideos": 27,
+    "totalChannels": 27,
     "ranking": [
         {
             "rank": 1,
+            "videoId": "DT3rBY0a0jY",
+            "title": "【話題】立ってるだけでいいからｗ #漫画 #アニメ #shorts",
+            "channelId": "UCf_iSiJaxInV07dFMqvL7Cg",
+            "channelName": "5秒で気になる漫画館",
+            "thumbnailUrl": "https://i.ytimg.com/vi/DT3rBY0a0jY/maxresdefault.jpg",
+            "publishedAt": "2026-08-06T03:00:36Z",
+            "viewCount": 1909,
+            "viewIncrease": 1909,
+            "likeCount": 16,
+            "likeIncrease": 16,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 924,
+            "durationSeconds": 6,
+            "isShort": true,
+            "rawScore": 70.9,
+            "normalizedScore": 100.0,
+            "genres": [
+                {
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.85
+                },
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 66.7,
+                "engagement": 17.5,
+                "subscriberRatio": 107.0,
+                "freshness": 43.6,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 2,
+            "videoId": "C4Tt6ihdtns",
+            "title": "アジア人最強男子アスリート9選※個人的意見#スポーツ #陸上 #陸上競技 #サッカー #野球 #ボクシング #バスケットボール #ゴルフ #卓球 #モータースポーツ",
+            "channelId": "UC3snAlCpNTJTgnkQ9rt39hQ",
+            "channelName": "ヴァルカン",
+            "thumbnailUrl": "https://i.ytimg.com/vi/C4Tt6ihdtns/maxresdefault.jpg",
+            "publishedAt": "2026-08-06T01:20:05Z",
+            "viewCount": 1330,
+            "viewIncrease": 1330,
+            "likeCount": 20,
+            "likeIncrease": 20,
+            "commentCount": 9,
+            "commentIncrease": 9,
+            "subscriberCount": 1470,
+            "durationSeconds": 21,
+            "isShort": true,
+            "rawScore": 64.8,
+            "normalizedScore": 96.2,
+            "genres": [
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.99
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 61.3,
+                "engagement": 40.2,
+                "subscriberRatio": 98.9,
+                "freshness": 38.0,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 3,
+            "videoId": "Vme7vka-riw",
+            "title": "サッカーかバスケ、決着つけようぜ#サッカー#バスケ#スポーツ#決着#ゆうたん0528#日本代表",
+            "channelId": "UCf9cTQ_Ii9WMUFExvQxB9qw",
+            "channelName": "ゆうたん",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Vme7vka-riw/maxresdefault.jpg",
+            "publishedAt": "2026-08-06T01:31:52Z",
+            "viewCount": 683,
+            "viewIncrease": 683,
+            "likeCount": 16,
+            "likeIncrease": 16,
+            "commentCount": 2,
+            "commentIncrease": 2,
+            "subscriberCount": 89,
+            "durationSeconds": 12,
+            "isShort": true,
+            "rawScore": 61.2,
+            "normalizedScore": 92.3,
+            "genres": [
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.8
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 51.4,
+                "engagement": 39.3,
+                "subscriberRatio": 95.9,
+                "freshness": 38.6,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 4,
+            "videoId": "pdfOmPrMLx0",
+            "title": "2026年日本人野手盗塁まとめ #野球 #mlb #メジャーリーグ #盗塁 #short",
+            "channelId": "UCfxpKIZRt9KuGyKPfGuGNfw",
+            "channelName": "のぼるのボール",
+            "thumbnailUrl": "https://i.ytimg.com/vi/pdfOmPrMLx0/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T11:30:39Z",
+            "viewCount": 689407,
+            "viewIncrease": 689407,
+            "likeCount": 5230,
+            "likeIncrease": 5230,
+            "commentCount": 33,
+            "commentIncrease": 33,
+            "subscriberCount": 24000,
+            "durationSeconds": 28,
+            "isShort": true,
+            "rawScore": 57.9,
+            "normalizedScore": 88.5,
+            "genres": [
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.4
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 156.0,
+                "engagement": 17.9,
+                "subscriberRatio": 136.5,
+                "freshness": 22.0,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 5,
+            "previousRank": 13,
+            "rankChange": 8,
             "videoId": "tuLjvIAyJ74",
             "title": "【スポーツ科学】腕の力で振るほど飛ばなくなる理由 #バッティング #野球 #スポーツ科学",
             "channelId": "UCBBtO-2WxIVmehZgIgfB0fQ",
             "channelName": "Movement Lens -スポーツ科学にフォーカス-",
             "thumbnailUrl": "https://i.ytimg.com/vi/tuLjvIAyJ74/maxresdefault.jpg",
             "publishedAt": "2026-08-05T22:00:13Z",
-            "viewCount": 371,
-            "viewIncrease": 371,
-            "likeCount": 5,
-            "likeIncrease": 5,
-            "commentCount": 0,
-            "commentIncrease": 0,
+            "viewCount": 1881,
+            "viewIncrease": 1510,
+            "likeCount": 11,
+            "likeIncrease": 6,
+            "commentCount": 1,
+            "commentIncrease": 1,
             "subscriberCount": 6,
             "durationSeconds": 45,
             "isShort": true,
-            "rawScore": 79.0,
-            "normalizedScore": 100.0,
+            "rawScore": 54.5,
+            "normalizedScore": 84.6,
             "genres": [
                 {
                     "slug": "sports",
@@ -42,16 +185,16 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 42.6,
-                "engagement": 20.9,
-                "subscriberRatio": 89.2,
-                "freshness": 60.9,
+                "velocity": 80.6,
+                "engagement": 20.2,
+                "subscriberRatio": 104.5,
+                "freshness": 31.2,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 2,
-            "previousRank": 38,
+            "rank": 6,
+            "previousRank": 42,
             "rankChange": 36,
             "videoId": "MDW_eGW_HHk",
             "title": "マイナス・テンポ#映画鑑賞 #映画red #スポーツアニメ#青春アニメ #熱血アニメ #高校バレー #春高バレー #ライバル #神作画 #感動アニメ #人気アニメ #ゴミ捨て場の決戦",
@@ -59,17 +202,17 @@
             "channelName": "激熱キューブ",
             "thumbnailUrl": "https://i.ytimg.com/vi/MDW_eGW_HHk/maxresdefault.jpg",
             "publishedAt": "2026-08-05T13:04:09Z",
-            "viewCount": 23237,
-            "viewIncrease": 14561,
-            "likeCount": 307,
-            "likeIncrease": 133,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 3280,
+            "viewCount": 49322,
+            "viewIncrease": 26085,
+            "likeCount": 672,
+            "likeIncrease": 365,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 3300,
             "durationSeconds": 59,
             "isShort": true,
-            "rawScore": 63.3,
-            "normalizedScore": 95.8,
+            "rawScore": 52.1,
+            "normalizedScore": 80.8,
             "genres": [
                 {
                     "slug": "anime",
@@ -83,33 +226,33 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 119.7,
-                "engagement": 18.1,
-                "subscriberRatio": 116.2,
-                "freshness": 29.3,
+                "velocity": 123.9,
+                "engagement": 22.1,
+                "subscriberRatio": 122.4,
+                "freshness": 22.8,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 3,
-            "previousRank": 14,
-            "rankChange": 11,
+            "rank": 7,
+            "previousRank": 43,
+            "rankChange": 36,
             "videoId": "Mz4_YXFCnT4",
             "title": "【後編】W杯で搭載された選手だけでDiv1行ける説【eFootball2026アプリ】",
             "channelId": "UC070fhnqq38qNhqHm5rxTcQ",
             "channelName": "令和ちゃんねる",
             "thumbnailUrl": "https://i.ytimg.com/vi/Mz4_YXFCnT4/maxresdefault.jpg",
             "publishedAt": "2026-08-05T11:43:45Z",
-            "viewCount": 97125,
-            "viewIncrease": 39166,
-            "likeCount": 2019,
-            "likeIncrease": 253,
-            "commentCount": 194,
-            "commentIncrease": 17,
+            "viewCount": 137227,
+            "viewIncrease": 40102,
+            "likeCount": 2550,
+            "likeIncrease": 531,
+            "commentCount": 229,
+            "commentIncrease": 35,
             "subscriberCount": 557000,
             "durationSeconds": 1990,
-            "rawScore": 63.2,
-            "normalizedScore": 91.7,
+            "rawScore": 51.1,
+            "normalizedScore": 76.9,
             "genres": [
                 {
                     "slug": "gaming",
@@ -128,71 +271,115 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 134.7,
-                "engagement": 21.7,
-                "subscriberRatio": 71.2,
-                "freshness": 27.8
+                "velocity": 130.4,
+                "engagement": 29.5,
+                "subscriberRatio": 71.4,
+                "freshness": 22.1
             }
         },
         {
-            "rank": 4,
-            "videoId": "J57x82fafTo",
-            "title": "アメリカで今、みんながハマってるスポーツ！",
-            "channelId": "UCIm8XpQGdUcfkkR-5Uc16Hg",
-            "channelName": "セカ旅チカリン",
-            "thumbnailUrl": "https://i.ytimg.com/vi/J57x82fafTo/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T16:39:08Z",
-            "viewCount": 1152,
-            "viewIncrease": 1152,
-            "likeCount": 5,
-            "likeIncrease": 5,
-            "commentCount": 3,
-            "commentIncrease": 3,
-            "subscriberCount": 339,
-            "durationSeconds": 15,
+            "rank": 8,
+            "videoId": "7e3030Igt-0",
+            "title": "88世代が旅行キャンセル料を奢っていました #柳田悠岐 #読売ジャイアンツ #坂本勇人 選手 #マイナビオールスターゲーム2026",
+            "channelId": "UCbDAmhyRx9bakv-0Gucglgg",
+            "channelName": "福岡ソフトバンクホークス公式",
+            "thumbnailUrl": "https://i.ytimg.com/vi/7e3030Igt-0/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T07:44:04Z",
+            "viewCount": 1047312,
+            "viewIncrease": 1047312,
+            "likeCount": 5936,
+            "likeIncrease": 5936,
+            "commentCount": 45,
+            "commentIncrease": 45,
+            "subscriberCount": 362000,
+            "durationSeconds": 10,
             "isShort": true,
-            "rawScore": 56.2,
-            "normalizedScore": 87.5,
+            "rawScore": 49.7,
+            "normalizedScore": 73.1,
             "genres": [
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.6
-                },
                 {
                     "slug": "travel",
                     "name": "旅行",
-                    "confidence": 0.2
+                    "confidence": 0.4
+                },
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 59.2,
-                "engagement": 26.9,
-                "subscriberRatio": 101.5,
-                "freshness": 35.2,
+                "velocity": 162.4,
+                "engagement": 15.8,
+                "subscriberRatio": 111.5,
+                "freshness": 20.2,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 5,
-            "previousRank": 50,
-            "rankChange": 45,
+            "rank": 9,
+            "videoId": "yZq2CtA5xyc",
+            "title": "【カナダ家族旅行】本日2本目のマルチピッチクライミング。もう少しでゴール！",
+            "channelId": "UCrqYJZobHqLypvwFvXnrD5w",
+            "channelName": "山岳医chippecoちゃんねる。",
+            "thumbnailUrl": "https://i.ytimg.com/vi/yZq2CtA5xyc/maxresdefault.jpg",
+            "publishedAt": "2026-08-06T01:48:32Z",
+            "viewCount": 863,
+            "viewIncrease": 863,
+            "likeCount": 5,
+            "likeIncrease": 5,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 8940,
+            "durationSeconds": 32,
+            "isShort": true,
+            "rawScore": 48.4,
+            "normalizedScore": 69.2,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.4
+                },
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 54.9,
+                "engagement": 15.0,
+                "subscriberRatio": 74.6,
+                "freshness": 39.4,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 10,
+            "previousRank": 66,
+            "rankChange": 56,
             "videoId": "djSwFIYd6dQ",
             "title": "世界一のプロに特訓してもらったらYouTuber一を倒せる説！！！",
             "channelId": "UC8_wmm5DX9mb4jrLiw8ZYzw",
             "channelName": "スカイピース",
             "thumbnailUrl": "https://i.ytimg.com/vi/djSwFIYd6dQ/maxresdefault.jpg",
             "publishedAt": "2026-08-05T11:00:04Z",
-            "viewCount": 107374,
-            "viewIncrease": 46983,
-            "likeCount": 1707,
-            "likeIncrease": 233,
-            "commentCount": 102,
-            "commentIncrease": 10,
+            "viewCount": 152651,
+            "viewIncrease": 45277,
+            "likeCount": 2186,
+            "likeIncrease": 479,
+            "commentCount": 130,
+            "commentIncrease": 28,
             "subscriberCount": 4330000,
             "durationSeconds": 4183,
-            "rawScore": 55.7,
-            "normalizedScore": 83.3,
+            "rawScore": 45.4,
+            "normalizedScore": 65.4,
             "genres": [
                 {
                     "slug": "vtuber",
@@ -216,30 +403,30 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 137.5,
-                "engagement": 17.7,
-                "subscriberRatio": 51.0,
-                "freshness": 27.0
+                "velocity": 132.3,
+                "engagement": 26.5,
+                "subscriberRatio": 50.6,
+                "freshness": 21.7
             }
         },
         {
-            "rank": 6,
-            "previousRank": 14,
-            "rankChange": 8,
+            "rank": 11,
+            "previousRank": 82,
+            "rankChange": 71,
             "videoId": "H2XePoJRTNY",
             "title": "2026プロスピセレクション選手発表！プロスピA ニュース【スピニュース】",
             "channelId": "UCWzEh28vj3mQKpe0fzVTOUw",
             "channelName": "パワプロ・プロスピ公式チャンネル",
             "thumbnailUrl": "https://i.ytimg.com/vi/H2XePoJRTNY/maxresdefault.jpg",
             "publishedAt": "2026-08-05T10:27:24Z",
-            "viewCount": 239357,
-            "viewIncrease": 15585,
-            "likeCount": 3241,
-            "likeIncrease": 42,
+            "viewCount": 250129,
+            "viewIncrease": 10772,
+            "likeCount": 3315,
+            "likeIncrease": 74,
             "subscriberCount": 372000,
             "durationSeconds": 1571,
-            "rawScore": 52.1,
-            "normalizedScore": 79.2,
+            "rawScore": 40.3,
+            "normalizedScore": 61.5,
             "genres": [
                 {
                     "slug": "gaming",
@@ -263,65 +450,31 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 120.7,
-                "engagement": 10.2,
-                "subscriberRatio": 65.6,
-                "freshness": 26.5
+                "velocity": 110.4,
+                "engagement": 16.1,
+                "subscriberRatio": 61.6,
+                "freshness": 21.4
             }
         },
         {
-            "rank": 7,
-            "videoId": "oKsZ3dx2MXM",
-            "title": "GⅢオールレディース第59回日刊スポーツ杯（8/5）表彰式",
-            "channelId": "UCT2pRt_me0tOA8B2sakEv7Q",
-            "channelName": "ボートレース桐生（公式）",
-            "thumbnailUrl": "https://i.ytimg.com/vi/oKsZ3dx2MXM/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T12:43:44Z",
-            "viewCount": 1502,
-            "viewIncrease": 1502,
-            "likeCount": 25,
-            "likeIncrease": 25,
-            "commentCount": 7,
-            "commentIncrease": 7,
-            "subscriberCount": 53300,
-            "durationSeconds": 140,
-            "rawScore": 47.2,
-            "normalizedScore": 75.0,
-            "genres": [
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.7
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 63.1,
-                "engagement": 39.1,
-                "subscriberRatio": 61.3,
-                "freshness": 28.9
-            }
-        },
-        {
-            "rank": 8,
-            "previousRank": 89,
-            "rankChange": 81,
+            "rank": 12,
             "videoId": "_zQuzoXM99k",
             "title": "勘で置いたらいっぱい消えた！！ #ぷよぷよ #ぷよぷよeスポーツ",
             "channelId": "UCJT8Q-tqsxx6-vkEg-ucV_Q",
             "channelName": "SBI_ぴぽにあ",
             "thumbnailUrl": "https://i.ytimg.com/vi/_zQuzoXM99k/maxresdefault.jpg",
             "publishedAt": "2026-08-05T14:52:11Z",
-            "viewCount": 1524,
-            "viewIncrease": 594,
-            "likeCount": 24,
-            "likeIncrease": 10,
-            "commentCount": 2,
+            "viewCount": 4012,
+            "viewIncrease": 2488,
+            "likeCount": 56,
+            "likeIncrease": 32,
+            "commentCount": 3,
             "commentIncrease": 1,
             "subscriberCount": 27000,
             "durationSeconds": 41,
             "isShort": true,
-            "rawScore": 44.5,
-            "normalizedScore": 70.8,
+            "rawScore": 38.5,
+            "normalizedScore": 57.7,
             "genres": [
                 {
                     "slug": "sports",
@@ -340,340 +493,108 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 71.2,
-                "engagement": 34.2,
-                "subscriberRatio": 58.6,
-                "freshness": 31.9,
+                "velocity": 88.2,
+                "engagement": 26.3,
+                "subscriberRatio": 74.1,
+                "freshness": 24.0,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 9,
-            "videoId": "ijkvxvO2VKM",
-            "title": "2026改良新型 トヨタ カローラ セダン 特別仕様 ACTIVE SPORT (アクティブスポーツ) 外装内装 レビュー 新色ニュートラルブラック229",
-            "channelId": "UCFUpltT6eVjfh6PAq_fylKQ",
-            "channelName": "新型車積車アップロードチャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/ijkvxvO2VKM/sddefault.jpg",
-            "publishedAt": "2026-08-05T12:30:26Z",
-            "viewCount": 478,
-            "viewIncrease": 262,
-            "likeCount": 15,
-            "likeIncrease": 2,
-            "commentCount": 5,
-            "commentIncrease": 3,
-            "subscriberCount": 13800,
-            "durationSeconds": 288,
-            "rawScore": 44.1,
-            "normalizedScore": 66.7,
+            "rank": 13,
+            "videoId": "v1BTNR6E1Q0",
+            "title": "【ひろゆき＆いずみ新党】デイリースポーツ杉田「泉房穂参議院議員とひろゆき新党が結成で来年4月大阪府知事選挙についてどう思うか」吉村洋文日本維新の会代表大阪維新の会代表2026年8月4日（火）",
+            "channelId": "UCLpDf-oT5i-qQFmNFFbDYkw",
+            "channelName": "人類予備校",
+            "thumbnailUrl": "https://i.ytimg.com/vi/v1BTNR6E1Q0/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T16:03:42Z",
+            "viewCount": 438,
+            "viewIncrease": 438,
+            "likeCount": 9,
+            "likeIncrease": 9,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 11600,
+            "durationSeconds": 175,
+            "rawScore": 36.4,
+            "normalizedScore": 53.8,
             "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.7
+                },
                 {
                     "slug": "sports",
                     "name": "スポーツ",
-                    "confidence": 0.6
-                },
-                {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 59.0,
-                "engagement": 38.0,
-                "subscriberRatio": 57.0,
-                "freshness": 28.6
-            }
-        },
-        {
-            "rank": 10,
-            "videoId": "ALdh0cNGjcQ",
-            "title": "それやってたら…デカ顔に😱  #顔ヨガ #美容 #表情筋トレーニング #小顔 #小顔効果 #表情筋トレーニング #顔のたるみケア",
-            "channelId": "UCiIxukzh2l_LEn3Azr8Yvnw",
-            "channelName": "顔のたるみ解消! 顔ヨガ先生石川ななこ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/ALdh0cNGjcQ/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T12:47:14Z",
-            "viewCount": 1399,
-            "viewIncrease": 387,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 27,
-            "durationSeconds": 15,
-            "isShort": true,
-            "rawScore": 38.0,
-            "normalizedScore": 62.5,
-            "genres": [
-                {
-                    "slug": "beauty",
-                    "name": "美容",
                     "confidence": 0.4
                 },
                 {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.3
+                    "slug": "anime",
+                    "name": "アニメ",
+                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 64.8,
-                "engagement": 0.0,
-                "subscriberRatio": 89.7,
-                "freshness": 29.0,
-                "formatAdjustment": 85.0
+                "velocity": 45.0,
+                "engagement": 37.1,
+                "subscriberRatio": 64.5,
+                "freshness": 24.9
             }
         },
         {
-            "rank": 11,
-            "previousRank": 10,
-            "rankChange": -1,
-            "videoId": "apR-NlrLmk0",
-            "title": "【ボートレースライブ】桐生G3 オールレディース 第59回日刊スポーツ杯 最終日 1〜12R【桐生】",
-            "channelId": "UC8yUNWzXzJvOC_XqWmDlHeg",
-            "channelName": "レディースインフォメーション",
-            "thumbnailUrl": "https://i.ytimg.com/vi/apR-NlrLmk0/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T12:17:29Z",
-            "viewCount": 86627,
-            "viewIncrease": 664,
-            "likeCount": 161,
-            "likeIncrease": 1,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 65400,
-            "durationSeconds": 21601,
-            "rawScore": 37.0,
-            "normalizedScore": 58.3,
-            "genres": [
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.9
-                },
-                {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.1
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 72.9,
-                "engagement": 7.2,
-                "subscriberRatio": 50.3,
-                "freshness": 28.4
-            }
-        },
-        {
-            "rank": 12,
+            "rank": 14,
             "videoId": "Blz9D3GD8N0",
             "title": "骨折に気づかない選手。",
             "channelId": "UCgKiusMsHOWJYx8ZdX30aZA",
             "channelName": "脳筋ショート",
             "thumbnailUrl": "https://i.ytimg.com/vi/Blz9D3GD8N0/maxresdefault.jpg",
             "publishedAt": "2026-08-04T12:57:39Z",
-            "viewCount": 1833671,
-            "viewIncrease": 130573,
-            "likeCount": 21379,
-            "likeIncrease": 492,
-            "commentCount": 124,
-            "commentIncrease": 4,
+            "viewCount": 1911926,
+            "viewIncrease": 78255,
+            "likeCount": 22705,
+            "likeIncrease": 1326,
+            "commentCount": 127,
+            "commentIncrease": 3,
             "subscriberCount": 295000,
             "durationSeconds": 30,
             "isShort": true,
-            "rawScore": 36.6,
-            "normalizedScore": 54.2,
-            "genres": [
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 153.1,
-                "engagement": 13.0,
-                "subscriberRatio": 91.2,
-                "freshness": 16.7,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 13,
-            "videoId": "YNg9azH5BMQ",
-            "title": "サドルになりたい  #日本  #スポーツ  #一輪車",
-            "channelId": "UC_sIpmc2Q9SF_ooBiPiAE3w",
-            "channelName": "元気アップ",
-            "thumbnailUrl": "https://i.ytimg.com/vi/YNg9azH5BMQ/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T15:13:47Z",
-            "viewCount": 872,
-            "viewIncrease": 872,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 17600,
-            "durationSeconds": 24,
-            "isShort": true,
-            "rawScore": 36.4,
+            "rawScore": 32.3,
             "normalizedScore": 50.0,
             "genres": [
                 {
                     "slug": "sports",
                     "name": "スポーツ",
-                    "confidence": 0.4
+                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 55.0,
-                "engagement": 9.3,
-                "subscriberRatio": 67.4,
-                "freshness": 32.5,
+                "velocity": 140.6,
+                "engagement": 23.5,
+                "subscriberRatio": 85.6,
+                "freshness": 15.2,
                 "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 14,
-            "previousRank": 14,
-            "rankChange": 0,
-            "videoId": "pWUbwGQlDeE",
-            "title": "西武園ナイター競輪　第99回スポーツニッポン新聞社杯 F1 3日目【2026年8月5日】#西武園競輪ライブ　#西武園競輪中継",
-            "channelId": "UCH1CtPd9P_DBK9xMzYH48lw",
-            "channelName": "大宮・西武園競輪ライブ配信チャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/pWUbwGQlDeE/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T12:15:02Z",
-            "viewCount": 24142,
-            "viewIncrease": 122,
-            "likeCount": 53,
-            "likeIncrease": 1,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 7270,
-            "durationSeconds": 21602,
-            "rawScore": 34.2,
-            "normalizedScore": 45.8,
-            "genres": [
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.7
-                },
-                {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 47.7,
-                "engagement": 17.3,
-                "subscriberRatio": 55.7,
-                "freshness": 28.3
             }
         },
         {
             "rank": 15,
-            "videoId": "Pbh0A3xTi84",
-            "title": "スポーツカーレンタル事業やってる25歳の売り上げ公開します #shorts",
-            "channelId": "UCu73U9TTySe7NLzo6L6oW9g",
-            "channelName": "せいや@GTRなど車7台を所有している24歳SNSクリエイター",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Pbh0A3xTi84/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T12:00:42Z",
-            "viewCount": 2371,
-            "viewIncrease": 775,
-            "likeCount": 18,
-            "likeIncrease": 2,
-            "commentCount": 1,
-            "commentIncrease": 0,
-            "subscriberCount": 39600,
-            "durationSeconds": 60,
-            "isShort": true,
-            "rawScore": 34.0,
-            "normalizedScore": 41.7,
-            "genres": [
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.4
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 75.2,
-                "engagement": 10.0,
-                "subscriberRatio": 57.3,
-                "freshness": 28.1,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 16,
-            "videoId": "d2BJ7YGVnb4",
-            "title": "【にじさんじ】熱狂！にじさんじ甲子園2026#9【 #にじ甲2026】",
-            "channelId": "UCJubINhCcFXlsBwnHp0wl_g",
-            "channelName": "舞元啓介",
-            "thumbnailUrl": "https://i.ytimg.com/vi/d2BJ7YGVnb4/maxresdefault.jpg",
-            "publishedAt": "2026-08-04T14:38:56Z",
-            "viewCount": 635379,
-            "viewIncrease": 9117,
-            "likeCount": 10002,
-            "likeIncrease": 50,
-            "commentCount": 91,
-            "commentIncrease": 1,
-            "subscriberCount": 472000,
-            "durationSeconds": 15754,
-            "rawScore": 32.0,
-            "normalizedScore": 37.5,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                },
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 112.6,
-                "engagement": 16.9,
-                "subscriberRatio": 57.2,
-                "freshness": 17.1
-            }
-        },
-        {
-            "rank": 17,
             "videoId": "qsuv0Ag0pGs",
             "title": "FKで宇宙人だとバレてしまったメッシ #メッシ #サッカー",
             "channelId": "UCmmv1Rw1tEWXvsb7jJtDmPg",
             "channelName": "ほぼタケフサ【Football】",
             "thumbnailUrl": "https://i.ytimg.com/vi/qsuv0Ag0pGs/maxresdefault.jpg",
             "publishedAt": "2026-08-03T09:27:53Z",
-            "viewCount": 2536027,
-            "viewIncrease": 178350,
-            "likeCount": 16756,
-            "likeIncrease": 374,
-            "commentCount": 153,
-            "commentIncrease": 2,
-            "subscriberCount": 49300,
+            "viewCount": 2829000,
+            "viewIncrease": 292973,
+            "likeCount": 18349,
+            "likeIncrease": 1593,
+            "commentCount": 165,
+            "commentIncrease": 12,
+            "subscriberCount": 49700,
             "durationSeconds": 20,
             "isShort": true,
-            "rawScore": 30.0,
-            "normalizedScore": 33.3,
+            "rawScore": 29.8,
+            "normalizedScore": 46.2,
             "genres": [
                 {
                     "slug": "sports",
@@ -682,10 +603,78 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 157.8,
-                "engagement": 9.1,
-                "subscriberRatio": 114.0,
-                "freshness": 12.6,
+                "velocity": 160.6,
+                "engagement": 15.5,
+                "subscriberRatio": 119.3,
+                "freshness": 11.9,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 16,
+            "previousRank": 99,
+            "rankChange": 83,
+            "videoId": "oKsZ3dx2MXM",
+            "title": "GⅢオールレディース第59回日刊スポーツ杯（8/5）表彰式",
+            "channelId": "UCT2pRt_me0tOA8B2sakEv7Q",
+            "channelName": "ボートレース桐生（公式）",
+            "thumbnailUrl": "https://i.ytimg.com/vi/oKsZ3dx2MXM/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T12:43:44Z",
+            "viewCount": 2272,
+            "viewIncrease": 770,
+            "likeCount": 26,
+            "likeIncrease": 1,
+            "commentCount": 7,
+            "commentIncrease": 0,
+            "subscriberCount": 53300,
+            "durationSeconds": 140,
+            "rawScore": 29.7,
+            "normalizedScore": 42.3,
+            "genres": [
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.7
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 70.5,
+                "engagement": 6.5,
+                "subscriberRatio": 54.1,
+                "freshness": 22.6
+            }
+        },
+        {
+            "rank": 17,
+            "videoId": "YNg9azH5BMQ",
+            "title": "サドルになりたい  #日本  #スポーツ  #一輪車",
+            "channelId": "UC_sIpmc2Q9SF_ooBiPiAE3w",
+            "channelName": "元気アップ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/YNg9azH5BMQ/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T15:13:47Z",
+            "viewCount": 1214,
+            "viewIncrease": 342,
+            "likeCount": 3,
+            "likeIncrease": 1,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 17600,
+            "durationSeconds": 24,
+            "isShort": true,
+            "rawScore": 26.0,
+            "normalizedScore": 38.5,
+            "genres": [
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.4
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 58.3,
+                "engagement": 10.7,
+                "subscriberRatio": 57.3,
+                "freshness": 24.2,
                 "formatAdjustment": 85.0
             }
         },
@@ -697,17 +686,17 @@
             "channelName": "スポーツビデオ判定室",
             "thumbnailUrl": "https://i.ytimg.com/vi/r1PbJz6M9VE/maxresdefault.jpg",
             "publishedAt": "2026-08-02T11:14:32Z",
-            "viewCount": 1444814,
-            "viewIncrease": 112280,
-            "likeCount": 10803,
-            "likeIncrease": 365,
-            "commentCount": 45,
-            "commentIncrease": 0,
+            "viewCount": 1600929,
+            "viewIncrease": 156115,
+            "likeCount": 12326,
+            "likeIncrease": 1523,
+            "commentCount": 47,
+            "commentIncrease": 2,
             "subscriberCount": 31400,
             "durationSeconds": 20,
             "isShort": true,
-            "rawScore": 25.4,
-            "normalizedScore": 29.2,
+            "rawScore": 25.3,
+            "normalizedScore": 34.6,
             "genres": [
                 {
                     "slug": "sports",
@@ -716,10 +705,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 150.8,
-                "engagement": 11.3,
-                "subscriberRatio": 113.8,
-                "freshness": 10.8,
+                "velocity": 151.1,
+                "engagement": 18.9,
+                "subscriberRatio": 117.4,
+                "freshness": 10.4,
                 "formatAdjustment": 85.0
             }
         },
@@ -731,17 +720,17 @@
             "channelName": "サッカーワールド",
             "thumbnailUrl": "https://i.ytimg.com/vi/8Q4ClSkzDDY/maxresdefault.jpg",
             "publishedAt": "2026-08-02T09:00:18Z",
-            "viewCount": 2657906,
-            "viewIncrease": 135061,
-            "likeCount": 17096,
-            "likeIncrease": 387,
-            "commentCount": 176,
-            "commentIncrease": 2,
+            "viewCount": 2821581,
+            "viewIncrease": 163675,
+            "likeCount": 18259,
+            "likeIncrease": 1163,
+            "commentCount": 183,
+            "commentIncrease": 7,
             "subscriberCount": 50100,
             "durationSeconds": 26,
             "isShort": true,
-            "rawScore": 25.0,
-            "normalizedScore": 25.0,
+            "rawScore": 24.6,
+            "normalizedScore": 30.8,
             "genres": [
                 {
                     "slug": "sports",
@@ -750,10 +739,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 153.6,
-                "engagement": 10.9,
-                "subscriberRatio": 110.8,
-                "freshness": 10.7,
+                "velocity": 151.8,
+                "engagement": 17.4,
+                "subscriberRatio": 112.9,
+                "freshness": 10.2,
                 "formatAdjustment": 85.0
             }
         },
@@ -765,17 +754,17 @@
             "channelName": "ほぼ谷ショーヘー",
             "thumbnailUrl": "https://i.ytimg.com/vi/RjURg29585U/maxresdefault.jpg",
             "publishedAt": "2026-08-02T11:00:24Z",
-            "viewCount": 1343214,
-            "viewIncrease": 51063,
-            "likeCount": 6294,
-            "likeIncrease": 76,
+            "viewCount": 1410377,
+            "viewIncrease": 67163,
+            "likeCount": 6595,
+            "likeIncrease": 301,
             "commentCount": 27,
             "commentIncrease": 0,
             "subscriberCount": 28900,
             "durationSeconds": 30,
             "isShort": true,
-            "rawScore": 23.1,
-            "normalizedScore": 20.8,
+            "rawScore": 22.9,
+            "normalizedScore": 26.9,
             "genres": [
                 {
                     "slug": "sports",
@@ -784,10 +773,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 138.8,
-                "engagement": 7.1,
-                "subscriberRatio": 106.2,
-                "freshness": 10.8,
+                "velocity": 138.3,
+                "engagement": 13.3,
+                "subscriberRatio": 109.2,
+                "freshness": 10.4,
                 "formatAdjustment": 85.0
             }
         },
@@ -799,17 +788,17 @@
             "channelName": "スポビト",
             "thumbnailUrl": "https://i.ytimg.com/vi/M5rslJSHPsQ/maxresdefault.jpg",
             "publishedAt": "2026-08-01T01:00:23Z",
-            "viewCount": 4683451,
-            "viewIncrease": 177333,
-            "likeCount": 51002,
-            "likeIncrease": 1027,
-            "commentCount": 321,
-            "commentIncrease": 9,
+            "viewCount": 4965170,
+            "viewIncrease": 281719,
+            "likeCount": 55313,
+            "likeIncrease": 4311,
+            "commentCount": 337,
+            "commentIncrease": 16,
             "subscriberCount": 115000,
             "durationSeconds": 17,
             "isShort": true,
-            "rawScore": 21.6,
-            "normalizedScore": 16.7,
+            "rawScore": 22.1,
+            "normalizedScore": 23.1,
             "genres": [
                 {
                     "slug": "sports",
@@ -818,10 +807,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 157.7,
-                "engagement": 16.2,
-                "subscriberRatio": 104.7,
-                "freshness": 9.1,
+                "velocity": 160.0,
+                "engagement": 23.1,
+                "subscriberRatio": 109.7,
+                "freshness": 8.9,
                 "formatAdjustment": 85.0
             }
         },
@@ -833,17 +822,17 @@
             "channelName": "フットボールワールド",
             "thumbnailUrl": "https://i.ytimg.com/vi/14XxFq9tKM0/maxresdefault.jpg",
             "publishedAt": "2026-07-31T12:15:06Z",
-            "viewCount": 3625757,
-            "viewIncrease": 136081,
-            "likeCount": 37439,
-            "likeIncrease": 897,
-            "commentCount": 449,
-            "commentIncrease": 6,
-            "subscriberCount": 56200,
+            "viewCount": 3916681,
+            "viewIncrease": 290924,
+            "likeCount": 40890,
+            "likeIncrease": 3451,
+            "commentCount": 480,
+            "commentIncrease": 31,
+            "subscriberCount": 56400,
             "durationSeconds": 16,
             "isShort": true,
-            "rawScore": 20.7,
-            "normalizedScore": 12.5,
+            "rawScore": 21.6,
+            "normalizedScore": 19.2,
             "genres": [
                 {
                     "slug": "sports",
@@ -852,10 +841,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 153.7,
-                "engagement": 16.9,
-                "subscriberRatio": 109.6,
-                "freshness": 8.7,
+                "velocity": 160.5,
+                "engagement": 22.2,
+                "subscriberRatio": 117.8,
+                "freshness": 8.5,
                 "formatAdjustment": 85.0
             }
         },
@@ -867,17 +856,17 @@
             "channelName": "ワールドハック",
             "thumbnailUrl": "https://i.ytimg.com/vi/CTS4GPLcvbo/maxresdefault.jpg",
             "publishedAt": "2026-08-01T07:25:27Z",
-            "viewCount": 4841006,
-            "viewIncrease": 114508,
-            "likeCount": 59684,
-            "likeIncrease": 495,
-            "commentCount": 128,
-            "commentIncrease": 0,
-            "subscriberCount": 359000,
+            "viewCount": 5016782,
+            "viewIncrease": 175776,
+            "likeCount": 62195,
+            "likeIncrease": 2511,
+            "commentCount": 133,
+            "commentIncrease": 5,
+            "subscriberCount": 360000,
             "durationSeconds": 34,
             "isShort": true,
-            "rawScore": 20.1,
-            "normalizedScore": 8.3,
+            "rawScore": 20.7,
+            "normalizedScore": 15.4,
             "genres": [
                 {
                     "slug": "sports",
@@ -901,10 +890,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 151.1,
-                "engagement": 13.1,
-                "subscriberRatio": 87.6,
-                "freshness": 9.4,
+                "velocity": 152.9,
+                "engagement": 22.0,
+                "subscriberRatio": 92.2,
+                "freshness": 9.1,
                 "formatAdjustment": 85.0
             }
         },
@@ -916,17 +905,17 @@
             "channelName": "(パーソル パ・リーグTV公式)PacificLeagueTV",
             "thumbnailUrl": "https://i.ytimg.com/vi/SmQF6KJFBNM/maxresdefault.jpg",
             "publishedAt": "2026-07-30T14:00:30Z",
-            "viewCount": 2917905,
-            "viewIncrease": 147426,
-            "likeCount": 21829,
-            "likeIncrease": 379,
-            "commentCount": 178,
-            "commentIncrease": 0,
+            "viewCount": 3141859,
+            "viewIncrease": 223954,
+            "likeCount": 23932,
+            "likeIncrease": 2103,
+            "commentCount": 184,
+            "commentIncrease": 6,
             "subscriberCount": 1710000,
             "durationSeconds": 20,
             "isShort": true,
-            "rawScore": 16.3,
-            "normalizedScore": 4.2,
+            "rawScore": 16.9,
+            "normalizedScore": 11.5,
             "genres": [
                 {
                     "slug": "sports",
@@ -935,10 +924,10 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 154.9,
-                "engagement": 9.9,
-                "subscriberRatio": 73.4,
-                "freshness": 8.0,
+                "velocity": 156.6,
+                "engagement": 19.0,
+                "subscriberRatio": 77.9,
+                "freshness": 7.9,
                 "formatAdjustment": 85.0
             }
         },
@@ -950,16 +939,16 @@
             "channelName": "ベン・ゼイン",
             "thumbnailUrl": "https://i.ytimg.com/vi/ih6gwbfOI90/maxresdefault.jpg",
             "publishedAt": "2026-07-31T09:59:28Z",
-            "viewCount": 459130,
-            "viewIncrease": 1013,
-            "likeCount": 14610,
-            "likeIncrease": 18,
-            "commentCount": 407,
-            "commentIncrease": 0,
+            "viewCount": 461054,
+            "viewIncrease": 1924,
+            "likeCount": 14638,
+            "likeIncrease": 28,
+            "commentCount": 408,
+            "commentIncrease": 1,
             "subscriberCount": 378000,
             "durationSeconds": 85,
-            "rawScore": 11.9,
-            "normalizedScore": 0.0,
+            "rawScore": 13.0,
+            "normalizedScore": 7.7,
             "genres": [
                 {
                     "slug": "learning",
@@ -973,10 +962,86 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 79.3,
-                "engagement": 22.9,
-                "subscriberRatio": 36.1,
-                "freshness": 8.6
+                "velocity": 84.3,
+                "engagement": 28.1,
+                "subscriberRatio": 42.9,
+                "freshness": 8.4
+            }
+        },
+        {
+            "rank": 26,
+            "videoId": "x9PzOU1rN6I",
+            "title": "スポーツ界激震！大谷の活躍と日本人選手の大型移籍・躍進を徹底解説",
+            "channelId": "UCIhzc_6AK-yA5yQKxJxZv8g",
+            "channelName": "本日のニュース",
+            "thumbnailUrl": "https://i.ytimg.com/vi/x9PzOU1rN6I/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T21:05:44Z",
+            "viewCount": 2,
+            "viewIncrease": 2,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 16,
+            "durationSeconds": 154,
+            "rawScore": 10.3,
+            "normalizedScore": 3.8,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.65
+                },
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.6
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 1.2,
+                "engagement": 0.0,
+                "subscriberRatio": 33.1,
+                "freshness": 29.9
+            }
+        },
+        {
+            "rank": 27,
+            "videoId": "Fei4hnrWwWg",
+            "title": "バドミントン世界選手権、組み合わせ決定｜Times of India｜2026/08/06｜スポーツ",
+            "channelId": "UCJ1Eh6EzOK-iybd5Oomgfng",
+            "channelName": "海外ニュース速報",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Fei4hnrWwWg/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T19:12:11Z",
+            "viewCount": 2,
+            "viewIncrease": 2,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 308,
+            "durationSeconds": 43,
+            "isShort": true,
+            "rawScore": 8.1,
+            "normalizedScore": 0.0,
+            "genres": [
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.6
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.45
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 1.2,
+                "engagement": 0.0,
+                "subscriberRatio": 33.1,
+                "freshness": 27.7,
+                "formatAdjustment": 85.0
             }
         }
     ]
