@@ -1,5 +1,5 @@
 {
-    "generatedAt": "2026-08-07T05:23:26.573130764Z",
+    "generatedAt": "2026-08-07T10:33:31.497770040Z",
     "period": "24h",
     "genre": {
         "slug": "learning",
@@ -8,26 +8,183 @@
     },
     "status": "official",
     "totalVideos": 52,
-    "totalChannels": 43,
+    "totalChannels": 46,
     "ranking": [
         {
             "rank": 1,
+            "videoId": "tu8d5PCuzOI",
+            "title": "最凶料理「ホタテプラネット」の作り方",
+            "channelId": "UCIUBk7TYoBosQZ86IpDf6wg",
+            "channelName": "村もんチャンネル",
+            "thumbnailUrl": "https://i.ytimg.com/vi/tu8d5PCuzOI/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:16:17Z",
+            "viewCount": 4937,
+            "viewIncrease": 4937,
+            "likeCount": 190,
+            "likeIncrease": 190,
+            "commentCount": 30,
+            "commentIncrease": 30,
+            "subscriberCount": 94000,
+            "durationSeconds": 113,
+            "rawScore": 108.0,
+            "normalizedScore": 100.0,
+            "genres": [
+                {
+                    "slug": "cooking",
+                    "name": "料理",
+                    "confidence": 0.4
+                },
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 81.0,
+                "engagement": 46.7,
+                "subscriberRatio": 68.0,
+                "freshness": 55.2
+            }
+        },
+        {
+            "rank": 2,
+            "videoId": "q6I2Fz0-adQ",
+            "title": "傘系統の魅力を解説！【スプラトゥーン3】【スパイガジェット】",
+            "channelId": "UCBkADUDaMoUhDFA9PPwZRgg",
+            "channelName": "フグ,",
+            "thumbnailUrl": "https://i.ytimg.com/vi/q6I2Fz0-adQ/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:39:08Z",
+            "viewCount": 636,
+            "viewIncrease": 636,
+            "likeCount": 92,
+            "likeIncrease": 92,
+            "commentCount": 14,
+            "commentIncrease": 14,
+            "subscriberCount": 157000,
+            "durationSeconds": 1053,
+            "rawScore": 89.8,
+            "normalizedScore": 98.0,
+            "genres": [
+                {
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.4
+                },
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 50.4,
+                "engagement": 62.0,
+                "subscriberRatio": 40.5,
+                "freshness": 58.7
+            }
+        },
+        {
+            "rank": 3,
+            "videoId": "yVGL-1TpfOo",
+            "title": "【福岡県議会問題】権力を使ったお金儲け #ニュース解説 #政治ニュース #youtubeニュース #ネットの反応 #ニュース速報 #トレンドニュース",
+            "channelId": "UCcAuhw2PSvMzPGFkvJllutQ",
+            "channelName": "日本政治ニュースチャンネル",
+            "thumbnailUrl": "https://i.ytimg.com/vi/yVGL-1TpfOo/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:36:46Z",
+            "viewCount": 1070,
+            "viewIncrease": 1070,
+            "likeCount": 49,
+            "likeIncrease": 49,
+            "commentCount": 3,
+            "commentIncrease": 3,
+            "subscriberCount": 11500,
+            "durationSeconds": 35,
+            "isShort": true,
+            "rawScore": 87.6,
+            "normalizedScore": 96.1,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.75
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 58.1,
+                "engagement": 44.2,
+                "subscriberRatio": 74.2,
+                "freshness": 58.4,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 4,
+            "videoId": "dmZPG7u6PCg",
+            "title": "【原神】限定★５「オデット」は強いのか？無凸で解説します。武器/聖遺物/PT編成/凸orモチーフ…全てが分かる！",
+            "channelId": "UCjJmYy279ehSYSwR1A3fXtA",
+            "channelName": "マグロヘッド",
+            "thumbnailUrl": "https://i.ytimg.com/vi/dmZPG7u6PCg/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T04:00:04Z",
+            "viewCount": 115102,
+            "viewIncrease": 115102,
+            "likeCount": 4286,
+            "likeIncrease": 4286,
+            "commentCount": 437,
+            "commentIncrease": 437,
+            "subscriberCount": 764000,
+            "durationSeconds": 1675,
+            "rawScore": 86.3,
+            "normalizedScore": 94.1,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 128.8,
+                "engagement": 44.1,
+                "subscriberRatio": 79.5,
+                "freshness": 34.2
+            }
+        },
+        {
+            "rank": 5,
+            "previousRank": 1,
+            "rankChange": -4,
             "videoId": "J-bm2LFdxU0",
             "title": "全国の小学生が泣かされたイベント",
             "channelId": "UCEeEFug3M-aQ62H8LOQt-YQ",
             "channelName": "GON",
             "thumbnailUrl": "https://i.ytimg.com/vi/J-bm2LFdxU0/maxresdefault.jpg",
             "publishedAt": "2026-08-07T03:00:26Z",
-            "viewCount": 47963,
-            "viewIncrease": 47963,
-            "likeCount": 3156,
-            "likeIncrease": 3156,
-            "commentCount": 463,
-            "commentIncrease": 463,
-            "subscriberCount": 550000,
+            "viewCount": 140102,
+            "viewIncrease": 92139,
+            "likeCount": 5185,
+            "likeIncrease": 2029,
+            "commentCount": 643,
+            "commentIncrease": 180,
+            "subscriberCount": 551000,
             "durationSeconds": 2287,
-            "rawScore": 115.7,
-            "normalizedScore": 100.0,
+            "rawScore": 86.2,
+            "normalizedScore": 92.2,
             "genres": [
                 {
                     "slug": "gaming",
@@ -46,68 +203,151 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 115.5,
-                "engagement": 53.2,
-                "subscriberRatio": 73.5,
-                "freshness": 47.8
+                "velocity": 148.8,
+                "engagement": 36.9,
+                "subscriberRatio": 80.6,
+                "freshness": 32.4
             }
         },
         {
-            "rank": 2,
-            "videoId": "aqyNy4Zkp7Y",
-            "title": "【ニッポンジャーナル】上念司×内藤陽介 最新ニュースを解説！",
-            "channelId": "UC2dhkM2mQXMlIXcd2vMStvQ",
-            "channelName": "ニッポンジャーナル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/aqyNy4Zkp7Y/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T02:49:45Z",
-            "viewCount": 26483,
-            "viewIncrease": 26483,
-            "likeCount": 1485,
-            "likeIncrease": 1485,
-            "commentCount": 57,
-            "commentIncrease": 57,
-            "subscriberCount": 325000,
-            "durationSeconds": 5941,
-            "rawScore": 104.9,
-            "normalizedScore": 98.0,
+            "rank": 6,
+            "videoId": "8sUppTe7tbM",
+            "title": "なぜ注目？財務省人事「東京税関長」の意味｜#101 DALMATIWAN NEWS",
+            "channelId": "UC-kIUCHBw0Vtddrb25nsZ3w",
+            "channelName": "マイロ.ハート.ネネAI物語【年金生活のマイロパパ作】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/8sUppTe7tbM/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:35:40Z",
+            "viewCount": 63,
+            "viewIncrease": 63,
+            "likeCount": 7,
+            "likeIncrease": 7,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 1160,
+            "durationSeconds": 87,
+            "rawScore": 86.0,
+            "normalizedScore": 90.2,
+            "genres": [
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "entertainment",
+                    "name": "エンタメ",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 19.6,
+                "engagement": 59.8,
+                "subscriberRatio": 68.4,
+                "freshness": 58.2
+            }
+        },
+        {
+            "rank": 7,
+            "videoId": "eyRvhzJoPCs",
+            "title": "米国の「出産旅行」禁止措置に見る揺らぎと受容の感覚",
+            "channelId": "UCwF2ZL7TPyb5r5wP8-oyJUw",
+            "channelName": "ななめ読み編集部",
+            "thumbnailUrl": "https://i.ytimg.com/vi/eyRvhzJoPCs/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:15:21Z",
+            "viewCount": 616,
+            "viewIncrease": 616,
+            "likeCount": 7,
+            "likeIncrease": 7,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 106,
+            "durationSeconds": 21,
+            "isShort": true,
+            "rawScore": 82.3,
+            "normalizedScore": 88.2,
+            "genres": [
+                {
+                    "slug": "travel",
+                    "name": "旅行",
+                    "confidence": 0.6
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.5
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 49.9,
+                "engagement": 31.2,
+                "subscriberRatio": 94.7,
+                "freshness": 55.0,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 8,
+            "videoId": "VlvKWsO6xXM",
+            "title": "R8 8/7 百田尚樹・有本香のニュース生放送　あさ8時！ 第893回",
+            "channelId": "UC07a-1FKy4sJ4ZZTpp2RN5g",
+            "channelName": "ニュースあさ8時!",
+            "thumbnailUrl": "https://i.ytimg.com/vi/VlvKWsO6xXM/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T00:51:16Z",
+            "viewCount": 128262,
+            "viewIncrease": 128262,
+            "likeCount": 9540,
+            "likeIncrease": 9540,
+            "commentCount": 203,
+            "commentIncrease": 203,
+            "subscriberCount": 338000,
+            "durationSeconds": 6443,
+            "rawScore": 77.5,
+            "normalizedScore": 86.3,
             "genres": [
                 {
                     "slug": "learning",
                     "name": "学習・情報",
-                    "confidence": 0.99
+                    "confidence": 0.75
                 },
                 {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.1
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 106.5,
-                "engagement": 44.5,
-                "subscriberRatio": 72.8,
-                "freshness": 46.9
+                "velocity": 130.5,
+                "engagement": 45.2,
+                "subscriberRatio": 89.5,
+                "freshness": 29.2
             }
         },
         {
-            "rank": 3,
+            "rank": 9,
+            "previousRank": 13,
+            "rankChange": 4,
             "videoId": "QDVsKeexPDc",
             "title": "髙橋洋一氏が日米合意を解説 #ニュースあさ8 #百田尚樹 #有本香 #北村晴男 #虎ノ門ニュース #文化人放送局 @百田尚樹チャンネル @弁護士北村晴男ちゃんねる #保守 #時事 #政治",
             "channelId": "UCXXR9reuIWT7WJhvVc5jpDA",
             "channelName": "ウサギの独り言チャンネル",
             "thumbnailUrl": "https://i.ytimg.com/vi/QDVsKeexPDc/maxresdefault.jpg",
             "publishedAt": "2026-08-07T04:15:23Z",
-            "viewCount": 4390,
-            "viewIncrease": 4390,
-            "likeCount": 205,
-            "likeIncrease": 205,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 75100,
+            "viewCount": 40679,
+            "viewIncrease": 36289,
+            "likeCount": 1359,
+            "likeIncrease": 1154,
+            "commentCount": 6,
+            "commentIncrease": 5,
+            "subscriberCount": 75200,
             "durationSeconds": 60,
             "isShort": true,
-            "rawScore": 87.7,
-            "normalizedScore": 96.1,
+            "rawScore": 75.7,
+            "normalizedScore": 84.3,
             "genres": [
                 {
                     "slug": "learning",
@@ -121,109 +361,83 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 79.3,
-                "engagement": 34.2,
-                "subscriberRatio": 69.2,
-                "freshness": 56.5,
+                "velocity": 134.6,
+                "engagement": 30.0,
+                "subscriberRatio": 92.1,
+                "freshness": 34.7,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 4,
-            "videoId": "_UCFeqoa9KI",
-            "title": "ボタンだけ交換できる「脱スマホ携帯」Sidephone SP-01 #Shorts",
-            "channelId": "UCNSrEX44Zt2mbvc4ei9gFAg",
-            "channelName": "30秒トレンド",
-            "thumbnailUrl": "https://i.ytimg.com/vi/_UCFeqoa9KI/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T02:52:01Z",
-            "viewCount": 1161,
-            "viewIncrease": 1161,
-            "likeCount": 8,
-            "likeIncrease": 8,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 42,
-            "durationSeconds": 37,
-            "isShort": true,
-            "rawScore": 74.3,
-            "normalizedScore": 94.1,
+            "rank": 10,
+            "videoId": "N3f2XANQFYE",
+            "title": "【リファ3種比較】結局どれが正解？美容師が成分と使用感で本音評価",
+            "channelId": "UCZe93_x0fP6H0-UYJumg2fA",
+            "channelName": "髪のくすりばこ",
+            "thumbnailUrl": "https://i.ytimg.com/vi/N3f2XANQFYE/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:00:34Z",
+            "viewCount": 232,
+            "viewIncrease": 232,
+            "likeCount": 27,
+            "likeIncrease": 27,
+            "commentCount": 3,
+            "commentIncrease": 3,
+            "subscriberCount": 42600,
+            "durationSeconds": 1016,
+            "rawScore": 73.8,
+            "normalizedScore": 82.4,
             "genres": [
                 {
-                    "slug": "gadgets",
-                    "name": "ガジェット",
-                    "confidence": 0.8
+                    "slug": "beauty",
+                    "name": "美容",
+                    "confidence": 0.9
+                },
+                {
+                    "slug": "cooking",
+                    "name": "料理",
+                    "confidence": 0.3
                 },
                 {
                     "slug": "learning",
                     "name": "学習・情報",
                     "confidence": 0.2
+                },
+                {
+                    "slug": "gadgets",
+                    "name": "ガジェット",
+                    "confidence": 0.1
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 59.3,
-                "engagement": 24.8,
-                "subscriberRatio": 101.6,
-                "freshness": 47.1,
-                "formatAdjustment": 85.0
+                "velocity": 36.0,
+                "engagement": 59.1,
+                "subscriberRatio": 43.6,
+                "freshness": 53.2
             }
         },
         {
-            "rank": 5,
-            "videoId": "4E1bTMQSk_c",
-            "title": "勉強のために運動を減らすと逆効果？",
-            "channelId": "UC-6WcoQcJNYNn9s9R560zVA",
-            "channelName": "ChatGPTさんと心の相談室",
-            "thumbnailUrl": "https://i.ytimg.com/vi/4E1bTMQSk_c/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T03:00:21Z",
-            "viewCount": 348,
-            "viewIncrease": 348,
-            "likeCount": 5,
-            "likeIncrease": 5,
+            "rank": 11,
+            "videoId": "uLVj1Y9-g5I",
+            "title": "【賃管士の効率的な勉強法】社会人向きのテキストと問題集の効率的な使い方を初心者向けに解説講義。みんなが欲しかった賃貸不動産経営管理士の教科書。",
+            "channelId": "UC8geVeG6TS8pLizYQf84LGg",
+            "channelName": "【不動産大学2nd】 賃貸不動産経営管理士部by棚田行政書士",
+            "thumbnailUrl": "https://i.ytimg.com/vi/uLVj1Y9-g5I/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T10:00:00Z",
+            "viewCount": 82,
+            "viewIncrease": 82,
+            "likeCount": 8,
+            "likeIncrease": 8,
             "commentCount": 1,
             "commentIncrease": 1,
-            "subscriberCount": 22,
-            "durationSeconds": 40,
-            "isShort": true,
-            "rawScore": 67.3,
-            "normalizedScore": 92.2,
+            "subscriberCount": 38700,
+            "durationSeconds": 445,
+            "rawScore": 71.2,
+            "normalizedScore": 80.4,
             "genres": [
                 {
                     "slug": "learning",
                     "name": "学習・情報",
-                    "confidence": 0.5
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 41.7,
-                "engagement": 35.6,
-                "subscriberRatio": 88.5,
-                "freshness": 47.8,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 6,
-            "videoId": "OtpLlmhjnFc",
-            "title": "高校受験までにしておくべきこと 中学生の受験勉強",
-            "channelId": "UCHtZCPwDKfEjkhGVBiqLsug",
-            "channelName": "オンライン学習塾のLaf先生",
-            "thumbnailUrl": "https://i.ytimg.com/vi/OtpLlmhjnFc/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T03:15:07Z",
-            "viewCount": 501,
-            "viewIncrease": 501,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 1,
-            "commentIncrease": 1,
-            "subscriberCount": 15700,
-            "durationSeconds": 158,
-            "rawScore": 66.2,
-            "normalizedScore": 90.2,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.3
+                    "confidence": 0.6
                 },
                 {
                     "slug": "vtuber",
@@ -232,103 +446,131 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 46.9,
-                "engagement": 25.1,
-                "subscriberRatio": 62.6,
-                "freshness": 49.2
+                "velocity": 22.6,
+                "engagement": 57.4,
+                "subscriberRatio": 33.7,
+                "freshness": 62.6
             }
         },
         {
-            "rank": 7,
-            "videoId": "gV_e-uJfYO8",
-            "title": "26/08/07NEWS:物価上昇、そもそもナゼ上がるのか？#ニュース解説",
-            "channelId": "UCWcqNO_kmU1YjQyZdSeRndQ",
-            "channelName": "経済が好きなだけの人",
-            "thumbnailUrl": "https://i.ytimg.com/vi/gV_e-uJfYO8/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T03:07:33Z",
-            "viewCount": 493,
-            "viewIncrease": 493,
+            "rank": 12,
+            "videoId": "9qUcrVcVUl4",
+            "title": "福岡県議会、金銭授受のうわさが議員の半数に広がっています｜FLAT NEWS #Shorts",
+            "channelId": "UC-PV4RM8gnG9LhNc__IzHaw",
+            "channelName": "FLAT NEWS",
+            "thumbnailUrl": "https://i.ytimg.com/vi/9qUcrVcVUl4/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:00:41Z",
+            "viewCount": 309,
+            "viewIncrease": 309,
+            "likeCount": 10,
+            "likeIncrease": 10,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 99,
+            "durationSeconds": 45,
+            "isShort": true,
+            "rawScore": 69.9,
+            "normalizedScore": 78.4,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.5
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 40.0,
+                "engagement": 27.4,
+                "subscriberRatio": 87.3,
+                "freshness": 53.2,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 13,
+            "videoId": "v1VtTg_y0j4",
+            "title": "【本音】「夏休みは15時間勉強が当たり前」とポストした理由を全部話します",
+            "channelId": "UCZ8xayo-MdaTJWXNRJU9Gdg",
+            "channelName": "逆転合格専門塾🌐ポラリスアカデミア",
+            "thumbnailUrl": "https://i.ytimg.com/vi/v1VtTg_y0j4/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:08:23Z",
+            "viewCount": 263,
+            "viewIncrease": 263,
+            "likeCount": 14,
+            "likeIncrease": 14,
+            "commentCount": 8,
+            "commentIncrease": 8,
+            "subscriberCount": 136000,
+            "durationSeconds": 481,
+            "rawScore": 69.1,
+            "normalizedScore": 76.5,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 37.7,
+                "engagement": 57.4,
+                "subscriberRatio": 32.7,
+                "freshness": 54.1
+            }
+        },
+        {
+            "rank": 14,
+            "videoId": "eANWnNYB9dk",
+            "title": "#資格 #勉強 #子育て #育児 #育休 #ワーママ #ワンオペ",
+            "channelId": "UCoU5UnlIRw98gscMEKQUCsA",
+            "channelName": "2児ママ薬剤師りの",
+            "thumbnailUrl": "https://i.ytimg.com/vi/eANWnNYB9dk/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:29:16Z",
+            "viewCount": 156,
+            "viewIncrease": 156,
             "likeCount": 1,
             "likeIncrease": 1,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 73,
-            "durationSeconds": 58,
+            "subscriberCount": 37,
+            "durationSeconds": 21,
             "isShort": true,
-            "rawScore": 60.9,
-            "normalizedScore": 88.2,
+            "rawScore": 61.2,
+            "normalizedScore": 74.5,
             "genres": [
                 {
                     "slug": "learning",
                     "name": "学習・情報",
-                    "confidence": 0.6
+                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 46.7,
-                "engagement": 8.7,
-                "subscriberRatio": 92.3,
-                "freshness": 48.5,
+                "velocity": 30.6,
+                "engagement": 15.7,
+                "subscriberRatio": 79.8,
+                "freshness": 57.1,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 8,
-            "previousRank": 25,
-            "rankChange": 17,
-            "videoId": "909wR1jGBGY",
-            "title": "【福岡県議会問題】悪の師弟関係‼️ #ニュース解説 #政治ニュース #youtubeニュース #ネットの反応 #ニュース速報 #トレンドニュース #ニュースまとめ",
-            "channelId": "UCcAuhw2PSvMzPGFkvJllutQ",
-            "channelName": "日本政治ニュースチャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/909wR1jGBGY/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T00:04:53Z",
-            "viewCount": 978,
-            "viewIncrease": 462,
-            "likeCount": 49,
-            "likeIncrease": 33,
-            "commentCount": 6,
-            "commentIncrease": 2,
-            "subscriberCount": 11500,
-            "durationSeconds": 35,
-            "isShort": true,
-            "rawScore": 58.5,
-            "normalizedScore": 86.3,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.75
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 71.2,
-                "engagement": 49.7,
-                "subscriberRatio": 65.1,
-                "freshness": 37.0,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 9,
-            "previousRank": 56,
-            "rankChange": 47,
+            "rank": 15,
             "videoId": "ELSQr-qIAYM",
             "title": "医師が患者に叫ぶよう指示した理由",
             "channelId": "UCuEzOCYFJrPpef8OM_UWeXg",
             "channelName": "1分カット",
             "thumbnailUrl": "https://i.ytimg.com/vi/ELSQr-qIAYM/maxresdefault.jpg",
             "publishedAt": "2026-08-06T09:00:16Z",
-            "viewCount": 1964198,
-            "viewIncrease": 309106,
-            "likeCount": 38947,
-            "likeIncrease": 6325,
-            "commentCount": 191,
-            "commentIncrease": 19,
-            "subscriberCount": 84600,
+            "viewCount": 2334861,
+            "viewIncrease": 370663,
+            "likeCount": 44851,
+            "likeIncrease": 5904,
+            "commentCount": 216,
+            "commentIncrease": 25,
+            "subscriberCount": 84900,
             "durationSeconds": 46,
             "isShort": true,
-            "rawScore": 55.6,
-            "normalizedScore": 84.3,
+            "rawScore": 50.1,
+            "normalizedScore": 72.5,
             "genres": [
                 {
                     "slug": "anime",
@@ -348,179 +590,30 @@
             ],
             "scoreBreakdown": {
                 "velocity": 170.0,
-                "engagement": 25.4,
-                "subscriberRatio": 114.1,
-                "freshness": 21.1,
+                "engagement": 23.6,
+                "subscriberRatio": 116.0,
+                "freshness": 19.1,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 10,
-            "previousRank": 85,
-            "rankChange": 75,
-            "videoId": "1gD1Q5n7-cs",
-            "title": "【消費減税】食料品消費税8→1％で物価は下がる？2年後…本当に8％に戻せる？専門家と大激論｜アベプラ",
-            "channelId": "UCB1dgsqLiEp57oDAyNV_vww",
-            "channelName": "ABEMA Prime #アベプラ【公式】",
-            "thumbnailUrl": "https://i.ytimg.com/vi/1gD1Q5n7-cs/maxresdefault.jpg",
-            "publishedAt": "2026-08-06T10:00:31Z",
-            "viewCount": 191784,
-            "viewIncrease": 38067,
-            "likeCount": 991,
-            "likeIncrease": 146,
-            "commentCount": 1437,
-            "commentIncrease": 178,
-            "subscriberCount": 2100000,
-            "durationSeconds": 2256,
-            "rawScore": 48.4,
-            "normalizedScore": 82.4,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 138.1,
-                "engagement": 29.0,
-                "subscriberRatio": 56.5,
-                "freshness": 21.6
-            }
-        },
-        {
-            "rank": 11,
-            "previousRank": 65,
-            "rankChange": 54,
-            "videoId": "zpCxmFMi2DI",
-            "title": "ルークが旬すぎるので最新コンボ解説動画作りました【スト6・カワノ】",
-            "channelId": "UCzRzPAT-AjlPyec5yXG974g",
-            "channelName": "カワノKawano",
-            "thumbnailUrl": "https://i.ytimg.com/vi/zpCxmFMi2DI/maxresdefault.jpg",
-            "publishedAt": "2026-08-06T09:57:54Z",
-            "viewCount": 135214,
-            "viewIncrease": 10269,
-            "likeCount": 3325,
-            "likeIncrease": 197,
-            "commentCount": 191,
-            "commentIncrease": 7,
-            "subscriberCount": 241000,
-            "durationSeconds": 2502,
-            "rawScore": 46.5,
-            "normalizedScore": 80.4,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.5
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 118.2,
-                "engagement": 31.2,
-                "subscriberRatio": 65.8,
-                "freshness": 21.6
-            }
-        },
-        {
-            "rank": 12,
-            "previousRank": 66,
-            "rankChange": 54,
-            "videoId": "eYSF1O-nfJ8",
-            "title": "モンストどうした？【モンストニュース】",
-            "channelId": "UCqfELxLmasBwYET4ZAMfMqA",
-            "channelName": "がみくん",
-            "thumbnailUrl": "https://i.ytimg.com/vi/eYSF1O-nfJ8/maxresdefault.jpg",
-            "publishedAt": "2026-08-06T10:00:09Z",
-            "viewCount": 204948,
-            "viewIncrease": 14152,
-            "likeCount": 2429,
-            "likeIncrease": 92,
-            "commentCount": 965,
-            "commentIncrease": 35,
-            "subscriberCount": 582000,
-            "durationSeconds": 2112,
-            "rawScore": 45.9,
-            "normalizedScore": 78.4,
-            "genres": [
-                {
-                    "slug": "gaming",
-                    "name": "ゲーム",
-                    "confidence": 0.3
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 123.1,
-                "engagement": 29.3,
-                "subscriberRatio": 59.7,
-                "freshness": 21.6
-            }
-        },
-        {
-            "rank": 13,
-            "videoId": "kDqwvPgGdb4",
-            "title": "ゼレンスキー大統領が日本の支援に文句！？事実ベースで解説します！#ニュース #解説",
-            "channelId": "UC1XJ01wgexiFH4fmXDmK_pw",
-            "channelName": "うさ耳情報局",
-            "thumbnailUrl": "https://i.ytimg.com/vi/kDqwvPgGdb4/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T11:20:16Z",
-            "viewCount": 367634,
-            "viewIncrease": 367634,
-            "likeCount": 12560,
-            "likeIncrease": 12560,
-            "commentCount": 1390,
-            "commentIncrease": 1390,
-            "subscriberCount": 106000,
-            "durationSeconds": 61,
-            "rawScore": 45.7,
-            "normalizedScore": 76.5,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.9
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 146.5,
-                "engagement": 43.4,
-                "subscriberRatio": 113.5,
-                "freshness": 15.1
-            }
-        },
-        {
-            "rank": 14,
-            "videoId": "mb4TEixndEg",
-            "title": "トヨタ 新型 クラウンスポーツ マイナーチェンジ（一部改良） 2026年発売・変更点・新グレード・価格まとめ",
-            "channelId": "UCYlEOmkeb4uIKFQz772pJyA",
-            "channelName": "最新自動車情報",
-            "thumbnailUrl": "https://i.ytimg.com/vi/mb4TEixndEg/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T03:28:24Z",
-            "viewCount": 44,
-            "viewIncrease": 44,
-            "likeCount": 1,
-            "likeIncrease": 1,
+            "rank": 16,
+            "videoId": "k-pvHuCoKsA",
+            "title": "【速報】坂本さん「目標へまい進」 文科省スポーツ表彰式",
+            "channelId": "UCwJXtk_1CKlCrh7YJDP2uPw",
+            "channelName": "共同通信  KYODO NEWS",
+            "thumbnailUrl": "https://i.ytimg.com/vi/k-pvHuCoKsA/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:11:37Z",
+            "viewCount": 160,
+            "viewIncrease": 160,
+            "likeCount": 10,
+            "likeIncrease": 10,
             "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 8490,
-            "durationSeconds": 573,
-            "rawScore": 42.3,
-            "normalizedScore": 74.5,
+            "subscriberCount": 463000,
+            "durationSeconds": 68,
+            "rawScore": 43.5,
+            "normalizedScore": 70.6,
             "genres": [
                 {
                     "slug": "sports",
@@ -530,35 +623,224 @@
                 {
                     "slug": "learning",
                     "name": "学習・情報",
-                    "confidence": 0.2
+                    "confidence": 0.3
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 15.8,
-                "engagement": 24.8,
-                "subscriberRatio": 43.1,
-                "freshness": 50.5
+                "velocity": 31.0,
+                "engagement": 32.4,
+                "subscriberRatio": 16.2,
+                "freshness": 54.6
             }
         },
         {
-            "rank": 15,
+            "rank": 17,
+            "videoId": "KbixTFM0_cU",
+            "title": "避難にも尊厳を！ #Shorts #ニュース #解説 #時事ニュース#雑学",
+            "channelId": "UC6_oeyWIGpupFht3vc9HA6g",
+            "channelName": "JAPANnewsCH",
+            "thumbnailUrl": "https://i.ytimg.com/vi/KbixTFM0_cU/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T08:30:05Z",
+            "viewCount": 513,
+            "viewIncrease": 513,
+            "likeCount": 5,
+            "likeIncrease": 5,
+            "commentCount": 1,
+            "commentIncrease": 1,
+            "subscriberCount": 677000,
+            "durationSeconds": 31,
+            "isShort": true,
+            "rawScore": 42.9,
+            "normalizedScore": 68.6,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.6
+                },
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "entertainment",
+                    "name": "エンタメ",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 47.2,
+                "engagement": 30.9,
+                "subscriberRatio": 23.3,
+                "freshness": 49.7,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 18,
+            "videoId": "1gD1Q5n7-cs",
+            "title": "【消費減税】食料品消費税8→1％で物価は下がる？2年後…本当に8％に戻せる？専門家と大激論｜アベプラ",
+            "channelId": "UCB1dgsqLiEp57oDAyNV_vww",
+            "channelName": "ABEMA Prime #アベプラ【公式】",
+            "thumbnailUrl": "https://i.ytimg.com/vi/1gD1Q5n7-cs/maxresdefault.jpg",
+            "publishedAt": "2026-08-06T10:00:31Z",
+            "viewCount": 231043,
+            "viewIncrease": 39259,
+            "likeCount": 1145,
+            "likeIncrease": 154,
+            "commentCount": 1575,
+            "commentIncrease": 138,
+            "subscriberCount": 2100000,
+            "durationSeconds": 2256,
+            "rawScore": 42.8,
+            "normalizedScore": 66.7,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 135.8,
+                "engagement": 27.7,
+                "subscriberRatio": 56.9,
+                "freshness": 19.4
+            }
+        },
+        {
+            "rank": 19,
+            "videoId": "n4mfkiciC-w",
+            "title": "大谷！！ホームラン日本人選手トップに！！ #Shorts #ニュース #解説 #時事ニュース#雑学",
+            "channelId": "UC6_oeyWIGpupFht3vc9HA6g",
+            "channelName": "JAPANnewsCH",
+            "thumbnailUrl": "https://i.ytimg.com/vi/n4mfkiciC-w/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T09:30:15Z",
+            "viewCount": 499,
+            "viewIncrease": 499,
+            "likeCount": 2,
+            "likeIncrease": 2,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 677000,
+            "durationSeconds": 31,
+            "isShort": true,
+            "rawScore": 40.2,
+            "normalizedScore": 64.7,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.6
+                },
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "entertainment",
+                    "name": "エンタメ",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 46.8,
+                "engagement": 12.6,
+                "subscriberRatio": 23.1,
+                "freshness": 57.3,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 20,
+            "videoId": "eYSF1O-nfJ8",
+            "title": "モンストどうした？【モンストニュース】",
+            "channelId": "UCqfELxLmasBwYET4ZAMfMqA",
+            "channelName": "がみくん",
+            "thumbnailUrl": "https://i.ytimg.com/vi/eYSF1O-nfJ8/maxresdefault.jpg",
+            "publishedAt": "2026-08-06T10:00:09Z",
+            "viewCount": 217395,
+            "viewIncrease": 12447,
+            "likeCount": 2487,
+            "likeIncrease": 58,
+            "commentCount": 978,
+            "commentIncrease": 13,
+            "subscriberCount": 582000,
+            "durationSeconds": 2112,
+            "rawScore": 38.8,
+            "normalizedScore": 62.7,
+            "genres": [
+                {
+                    "slug": "gaming",
+                    "name": "ゲーム",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 118.4,
+                "engagement": 23.1,
+                "subscriberRatio": 58.3,
+                "freshness": 19.4
+            }
+        },
+        {
+            "rank": 21,
+            "videoId": "kDqwvPgGdb4",
+            "title": "ゼレンスキー大統領が日本の支援に文句！？事実ベースで解説します！#ニュース #解説",
+            "channelId": "UC1XJ01wgexiFH4fmXDmK_pw",
+            "channelName": "うさ耳情報局",
+            "thumbnailUrl": "https://i.ytimg.com/vi/kDqwvPgGdb4/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T11:20:16Z",
+            "viewCount": 391554,
+            "viewIncrease": 23920,
+            "likeCount": 13554,
+            "likeIncrease": 994,
+            "commentCount": 1460,
+            "commentIncrease": 70,
+            "subscriberCount": 106000,
+            "durationSeconds": 61,
+            "rawScore": 36.5,
+            "normalizedScore": 60.8,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.9
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 128.3,
+                "engagement": 43.6,
+                "subscriberRatio": 83.8,
+                "freshness": 14.3
+            }
+        },
+        {
+            "rank": 22,
             "videoId": "J4DQvwOexro",
             "title": "甲子園優勝投手!!吉永健太郎【幻のドラ1】プロへ行かなかった男が数年後に投げた奇跡の魔球シンカー  #プロ野球  #甲子園 #始球式",
             "channelId": "UCtHBUn1-wSDfoLEIOLISCvw",
             "channelName": "1分で伝える面白スポーツ雑学",
             "thumbnailUrl": "https://i.ytimg.com/vi/J4DQvwOexro/maxresdefault.jpg",
             "publishedAt": "2026-08-05T09:00:13Z",
-            "viewCount": 1061705,
-            "viewIncrease": 1061705,
-            "likeCount": 8720,
-            "likeIncrease": 8720,
-            "commentCount": 208,
-            "commentIncrease": 208,
-            "subscriberCount": 20300,
+            "viewCount": 1187193,
+            "viewIncrease": 125488,
+            "likeCount": 9685,
+            "likeIncrease": 965,
+            "commentCount": 236,
+            "commentIncrease": 28,
+            "subscriberCount": 20400,
             "durationSeconds": 60,
             "isShort": true,
-            "rawScore": 40.7,
-            "normalizedScore": 72.5,
+            "rawScore": 34.8,
+            "normalizedScore": 58.8,
             "genres": [
                 {
                     "slug": "sports",
@@ -572,105 +854,32 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 162.6,
-                "engagement": 20.9,
-                "subscriberRatio": 143.0,
-                "freshness": 14.7,
+                "velocity": 153.5,
+                "engagement": 20.8,
+                "subscriberRatio": 119.7,
+                "freshness": 13.9,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 16,
-            "videoId": "yA8RNbO-U34",
-            "title": "【福岡県議会問題】まだまだ余裕そうだけど大丈夫⁉️ #ニュース解説 #youtubeニュース #政治ニュース #ネットの反応 #ニュース速報 #トレンドニュース #ニュースまとめ #ショートニュース",
-            "channelId": "UCcAuhw2PSvMzPGFkvJllutQ",
-            "channelName": "日本政治ニュースチャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/yA8RNbO-U34/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T08:13:12Z",
-            "viewCount": 171953,
-            "viewIncrease": 171953,
-            "likeCount": 2536,
-            "likeIncrease": 2536,
-            "commentCount": 441,
-            "commentIncrease": 441,
-            "subscriberCount": 11500,
-            "durationSeconds": 34,
-            "isShort": true,
-            "rawScore": 37.1,
-            "normalizedScore": 70.6,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.75
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 134.9,
-                "engagement": 35.2,
-                "subscriberRatio": 129.4,
-                "freshness": 14.6,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 17,
-            "videoId": "QxHAfRrJY_w",
-            "title": "大阪・梅田に\"体験型\"スポーツショップがオープン　茶屋町のユニクロ跡地に　ランニングフロアでは長居陸上競技場と同じ素材の床で試走も",
-            "channelId": "UCQhaZjODkIjuv38d-i5TVRw",
-            "channelName": "カンテレNEWS",
-            "thumbnailUrl": "https://i.ytimg.com/vi/QxHAfRrJY_w/sddefault.jpg",
-            "publishedAt": "2026-08-07T03:06:37Z",
-            "viewCount": 183,
-            "viewIncrease": 183,
-            "likeCount": 2,
-            "likeIncrease": 2,
-            "commentCount": 4,
-            "commentIncrease": 4,
-            "subscriberCount": 840000,
-            "durationSeconds": 50,
-            "isShort": true,
-            "rawScore": 36.7,
-            "normalizedScore": 68.6,
-            "genres": [
-                {
-                    "slug": "sports",
-                    "name": "スポーツ",
-                    "confidence": 0.6
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.3
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 32.8,
-                "engagement": 43.9,
-                "subscriberRatio": 12.6,
-                "freshness": 48.4,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 18,
+            "rank": 23,
             "videoId": "rAOGX09gkv8",
             "title": "撮られたがりすぎて逆に怖い警察官 #すごい #解説 #shorts",
             "channelId": "UC0ZK-2GfWJEFlgsWreDmV_A",
             "channelName": "ソクラのオモロショート",
             "thumbnailUrl": "https://i.ytimg.com/vi/rAOGX09gkv8/maxresdefault.jpg",
             "publishedAt": "2026-08-05T08:05:30Z",
-            "viewCount": 2419639,
-            "viewIncrease": 151417,
-            "likeCount": 37220,
-            "likeIncrease": 2494,
-            "commentCount": 2099,
-            "commentIncrease": 126,
+            "viewCount": 2635479,
+            "viewIncrease": 215840,
+            "likeCount": 41226,
+            "likeIncrease": 4006,
+            "commentCount": 2264,
+            "commentIncrease": 165,
             "subscriberCount": 243000,
             "durationSeconds": 31,
             "isShort": true,
-            "rawScore": 35.2,
-            "normalizedScore": 66.7,
+            "rawScore": 34.3,
+            "normalizedScore": 56.9,
             "genres": [
                 {
                     "slug": "learning",
@@ -679,31 +888,97 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 159.1,
-                "engagement": 30.9,
-                "subscriberRatio": 94.9,
-                "freshness": 14.5,
+                "velocity": 161.7,
+                "engagement": 31.4,
+                "subscriberRatio": 98.7,
+                "freshness": 13.8,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 19,
+            "rank": 24,
+            "videoId": "QUo3rYmJF_s",
+            "title": "熊本地震「事故かと思った」頭が左右に激しく　地震発生時に運転していたら…（2026年08月05日）",
+            "channelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
+            "channelName": "FNNプライムオンライン",
+            "thumbnailUrl": "https://i.ytimg.com/vi/QUo3rYmJF_s/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T10:15:40Z",
+            "viewCount": 207414,
+            "viewIncrease": 207414,
+            "likeCount": 1532,
+            "likeIncrease": 1532,
+            "commentCount": 256,
+            "commentIncrease": 256,
+            "subscriberCount": 2340000,
+            "durationSeconds": 358,
+            "rawScore": 33.6,
+            "normalizedScore": 54.9,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.3
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 137.8,
+                "engagement": 26.9,
+                "subscriberRatio": 73.7,
+                "freshness": 14.1
+            }
+        },
+        {
+            "rank": 25,
+            "videoId": "M_X8NKavcGo",
+            "title": "【竹田恒泰】王と天皇の違いとはの疑問に的確に解説",
+            "channelId": "UCV4gc3ixq6KOj2x_tf485jg",
+            "channelName": "政治ペンギン",
+            "thumbnailUrl": "https://i.ytimg.com/vi/M_X8NKavcGo/maxresdefault.jpg",
+            "publishedAt": "2026-08-04T14:27:01Z",
+            "viewCount": 3063401,
+            "viewIncrease": 254439,
+            "likeCount": 56752,
+            "likeIncrease": 3907,
+            "commentCount": 1785,
+            "commentIncrease": 83,
+            "subscriberCount": 99500,
+            "durationSeconds": 49,
+            "isShort": true,
+            "rawScore": 30.6,
+            "normalizedScore": 52.9,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.6
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 164.2,
+                "engagement": 26.9,
+                "subscriberRatio": 110.2,
+                "freshness": 11.9,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 26,
             "videoId": "RJT_8aEB6lo",
             "title": "モンストニュース[8/6]新たに「彩・獣神祭」が開催！「未開の幻洞」や「コースを選んで最大200連！アゲインガチャ」など、モンストの最新情報をお届けします！【モンスト公式】",
             "channelId": "UCd9BXPj-KcMTh0HiB-Vlb8A",
             "channelName": "モンスト（モンスターストライク）公式",
             "thumbnailUrl": "https://i.ytimg.com/vi/RJT_8aEB6lo/maxresdefault.jpg",
             "publishedAt": "2026-08-06T07:00:22Z",
-            "viewCount": 473271,
-            "viewIncrease": 5204,
-            "likeCount": 5820,
-            "likeIncrease": 53,
-            "commentCount": 433,
-            "commentIncrease": 3,
+            "viewCount": 478379,
+            "viewIncrease": 5108,
+            "likeCount": 5846,
+            "likeIncrease": 26,
+            "commentCount": 435,
+            "commentIncrease": 2,
             "subscriberCount": 1560000,
             "durationSeconds": 2865,
-            "rawScore": 34.9,
-            "normalizedScore": 64.7,
+            "rawScore": 30.0,
+            "normalizedScore": 51.0,
             "genres": [
                 {
                     "slug": "gaming",
@@ -722,241 +997,30 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 107.9,
-                "engagement": 25.9,
-                "subscriberRatio": 38.4,
-                "freshness": 20.3
+                "velocity": 104.8,
+                "engagement": 19.8,
+                "subscriberRatio": 38.2,
+                "freshness": 18.4
             }
         },
         {
-            "rank": 20,
-            "videoId": "kv3wEOwTClM",
-            "title": "3月に配属されたばかり…20代の女性白バイ隊員が鈴鹿サーキットで訓練走行中に転倒 頭などを強く打ち重傷",
-            "channelId": "UCUQ0AtI3k10_CyLYcu4WRVA",
-            "channelName": "東海テレビ ニュースONE",
-            "thumbnailUrl": "https://i.ytimg.com/vi/kv3wEOwTClM/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T21:16:33Z",
-            "viewCount": 102219,
-            "viewIncrease": 102219,
-            "likeCount": 197,
-            "likeIncrease": 197,
-            "commentCount": 160,
-            "commentIncrease": 160,
-            "subscriberCount": 216000,
-            "durationSeconds": 54,
-            "isShort": true,
-            "rawScore": 34.7,
-            "normalizedScore": 62.7,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.45
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 127.0,
-                "engagement": 19.7,
-                "subscriberRatio": 91.9,
-                "freshness": 17.1,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 21,
-            "videoId": "QzfZuU_LPN0",
-            "title": "Jamiroquai - Virtual Insanity (Lyrics in Japanese and English)",
-            "channelId": "UCDgUVl7BW7bk6FEuiw_q2rA",
-            "channelName": "JamiroquaiVEVO",
-            "thumbnailUrl": "https://i.ytimg.com/vi/QzfZuU_LPN0/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T09:00:28Z",
-            "viewCount": 164949,
-            "viewIncrease": 11768,
-            "likeCount": 15176,
-            "likeIncrease": 707,
-            "commentCount": 835,
-            "commentIncrease": 20,
-            "subscriberCount": 328000,
-            "durationSeconds": 235,
-            "rawScore": 33.5,
-            "normalizedScore": 60.8,
-            "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.5
-                },
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 120.3,
-                "engagement": 43.9,
-                "subscriberRatio": 63.9,
-                "freshness": 14.7
-            }
-        },
-        {
-            "rank": 22,
-            "videoId": "7_syg9iqVLo",
-            "title": "スペースXの上場後初の四半期決算について解説します",
-            "channelId": "UCXjTiSGclQLVVU83GVrRM4w",
-            "channelName": "堀江貴文 ホリエモン",
-            "thumbnailUrl": "https://i.ytimg.com/vi/7_syg9iqVLo/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T09:57:02Z",
-            "viewCount": 108156,
-            "viewIncrease": 108156,
-            "likeCount": 890,
-            "likeIncrease": 890,
-            "commentCount": 78,
-            "commentIncrease": 78,
-            "subscriberCount": 2150000,
-            "durationSeconds": 412,
-            "rawScore": 32.8,
-            "normalizedScore": 58.8,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.1
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 127.9,
-                "engagement": 25.3,
-                "subscriberRatio": 67.6,
-                "freshness": 14.8
-            }
-        },
-        {
-            "rank": 23,
-            "videoId": "M_X8NKavcGo",
-            "title": "【竹田恒泰】王と天皇の違いとはの疑問に的確に解説",
-            "channelId": "UCV4gc3ixq6KOj2x_tf485jg",
-            "channelName": "政治ペンギン",
-            "thumbnailUrl": "https://i.ytimg.com/vi/M_X8NKavcGo/maxresdefault.jpg",
-            "publishedAt": "2026-08-04T14:27:01Z",
-            "viewCount": 2808962,
-            "viewIncrease": 168093,
-            "likeCount": 52845,
-            "likeIncrease": 3960,
-            "commentCount": 1702,
-            "commentIncrease": 103,
-            "subscriberCount": 99300,
-            "durationSeconds": 49,
-            "isShort": true,
-            "rawScore": 31.5,
-            "normalizedScore": 56.9,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.6
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 160.7,
-                "engagement": 32.3,
-                "subscriberRatio": 105.7,
-                "freshness": 12.4,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 24,
-            "videoId": "bFkbaPUjZm8",
-            "title": "【虎ノ門ニュース】※須田慎一郎が緊急取材※ 北村晴男議員がとんでもない所感を出しました！",
-            "channelId": "UCuSPai4fj2nvwcCeyfq2sIA",
-            "channelName": "真相深入り! 虎ノ門ニュース",
-            "thumbnailUrl": "https://i.ytimg.com/vi/bFkbaPUjZm8/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T12:16:21Z",
-            "viewCount": 423824,
-            "viewIncrease": 10307,
-            "likeCount": 15135,
-            "likeIncrease": 329,
-            "commentCount": 932,
-            "commentIncrease": 13,
-            "subscriberCount": 1430000,
-            "durationSeconds": 2390,
-            "rawScore": 30.8,
-            "normalizedScore": 54.9,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.75
-                },
-                {
-                    "slug": "vtuber",
-                    "name": "VTuber",
-                    "confidence": 0.1
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 118.3,
-                "engagement": 37.7,
-                "subscriberRatio": 46.6,
-                "freshness": 15.2
-            }
-        },
-        {
-            "rank": 25,
-            "videoId": "AHvOwM9ZxHw",
-            "title": "前代未聞の人災。熊本地震後に会社指示で売上金を金庫に入れに建物に戻った結果、爆発に巻き込まれて帰らぬ人に。#ニュース #解説",
-            "channelId": "UC1XJ01wgexiFH4fmXDmK_pw",
-            "channelName": "うさ耳情報局",
-            "thumbnailUrl": "https://i.ytimg.com/vi/AHvOwM9ZxHw/maxresdefault.jpg",
-            "publishedAt": "2026-08-03T09:37:44Z",
-            "viewCount": 299822,
-            "viewIncrease": 299822,
-            "likeCount": 10271,
-            "likeIncrease": 10271,
-            "commentCount": 978,
-            "commentIncrease": 978,
-            "subscriberCount": 106000,
-            "durationSeconds": 61,
-            "rawScore": 30.7,
-            "normalizedScore": 52.9,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.9
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 143.4,
-                "engagement": 42.7,
-                "subscriberRatio": 111.3,
-                "freshness": 10.3
-            }
-        },
-        {
-            "rank": 26,
+            "rank": 27,
             "videoId": "7VqCdhFGE78",
             "title": "M!LK - 罪と罰と雨とキス (佐野勇斗＆吉田仁人) (Official Music Video)",
             "channelId": "UCFvSFbT8okMrpuFxBEIB2lg",
             "channelName": "M!LK",
             "thumbnailUrl": "https://i.ytimg.com/vi/7VqCdhFGE78/maxresdefault.jpg",
             "publishedAt": "2026-08-03T09:00:06Z",
-            "viewCount": 3518923,
-            "viewIncrease": 108474,
-            "likeCount": 132387,
-            "likeIncrease": 660,
-            "commentCount": 14304,
-            "commentIncrease": 64,
-            "subscriberCount": 36900,
+            "viewCount": 3662031,
+            "viewIncrease": 143108,
+            "likeCount": 133162,
+            "likeIncrease": 775,
+            "commentCount": 14377,
+            "commentIncrease": 73,
+            "subscriberCount": 37000,
             "durationSeconds": 228,
-            "rawScore": 29.7,
-            "normalizedScore": 51.0,
+            "rawScore": 29.2,
+            "normalizedScore": 49.0,
             "genres": [
                 {
                     "slug": "music",
@@ -970,103 +1034,35 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 154.1,
-                "engagement": 22.5,
-                "subscriberRatio": 111.7,
-                "freshness": 10.3
+                "velocity": 155.5,
+                "engagement": 21.1,
+                "subscriberRatio": 114.7,
+                "freshness": 10.0
             }
         },
         {
             "rank": 27,
-            "videoId": "7BFEy4kiPgo",
-            "title": "男と女、綺麗なのはどっち #shorts #おもしろ",
-            "channelId": "UCLGFW5DS4gPd8e3OJ3tryBA",
-            "channelName": "海外で笑おう",
-            "thumbnailUrl": "https://i.ytimg.com/vi/7BFEy4kiPgo/maxresdefault.jpg",
-            "publishedAt": "2026-08-03T10:45:15Z",
-            "viewCount": 5344578,
-            "viewIncrease": 255759,
-            "likeCount": 100336,
-            "likeIncrease": 5064,
-            "commentCount": 1244,
-            "commentIncrease": 39,
-            "subscriberCount": 96400,
-            "durationSeconds": 25,
-            "isShort": true,
-            "rawScore": 26.9,
+            "videoId": "bFkbaPUjZm8",
+            "title": "【虎ノ門ニュース】※須田慎一郎が緊急取材※ 北村晴男議員がとんでもない所感を出しました！",
+            "channelId": "UCuSPai4fj2nvwcCeyfq2sIA",
+            "channelName": "真相深入り! 虎ノ門ニュース",
+            "thumbnailUrl": "https://i.ytimg.com/vi/bFkbaPUjZm8/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T12:16:21Z",
+            "viewCount": 437238,
+            "viewIncrease": 13414,
+            "likeCount": 15467,
+            "likeIncrease": 332,
+            "commentCount": 943,
+            "commentIncrease": 11,
+            "subscriberCount": 1430000,
+            "durationSeconds": 2390,
+            "rawScore": 29.2,
             "normalizedScore": 49.0,
             "genres": [
                 {
                     "slug": "learning",
                     "name": "学習・情報",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 167.1,
-                "engagement": 26.7,
-                "subscriberRatio": 110.6,
-                "freshness": 10.4,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 28,
-            "videoId": "6clerzHVmAw",
-            "title": "【福岡県議会問題】この人をなんとかしないと❗️ #政治ニュース #youtubeニュース #ニュース解説 #ネットの反応 # #ニュース速報 #トレンドニュース #ニュースまとめ",
-            "channelId": "UCcAuhw2PSvMzPGFkvJllutQ",
-            "channelName": "日本政治ニュースチャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/6clerzHVmAw/maxresdefault.jpg",
-            "publishedAt": "2026-08-03T03:05:41Z",
-            "viewCount": 291020,
-            "viewIncrease": 291020,
-            "likeCount": 5233,
-            "likeIncrease": 5233,
-            "commentCount": 340,
-            "commentIncrease": 340,
-            "subscriberCount": 11500,
-            "durationSeconds": 38,
-            "isShort": true,
-            "rawScore": 26.4,
-            "normalizedScore": 47.1,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
                     "confidence": 0.75
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 142.9,
-                "engagement": 33.0,
-                "subscriberRatio": 135.1,
-                "freshness": 10.0,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 29,
-            "videoId": "jX1ztvW-KcM",
-            "title": "ヴィーガン擁護の女性がやばい... #shorts #ニュース討論 #政治討論 #ヴィーガン",
-            "channelId": "UC9hSHikbj_QIIsKEil3Df0w",
-            "channelName": "激論TV",
-            "thumbnailUrl": "https://i.ytimg.com/vi/jX1ztvW-KcM/maxresdefault.jpg",
-            "publishedAt": "2026-08-01T10:00:33Z",
-            "viewCount": 206101,
-            "viewIncrease": 206101,
-            "likeCount": 2724,
-            "likeIncrease": 2724,
-            "commentCount": 777,
-            "commentIncrease": 777,
-            "subscriberCount": 11600,
-            "durationSeconds": 80,
-            "rawScore": 25.7,
-            "normalizedScore": 45.1,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.5
                 },
                 {
                     "slug": "vtuber",
@@ -1075,30 +1071,173 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 137.7,
-                "engagement": 36.3,
-                "subscriberRatio": 131.2,
-                "freshness": 8.4
+                "velocity": 119.5,
+                "engagement": 33.9,
+                "subscriberRatio": 49.4,
+                "freshness": 14.4
+            }
+        },
+        {
+            "rank": 29,
+            "videoId": "dHTroRiZkn8",
+            "title": "福岡発の最新ニュース速報！政治家の不適切発言から列車の遅延やサルの出没までを徹底解説",
+            "channelId": "UCIhzc_6AK-yA5yQKxJxZv8g",
+            "channelName": "本日のニュース",
+            "thumbnailUrl": "https://i.ytimg.com/vi/dHTroRiZkn8/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T07:25:13Z",
+            "viewCount": 16,
+            "viewIncrease": 16,
+            "likeCount": 0,
+            "likeIncrease": 0,
+            "commentCount": 0,
+            "commentIncrease": 0,
+            "subscriberCount": 18,
+            "durationSeconds": 154,
+            "rawScore": 27.8,
+            "normalizedScore": 45.1,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.95
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 7.8,
+                "engagement": 0.0,
+                "subscriberRatio": 55.2,
+                "freshness": 44.1
             }
         },
         {
             "rank": 30,
-            "videoId": "Gm-qyKnAjSE",
-            "title": "【速報】元ジャンポケ･斉藤慎二被告に懲役7年求刑  不同意性交などの罪",
-            "channelId": "UCuTAXTexrhetbOe3zgskJBQ",
-            "channelName": "日テレNEWS",
-            "thumbnailUrl": "https://i.ytimg.com/vi/Gm-qyKnAjSE/maxresdefault.jpg",
-            "publishedAt": "2026-08-05T06:13:18Z",
-            "viewCount": 785678,
-            "viewIncrease": 12441,
-            "likeCount": 1766,
-            "likeIncrease": 14,
-            "commentCount": 1185,
-            "commentIncrease": 5,
-            "subscriberCount": 3300000,
-            "durationSeconds": 66,
-            "rawScore": 24.6,
+            "videoId": "7BFEy4kiPgo",
+            "title": "男と女、綺麗なのはどっち #shorts #おもしろ",
+            "channelId": "UCLGFW5DS4gPd8e3OJ3tryBA",
+            "channelName": "海外で笑おう",
+            "thumbnailUrl": "https://i.ytimg.com/vi/7BFEy4kiPgo/maxresdefault.jpg",
+            "publishedAt": "2026-08-03T10:45:15Z",
+            "viewCount": 5678302,
+            "viewIncrease": 333724,
+            "likeCount": 105825,
+            "likeIncrease": 5489,
+            "commentCount": 1282,
+            "commentIncrease": 38,
+            "subscriberCount": 96600,
+            "durationSeconds": 25,
+            "isShort": true,
+            "rawScore": 26.3,
             "normalizedScore": 43.1,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 168.4,
+                "engagement": 24.7,
+                "subscriberRatio": 113.5,
+                "freshness": 10.1,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 31,
+            "videoId": "ZPVl0wYtWy4",
+            "title": "一流解説書が集結: プロ野球ニュースでは語れない話|| #ジャンクSPORTS #浜田雅功 #上原浩治 #アスリート",
+            "channelId": "UCuBy0aWy4o-RYhUDNT89Fmg",
+            "channelName": "RADDY GMOD",
+            "thumbnailUrl": "https://i.ytimg.com/vi/ZPVl0wYtWy4/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T02:00:09Z",
+            "viewCount": 273102,
+            "viewIncrease": 273102,
+            "likeCount": 1070,
+            "likeIncrease": 1070,
+            "commentCount": 10,
+            "commentIncrease": 10,
+            "subscriberCount": 2530,
+            "durationSeconds": 114,
+            "rawScore": 24.6,
+            "normalizedScore": 41.2,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.6
+                },
+                {
+                    "slug": "sports",
+                    "name": "スポーツ",
+                    "confidence": 0.6
+                },
+                {
+                    "slug": "entertainment",
+                    "name": "エンタメ",
+                    "confidence": 0.1
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 142.0,
+                "engagement": 13.3,
+                "subscriberRatio": 150.8,
+                "freshness": 8.0
+            }
+        },
+        {
+            "rank": 32,
+            "videoId": "yA8RNbO-U34",
+            "title": "【福岡県議会問題】まだまだ余裕そうだけど大丈夫⁉️ #ニュース解説 #youtubeニュース #政治ニュース #ネットの反応 #ニュース速報 #トレンドニュース #ニュースまとめ #ショートニュース",
+            "channelId": "UCcAuhw2PSvMzPGFkvJllutQ",
+            "channelName": "日本政治ニュースチャンネル",
+            "thumbnailUrl": "https://i.ytimg.com/vi/yA8RNbO-U34/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T08:13:12Z",
+            "viewCount": 174217,
+            "viewIncrease": 2264,
+            "likeCount": 2559,
+            "likeIncrease": 23,
+            "commentCount": 447,
+            "commentIncrease": 6,
+            "subscriberCount": 11500,
+            "durationSeconds": 34,
+            "isShort": true,
+            "rawScore": 24.4,
+            "normalizedScore": 39.2,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.75
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 92.5,
+                "engagement": 32.7,
+                "subscriberRatio": 82.4,
+                "freshness": 13.8,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 33,
+            "videoId": "9-UuQC3sGho",
+            "title": "【フル動画】「大阪や！はよ開けんかい！」20人超の捜査員が組事務所に　大阪府警が暴力団事務所を家宅捜索　特殊詐欺の被害金めぐり（2026年7月29日）",
+            "channelId": "UCkKJhKO73xF1pK5h9R82ZGQ",
+            "channelName": "MBS NEWS",
+            "thumbnailUrl": "https://i.ytimg.com/vi/9-UuQC3sGho/maxresdefault.jpg",
+            "publishedAt": "2026-07-30T02:59:03Z",
+            "viewCount": 2183274,
+            "viewIncrease": 13760,
+            "sevenDayViewIncrease": 1581314,
+            "likeCount": 22711,
+            "likeIncrease": 118,
+            "commentCount": 5650,
+            "commentIncrease": 15,
+            "subscriberCount": 1320000,
+            "durationSeconds": 711,
+            "rawScore": 23.9,
+            "normalizedScore": 37.3,
             "genres": [
                 {
                     "slug": "learning",
@@ -1112,32 +1251,72 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 121.2,
-                "engagement": 11.6,
-                "subscriberRatio": 39.7,
-                "freshness": 14.3
+                "velocity": 119.9,
+                "engagement": 27.4,
+                "subscriberRatio": 50.6,
+                "freshness": 7.0,
+                "sevenDayVelocity": 10.0
             }
         },
         {
-            "rank": 31,
+            "rank": 34,
+            "videoId": "81CpK8nCvFw",
+            "title": "M!LK - You!Joy!Parade!（Dance Practice Movie）",
+            "channelId": "UCFvSFbT8okMrpuFxBEIB2lg",
+            "channelName": "M!LK",
+            "thumbnailUrl": "https://i.ytimg.com/vi/81CpK8nCvFw/maxresdefault.jpg",
+            "publishedAt": "2026-07-24T12:00:25Z",
+            "viewCount": 2025125,
+            "viewIncrease": 30777,
+            "sevenDayViewIncrease": 985238,
+            "likeCount": 69550,
+            "likeIncrease": 97,
+            "commentCount": 6368,
+            "commentIncrease": 4,
+            "subscriberCount": 37000,
+            "durationSeconds": 182,
+            "rawScore": 23.3,
+            "normalizedScore": 35.3,
+            "genres": [
+                {
+                    "slug": "music",
+                    "name": "音楽",
+                    "confidence": 0.5
+                },
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.2
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 132.1,
+                "engagement": 13.7,
+                "subscriberRatio": 98.0,
+                "freshness": 5.5,
+                "sevenDayVelocity": 10.0
+            }
+        },
+        {
+            "rank": 35,
             "videoId": "v2ddbHsvYr0",
             "title": "最も残酷だった試合",
             "channelId": "UCuifKdNNjn5y8izBR2pmd-A",
             "channelName": "スリースター",
             "thumbnailUrl": "https://i.ytimg.com/vi/v2ddbHsvYr0/maxresdefault.jpg",
             "publishedAt": "2026-07-29T23:00:02Z",
-            "viewCount": 5660045,
-            "viewIncrease": 32030,
-            "sevenDayViewIncrease": 4292535,
-            "likeCount": 40735,
-            "likeIncrease": 184,
-            "commentCount": 380,
-            "commentIncrease": 3,
-            "subscriberCount": 17700,
+            "viewCount": 5684860,
+            "viewIncrease": 24815,
+            "sevenDayViewIncrease": 4047288,
+            "likeCount": 40809,
+            "likeIncrease": 74,
+            "commentCount": 381,
+            "commentIncrease": 1,
+            "subscriberCount": 17800,
             "durationSeconds": 11,
             "isShort": true,
-            "rawScore": 24.0,
-            "normalizedScore": 41.2,
+            "rawScore": 23.0,
+            "normalizedScore": 33.3,
             "genres": [
                 {
                     "slug": "vtuber",
@@ -1156,33 +1335,32 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 135.5,
-                "engagement": 16.9,
-                "subscriberRatio": 106.4,
-                "freshness": 7.1,
+                "velocity": 128.9,
+                "engagement": 11.8,
+                "subscriberRatio": 103.6,
+                "freshness": 7.0,
                 "sevenDayVelocity": 10.0,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 32,
-            "videoId": "9-UuQC3sGho",
-            "title": "【フル動画】「大阪や！はよ開けんかい！」20人超の捜査員が組事務所に　大阪府警が暴力団事務所を家宅捜索　特殊詐欺の被害金めぐり（2026年7月29日）",
-            "channelId": "UCkKJhKO73xF1pK5h9R82ZGQ",
-            "channelName": "MBS NEWS",
-            "thumbnailUrl": "https://i.ytimg.com/vi/9-UuQC3sGho/maxresdefault.jpg",
-            "publishedAt": "2026-07-30T02:59:03Z",
-            "viewCount": 2169514,
-            "viewIncrease": 6334,
-            "sevenDayViewIncrease": 1845589,
-            "likeCount": 22593,
-            "likeIncrease": 59,
-            "commentCount": 5635,
-            "commentIncrease": 15,
-            "subscriberCount": 1320000,
-            "durationSeconds": 711,
-            "rawScore": 23.2,
-            "normalizedScore": 39.2,
+            "rank": 35,
+            "videoId": "Gm-qyKnAjSE",
+            "title": "【速報】元ジャンポケ･斉藤慎二被告に懲役7年求刑  不同意性交などの罪",
+            "channelId": "UCuTAXTexrhetbOe3zgskJBQ",
+            "channelName": "日テレNEWS",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Gm-qyKnAjSE/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T06:13:18Z",
+            "viewCount": 801557,
+            "viewIncrease": 15879,
+            "likeCount": 1782,
+            "likeIncrease": 16,
+            "commentCount": 1184,
+            "commentIncrease": 0,
+            "subscriberCount": 3300000,
+            "durationSeconds": 66,
+            "rawScore": 23.0,
+            "normalizedScore": 33.3,
             "genres": [
                 {
                     "slug": "learning",
@@ -1196,31 +1374,30 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 110.9,
-                "engagement": 31.5,
+                "velocity": 122.1,
+                "engagement": 5.4,
                 "subscriberRatio": 42.3,
-                "freshness": 7.1,
-                "sevenDayVelocity": 10.0
+                "freshness": 13.6
             }
         },
         {
-            "rank": 33,
+            "rank": 37,
             "videoId": "PTmZi_oO80c",
             "title": "【タカオカ解説】高市首相は靖国参拝するのか？参拝しても、しなくても批判…迫る“8月15日”の決断【かんさい情報ネットten.】",
             "channelId": "UCv7_krlrre3GQi79d4guxHQ",
             "channelName": "読売テレビニュース",
             "thumbnailUrl": "https://i.ytimg.com/vi/PTmZi_oO80c/maxresdefault.jpg",
             "publishedAt": "2026-08-04T11:30:06Z",
-            "viewCount": 231083,
-            "viewIncrease": 5278,
-            "likeCount": 2901,
-            "likeIncrease": 48,
-            "commentCount": 904,
-            "commentIncrease": 25,
+            "viewCount": 240393,
+            "viewIncrease": 9310,
+            "likeCount": 2968,
+            "likeIncrease": 67,
+            "commentCount": 944,
+            "commentIncrease": 40,
             "subscriberCount": 988000,
             "durationSeconds": 1025,
-            "rawScore": 22.6,
-            "normalizedScore": 37.3,
+            "rawScore": 22.9,
+            "normalizedScore": 29.4,
             "genres": [
                 {
                     "slug": "learning",
@@ -1234,70 +1411,70 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 108.1,
-                "engagement": 34.8,
-                "subscriberRatio": 43.4,
-                "freshness": 12.1
+                "velocity": 114.0,
+                "engagement": 32.7,
+                "subscriberRatio": 49.5,
+                "freshness": 11.7
             }
         },
         {
-            "rank": 34,
-            "videoId": "81CpK8nCvFw",
-            "title": "M!LK - You!Joy!Parade!（Dance Practice Movie）",
-            "channelId": "UCFvSFbT8okMrpuFxBEIB2lg",
-            "channelName": "M!LK",
-            "thumbnailUrl": "https://i.ytimg.com/vi/81CpK8nCvFw/maxresdefault.jpg",
-            "publishedAt": "2026-07-24T12:00:25Z",
-            "viewCount": 1994348,
-            "viewIncrease": 12779,
-            "sevenDayViewIncrease": 954461,
-            "likeCount": 69453,
-            "likeIncrease": 95,
-            "commentCount": 6364,
-            "commentIncrease": 0,
-            "subscriberCount": 36900,
-            "durationSeconds": 182,
-            "rawScore": 22.5,
-            "normalizedScore": 35.3,
+            "rank": 38,
+            "videoId": "gs73Em2zWj8",
+            "title": "髙橋洋一氏が偏向報道にブチギレ #ニュースあさ8 #百田尚樹 #有本香 #北村晴男 #虎ノ門ニュース #文化人放送局 @百田尚樹チャンネル @弁護士北村晴男ちゃんねる #保守 #時事 #政治",
+            "channelId": "UCXXR9reuIWT7WJhvVc5jpDA",
+            "channelName": "ウサギの独り言チャンネル",
+            "thumbnailUrl": "https://i.ytimg.com/vi/gs73Em2zWj8/maxresdefault.jpg",
+            "publishedAt": "2026-08-04T03:15:04Z",
+            "viewCount": 367193,
+            "viewIncrease": 12897,
+            "likeCount": 7986,
+            "likeIncrease": 251,
+            "commentCount": 83,
+            "commentIncrease": 4,
+            "subscriberCount": 75200,
+            "durationSeconds": 60,
+            "isShort": true,
+            "rawScore": 21.5,
+            "normalizedScore": 27.5,
             "genres": [
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.5
-                },
                 {
                     "slug": "learning",
                     "name": "学習・情報",
+                    "confidence": 0.8
+                },
+                {
+                    "slug": "music",
+                    "name": "音楽",
                     "confidence": 0.2
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 121.6,
-                "engagement": 16.7,
-                "subscriberRatio": 88.5,
-                "freshness": 5.5,
-                "sevenDayVelocity": 10.0
+                "velocity": 118.9,
+                "engagement": 28.5,
+                "subscriberRatio": 80.9,
+                "freshness": 11.1,
+                "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 35,
+            "rank": 39,
             "videoId": "lLooz7bATOc",
             "title": "秒でおもろいシーン5選www アニメ、漫画",
             "channelId": "UCDLPyq76ZrtwZCVd9cKZcGA",
             "channelName": "ハレスケ!【アニメ解説考察感想】",
             "thumbnailUrl": "https://i.ytimg.com/vi/lLooz7bATOc/maxresdefault.jpg",
             "publishedAt": "2026-08-02T09:11:57Z",
-            "viewCount": 6469388,
-            "viewIncrease": 198079,
-            "likeCount": 147689,
-            "likeIncrease": 2579,
-            "commentCount": 739,
-            "commentIncrease": 13,
+            "viewCount": 6677629,
+            "viewIncrease": 208241,
+            "likeCount": 150226,
+            "likeIncrease": 2537,
+            "commentCount": 750,
+            "commentIncrease": 11,
             "subscriberCount": 404000,
             "durationSeconds": 42,
             "isShort": true,
-            "rawScore": 21.7,
-            "normalizedScore": 33.3,
+            "rawScore": 21.1,
+            "normalizedScore": 25.5,
             "genres": [
                 {
                     "slug": "anime",
@@ -1311,200 +1488,33 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 163.2,
-                "engagement": 22.1,
-                "subscriberRatio": 92.3,
-                "freshness": 9.2,
+                "velocity": 161.2,
+                "engagement": 21.4,
+                "subscriberRatio": 92.8,
+                "freshness": 9.0,
                 "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 36,
-            "videoId": "gs73Em2zWj8",
-            "title": "髙橋洋一氏が偏向報道にブチギレ #ニュースあさ8 #百田尚樹 #有本香 #北村晴男 #虎ノ門ニュース #文化人放送局 @百田尚樹チャンネル @弁護士北村晴男ちゃんねる #保守 #時事 #政治",
-            "channelId": "UCXXR9reuIWT7WJhvVc5jpDA",
-            "channelName": "ウサギの独り言チャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/gs73Em2zWj8/maxresdefault.jpg",
-            "publishedAt": "2026-08-04T03:15:04Z",
-            "viewCount": 354296,
-            "viewIncrease": 9964,
-            "likeCount": 7735,
-            "likeIncrease": 145,
-            "commentCount": 79,
-            "commentIncrease": 0,
-            "subscriberCount": 75100,
-            "durationSeconds": 60,
-            "isShort": true,
-            "rawScore": 21.2,
-            "normalizedScore": 31.4,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.8
-                },
-                {
-                    "slug": "music",
-                    "name": "音楽",
-                    "confidence": 0.2
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 117.8,
-                "engagement": 21.5,
-                "subscriberRatio": 78.1,
-                "freshness": 11.5,
-                "formatAdjustment": 85.0
-            }
-        },
-        {
-            "rank": 37,
-            "videoId": "0vpFioGzHFw",
-            "title": "2026年8月5日【AIニュース解説】OpenAI・AnthropicのAIエージェントで何が起きた？“許可外アクション”から学ぶ中小企業のAI活用ルール",
-            "channelId": "UCQIYM-84x2mYmQoaIf2iFhg",
-            "channelName": "岡田崇のAI経営 | 寝ろ。",
-            "thumbnailUrl": "https://i.ytimg.com/vi/0vpFioGzHFw/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T03:03:20Z",
-            "viewCount": 4,
-            "viewIncrease": 4,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 1,
-            "durationSeconds": 1402,
-            "rawScore": 20.5,
-            "normalizedScore": 29.4,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.8
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 2.3,
-                "engagement": 0.0,
-                "subscriberRatio": 40.3,
-                "freshness": 48.0
-            }
-        },
-        {
-            "rank": 37,
-            "videoId": "BdmxDomYxbg",
-            "title": "2026年8月6日【AIニュース解説】Metaの新AIツール「Muse Code」発表。中小企業の業務改善にどう使える？",
-            "channelId": "UCQIYM-84x2mYmQoaIf2iFhg",
-            "channelName": "岡田崇のAI経営 | 寝ろ。",
-            "thumbnailUrl": "https://i.ytimg.com/vi/BdmxDomYxbg/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T03:03:16Z",
-            "viewCount": 4,
-            "viewIncrease": 4,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 1,
-            "durationSeconds": 1166,
-            "rawScore": 20.5,
-            "normalizedScore": 29.4,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.8
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 2.3,
-                "engagement": 0.0,
-                "subscriberRatio": 40.3,
-                "freshness": 48.0
-            }
-        },
-        {
-            "rank": 39,
-            "videoId": "l5lTEt_xUkw",
-            "title": "松田学のニュース解説【国際情勢～トランプ和平の進展？と中国に敗ける？米国】ウは領土割譲が焦点に／ロシア凍結資産の活用に異議／ガザは次の段階に？／米国は中国との戦争に毎回敗戦する！、他",
-            "channelId": "UCJXxqGgVlQtX89AYpaxwLGw",
-            "channelName": "日本戦略研究所チャンネル",
-            "thumbnailUrl": "https://i.ytimg.com/vi/l5lTEt_xUkw/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T00:15:01Z",
-            "viewCount": 7,
-            "viewIncrease": 7,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 1830,
-            "durationSeconds": 3080,
-            "rawScore": 20.4,
-            "normalizedScore": 25.5,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.6
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 14.7,
-                "engagement": 0.0,
-                "subscriberRatio": 39.8,
-                "freshness": 37.4
             }
         },
         {
             "rank": 40,
-            "videoId": "tltz_NdK9fA",
-            "title": "2026年8月7日【AIニュース解説】ChatGPTからAdobeが使える時代に。写真・動画編集も「チャットでお願い」でOKに！",
-            "channelId": "UCQIYM-84x2mYmQoaIf2iFhg",
-            "channelName": "岡田崇のAI経営 | 寝ろ。",
-            "thumbnailUrl": "https://i.ytimg.com/vi/tltz_NdK9fA/maxresdefault.jpg",
-            "publishedAt": "2026-08-07T03:19:12Z",
-            "viewCount": 3,
-            "viewIncrease": 3,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "commentCount": 0,
-            "commentIncrease": 0,
-            "subscriberCount": 1,
-            "durationSeconds": 1054,
-            "rawScore": 19.4,
-            "normalizedScore": 23.5,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.8
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 1.8,
-                "engagement": 0.0,
-                "subscriberRatio": 37.3,
-                "freshness": 49.6
-            }
-        },
-        {
-            "rank": 41,
             "videoId": "VClKnOcR1gI",
             "title": "昔のガラケー、令和のスマホを凌駕してしまうwww【2ch面白いスレ】",
             "channelId": "UCp4_VYTZqBe41p5xQQXFHCg",
             "channelName": "おもしろニュース速報(おも速)",
             "thumbnailUrl": "https://i.ytimg.com/vi/VClKnOcR1gI/maxresdefault.jpg",
             "publishedAt": "2026-07-30T10:30:31Z",
-            "viewCount": 525917,
-            "viewIncrease": 1881,
-            "sevenDayViewIncrease": 439799,
-            "likeCount": 7458,
-            "likeIncrease": 13,
-            "commentCount": 1135,
-            "commentIncrease": 2,
+            "viewCount": 528232,
+            "viewIncrease": 2315,
+            "sevenDayViewIncrease": 380368,
+            "likeCount": 7496,
+            "likeIncrease": 38,
+            "commentCount": 1140,
+            "commentIncrease": 5,
             "subscriberCount": 126000,
             "durationSeconds": 59,
             "isShort": true,
-            "rawScore": 19.2,
-            "normalizedScore": 21.6,
+            "rawScore": 19.8,
+            "normalizedScore": 23.5,
             "genres": [
                 {
                     "slug": "gadgets",
@@ -1528,99 +1538,37 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 92.5,
-                "engagement": 25.8,
-                "subscriberRatio": 54.4,
-                "freshness": 7.3,
+                "velocity": 92.8,
+                "engagement": 35.2,
+                "subscriberRatio": 56.7,
+                "freshness": 7.2,
                 "sevenDayVelocity": 10.0,
                 "formatAdjustment": 85.0
             }
         },
         {
-            "rank": 42,
-            "videoId": "7jKq0LA_VuA",
-            "title": "石平の中国重要ニュース解説・・７月５日特集号",
-            "channelId": "UCrL4tZt97ibgLDQ7T17Tbjw",
-            "channelName": "Araki Tatsuya",
-            "thumbnailUrl": "https://i.ytimg.com/vi/7jKq0LA_VuA/hqdefault.jpg",
-            "publishedAt": "2026-08-07T02:34:44Z",
-            "viewCount": 3,
-            "viewIncrease": 3,
-            "likeCount": 0,
-            "likeIncrease": 0,
-            "subscriberCount": 185,
-            "durationSeconds": 1639,
-            "rawScore": 17.8,
-            "normalizedScore": 19.6,
+            "rank": 41,
+            "videoId": "7_syg9iqVLo",
+            "title": "スペースXの上場後初の四半期決算について解説します",
+            "channelId": "UCXjTiSGclQLVVU83GVrRM4w",
+            "channelName": "堀江貴文 ホリエモン",
+            "thumbnailUrl": "https://i.ytimg.com/vi/7_syg9iqVLo/maxresdefault.jpg",
+            "publishedAt": "2026-08-05T09:57:02Z",
+            "viewCount": 111144,
+            "viewIncrease": 2988,
+            "likeCount": 905,
+            "likeIncrease": 15,
+            "commentCount": 78,
+            "commentIncrease": 0,
+            "subscriberCount": 2150000,
+            "durationSeconds": 412,
+            "rawScore": 19.7,
+            "normalizedScore": 21.6,
             "genres": [
                 {
                     "slug": "learning",
                     "name": "学習・情報",
                     "confidence": 0.8
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 1.8,
-                "engagement": 0.0,
-                "subscriberRatio": 37.3,
-                "freshness": 45.6
-            }
-        },
-        {
-            "rank": 43,
-            "videoId": "YjvgYPin8Io",
-            "title": "航空自衛隊が熊本地震の被災地へクーラー300台空輸！！ところがこれに何故か批判集まる！！#ニュース #解説",
-            "channelId": "UC1XJ01wgexiFH4fmXDmK_pw",
-            "channelName": "うさ耳情報局",
-            "thumbnailUrl": "https://i.ytimg.com/vi/YjvgYPin8Io/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T08:50:04Z",
-            "viewCount": 974188,
-            "viewIncrease": 4629,
-            "likeCount": 32697,
-            "likeIncrease": 77,
-            "commentCount": 2536,
-            "commentIncrease": 8,
-            "subscriberCount": 106000,
-            "durationSeconds": 64,
-            "rawScore": 16.0,
-            "normalizedScore": 17.6,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.9
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 106.1,
-                "engagement": 34.2,
-                "subscriberRatio": 66.0,
-                "freshness": 7.7
-            }
-        },
-        {
-            "rank": 44,
-            "videoId": "ZbjXwIFFPyU",
-            "title": "地震後、店員をイオンに戻らせ死亡させたテナント社長⇒ネット民、怖すぎる事実に気づく...",
-            "channelId": "UC67XaHuGbx2RzMhyhtXcfZA",
-            "channelName": "じゃぱん応援隊",
-            "thumbnailUrl": "https://i.ytimg.com/vi/ZbjXwIFFPyU/maxresdefault.jpg",
-            "publishedAt": "2026-08-03T03:08:55Z",
-            "viewCount": 203849,
-            "viewIncrease": 351,
-            "likeCount": 4843,
-            "likeIncrease": 9,
-            "commentCount": 1110,
-            "commentIncrease": 1,
-            "subscriberCount": 52200,
-            "durationSeconds": 762,
-            "rawScore": 15.3,
-            "normalizedScore": 15.7,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.3
                 },
                 {
                     "slug": "vtuber",
@@ -1629,81 +1577,177 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 67.1,
-                "engagement": 39.9,
-                "subscriberRatio": 45.9,
-                "freshness": 10.0
+                "velocity": 96.7,
+                "engagement": 14.0,
+                "subscriberRatio": 29.3,
+                "freshness": 14.1
+            }
+        },
+        {
+            "rank": 42,
+            "videoId": "AHvOwM9ZxHw",
+            "title": "前代未聞の人災。熊本地震後に会社指示で売上金を金庫に入れに建物に戻った結果、爆発に巻き込まれて帰らぬ人に。#ニュース #解説",
+            "channelId": "UC1XJ01wgexiFH4fmXDmK_pw",
+            "channelName": "うさ耳情報局",
+            "thumbnailUrl": "https://i.ytimg.com/vi/AHvOwM9ZxHw/maxresdefault.jpg",
+            "publishedAt": "2026-08-03T09:37:44Z",
+            "viewCount": 300268,
+            "viewIncrease": 446,
+            "likeCount": 10291,
+            "likeIncrease": 20,
+            "commentCount": 980,
+            "commentIncrease": 2,
+            "subscriberCount": 106000,
+            "durationSeconds": 61,
+            "rawScore": 15.6,
+            "normalizedScore": 19.6,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.9
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 67.9,
+                "engagement": 46.3,
+                "subscriberRatio": 40.9,
+                "freshness": 10.1
+            }
+        },
+        {
+            "rank": 43,
+            "videoId": "6clerzHVmAw",
+            "title": "【福岡県議会問題】この人をなんとかしないと❗️ #政治ニュース #youtubeニュース #ニュース解説 #ネットの反応 # #ニュース速報 #トレンドニュース #ニュースまとめ",
+            "channelId": "UCcAuhw2PSvMzPGFkvJllutQ",
+            "channelName": "日本政治ニュースチャンネル",
+            "thumbnailUrl": "https://i.ytimg.com/vi/6clerzHVmAw/maxresdefault.jpg",
+            "publishedAt": "2026-08-03T03:05:41Z",
+            "viewCount": 292537,
+            "viewIncrease": 1517,
+            "likeCount": 5250,
+            "likeIncrease": 17,
+            "commentCount": 340,
+            "commentIncrease": 0,
+            "subscriberCount": 11500,
+            "durationSeconds": 38,
+            "isShort": true,
+            "rawScore": 15.2,
+            "normalizedScore": 17.6,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.75
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 86.4,
+                "engagement": 19.6,
+                "subscriberRatio": 78.0,
+                "freshness": 9.7,
+                "formatAdjustment": 85.0
+            }
+        },
+        {
+            "rank": 44,
+            "videoId": "jX1ztvW-KcM",
+            "title": "ヴィーガン擁護の女性がやばい... #shorts #ニュース討論 #政治討論 #ヴィーガン",
+            "channelId": "UC9hSHikbj_QIIsKEil3Df0w",
+            "channelName": "激論TV",
+            "thumbnailUrl": "https://i.ytimg.com/vi/jX1ztvW-KcM/maxresdefault.jpg",
+            "publishedAt": "2026-08-01T10:00:33Z",
+            "viewCount": 206810,
+            "viewIncrease": 709,
+            "likeCount": 2732,
+            "likeIncrease": 8,
+            "commentCount": 777,
+            "commentIncrease": 0,
+            "subscriberCount": 11600,
+            "durationSeconds": 80,
+            "rawScore": 13.6,
+            "normalizedScore": 15.7,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.5
+                },
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.1
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 74.9,
+                "engagement": 19.6,
+                "subscriberRatio": 69.7,
+                "freshness": 8.3
             }
         },
         {
             "rank": 45,
-            "videoId": "9NN2qjQmJrc",
-            "title": "ドライバーの皆さんは認識を　来月1日から生活道路は法定速度30キロに引き下げ　警察が広報活動【愛媛】",
-            "channelId": "UC-2L3iPWxVyvvnPLplpdCHA",
-            "channelName": "【公式】南海放送NEWS（チャン４）",
-            "thumbnailUrl": "https://i.ytimg.com/vi/9NN2qjQmJrc/maxresdefault.jpg",
-            "publishedAt": "2026-08-03T11:02:24Z",
-            "viewCount": 134188,
-            "viewIncrease": 811,
-            "likeCount": 213,
+            "videoId": "tltz_NdK9fA",
+            "title": "2026年8月7日【AIニュース解説】ChatGPTからAdobeが使える時代に。写真・動画編集も「チャットでお願い」でOKに！",
+            "channelId": "UCQIYM-84x2mYmQoaIf2iFhg",
+            "channelName": "岡田崇のAI経営 | 寝ろ。",
+            "thumbnailUrl": "https://i.ytimg.com/vi/tltz_NdK9fA/maxresdefault.jpg",
+            "publishedAt": "2026-08-07T03:19:12Z",
+            "viewCount": 5,
+            "viewIncrease": 2,
+            "likeCount": 0,
             "likeIncrease": 0,
-            "commentCount": 101,
+            "commentCount": 0,
             "commentIncrease": 0,
-            "subscriberCount": 39800,
-            "durationSeconds": 68,
-            "rawScore": 14.3,
+            "subscriberCount": 1,
+            "durationSeconds": 1054,
+            "rawScore": 12.5,
             "normalizedScore": 13.7,
             "genres": [
                 {
                     "slug": "learning",
                     "name": "学習・情報",
-                    "confidence": 0.3
+                    "confidence": 0.8
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 79.7,
+                "velocity": 5.0,
                 "engagement": 0.0,
-                "subscriberRatio": 57.8,
-                "freshness": 10.4
+                "subscriberRatio": 33.1,
+                "freshness": 32.9
             }
         },
         {
             "rank": 46,
-            "videoId": "K-p8-J9NoVs",
-            "title": "ついに見つけた衛生的なインド料理",
-            "channelId": "UCYOci0UbLzn5ZW0CMFFdzDg",
-            "channelName": "てがみをよむじょせい",
-            "thumbnailUrl": "https://i.ytimg.com/vi/K-p8-J9NoVs/maxresdefault.jpg",
-            "publishedAt": "2026-07-29T07:40:45Z",
-            "viewCount": 5845181,
-            "viewIncrease": 12762,
-            "likeCount": 71585,
-            "likeIncrease": 309,
-            "commentCount": 2005,
-            "commentIncrease": 3,
-            "subscriberCount": 171000,
-            "durationSeconds": 41,
-            "isShort": true,
-            "rawScore": 12.9,
+            "videoId": "LnE1yoWQ5z8",
+            "title": "【高橋洋一✖城内大臣】消費減税表明翌日に生出演！自民内異論も「公約は実現する」高橋「参院で造反否決なら郵政解散パターンも」に苦笑／各紙は一斉批判／骨太方針を大臣自ら解説／成長戦略で静岡を宇宙城下町に！",
+            "channelId": "UCvF5vIejmf-H_XSluaBldfg",
+            "channelName": "静岡朝日テレビニュース",
+            "thumbnailUrl": "https://i.ytimg.com/vi/LnE1yoWQ5z8/maxresdefault.jpg",
+            "publishedAt": "2026-07-31T11:18:43Z",
+            "viewCount": 480285,
+            "viewIncrease": 1249,
+            "likeCount": 10470,
+            "likeIncrease": 10,
+            "commentCount": 1955,
+            "commentIncrease": 2,
+            "subscriberCount": 157000,
+            "durationSeconds": 2777,
+            "rawScore": 12.3,
             "normalizedScore": 11.8,
             "genres": [
                 {
-                    "slug": "cooking",
-                    "name": "料理",
-                    "confidence": 0.4
-                },
-                {
                     "slug": "learning",
                     "name": "学習・情報",
-                    "confidence": 0.3
+                    "confidence": 0.75
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 121.5,
-                "engagement": 29.3,
-                "subscriberRatio": 71.8,
-                "freshness": 6.8,
-                "formatAdjustment": 85.0
+                "velocity": 83.5,
+                "engagement": 28.6,
+                "subscriberRatio": 47.7,
+                "freshness": 7.7
             }
         },
         {
@@ -1714,15 +1758,15 @@
             "channelName": "パソコン博士TAIKI",
             "thumbnailUrl": "https://i.ytimg.com/vi/maRgZjsPs7Q/maxresdefault.jpg",
             "publishedAt": "2026-07-31T10:00:10Z",
-            "viewCount": 554257,
-            "viewIncrease": 2433,
-            "likeCount": 15186,
-            "likeIncrease": 56,
-            "commentCount": 794,
-            "commentIncrease": 5,
+            "viewCount": 556623,
+            "viewIncrease": 2366,
+            "likeCount": 15229,
+            "likeIncrease": 43,
+            "commentCount": 798,
+            "commentIncrease": 4,
             "subscriberCount": 1840000,
             "durationSeconds": 1249,
-            "rawScore": 12.6,
+            "rawScore": 12.0,
             "normalizedScore": 9.8,
             "genres": [
                 {
@@ -1747,29 +1791,29 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 96.4,
-                "engagement": 37.5,
-                "subscriberRatio": 28.8,
-                "freshness": 7.8
+                "velocity": 93.2,
+                "engagement": 34.8,
+                "subscriberRatio": 28.5,
+                "freshness": 7.7
             }
         },
         {
             "rank": 48,
-            "videoId": "msFvAGEYFa0",
-            "title": "「売上金を金庫へ」会社の指示で店に戻り爆発の犠牲に　事故後、遺族に誤った説明【もっと知りたい！】【グッド！モーニング】(2026年8月3日)",
-            "channelId": "UCGCZAYq5Xxojl_tSXcVJhiQ",
-            "channelName": "ANNnewsCH",
-            "thumbnailUrl": "https://i.ytimg.com/vi/msFvAGEYFa0/sddefault.jpg",
-            "publishedAt": "2026-08-03T02:16:43Z",
-            "viewCount": 869840,
-            "viewIncrease": 633,
-            "likeCount": 4910,
-            "likeIncrease": 3,
-            "commentCount": 4860,
-            "commentIncrease": 6,
-            "subscriberCount": 5040000,
-            "durationSeconds": 250,
-            "rawScore": 11.8,
+            "videoId": "9NN2qjQmJrc",
+            "title": "ドライバーの皆さんは認識を　来月1日から生活道路は法定速度30キロに引き下げ　警察が広報活動【愛媛】",
+            "channelId": "UC-2L3iPWxVyvvnPLplpdCHA",
+            "channelName": "【公式】南海放送NEWS（チャン４）",
+            "thumbnailUrl": "https://i.ytimg.com/vi/9NN2qjQmJrc/maxresdefault.jpg",
+            "publishedAt": "2026-08-03T11:02:24Z",
+            "viewCount": 134406,
+            "viewIncrease": 218,
+            "likeCount": 214,
+            "likeIncrease": 1,
+            "commentCount": 101,
+            "commentIncrease": 0,
+            "subscriberCount": 39800,
+            "durationSeconds": 68,
+            "rawScore": 11.6,
             "normalizedScore": 7.8,
             "genres": [
                 {
@@ -1779,62 +1823,30 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 76.0,
-                "engagement": 33.9,
-                "subscriberRatio": 8.8,
-                "freshness": 9.9
+                "velocity": 57.2,
+                "engagement": 13.4,
+                "subscriberRatio": 43.7,
+                "freshness": 10.1
             }
         },
         {
             "rank": 49,
-            "videoId": "LnE1yoWQ5z8",
-            "title": "【高橋洋一✖城内大臣】消費減税表明翌日に生出演！自民内異論も「公約は実現する」高橋「参院で造反否決なら郵政解散パターンも」に苦笑／各紙は一斉批判／骨太方針を大臣自ら解説／成長戦略で静岡を宇宙城下町に！",
-            "channelId": "UCvF5vIejmf-H_XSluaBldfg",
-            "channelName": "静岡朝日テレビニュース",
-            "thumbnailUrl": "https://i.ytimg.com/vi/LnE1yoWQ5z8/maxresdefault.jpg",
-            "publishedAt": "2026-07-31T11:18:43Z",
-            "viewCount": 479036,
-            "viewIncrease": 558,
-            "likeCount": 10460,
-            "likeIncrease": 5,
-            "commentCount": 1953,
-            "commentIncrease": 1,
-            "subscriberCount": 157000,
-            "durationSeconds": 2777,
-            "rawScore": 11.2,
-            "normalizedScore": 5.9,
-            "genres": [
-                {
-                    "slug": "learning",
-                    "name": "学習・情報",
-                    "confidence": 0.75
-                }
-            ],
-            "scoreBreakdown": {
-                "velocity": 74.1,
-                "engagement": 29.9,
-                "subscriberRatio": 39.1,
-                "freshness": 7.8
-            }
-        },
-        {
-            "rank": 50,
             "videoId": "ih6gwbfOI90",
             "title": "出来事多すぎるのでまとめました！#ニュース #世界 #今 #ベンゼイン",
             "channelId": "UC8yA5ym-0X4GJsAFDytuPfw",
             "channelName": "ベン・ゼイン",
             "thumbnailUrl": "https://i.ytimg.com/vi/ih6gwbfOI90/maxresdefault.jpg",
             "publishedAt": "2026-07-31T09:59:28Z",
-            "viewCount": 465222,
-            "viewIncrease": 414,
-            "likeCount": 14727,
-            "likeIncrease": 10,
-            "commentCount": 412,
-            "commentIncrease": 0,
+            "viewCount": 465812,
+            "viewIncrease": 590,
+            "likeCount": 14746,
+            "likeIncrease": 19,
+            "commentCount": 413,
+            "commentIncrease": 1,
             "subscriberCount": 378000,
             "durationSeconds": 85,
-            "rawScore": 9.5,
-            "normalizedScore": 3.9,
+            "rawScore": 10.9,
+            "normalizedScore": 5.9,
             "genres": [
                 {
                     "slug": "learning",
@@ -1848,10 +1860,47 @@
                 }
             ],
             "scoreBreakdown": {
-                "velocity": 69.6,
-                "engagement": 25.2,
-                "subscriberRatio": 26.9,
-                "freshness": 7.8
+                "velocity": 72.1,
+                "engagement": 39.1,
+                "subscriberRatio": 30.5,
+                "freshness": 7.7
+            }
+        },
+        {
+            "rank": 50,
+            "videoId": "Pe4qzgZsXC4",
+            "title": "「私は人災だと思う」イオンモール爆発事故　“会社の指示”で戻り死亡した22歳女性の遺族が明かす胸中　会社は謝罪も「もう娘は帰ってこない」　熊本地震から7日目｜旬感LIVE とれたてっ!〈カンテレ〉",
+            "channelId": "UCQhaZjODkIjuv38d-i5TVRw",
+            "channelName": "カンテレNEWS",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Pe4qzgZsXC4/maxresdefault.jpg",
+            "publishedAt": "2026-08-03T08:10:26Z",
+            "viewCount": 204772,
+            "viewIncrease": 215,
+            "likeCount": 1311,
+            "likeIncrease": 1,
+            "commentCount": 867,
+            "commentIncrease": 0,
+            "subscriberCount": 840000,
+            "durationSeconds": 726,
+            "rawScore": 8.4,
+            "normalizedScore": 3.9,
+            "genres": [
+                {
+                    "slug": "learning",
+                    "name": "学習・情報",
+                    "confidence": 0.3
+                },
+                {
+                    "slug": "vtuber",
+                    "name": "VTuber",
+                    "confidence": 0.1
+                }
+            ],
+            "scoreBreakdown": {
+                "velocity": 57.0,
+                "engagement": 13.5,
+                "subscriberRatio": 13.8,
+                "freshness": 10.0
             }
         }
     ]
