@@ -1,6 +1,6 @@
 {
-    "generatedAt": "2026-08-08T04:40:11.431125287Z",
-    "inputVideos": 331,
+    "generatedAt": "2026-08-08T10:08:05.033190141Z",
+    "inputVideos": 336,
     "rankingVideos": 100,
     "genreRankings": 12,
     "collection": {
@@ -44,7 +44,7 @@
             {
                 "source": "category-popular:26:ハウツー",
                 "requested": 20,
-                "collected": 20,
+                "collected": 19,
                 "status": "ok"
             },
             {
@@ -168,13 +168,13 @@
                 "status": "ok"
             }
         ],
-        "uniqueCandidateIds": 331,
-        "fetchedVideoIds": 331,
-        "publicVideos": 331,
-        "estimatedQuotaUnits": 1214
+        "uniqueCandidateIds": 336,
+        "fetchedVideoIds": 336,
+        "publicVideos": 336,
+        "estimatedQuotaUnits": 1215
     },
     "retention": {
         "historyDeleted": 0,
-        "videoDetailsDeleted": 80
+        "videoDetailsDeleted": 95
     }
 }
